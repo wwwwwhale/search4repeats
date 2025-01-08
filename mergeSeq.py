@@ -36,15 +36,34 @@ class IntervalOperations:
         return sorted(intervals, key=lambda x: x.start)
 
     def merge_intervals(self, intervals: List[namedtuple]) -> List[namedtuple]:
-        """合并重叠的区间"""
+        """合并重叠度超过80%的区间"""
         if not intervals:
             return []
 
+        # 按起始位置排序
+        intervals.sort(key=lambda x: x.start)
         merged = [intervals[0]]
+
         for current in intervals[1:]:
             last = merged[-1]
+
+            # 计算重叠部分
             if current.start <= last.end:
-                merged[-1] = self.Interval(last.start, max(last.end, current.end))
+                overlap_length = min(last.end, current.end) - current.start
+                last_length = last.end - last.start
+                current_length = current.end - current.start
+
+                # 计算重叠比例(取两个区间中较小的那个作为基准)
+                overlap_ratio = overlap_length / min(last_length, current_length)
+
+                # 重叠度超过40%才合并
+                if overlap_ratio > 0.4:
+                    merged[-1] = self.Interval(
+                        last.start,
+                        max(last.end, current.end)
+                    )
+                else:
+                    merged.append(current)
             else:
                 merged.append(current)
 
