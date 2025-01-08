@@ -153,66 +153,121 @@ def process_merged_intervals_sequentially(sequence_data: List[Dict],
     groups = defaultdict(lambda: {'sequences': set(), 'merged': []})
     current_group_id = 0
 
+    # 创建或清空日志文件
+    with open('sequence_grouping_process.txt', 'w', encoding='utf-8') as f:
+        f.write("=============== 序列分组详细过程 ===============\n")
+
+    def log_debug(message):
+        """写入调试信息到文件"""
+        with open('sequence_grouping_process.txt', 'a', encoding='utf-8') as f:
+            f.write(message + '\n')
+        print(message)  # 保持控制台输出
+
     def find_overlapping_sequences(merged_interval, sequences):
         overlaps = []
+        log_debug(f"\n检查重叠情况:")
+        log_debug(f"  当前merged区间: [{merged_interval.start}, {merged_interval.end}]")
+
         for seq_idx, seq in enumerate(sequences):
-            for pos in seq['positions']:
+            log_debug(f"\n  检查序列 {seq_idx}:")
+            for pos_idx, pos in enumerate(seq['positions']):
                 core_interval = interval_ops.Interval(pos[0], pos[1])
-                if interval_ops.is_overlapping(merged_interval, core_interval):
-                    overlaps.append((seq_idx, core_interval))
+
+                # 计算重叠度
+                overlap_start = max(merged_interval.start, core_interval.start)
+                overlap_end = min(merged_interval.end, core_interval.end)
+
+                if overlap_start <= overlap_end:  # 有重叠
+                    # 计算重叠长度
+                    overlap_length = overlap_end - overlap_start
+                    # 计算两个区间长度
+                    merged_length = merged_interval.end - merged_interval.start
+                    core_length = core_interval.end - core_interval.start
+                    # 使用较短区间作为基准计算重叠度
+                    overlap_ratio = overlap_length / min(merged_length, core_length)
+
+                    log_debug(f"    位置 {pos_idx}: [{core_interval.start}, {core_interval.end}]")
+                    log_debug(f"      重叠区间: [{overlap_start}, {overlap_end}]")
+                    log_debug(f"      重叠长度: {overlap_length}")
+                    log_debug(f"      重叠度: {overlap_ratio:.3f}")
+
+                    if overlap_ratio > 0.5:
+                        overlaps.append((seq_idx, core_interval))
+                        log_debug(f"      → 重叠度超过0.5，添加到组!")
+                    else:
+                        log_debug(f"      → 重叠度不足0.5，忽略")
+                else:
+                    log_debug(f"    位置 {pos_idx}: [{core_interval.start}, {core_interval.end}] → 不重叠")
+
         return overlaps
 
-    print("\n开始处理merged区间...")
+    log_debug("\n============= 开始处理merged区间 =============")
+    log_debug(f"初始数据:\n- 序列总数: {len(sequence_data)}\n- 待处理merged区间数: {len(merged_intervals)}")
 
     for merged_idx, merged in enumerate(merged_intervals):
-        print(f"\n处理第 {merged_idx + 1} 个merged区间: [{merged.start}, {merged.end}]")
+        log_debug(f"\n【处理第 {merged_idx + 1}/{len(merged_intervals)} 个merged区间】")
+        log_debug(f"区间位置: [{merged.start}, {merged.end}]")
 
         overlaps = find_overlapping_sequences(merged, sequence_data)
 
         if not overlaps:
-            print(f"  没有找到重叠的核心序列")
+            log_debug(f"\n❌ 没有找到重叠的核心序列，跳过此区间")
             continue
 
-        print(f"  找到 {len(overlaps)} 个重叠的核心序列:")
+        log_debug(f"\n✓ 找到 {len(overlaps)} 个重叠的核心序列:")
         for seq_idx, core_interval in overlaps:
-            print(f"    序列 {seq_idx}: [{core_interval.start}, {core_interval.end}]")
+            log_debug(f"  - 序列 {seq_idx}: [{core_interval.start}, {core_interval.end}]")
 
         found_groups = set()
+        log_debug("\n检查序列所属组:")
         for seq_idx, _ in overlaps:
             for group_id, group in groups.items():
                 if seq_idx in group['sequences']:
                     found_groups.add(group_id)
+                    log_debug(f"  序列 {seq_idx} 属于组 {group_id}")
 
         if not found_groups:
             group_id = current_group_id
             current_group_id += 1
-            print(f"  创建新组 {group_id}")
+            log_debug(f"\n➡️ 创建新组 {group_id}")
         else:
             group_id = min(found_groups)
-            print(f"  加入现有组 {group_id}")
+            log_debug(f"\n➡️ 使用现有组 {group_id}")
 
             if len(found_groups) > 1:
-                print(f"  需要合并组: {found_groups}")
+                log_debug(f"\n⚠️ 需要合并组: {sorted(found_groups)}")
                 main_group_id = min(found_groups)
-                for other_group_id in found_groups - {main_group_id}:
+
+                for other_group_id in sorted(found_groups - {main_group_id}):
+                    log_debug(f"\n合并组 {other_group_id} 到组 {main_group_id}:")
+                    log_debug(f"- 组 {other_group_id} 原有序列: {sorted(groups[other_group_id]['sequences'])}")
+                    log_debug(f"- 组 {other_group_id} merged区间数: {len(groups[other_group_id]['merged'])}")
+
                     groups[main_group_id]['sequences'].update(groups[other_group_id]['sequences'])
                     groups[main_group_id]['merged'].extend(groups[other_group_id]['merged'])
                     del groups[other_group_id]
-                print(f"  合并到组 {main_group_id}")
+
+                    log_debug(f"合并后组 {main_group_id} 状态:")
+                    log_debug(f"- 序列: {sorted(groups[main_group_id]['sequences'])}")
+                    log_debug(f"- merged区间数: {len(groups[main_group_id]['merged'])}")
 
         groups[group_id]['sequences'].update(seq_idx for seq_idx, _ in overlaps)
         groups[group_id]['merged'].append(merged)
 
-        print(f"  组 {group_id} 当前状态:")
-        print(f"    核心序列: {sorted(groups[group_id]['sequences'])}")
-        print(f"    merged区间数量: {len(groups[group_id]['merged'])}")
+        log_debug(f"\n组 {group_id} 最终状态:")
+        log_debug(f"- 序列: {sorted(groups[group_id]['sequences'])}")
+        log_debug(f"- merged区间数: {len(groups[group_id]['merged'])}")
 
-    print("\n分组完成!")
-    print(f"共形成 {len(groups)} 个组")
-    for group_id, group in groups.items():
-        print(f"\n组 {group_id}:")
-        print(f"  包含 {len(group['sequences'])} 个核心序列: {sorted(group['sequences'])}")
-        print(f"  包含 {len(group['merged'])} 个merged区间")
+    log_debug("\n============= 分组完成 =============")
+    log_debug(f"最终形成 {len(groups)} 个组:")
+
+    for group_id in sorted(groups.keys()):
+        group = groups[group_id]
+        log_debug(f"\n组 {group_id}:")
+        log_debug(f"- 序列 ({len(group['sequences'])}个): {sorted(group['sequences'])}")
+        log_debug(f"- merged区间 ({len(group['merged'])}个):")
+        for idx, interval in enumerate(group['merged']):
+            log_debug(f"  {idx + 1}. [{interval.start}, {interval.end}]")
 
     return groups
 
