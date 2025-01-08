@@ -191,11 +191,11 @@ def process_merged_intervals_sequentially(sequence_data: List[Dict],
                     log_debug(f"      重叠长度: {overlap_length}")
                     log_debug(f"      重叠度: {overlap_ratio:.3f}")
 
-                    if overlap_ratio > 0.5:
+                    if overlap_ratio == 1:
                         overlaps.append((seq_idx, core_interval))
-                        log_debug(f"      → 重叠度超过0.5，添加到组!")
+                        log_debug(f"      → 重叠度超过1，添加到组!")
                     else:
-                        log_debug(f"      → 重叠度不足0.5，忽略")
+                        log_debug(f"      → 重叠度不足1，忽略")
                 else:
                     log_debug(f"    位置 {pos_idx}: [{core_interval.start}, {core_interval.end}] → 不重叠")
 

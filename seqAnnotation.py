@@ -2,9 +2,10 @@ import csv
 from collections import defaultdict
 import  checkSimilarity
 
+
 def read_gff(gff_file):
     """
-    读取GFF文件并返回基因注释信息的字典，只保留正链上的基因
+    读取GFF文件并返回基因注释信息的字典
     """
     gff_dict = {}
     with open(gff_file, 'r') as f:
@@ -16,11 +17,11 @@ def read_gff(gff_file):
                 continue
 
             feature_type = parts[2]
-            strand = parts[6]
-            # 只关注gene类型且在正链上的特征
-            if feature_type == 'gene' and strand == '+':
+            # 只关注gene类型的特征
+            if feature_type == 'gene':
                 start = int(parts[3])
                 end = int(parts[4])
+                strand = parts[6]
                 attributes = parts[8]
 
                 attr_dict = {}
@@ -30,11 +31,11 @@ def read_gff(gff_file):
                         attr_dict[key] = value
 
                 gff_dict[(start, end)] = {
+                    'strand': strand,
                     'attributes': attr_dict
                 }
 
     return gff_dict
-
 
 def classify_overlap(seq_start, seq_end, gene_start, gene_end):
     """
@@ -89,12 +90,12 @@ def annotate_sequences(input_csv, gff_file, output_csv,reference_genome):
                 if start <= gene_start and end >= gene_end:
                     # 完全重叠
                     gene_name = gene_info['attributes'].get('Name', 'Unknown')
-                    complete_overlaps.append(gene_name)
+                    complete_overlaps.append(f"{gene_name}({gene_info['strand']})")
                 elif (start <= gene_end and end >= gene_end) or \
                         (start <= gene_start and end >= gene_start):
                     # 部分重叠
                     gene_name = gene_info['attributes'].get('Name', 'Unknown')
-                    partial_overlaps.append(gene_name)
+                    partial_overlaps.append(f"{gene_name}({gene_info['strand']})")
 
             # 保存该序列的注释结果
             results.append({
@@ -119,7 +120,7 @@ def annotate_sequences(input_csv, gff_file, output_csv,reference_genome):
 if __name__ == "__main__":
     input_csv = "results/sequential_grouping_results.csv"  # 输入的CSV文件
     gff_file = "data/GCA_000005845.2_ASM584v2_genomic.gff"  # GFF注释文件
-    output_csv = "results/annotated_sequences.csv"  # 输出的CSV文件
+    output_csv = "results/annotated_sequences_1950.csv"  # 输出的CSV文件
     fasta_file = "data/GCA_000005845.2_ASM584v2_genomic.fna"
     reference_genome = checkSimilarity.load_genome_sequence(fasta_file)
     annotate_sequences(input_csv, gff_file, output_csv,reference_genome)
