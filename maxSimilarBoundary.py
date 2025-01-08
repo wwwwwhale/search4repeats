@@ -437,8 +437,8 @@ def parse_arguments():
                         help='Log file path (default: sequence_analysis.log)')
     parser.add_argument('--extend-length', type=int, default=100,
                         help='Length to extend sequences (default: 100)')
-    parser.add_argument('--threshold', type=float, default=0.8,
-                        help='Similarity threshold (default: 0.8)')
+    parser.add_argument('--threshold', type=float, default=0.9,
+                        help='Similarity threshold (default: 0.9)')
     parser.add_argument('--max-iterations', type=int, default=100000,
                         help='Maximum number of iterations (default: 100000)')
     parser.add_argument('--console-level', choices=['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'],
