@@ -1,0 +1,155 @@
+
+================================================================================
+Group 1 Analysis:
+Number of sequences in group: 7
+
+Comparing sequences in Group1_Seq1_vs_Seq2:
+Sequence 1 position: 8538-15970 (length: 7432)
+Sequence 2 position: 29006-36438 (length: 7432)
+
+Similarity: 85.06%
+
+Comparing sequences in Group1_Seq1_vs_Seq3:
+Sequence 1 position: 8538-15970 (length: 7432)
+Sequence 2 position: 88823-102770 (length: 13947)
+
+Similarity: 45.91%
+
+Comparing sequences in Group1_Seq1_vs_Seq4:
+Sequence 1 position: 8538-15970 (length: 7432)
+Sequence 2 position: 158931-173124 (length: 14193)
+
+Similarity: 45.00%
+
+Comparing sequences in Group1_Seq1_vs_Seq5:
+Sequence 1 position: 8538-15970 (length: 7432)
+Sequence 2 position: 170046-177530 (length: 7484)
+
+Similarity: 83.02%
+
+Comparing sequences in Group1_Seq1_vs_Seq6:
+Sequence 1 position: 8538-15970 (length: 7432)
+Sequence 2 position: 634102-641493 (length: 7391)
+
+Similarity: 83.22%
+
+Comparing sequences in Group1_Seq1_vs_Seq7:
+Sequence 1 position: 8538-15970 (length: 7432)
+Sequence 2 position: 945457-952756 (length: 7299)
+
+Similarity: 82.77%
+
+Comparing sequences in Group1_Seq2_vs_Seq3:
+Sequence 1 position: 29006-36438 (length: 7432)
+Sequence 2 position: 88823-102770 (length: 13947)
+
+Similarity: 45.88%
+
+Comparing sequences in Group1_Seq2_vs_Seq4:
+Sequence 1 position: 29006-36438 (length: 7432)
+Sequence 2 position: 158931-173124 (length: 14193)
+
+Similarity: 45.15%
+
+Comparing sequences in Group1_Seq2_vs_Seq5:
+Sequence 1 position: 29006-36438 (length: 7432)
+Sequence 2 position: 170046-177530 (length: 7484)
+
+Similarity: 82.60%
+
+Comparing sequences in Group1_Seq2_vs_Seq6:
+Sequence 1 position: 29006-36438 (length: 7432)
+Sequence 2 position: 634102-641493 (length: 7391)
+
+Similarity: 82.39%
+
+Comparing sequences in Group1_Seq2_vs_Seq7:
+Sequence 1 position: 29006-36438 (length: 7432)
+Sequence 2 position: 945457-952756 (length: 7299)
+
+Similarity: 82.08%
+
+Comparing sequences in Group1_Seq3_vs_Seq4:
+Sequence 1 position: 88823-102770 (length: 13947)
+Sequence 2 position: 158931-173124 (length: 14193)
+
+Similarity: 85.94%
+
+Comparing sequences in Group1_Seq3_vs_Seq5:
+Sequence 1 position: 88823-102770 (length: 13947)
+Sequence 2 position: 170046-177530 (length: 7484)
+
+Similarity: 48.03%
+
+Comparing sequences in Group1_Seq3_vs_Seq6:
+Sequence 1 position: 88823-102770 (length: 13947)
+Sequence 2 position: 634102-641493 (length: 7391)
+
+Similarity: 46.42%
+
+Comparing sequences in Group1_Seq3_vs_Seq7:
+Sequence 1 position: 88823-102770 (length: 13947)
+Sequence 2 position: 945457-952756 (length: 7299)
+
+Similarity: 46.28%
+
+Comparing sequences in Group1_Seq4_vs_Seq5:
+Sequence 1 position: 158931-173124 (length: 14193)
+Sequence 2 position: 170046-177530 (length: 7484)
+
+Similarity: 47.10%
+
+Comparing sequences in Group1_Seq4_vs_Seq6:
+Sequence 1 position: 158931-173124 (length: 14193)
+Sequence 2 position: 634102-641493 (length: 7391)
+
+Similarity: 45.76%
+
+Comparing sequences in Group1_Seq4_vs_Seq7:
+Sequence 1 position: 158931-173124 (length: 14193)
+Sequence 2 position: 945457-952756 (length: 7299)
+
+Similarity: 45.45%
+
+Comparing sequences in Group1_Seq5_vs_Seq6:
+Sequence 1 position: 170046-177530 (length: 7484)
+Sequence 2 position: 634102-641493 (length: 7391)
+
+Similarity: 82.95%
+
+Comparing sequences in Group1_Seq5_vs_Seq7:
+Sequence 1 position: 170046-177530 (length: 7484)
+Sequence 2 position: 945457-952756 (length: 7299)
+
+Similarity: 82.05%
+
+Comparing sequences in Group1_Seq6_vs_Seq7:
+Sequence 1 position: 634102-641493 (length: 7391)
+Sequence 2 position: 945457-952756 (length: 7299)
+
+Similarity: 83.71%
+
+Group 1 Similarity Scores Summary:
+Group1_Seq1_vs_Seq2: Score = 12645.0000, Similarity = 85.06%
+Group1_Seq1_vs_Seq3: Score = 12808.1000, Similarity = 45.91%
+Group1_Seq1_vs_Seq4: Score = 12773.7000, Similarity = 45.00%
+Group1_Seq1_vs_Seq5: Score = 12427.6000, Similarity = 83.02%
+Group1_Seq1_vs_Seq6: Score = 12371.7000, Similarity = 83.22%
+Group1_Seq1_vs_Seq7: Score = 12304.9000, Similarity = 82.77%
+Group1_Seq2_vs_Seq3: Score = 12797.5000, Similarity = 45.88%
+Group1_Seq2_vs_Seq4: Score = 12816.7000, Similarity = 45.15%
+Group1_Seq2_vs_Seq5: Score = 12365.8000, Similarity = 82.60%
+Group1_Seq2_vs_Seq6: Score = 12247.5000, Similarity = 82.39%
+Group1_Seq2_vs_Seq7: Score = 12201.9000, Similarity = 82.08%
+Group1_Seq3_vs_Seq4: Score = 24397.0000, Similarity = 85.94%
+Group1_Seq3_vs_Seq5: Score = 13398.7000, Similarity = 48.03%
+Group1_Seq3_vs_Seq6: Score = 12949.8000, Similarity = 46.42%
+Group1_Seq3_vs_Seq7: Score = 12911.0000, Similarity = 46.28%
+Group1_Seq4_vs_Seq5: Score = 13370.7000, Similarity = 47.10%
+Group1_Seq4_vs_Seq6: Score = 12991.0000, Similarity = 45.76%
+Group1_Seq4_vs_Seq7: Score = 12903.2000, Similarity = 45.45%
+Group1_Seq5_vs_Seq6: Score = 12418.1000, Similarity = 82.95%
+Group1_Seq5_vs_Seq7: Score = 12282.5000, Similarity = 82.05%
+Group1_Seq6_vs_Seq7: Score = 12376.2000, Similarity = 83.71%
+
+Group 1 analysis complete

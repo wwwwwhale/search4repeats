@@ -24,13 +24,21 @@ def main():
         print(f"Error: Genome file '{genome_file}' does not exist.", file=sys.stderr)
         sys.exit(1)
 
+    # 获取输出目录（可选参数），默认为当前目录
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else "."
+
+    # 检查输出目录是否存在，不存在则创建
+    if not os.path.exists(output_dir):
+        print(f"Output directory '{output_dir}' does not exist. Creating it...")
+        os.makedirs(output_dir)
+
     # 动态生成输出文件名
-    base_name = os.path.splitext(genome_file)[0]
-    repeated_seq_file = f"{base_name}_repeated_seq.txt"
+    base_name = os.path.splitext(os.path.basename(genome_file))[0]
+    repeated_seq_file = os.path.join(output_dir, f"{base_name}_repeated_seq.txt")
     repeated_len = 500
-    extended_file = f"{base_name}_similar_seq.csv"
-    group_file = f"{base_name}_grouping_results.csv"
-    similarity_file = f"{base_name}_check_similarity.txt"
+    extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
+    group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
+    similarity_file = os.path.join(output_dir, f"{base_name}_check_similarity.txt")
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")

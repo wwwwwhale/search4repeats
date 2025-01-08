@@ -1,6 +1,6 @@
 import csv
 from collections import defaultdict
-import  checkSimilarity
+import checkSimilarity
 
 
 def read_gff(gff_file):
