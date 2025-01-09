@@ -39,6 +39,7 @@ def main():
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
     similarity_file = os.path.join(output_dir, f"{base_name}_check_similarity.txt")
+    length_threshold=0.2
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")
@@ -60,7 +61,7 @@ def main():
     print("Running mergeSeq.py...")
     merge_seq_cmd = (
         f"python mergeSeq.py --interval-file {extended_file} "
-        f"--sequence-file {repeated_seq_file} --output-file {group_file}"
+        f"--sequence-file {repeated_seq_file} --output-file {group_file} --length-threshold {length_threshold}"
     )
     run_command(merge_seq_cmd, "Error: mergeSeq.py failed.")
     print(f"Output saved to {group_file}")
