@@ -1,32 +1,18 @@
 
 ================================================================================
-Group 1 Analysis:
-Number of sequences in group: 3
+Group 0 Analysis:
+Number of sequences in group: 2
 
-Comparing sequences in Group1_Seq1_vs_Seq2:
-Sequence 1 position: 15186-17031 (length: 1845)
-Sequence 2 position: 607806-609550 (length: 1744)
+Comparing sequences in Group0_Seq1_vs_Seq2:
+Sequence 1 position: 279062-280031 (length: 969)
+Sequence 2 position: 290533-291502 (length: 969)
 
-Similarity: 85.74%
+Similarity: 89.71%
 
-Comparing sequences in Group1_Seq1_vs_Seq3:
-Sequence 1 position: 15186-17031 (length: 1845)
-Sequence 2 position: 2514072-2515917 (length: 1845)
+Group 0 Similarity Scores Summary:
+Group0_Seq1_vs_Seq2: Score = 1740.4000, Similarity = 89.71%
 
-Similarity: 87.54%
-
-Comparing sequences in Group1_Seq2_vs_Seq3:
-Sequence 1 position: 607806-609550 (length: 1744)
-Sequence 2 position: 2514072-2515917 (length: 1845)
-
-Similarity: 86.00%
-
-Group 1 Similarity Scores Summary:
-Group1_Seq1_vs_Seq2: Score = 3165.7000, Similarity = 85.74%
-Group1_Seq1_vs_Seq3: Score = 3232.0000, Similarity = 87.54%
-Group1_Seq2_vs_Seq3: Score = 3175.3000, Similarity = 86.00%
-
-Group 1 analysis complete
+Group 0 analysis complete
 
 ================================================================================
 Group 2 Analysis:
@@ -59,313 +45,89 @@ Group 2 analysis complete
 
 ================================================================================
 Group 3 Analysis:
-Number of sequences in group: 5
-
-Comparing sequences in Group3_Seq1_vs_Seq2:
-Sequence 1 position: 222230-229921 (length: 7691)
-Sequence 2 position: 3940164-3948007 (length: 7843)
-
-Similarity: 83.06%
-
-Comparing sequences in Group3_Seq1_vs_Seq3:
-Sequence 1 position: 222230-229921 (length: 7691)
-Sequence 2 position: 4033991-4041785 (length: 7794)
-
-Similarity: 84.44%
-
-Comparing sequences in Group3_Seq1_vs_Seq4:
-Sequence 1 position: 222230-229921 (length: 7691)
-Sequence 2 position: 4165197-4172973 (length: 7776)
-
-Similarity: 83.00%
-
-Comparing sequences in Group3_Seq1_vs_Seq5:
-Sequence 1 position: 222230-229921 (length: 7691)
-Sequence 2 position: 4206503-4214375 (length: 7872)
-
-Similarity: 82.81%
-
-Comparing sequences in Group3_Seq2_vs_Seq3:
-Sequence 1 position: 3940164-3948007 (length: 7843)
-Sequence 2 position: 4033991-4041785 (length: 7794)
-
-Similarity: 83.68%
-
-Comparing sequences in Group3_Seq2_vs_Seq4:
-Sequence 1 position: 3940164-3948007 (length: 7843)
-Sequence 2 position: 4165197-4172973 (length: 7776)
-
-Similarity: 84.41%
-
-Comparing sequences in Group3_Seq2_vs_Seq5:
-Sequence 1 position: 3940164-3948007 (length: 7843)
-Sequence 2 position: 4206503-4214375 (length: 7872)
-
-Similarity: 84.23%
-
-Comparing sequences in Group3_Seq3_vs_Seq4:
-Sequence 1 position: 4033991-4041785 (length: 7794)
-Sequence 2 position: 4165197-4172973 (length: 7776)
-
-Similarity: 85.68%
-
-Comparing sequences in Group3_Seq3_vs_Seq5:
-Sequence 1 position: 4033991-4041785 (length: 7794)
-Sequence 2 position: 4206503-4214375 (length: 7872)
-
-Similarity: 82.75%
-
-Comparing sequences in Group3_Seq4_vs_Seq5:
-Sequence 1 position: 4165197-4172973 (length: 7776)
-Sequence 2 position: 4206503-4214375 (length: 7872)
-
-Similarity: 83.41%
-
-Group 3 Similarity Scores Summary:
-Group3_Seq1_vs_Seq2: Score = 13029.8000, Similarity = 83.06%
-Group3_Seq1_vs_Seq3: Score = 13164.7000, Similarity = 84.44%
-Group3_Seq1_vs_Seq4: Score = 12909.9000, Similarity = 83.00%
-Group3_Seq1_vs_Seq5: Score = 13039.3000, Similarity = 82.81%
-Group3_Seq2_vs_Seq3: Score = 13128.3000, Similarity = 83.68%
-Group3_Seq2_vs_Seq4: Score = 13242.1000, Similarity = 84.41%
-Group3_Seq2_vs_Seq5: Score = 13262.3000, Similarity = 84.23%
-Group3_Seq3_vs_Seq4: Score = 13357.8000, Similarity = 85.68%
-Group3_Seq3_vs_Seq5: Score = 13030.4000, Similarity = 82.75%
-Group3_Seq4_vs_Seq5: Score = 13133.4000, Similarity = 83.41%
-
-Group 3 analysis complete
-
-================================================================================
-Group 4 Analysis:
 Number of sequences in group: 2
 
-Comparing sequences in Group4_Seq1_vs_Seq2:
+Comparing sequences in Group3_Seq1_vs_Seq2:
 Sequence 1 position: 270440-271993 (length: 1553)
 Sequence 2 position: 1469195-1470748 (length: 1553)
 
 Similarity: 89.43%
 
+Group 3 Similarity Scores Summary:
+Group3_Seq1_vs_Seq2: Score = 2779.6000, Similarity = 89.43%
+
+Group 3 analysis complete
+
+================================================================================
+Group 4 Analysis:
+Number of sequences in group: 3
+
+Comparing sequences in Group4_Seq1_vs_Seq2:
+Sequence 1 position: 1299293-1300898 (length: 1605)
+Sequence 2 position: 1395740-1397441 (length: 1701)
+
+Similarity: 84.50%
+
+Comparing sequences in Group4_Seq1_vs_Seq3:
+Sequence 1 position: 1299293-1300898 (length: 1605)
+Sequence 2 position: 3129842-3131545 (length: 1703)
+
+Similarity: 83.50%
+
+Comparing sequences in Group4_Seq2_vs_Seq3:
+Sequence 1 position: 1395740-1397441 (length: 1701)
+Sequence 2 position: 3129842-3131545 (length: 1703)
+
+Similarity: 85.21%
+
 Group 4 Similarity Scores Summary:
-Group4_Seq1_vs_Seq2: Score = 2779.6000, Similarity = 89.43%
+Group4_Seq1_vs_Seq2: Score = 2876.4000, Similarity = 84.50%
+Group4_Seq1_vs_Seq3: Score = 2845.6000, Similarity = 83.50%
+Group4_Seq2_vs_Seq3: Score = 2904.0000, Similarity = 85.21%
 
 Group 4 analysis complete
 
 ================================================================================
 Group 5 Analysis:
-Number of sequences in group: 8
+Number of sequences in group: 2
 
 Comparing sequences in Group5_Seq1_vs_Seq2:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 574289-576188 (length: 1899)
+Sequence 1 position: 391707-393366 (length: 1659)
+Sequence 2 position: 1094243-1095902 (length: 1659)
 
-Similarity: 81.20%
-
-Comparing sequences in Group5_Seq1_vs_Seq3:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 687492-689448 (length: 1956)
-
-Similarity: 81.38%
-
-Comparing sequences in Group5_Seq1_vs_Seq4:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 2065825-2067698 (length: 1873)
-
-Similarity: 80.60%
-
-Comparing sequences in Group5_Seq1_vs_Seq5:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 2101390-2103345 (length: 1955)
-
-Similarity: 80.45%
-
-Comparing sequences in Group5_Seq1_vs_Seq6:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 2288560-2290483 (length: 1923)
-
-Similarity: 81.29%
-
-Comparing sequences in Group5_Seq1_vs_Seq7:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 3365151-3367153 (length: 2002)
-
-Similarity: 79.76%
-
-Comparing sequences in Group5_Seq1_vs_Seq8:
-Sequence 1 position: 273596-275519 (length: 1923)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 78.99%
-
-Comparing sequences in Group5_Seq2_vs_Seq3:
-Sequence 1 position: 574289-576188 (length: 1899)
-Sequence 2 position: 687492-689448 (length: 1956)
-
-Similarity: 80.82%
-
-Comparing sequences in Group5_Seq2_vs_Seq4:
-Sequence 1 position: 574289-576188 (length: 1899)
-Sequence 2 position: 2065825-2067698 (length: 1873)
-
-Similarity: 81.81%
-
-Comparing sequences in Group5_Seq2_vs_Seq5:
-Sequence 1 position: 574289-576188 (length: 1899)
-Sequence 2 position: 2101390-2103345 (length: 1955)
-
-Similarity: 81.07%
-
-Comparing sequences in Group5_Seq2_vs_Seq6:
-Sequence 1 position: 574289-576188 (length: 1899)
-Sequence 2 position: 2288560-2290483 (length: 1923)
-
-Similarity: 81.76%
-
-Comparing sequences in Group5_Seq2_vs_Seq7:
-Sequence 1 position: 574289-576188 (length: 1899)
-Sequence 2 position: 3365151-3367153 (length: 2002)
-
-Similarity: 79.97%
-
-Comparing sequences in Group5_Seq2_vs_Seq8:
-Sequence 1 position: 574289-576188 (length: 1899)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 79.55%
-
-Comparing sequences in Group5_Seq3_vs_Seq4:
-Sequence 1 position: 687492-689448 (length: 1956)
-Sequence 2 position: 2065825-2067698 (length: 1873)
-
-Similarity: 79.53%
-
-Comparing sequences in Group5_Seq3_vs_Seq5:
-Sequence 1 position: 687492-689448 (length: 1956)
-Sequence 2 position: 2101390-2103345 (length: 1955)
-
-Similarity: 81.11%
-
-Comparing sequences in Group5_Seq3_vs_Seq6:
-Sequence 1 position: 687492-689448 (length: 1956)
-Sequence 2 position: 2288560-2290483 (length: 1923)
-
-Similarity: 80.73%
-
-Comparing sequences in Group5_Seq3_vs_Seq7:
-Sequence 1 position: 687492-689448 (length: 1956)
-Sequence 2 position: 3365151-3367153 (length: 2002)
-
-Similarity: 80.14%
-
-Comparing sequences in Group5_Seq3_vs_Seq8:
-Sequence 1 position: 687492-689448 (length: 1956)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 80.19%
-
-Comparing sequences in Group5_Seq4_vs_Seq5:
-Sequence 1 position: 2065825-2067698 (length: 1873)
-Sequence 2 position: 2101390-2103345 (length: 1955)
-
-Similarity: 80.58%
-
-Comparing sequences in Group5_Seq4_vs_Seq6:
-Sequence 1 position: 2065825-2067698 (length: 1873)
-Sequence 2 position: 2288560-2290483 (length: 1923)
-
-Similarity: 81.36%
-
-Comparing sequences in Group5_Seq4_vs_Seq7:
-Sequence 1 position: 2065825-2067698 (length: 1873)
-Sequence 2 position: 3365151-3367153 (length: 2002)
-
-Similarity: 79.18%
-
-Comparing sequences in Group5_Seq4_vs_Seq8:
-Sequence 1 position: 2065825-2067698 (length: 1873)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 78.77%
-
-Comparing sequences in Group5_Seq5_vs_Seq6:
-Sequence 1 position: 2101390-2103345 (length: 1955)
-Sequence 2 position: 2288560-2290483 (length: 1923)
-
-Similarity: 81.34%
-
-Comparing sequences in Group5_Seq5_vs_Seq7:
-Sequence 1 position: 2101390-2103345 (length: 1955)
-Sequence 2 position: 3365151-3367153 (length: 2002)
-
-Similarity: 80.87%
-
-Comparing sequences in Group5_Seq5_vs_Seq8:
-Sequence 1 position: 2101390-2103345 (length: 1955)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 81.40%
-
-Comparing sequences in Group5_Seq6_vs_Seq7:
-Sequence 1 position: 2288560-2290483 (length: 1923)
-Sequence 2 position: 3365151-3367153 (length: 2002)
-
-Similarity: 80.46%
-
-Comparing sequences in Group5_Seq6_vs_Seq8:
-Sequence 1 position: 2288560-2290483 (length: 1923)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 80.02%
-
-Comparing sequences in Group5_Seq7_vs_Seq8:
-Sequence 1 position: 3365151-3367153 (length: 2002)
-Sequence 2 position: 3651631-3653633 (length: 2002)
-
-Similarity: 81.27%
+Similarity: 88.89%
 
 Group 5 Similarity Scores Summary:
-Group5_Seq1_vs_Seq2: Score = 3124.6000, Similarity = 81.20%
-Group5_Seq1_vs_Seq3: Score = 3185.1000, Similarity = 81.38%
-Group5_Seq1_vs_Seq4: Score = 3101.4000, Similarity = 80.60%
-Group5_Seq1_vs_Seq5: Score = 3147.2000, Similarity = 80.45%
-Group5_Seq1_vs_Seq6: Score = 3128.2000, Similarity = 81.29%
-Group5_Seq1_vs_Seq7: Score = 3195.1000, Similarity = 79.76%
-Group5_Seq1_vs_Seq8: Score = 3164.5000, Similarity = 78.99%
-Group5_Seq2_vs_Seq3: Score = 3163.1000, Similarity = 80.82%
-Group5_Seq2_vs_Seq4: Score = 3108.8000, Similarity = 81.81%
-Group5_Seq2_vs_Seq5: Score = 3171.6000, Similarity = 81.07%
-Group5_Seq2_vs_Seq6: Score = 3146.0000, Similarity = 81.76%
-Group5_Seq2_vs_Seq7: Score = 3203.7000, Similarity = 79.97%
-Group5_Seq2_vs_Seq8: Score = 3186.7000, Similarity = 79.55%
-Group5_Seq3_vs_Seq4: Score = 3112.7000, Similarity = 79.53%
-Group5_Seq3_vs_Seq5: Score = 3174.5000, Similarity = 81.11%
-Group5_Seq3_vs_Seq6: Score = 3159.9000, Similarity = 80.73%
-Group5_Seq3_vs_Seq7: Score = 3210.6000, Similarity = 80.14%
-Group5_Seq3_vs_Seq8: Score = 3212.6000, Similarity = 80.19%
-Group5_Seq4_vs_Seq5: Score = 3152.2000, Similarity = 80.58%
-Group5_Seq4_vs_Seq6: Score = 3130.6000, Similarity = 81.36%
-Group5_Seq4_vs_Seq7: Score = 3171.9000, Similarity = 79.18%
-Group5_Seq4_vs_Seq8: Score = 3155.7000, Similarity = 78.77%
-Group5_Seq5_vs_Seq6: Score = 3182.2000, Similarity = 81.34%
-Group5_Seq5_vs_Seq7: Score = 3239.7000, Similarity = 80.87%
-Group5_Seq5_vs_Seq8: Score = 3260.7000, Similarity = 81.40%
-Group5_Seq6_vs_Seq7: Score = 3223.1000, Similarity = 80.46%
-Group5_Seq6_vs_Seq8: Score = 3205.7000, Similarity = 80.02%
-Group5_Seq7_vs_Seq8: Score = 3255.8000, Similarity = 81.27%
+Group5_Seq1_vs_Seq2: Score = 2951.2000, Similarity = 88.89%
 
 Group 5 analysis complete
 
 ================================================================================
 Group 6 Analysis:
-Number of sequences in group: 2
+Number of sequences in group: 3
 
 Comparing sequences in Group6_Seq1_vs_Seq2:
-Sequence 1 position: 279062-280031 (length: 969)
-Sequence 2 position: 290533-291502 (length: 969)
+Sequence 1 position: 314828-316782 (length: 1954)
+Sequence 2 position: 566379-568077 (length: 1698)
 
-Similarity: 89.71%
+Similarity: 76.50%
+
+Comparing sequences in Group6_Seq1_vs_Seq3:
+Sequence 1 position: 314828-316782 (length: 1954)
+Sequence 2 position: 2169773-2171727 (length: 1954)
+
+Similarity: 83.04%
+
+Comparing sequences in Group6_Seq2_vs_Seq3:
+Sequence 1 position: 566379-568077 (length: 1698)
+Sequence 2 position: 2169773-2171727 (length: 1954)
+
+Similarity: 76.99%
 
 Group 6 Similarity Scores Summary:
-Group6_Seq1_vs_Seq2: Score = 1740.4000, Similarity = 89.71%
+Group6_Seq1_vs_Seq2: Score = 2991.2000, Similarity = 76.50%
+Group6_Seq1_vs_Seq3: Score = 3246.8000, Similarity = 83.04%
+Group6_Seq2_vs_Seq3: Score = 3010.4000, Similarity = 76.99%
 
 Group 6 analysis complete
 
@@ -374,92 +136,85 @@ Group 7 Analysis:
 Number of sequences in group: 3
 
 Comparing sequences in Group7_Seq1_vs_Seq2:
-Sequence 1 position: 314828-316782 (length: 1954)
-Sequence 2 position: 566379-568077 (length: 1698)
+Sequence 1 position: 15186-17031 (length: 1845)
+Sequence 2 position: 607806-609550 (length: 1744)
 
-Similarity: 76.50%
+Similarity: 85.74%
 
 Comparing sequences in Group7_Seq1_vs_Seq3:
-Sequence 1 position: 314828-316782 (length: 1954)
-Sequence 2 position: 2169773-2171727 (length: 1954)
+Sequence 1 position: 15186-17031 (length: 1845)
+Sequence 2 position: 2514072-2515917 (length: 1845)
 
-Similarity: 83.04%
+Similarity: 87.54%
 
 Comparing sequences in Group7_Seq2_vs_Seq3:
-Sequence 1 position: 566379-568077 (length: 1698)
-Sequence 2 position: 2169773-2171727 (length: 1954)
+Sequence 1 position: 607806-609550 (length: 1744)
+Sequence 2 position: 2514072-2515917 (length: 1845)
 
-Similarity: 76.99%
+Similarity: 86.00%
 
 Group 7 Similarity Scores Summary:
-Group7_Seq1_vs_Seq2: Score = 2991.2000, Similarity = 76.50%
-Group7_Seq1_vs_Seq3: Score = 3246.8000, Similarity = 83.04%
-Group7_Seq2_vs_Seq3: Score = 3010.4000, Similarity = 76.99%
+Group7_Seq1_vs_Seq2: Score = 3165.7000, Similarity = 85.74%
+Group7_Seq1_vs_Seq3: Score = 3232.0000, Similarity = 87.54%
+Group7_Seq2_vs_Seq3: Score = 3175.3000, Similarity = 86.00%
 
 Group 7 analysis complete
 
 ================================================================================
 Group 8 Analysis:
-Number of sequences in group: 4
+Number of sequences in group: 3
 
 Comparing sequences in Group8_Seq1_vs_Seq2:
-Sequence 1 position: 381059-382982 (length: 1923)
-Sequence 2 position: 1650742-1651747 (length: 1005)
+Sequence 1 position: 1467609-1469607 (length: 1998)
+Sequence 2 position: 2068840-2070638 (length: 1798)
 
-Similarity: 46.93%
+Similarity: 79.72%
 
 Comparing sequences in Group8_Seq1_vs_Seq3:
-Sequence 1 position: 381059-382982 (length: 1923)
-Sequence 2 position: 3185920-3187818 (length: 1898)
+Sequence 1 position: 1467609-1469607 (length: 1998)
+Sequence 2 position: 2996060-2997990 (length: 1930)
 
-Similarity: 85.17%
-
-Comparing sequences in Group8_Seq1_vs_Seq4:
-Sequence 1 position: 381059-382982 (length: 1923)
-Sequence 2 position: 4497980-4499803 (length: 1823)
-
-Similarity: 83.40%
+Similarity: 83.23%
 
 Comparing sequences in Group8_Seq2_vs_Seq3:
-Sequence 1 position: 1650742-1651747 (length: 1005)
-Sequence 2 position: 3185920-3187818 (length: 1898)
+Sequence 1 position: 2068840-2070638 (length: 1798)
+Sequence 2 position: 2996060-2997990 (length: 1930)
 
-Similarity: 47.68%
-
-Comparing sequences in Group8_Seq2_vs_Seq4:
-Sequence 1 position: 1650742-1651747 (length: 1005)
-Sequence 2 position: 4497980-4499803 (length: 1823)
-
-Similarity: 48.67%
-
-Comparing sequences in Group8_Seq3_vs_Seq4:
-Sequence 1 position: 3185920-3187818 (length: 1898)
-Sequence 2 position: 4497980-4499803 (length: 1823)
-
-Similarity: 84.54%
+Similarity: 81.70%
 
 Group 8 Similarity Scores Summary:
-Group8_Seq1_vs_Seq2: Score = 1805.8000, Similarity = 46.93%
-Group8_Seq1_vs_Seq3: Score = 3277.5000, Similarity = 85.17%
-Group8_Seq1_vs_Seq4: Score = 3209.2000, Similarity = 83.40%
-Group8_Seq2_vs_Seq3: Score = 1810.7000, Similarity = 47.68%
-Group8_Seq2_vs_Seq4: Score = 1775.4000, Similarity = 48.67%
-Group8_Seq3_vs_Seq4: Score = 3210.9000, Similarity = 84.54%
+Group8_Seq1_vs_Seq2: Score = 3187.2000, Similarity = 79.72%
+Group8_Seq1_vs_Seq3: Score = 3327.4000, Similarity = 83.23%
+Group8_Seq2_vs_Seq3: Score = 3155.2000, Similarity = 81.70%
 
 Group 8 analysis complete
 
 ================================================================================
 Group 9 Analysis:
-Number of sequences in group: 2
+Number of sequences in group: 3
 
 Comparing sequences in Group9_Seq1_vs_Seq2:
-Sequence 1 position: 391707-393366 (length: 1659)
-Sequence 2 position: 1094243-1095902 (length: 1659)
+Sequence 1 position: 381059-382982 (length: 1923)
+Sequence 2 position: 3185920-3187818 (length: 1898)
 
-Similarity: 88.89%
+Similarity: 85.17%
+
+Comparing sequences in Group9_Seq1_vs_Seq3:
+Sequence 1 position: 381059-382982 (length: 1923)
+Sequence 2 position: 4497980-4499803 (length: 1823)
+
+Similarity: 83.40%
+
+Comparing sequences in Group9_Seq2_vs_Seq3:
+Sequence 1 position: 3185920-3187818 (length: 1898)
+Sequence 2 position: 4497980-4499803 (length: 1823)
+
+Similarity: 84.54%
 
 Group 9 Similarity Scores Summary:
-Group9_Seq1_vs_Seq2: Score = 2951.2000, Similarity = 88.89%
+Group9_Seq1_vs_Seq2: Score = 3277.5000, Similarity = 85.17%
+Group9_Seq1_vs_Seq3: Score = 3209.2000, Similarity = 83.40%
+Group9_Seq2_vs_Seq3: Score = 3210.9000, Similarity = 84.54%
 
 Group 9 analysis complete
 
@@ -480,59 +235,220 @@ Group 10 analysis complete
 
 ================================================================================
 Group 11 Analysis:
-Number of sequences in group: 3
+Number of sequences in group: 8
 
 Comparing sequences in Group11_Seq1_vs_Seq2:
-Sequence 1 position: 1299293-1300898 (length: 1605)
-Sequence 2 position: 1395740-1397441 (length: 1701)
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 574289-576188 (length: 1899)
 
-Similarity: 84.50%
+Similarity: 81.20%
 
 Comparing sequences in Group11_Seq1_vs_Seq3:
-Sequence 1 position: 1299293-1300898 (length: 1605)
-Sequence 2 position: 3129842-3131545 (length: 1703)
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 687492-689448 (length: 1956)
 
-Similarity: 83.50%
+Similarity: 81.38%
+
+Comparing sequences in Group11_Seq1_vs_Seq4:
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 2065825-2067698 (length: 1873)
+
+Similarity: 80.60%
+
+Comparing sequences in Group11_Seq1_vs_Seq5:
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 2101390-2103345 (length: 1955)
+
+Similarity: 80.45%
+
+Comparing sequences in Group11_Seq1_vs_Seq6:
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 2288560-2290483 (length: 1923)
+
+Similarity: 81.29%
+
+Comparing sequences in Group11_Seq1_vs_Seq7:
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 3365151-3367153 (length: 2002)
+
+Similarity: 79.76%
+
+Comparing sequences in Group11_Seq1_vs_Seq8:
+Sequence 1 position: 273596-275519 (length: 1923)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 78.99%
 
 Comparing sequences in Group11_Seq2_vs_Seq3:
-Sequence 1 position: 1395740-1397441 (length: 1701)
-Sequence 2 position: 3129842-3131545 (length: 1703)
+Sequence 1 position: 574289-576188 (length: 1899)
+Sequence 2 position: 687492-689448 (length: 1956)
 
-Similarity: 85.21%
+Similarity: 80.82%
+
+Comparing sequences in Group11_Seq2_vs_Seq4:
+Sequence 1 position: 574289-576188 (length: 1899)
+Sequence 2 position: 2065825-2067698 (length: 1873)
+
+Similarity: 81.81%
+
+Comparing sequences in Group11_Seq2_vs_Seq5:
+Sequence 1 position: 574289-576188 (length: 1899)
+Sequence 2 position: 2101390-2103345 (length: 1955)
+
+Similarity: 81.07%
+
+Comparing sequences in Group11_Seq2_vs_Seq6:
+Sequence 1 position: 574289-576188 (length: 1899)
+Sequence 2 position: 2288560-2290483 (length: 1923)
+
+Similarity: 81.76%
+
+Comparing sequences in Group11_Seq2_vs_Seq7:
+Sequence 1 position: 574289-576188 (length: 1899)
+Sequence 2 position: 3365151-3367153 (length: 2002)
+
+Similarity: 79.97%
+
+Comparing sequences in Group11_Seq2_vs_Seq8:
+Sequence 1 position: 574289-576188 (length: 1899)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 79.55%
+
+Comparing sequences in Group11_Seq3_vs_Seq4:
+Sequence 1 position: 687492-689448 (length: 1956)
+Sequence 2 position: 2065825-2067698 (length: 1873)
+
+Similarity: 79.53%
+
+Comparing sequences in Group11_Seq3_vs_Seq5:
+Sequence 1 position: 687492-689448 (length: 1956)
+Sequence 2 position: 2101390-2103345 (length: 1955)
+
+Similarity: 81.11%
+
+Comparing sequences in Group11_Seq3_vs_Seq6:
+Sequence 1 position: 687492-689448 (length: 1956)
+Sequence 2 position: 2288560-2290483 (length: 1923)
+
+Similarity: 80.73%
+
+Comparing sequences in Group11_Seq3_vs_Seq7:
+Sequence 1 position: 687492-689448 (length: 1956)
+Sequence 2 position: 3365151-3367153 (length: 2002)
+
+Similarity: 80.14%
+
+Comparing sequences in Group11_Seq3_vs_Seq8:
+Sequence 1 position: 687492-689448 (length: 1956)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 80.19%
+
+Comparing sequences in Group11_Seq4_vs_Seq5:
+Sequence 1 position: 2065825-2067698 (length: 1873)
+Sequence 2 position: 2101390-2103345 (length: 1955)
+
+Similarity: 80.58%
+
+Comparing sequences in Group11_Seq4_vs_Seq6:
+Sequence 1 position: 2065825-2067698 (length: 1873)
+Sequence 2 position: 2288560-2290483 (length: 1923)
+
+Similarity: 81.36%
+
+Comparing sequences in Group11_Seq4_vs_Seq7:
+Sequence 1 position: 2065825-2067698 (length: 1873)
+Sequence 2 position: 3365151-3367153 (length: 2002)
+
+Similarity: 79.18%
+
+Comparing sequences in Group11_Seq4_vs_Seq8:
+Sequence 1 position: 2065825-2067698 (length: 1873)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 78.77%
+
+Comparing sequences in Group11_Seq5_vs_Seq6:
+Sequence 1 position: 2101390-2103345 (length: 1955)
+Sequence 2 position: 2288560-2290483 (length: 1923)
+
+Similarity: 81.34%
+
+Comparing sequences in Group11_Seq5_vs_Seq7:
+Sequence 1 position: 2101390-2103345 (length: 1955)
+Sequence 2 position: 3365151-3367153 (length: 2002)
+
+Similarity: 80.87%
+
+Comparing sequences in Group11_Seq5_vs_Seq8:
+Sequence 1 position: 2101390-2103345 (length: 1955)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 81.40%
+
+Comparing sequences in Group11_Seq6_vs_Seq7:
+Sequence 1 position: 2288560-2290483 (length: 1923)
+Sequence 2 position: 3365151-3367153 (length: 2002)
+
+Similarity: 80.46%
+
+Comparing sequences in Group11_Seq6_vs_Seq8:
+Sequence 1 position: 2288560-2290483 (length: 1923)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 80.02%
+
+Comparing sequences in Group11_Seq7_vs_Seq8:
+Sequence 1 position: 3365151-3367153 (length: 2002)
+Sequence 2 position: 3651631-3653633 (length: 2002)
+
+Similarity: 81.27%
 
 Group 11 Similarity Scores Summary:
-Group11_Seq1_vs_Seq2: Score = 2876.4000, Similarity = 84.50%
-Group11_Seq1_vs_Seq3: Score = 2845.6000, Similarity = 83.50%
-Group11_Seq2_vs_Seq3: Score = 2904.0000, Similarity = 85.21%
+Group11_Seq1_vs_Seq2: Score = 3124.6000, Similarity = 81.20%
+Group11_Seq1_vs_Seq3: Score = 3185.1000, Similarity = 81.38%
+Group11_Seq1_vs_Seq4: Score = 3101.4000, Similarity = 80.60%
+Group11_Seq1_vs_Seq5: Score = 3147.2000, Similarity = 80.45%
+Group11_Seq1_vs_Seq6: Score = 3128.2000, Similarity = 81.29%
+Group11_Seq1_vs_Seq7: Score = 3195.1000, Similarity = 79.76%
+Group11_Seq1_vs_Seq8: Score = 3164.5000, Similarity = 78.99%
+Group11_Seq2_vs_Seq3: Score = 3163.1000, Similarity = 80.82%
+Group11_Seq2_vs_Seq4: Score = 3108.8000, Similarity = 81.81%
+Group11_Seq2_vs_Seq5: Score = 3171.6000, Similarity = 81.07%
+Group11_Seq2_vs_Seq6: Score = 3146.0000, Similarity = 81.76%
+Group11_Seq2_vs_Seq7: Score = 3203.7000, Similarity = 79.97%
+Group11_Seq2_vs_Seq8: Score = 3186.7000, Similarity = 79.55%
+Group11_Seq3_vs_Seq4: Score = 3112.7000, Similarity = 79.53%
+Group11_Seq3_vs_Seq5: Score = 3174.5000, Similarity = 81.11%
+Group11_Seq3_vs_Seq6: Score = 3159.9000, Similarity = 80.73%
+Group11_Seq3_vs_Seq7: Score = 3210.6000, Similarity = 80.14%
+Group11_Seq3_vs_Seq8: Score = 3212.6000, Similarity = 80.19%
+Group11_Seq4_vs_Seq5: Score = 3152.2000, Similarity = 80.58%
+Group11_Seq4_vs_Seq6: Score = 3130.6000, Similarity = 81.36%
+Group11_Seq4_vs_Seq7: Score = 3171.9000, Similarity = 79.18%
+Group11_Seq4_vs_Seq8: Score = 3155.7000, Similarity = 78.77%
+Group11_Seq5_vs_Seq6: Score = 3182.2000, Similarity = 81.34%
+Group11_Seq5_vs_Seq7: Score = 3239.7000, Similarity = 80.87%
+Group11_Seq5_vs_Seq8: Score = 3260.7000, Similarity = 81.40%
+Group11_Seq6_vs_Seq7: Score = 3223.1000, Similarity = 80.46%
+Group11_Seq6_vs_Seq8: Score = 3205.7000, Similarity = 80.02%
+Group11_Seq7_vs_Seq8: Score = 3255.8000, Similarity = 81.27%
 
 Group 11 analysis complete
 
 ================================================================================
 Group 12 Analysis:
-Number of sequences in group: 3
+Number of sequences in group: 2
 
 Comparing sequences in Group12_Seq1_vs_Seq2:
-Sequence 1 position: 1467609-1469607 (length: 1998)
-Sequence 2 position: 2068840-2070638 (length: 1798)
+Sequence 1 position: 3618584-3623682 (length: 5098)
+Sequence 2 position: 3761575-3766673 (length: 5098)
 
-Similarity: 79.72%
-
-Comparing sequences in Group12_Seq1_vs_Seq3:
-Sequence 1 position: 1467609-1469607 (length: 1998)
-Sequence 2 position: 2996060-2997990 (length: 1930)
-
-Similarity: 83.23%
-
-Comparing sequences in Group12_Seq2_vs_Seq3:
-Sequence 1 position: 2068840-2070638 (length: 1798)
-Sequence 2 position: 2996060-2997990 (length: 1930)
-
-Similarity: 81.70%
+Similarity: 86.94%
 
 Group 12 Similarity Scores Summary:
-Group12_Seq1_vs_Seq2: Score = 3187.2000, Similarity = 79.72%
-Group12_Seq1_vs_Seq3: Score = 3327.4000, Similarity = 83.23%
-Group12_Seq2_vs_Seq3: Score = 3155.2000, Similarity = 81.70%
+Group12_Seq1_vs_Seq2: Score = 8866.6000, Similarity = 86.94%
 
 Group 12 analysis complete
 
@@ -553,15 +469,78 @@ Group 13 analysis complete
 
 ================================================================================
 Group 14 Analysis:
-Number of sequences in group: 2
+Number of sequences in group: 5
 
 Comparing sequences in Group14_Seq1_vs_Seq2:
-Sequence 1 position: 3618584-3623682 (length: 5098)
-Sequence 2 position: 3761575-3766673 (length: 5098)
+Sequence 1 position: 222230-229921 (length: 7691)
+Sequence 2 position: 3940164-3948007 (length: 7843)
 
-Similarity: 86.94%
+Similarity: 83.06%
+
+Comparing sequences in Group14_Seq1_vs_Seq3:
+Sequence 1 position: 222230-229921 (length: 7691)
+Sequence 2 position: 4033991-4041785 (length: 7794)
+
+Similarity: 84.44%
+
+Comparing sequences in Group14_Seq1_vs_Seq4:
+Sequence 1 position: 222230-229921 (length: 7691)
+Sequence 2 position: 4165197-4172973 (length: 7776)
+
+Similarity: 83.00%
+
+Comparing sequences in Group14_Seq1_vs_Seq5:
+Sequence 1 position: 222230-229921 (length: 7691)
+Sequence 2 position: 4206503-4214375 (length: 7872)
+
+Similarity: 82.81%
+
+Comparing sequences in Group14_Seq2_vs_Seq3:
+Sequence 1 position: 3940164-3948007 (length: 7843)
+Sequence 2 position: 4033991-4041785 (length: 7794)
+
+Similarity: 83.68%
+
+Comparing sequences in Group14_Seq2_vs_Seq4:
+Sequence 1 position: 3940164-3948007 (length: 7843)
+Sequence 2 position: 4165197-4172973 (length: 7776)
+
+Similarity: 84.41%
+
+Comparing sequences in Group14_Seq2_vs_Seq5:
+Sequence 1 position: 3940164-3948007 (length: 7843)
+Sequence 2 position: 4206503-4214375 (length: 7872)
+
+Similarity: 84.23%
+
+Comparing sequences in Group14_Seq3_vs_Seq4:
+Sequence 1 position: 4033991-4041785 (length: 7794)
+Sequence 2 position: 4165197-4172973 (length: 7776)
+
+Similarity: 85.68%
+
+Comparing sequences in Group14_Seq3_vs_Seq5:
+Sequence 1 position: 4033991-4041785 (length: 7794)
+Sequence 2 position: 4206503-4214375 (length: 7872)
+
+Similarity: 82.75%
+
+Comparing sequences in Group14_Seq4_vs_Seq5:
+Sequence 1 position: 4165197-4172973 (length: 7776)
+Sequence 2 position: 4206503-4214375 (length: 7872)
+
+Similarity: 83.41%
 
 Group 14 Similarity Scores Summary:
-Group14_Seq1_vs_Seq2: Score = 8866.6000, Similarity = 86.94%
+Group14_Seq1_vs_Seq2: Score = 13029.8000, Similarity = 83.06%
+Group14_Seq1_vs_Seq3: Score = 13164.7000, Similarity = 84.44%
+Group14_Seq1_vs_Seq4: Score = 12909.9000, Similarity = 83.00%
+Group14_Seq1_vs_Seq5: Score = 13039.3000, Similarity = 82.81%
+Group14_Seq2_vs_Seq3: Score = 13128.3000, Similarity = 83.68%
+Group14_Seq2_vs_Seq4: Score = 13242.1000, Similarity = 84.41%
+Group14_Seq2_vs_Seq5: Score = 13262.3000, Similarity = 84.23%
+Group14_Seq3_vs_Seq4: Score = 13357.8000, Similarity = 85.68%
+Group14_Seq3_vs_Seq5: Score = 13030.4000, Similarity = 82.75%
+Group14_Seq4_vs_Seq5: Score = 13133.4000, Similarity = 83.41%
 
 Group 14 analysis complete

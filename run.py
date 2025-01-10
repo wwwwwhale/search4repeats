@@ -39,7 +39,7 @@ def main():
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
     similarity_file = os.path.join(output_dir, f"{base_name}_check_similarity.txt")
-    length_threshold=0.2
+    length_threshold = 0.3
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")
