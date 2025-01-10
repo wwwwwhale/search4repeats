@@ -63,33 +63,6 @@ def find_repeated_subsequences(sequence, sub_len):
 
     return repeated_subsequences
 
-
-def merge_intervals(positions):
-    """
-    Merge adjacent or overlapping intervals
-
-    Args:
-        positions (list): List of position tuples
-
-    Returns:
-        list: List of merged position tuples
-    """
-    if not positions:
-        return []
-
-    positions.sort()
-    merged = [positions[0]]
-
-    for current in positions[1:]:
-        last = merged[-1]
-        if current[0] <= last[1] + 1:
-            merged[-1] = (last[0], max(last[1], current[1]))
-        else:
-            merged.append(current)
-
-    return merged
-
-
 def get_merged_subsequence(sequence, merged_positions):
     """
     Extract subsequence based on merged positions
@@ -171,18 +144,21 @@ def main():
         merged_repeated_subsequences = []
 
         for group in grouped_subsequences:
-            all_positions = []
-            all_subseqs = []
+            # 获取每组的起点和终点
+            first_subseq, _, first_positions = group[0]  # 第一个元素
+            last_subseq, _, last_positions = group[-1]  # 最后一个元素
 
-            for subseq, count, positions in group:
-                all_positions.extend(positions)
-                all_subseqs.append(subseq)
+            # 按索引对应生成区间列表
+            merged_positions = [
+                (start, end + len(last_subseq) - 1)
+                for start, end in zip(first_positions, last_positions)
+            ]
 
-            merged_positions = merge_intervals([
-                (pos, pos + len(subseq) - 1) for pos in all_positions
-            ])
-
+            # 拼接合并后的子序列
             merged_subseq = get_merged_subsequence(genome_sequence, merged_positions)
+
+            # 使用每组的 count 作为重复次数（每组的 count 是一致的）
+            count = group[0][1]
             merged_repeated_subsequences.append((merged_subseq, count, merged_positions))
 
         for subseq, count, positions in merged_repeated_subsequences:
