@@ -54,6 +54,8 @@ class IntervalOperations:
 
                 # 计算重叠比例(取两个区间中较小的那个作为基准)
                 overlap_ratio = overlap_length / min(last_length, current_length)
+                # # 计算重叠比例(取两个区间中较小的那个作为基准)
+                # overlap_ratio = overlap_length / max(last_length, current_length)
 
                 # 重叠度超过80%才合并
                 if overlap_ratio > 0.8:

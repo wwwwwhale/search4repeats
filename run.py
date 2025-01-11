@@ -12,20 +12,21 @@ def run_command(command, error_message):
 
 
 def main():
-    # 检查是否提供了基因组文件作为命令行参数
-    if len(sys.argv) < 2:
-        print("Usage: python run.py <genome_file> [output_dir]", file=sys.stderr)
+    if len(sys.argv) < 3:
+        print("Usage: python run.py <genome_file> <gff_file> [output_dir]", file=sys.stderr)
         sys.exit(1)
 
     genome_file = sys.argv[1]
+    gff_file = sys.argv[2]
 
-    # 检查基因组文件是否存在
-    if not os.path.isfile(genome_file):
-        print(f"Error: Genome file '{genome_file}' does not exist.", file=sys.stderr)
-        sys.exit(1)
+    # 检查文件是否存在
+    for file_path in [genome_file, gff_file]:
+        if not os.path.isfile(file_path):
+            print(f"Error: File '{file_path}' does not exist.", file=sys.stderr)
+            sys.exit(1)
 
     # 获取输出目录（可选参数），默认为当前目录
-    output_dir = sys.argv[2] if len(sys.argv) > 2 else "."
+    output_dir = sys.argv[3] if len(sys.argv) > 3 else "."
 
     # 检查输出目录是否存在，不存在则创建
     if not os.path.exists(output_dir):
@@ -41,11 +42,6 @@ def main():
     annotation_file = os.path.join(output_dir, f"{base_name}_annotation_results.csv")
     repeated_len = 500
     length_threshold = 0.3
-    # 获取GFF文件路径（假设与基因组文件在同一目录且命名规则相似）
-    gff_file = os.path.join(os.path.dirname(genome_file), f"{base_name}_genomic.gff")
-    if not os.path.isfile(gff_file):
-        print(f"Warning: GFF file '{gff_file}' not found. Annotation step will be skipped.")
-        gff_file = None
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")
