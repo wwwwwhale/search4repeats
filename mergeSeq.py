@@ -1,12 +1,11 @@
 import csv
+from typing import List, Optional
 import re
 from collections import defaultdict, namedtuple
 import argparse
-import numpy as np
-from typing import List, Dict, NamedTuple, Optional, Set
 from collections import defaultdict
-import maxSimilarBoundary
-from Bio import SeqIO
+from typing import List, Dict, NamedTuple, Tuple, Set
+import numpy as np
 
 class IntervalOperations:
     """区间操作类，处理区间的并集和交集运算"""
@@ -110,17 +109,6 @@ class IntervalOperations:
             for interval in intervals:
                 writer.writerow([interval.start, interval.end])
 
-def load_genome_sequence(fasta_file: str) -> str:
-    """加载基因组序列"""
-    for record in SeqIO.parse(fasta_file, "fasta"):
-        genome_seq = str(record.seq)
-        return genome_seq
-
-def extract_sequence(genome_seq: str, start: int, end: int) -> str:
-    """从基因组中提取指定区间的序列"""
-    if not genome_seq:
-        return ""
-    return genome_seq[start:end]
 
 def parse_sequences(file_path):
     """解析TXT文件，提取重复序列信息"""
@@ -157,6 +145,134 @@ def parse_sequences(file_path):
     except Exception as e:
         print(f"解析文件时发生错误: {str(e)}")
         return []
+
+
+def process_merged_intervals_sequentially(sequence_data: List[Dict],
+                                          merged_intervals: List[namedtuple],
+                                          interval_ops) -> Dict[int, List[Dict]]:
+    """逐个处理merged区间，构建分组"""
+    groups = defaultdict(lambda: {'sequences': set(), 'merged': []})
+    current_group_id = 0
+
+    # 创建或清空日志文件
+    with open('sequence_grouping_process.txt', 'w', encoding='utf-8') as f:
+        f.write("=============== 序列分组详细过程 ===============\n")
+
+    def log_debug(message):
+        """写入调试信息到文件"""
+        with open('sequence_grouping_process.txt', 'a', encoding='utf-8') as f:
+            f.write(message + '\n')
+        print(message)  # 保持控制台输出
+
+    def find_overlapping_sequences(merged_interval, sequences):
+        overlaps = []
+        log_debug(f"\n检查重叠情况:")
+        log_debug(f"  当前merged区间: [{merged_interval.start}, {merged_interval.end}]")
+
+        for seq_idx, seq in enumerate(sequences):
+            log_debug(f"\n  检查序列 {seq_idx}:")
+            for pos_idx, pos in enumerate(seq['positions']):
+                core_interval = interval_ops.Interval(pos[0], pos[1])
+
+                # 计算重叠度
+                overlap_start = max(merged_interval.start, core_interval.start)
+                overlap_end = min(merged_interval.end, core_interval.end)
+
+                if overlap_start <= overlap_end:  # 有重叠
+                    # 计算重叠长度
+                    overlap_length = overlap_end - overlap_start
+                    # 计算两个区间长度
+                    merged_length = merged_interval.end - merged_interval.start
+                    core_length = core_interval.end - core_interval.start
+                    # 使用较短区间作为基准计算重叠度
+                    overlap_ratio = overlap_length / min(merged_length, core_length)
+
+                    log_debug(f"    位置 {pos_idx}: [{core_interval.start}, {core_interval.end}]")
+                    log_debug(f"      重叠区间: [{overlap_start}, {overlap_end}]")
+                    log_debug(f"      重叠长度: {overlap_length}")
+                    log_debug(f"      重叠度: {overlap_ratio:.3f}")
+
+                    if overlap_ratio == 1:
+                        overlaps.append((seq_idx, core_interval))
+                        log_debug(f"      → 重叠度超过1，添加到组!")
+                    else:
+                        log_debug(f"      → 重叠度不足1，忽略")
+                else:
+                    log_debug(f"    位置 {pos_idx}: [{core_interval.start}, {core_interval.end}] → 不重叠")
+
+        return overlaps
+
+    log_debug("\n============= 开始处理merged区间 =============")
+    log_debug(f"初始数据:\n- 序列总数: {len(sequence_data)}\n- 待处理merged区间数: {len(merged_intervals)}")
+
+    for merged_idx, merged in enumerate(merged_intervals):
+        log_debug(f"\n【处理第 {merged_idx + 1}/{len(merged_intervals)} 个merged区间】")
+        log_debug(f"区间位置: [{merged.start}, {merged.end}]")
+
+        overlaps = find_overlapping_sequences(merged, sequence_data)
+
+        if not overlaps:
+            log_debug(f"\n❌ 没有找到重叠的核心序列，跳过此区间")
+            continue
+
+        log_debug(f"\n✓ 找到 {len(overlaps)} 个重叠的核心序列:")
+        for seq_idx, core_interval in overlaps:
+            log_debug(f"  - 序列 {seq_idx}: [{core_interval.start}, {core_interval.end}]")
+
+        found_groups = set()
+        log_debug("\n检查序列所属组:")
+        for seq_idx, _ in overlaps:
+            for group_id, group in groups.items():
+                if seq_idx in group['sequences']:
+                    found_groups.add(group_id)
+                    log_debug(f"  序列 {seq_idx} 属于组 {group_id}")
+
+        if not found_groups:
+            group_id = current_group_id
+            current_group_id += 1
+            log_debug(f"\n➡️ 创建新组 {group_id}")
+        else:
+            group_id = min(found_groups)
+            log_debug(f"\n➡️ 使用现有组 {group_id}")
+
+            if len(found_groups) > 1:
+                log_debug(f"\n⚠️ 需要合并组: {sorted(found_groups)}")
+                main_group_id = min(found_groups)
+
+                for other_group_id in sorted(found_groups - {main_group_id}):
+                    log_debug(f"\n合并组 {other_group_id} 到组 {main_group_id}:")
+                    log_debug(f"- 组 {other_group_id} 原有序列: {sorted(groups[other_group_id]['sequences'])}")
+                    log_debug(f"- 组 {other_group_id} merged区间数: {len(groups[other_group_id]['merged'])}")
+
+                    groups[main_group_id]['sequences'].update(groups[other_group_id]['sequences'])
+                    groups[main_group_id]['merged'].extend(groups[other_group_id]['merged'])
+                    del groups[other_group_id]
+
+                    log_debug(f"合并后组 {main_group_id} 状态:")
+                    log_debug(f"- 序列: {sorted(groups[main_group_id]['sequences'])}")
+                    log_debug(f"- merged区间数: {len(groups[main_group_id]['merged'])}")
+
+        groups[group_id]['sequences'].update(seq_idx for seq_idx, _ in overlaps)
+        groups[group_id]['merged'].append(merged)
+
+        log_debug(f"\n组 {group_id} 最终状态:")
+        log_debug(f"- 序列: {sorted(groups[group_id]['sequences'])}")
+        log_debug(f"- merged区间数: {len(groups[group_id]['merged'])}")
+
+    log_debug("\n============= 分组完成 =============")
+    log_debug(f"最终形成 {len(groups)} 个组:")
+
+    for group_id in sorted(groups.keys()):
+        group = groups[group_id]
+        log_debug(f"\n组 {group_id}:")
+        log_debug(f"- 序列 ({len(group['sequences'])}个): {sorted(group['sequences'])}")
+        log_debug(f"- merged区间 ({len(group['merged'])}个):")
+        for idx, interval in enumerate(group['merged']):
+            log_debug(f"  {idx + 1}. [{interval.start}, {interval.end}]")
+
+    return groups
+
+
 
 def group_by_length(merged_intervals: List[NamedTuple], length_threshold: float = 0.2) -> Dict[int, List[NamedTuple]]:
     """
@@ -195,11 +311,91 @@ def group_by_length(merged_intervals: List[NamedTuple], length_threshold: float 
 
     return length_groups
 
-def write_grouping_results(
-        final_groups: Dict,
-        output_file: str
-):
-    """写入分组结果到CSV文件"""
+
+def process_merged_intervals_with_length_groups(
+        sequence_data: List[Dict],
+        merged_intervals: List[NamedTuple],
+        interval_ops,
+        length_threshold: float = 0.2
+) -> Dict[int, Dict]:
+    """
+    两级分组处理：先按长度分组，再在组内按重叠关系分组
+
+    Args:
+        sequence_data: 序列数据
+        merged_intervals: 合并后的区间列表
+        interval_ops: 区间操作工具类
+        length_threshold: 长度相似度阈值
+
+    Returns:
+        两级分组结果，格式为：
+        {
+            length_group_id: {
+                overlap_group_id: {
+                    'sequences': set(),
+                    'merged': []
+                }
+            }
+        }
+    """
+    # 创建日志文件
+    with open('sequence_grouping_process.txt', 'w', encoding='utf-8') as f:
+        f.write("=============== 序列分组详细过程 ===============\n")
+
+    def log_debug(message):
+        with open('sequence_grouping_process.txt', 'a', encoding='utf-8') as f:
+            f.write(message + '\n')
+        print(message)
+
+    # 第一级：按长度分组
+    length_groups = group_by_length(merged_intervals, length_threshold)
+    log_debug(f"\n共形成 {len(length_groups)} 个长度组")
+
+    # 记录每个长度组的信息
+    for group_id, intervals in length_groups.items():
+        lengths = [interval.end - interval.start for interval in intervals]
+        log_debug(f"\n长度组 {group_id}:")
+        log_debug(f"- 区间数量: {len(intervals)}")
+        log_debug(f"- 长度范围: {min(lengths):.2f} - {max(lengths):.2f}")
+        log_debug(f"- 平均长度: {np.mean(lengths):.2f}")
+
+    # 第二级：在每个长度组内进行重叠分组
+    final_groups = {}
+
+    for length_group_id, length_group_intervals in length_groups.items():
+        log_debug(f"\n处理长度组 {length_group_id}")
+
+        # 使用原有的分组逻辑处理当前长度组的区间
+        overlap_groups = process_merged_intervals_sequentially(
+            sequence_data,
+            length_group_intervals,
+            interval_ops
+        )
+
+        final_groups[length_group_id] = overlap_groups
+
+        log_debug(f"\n长度组 {length_group_id} 处理完成，形成 {len(overlap_groups)} 个重叠组")
+
+    # 输出最终分组统计
+    log_debug("\n=============== 最终分组统计 ===============")
+    total_overlap_groups = sum(len(overlap_groups) for overlap_groups in final_groups.values())
+    log_debug(f"长度组数量: {len(final_groups)}")
+    log_debug(f"总重叠组数量: {total_overlap_groups}")
+
+    for length_group_id, overlap_groups in final_groups.items():
+        log_debug(f"\n长度组 {length_group_id}:")
+        log_debug(f"- 包含 {len(overlap_groups)} 个重叠组")
+        for overlap_group_id, group in overlap_groups.items():
+            log_debug(f"  - 重叠组 {overlap_group_id}: {len(group['sequences'])} 个序列, "
+                      f"{len(group['merged'])} 个merged区间")
+
+    return final_groups
+
+
+def write_sequential_results(final_groups: Dict[int, Dict],
+                             sequence_data: List[Dict],
+                             output_file: str):
+    """将分组结果写入CSV文件，保持原始格式"""
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
 
@@ -208,10 +404,9 @@ def write_grouping_results(
         group_counter = 0
 
         # 遍历所有组并扁平化
-        for length_group_id in sorted(final_groups.keys()):
-            for sim_group_id in sorted(final_groups[length_group_id].keys()):
-                group = final_groups[length_group_id][sim_group_id]
-                flat_groups.append((group_counter, group))
+        for length_groups in final_groups.values():
+            for overlap_group in length_groups.values():
+                flat_groups.append((group_counter, overlap_group))
                 group_counter += 1
 
         # 按组ID排序并写入
@@ -231,203 +426,67 @@ def write_grouping_results(
             writer.writerow([])
             writer.writerow([])
 
-def compare_sequence_pair(seq1,seq2):
-    aligner = maxSimilarBoundary.initialize_aligner()
 
-    score = aligner.score(seq1, seq2)
-    max_score = max(len(seq1),len(seq2)) * aligner.match_score
-    similarity = round(score / max_score if max_score > 0 else 0, 3)
-    return similarity
+def write_summary_file(final_groups: Dict[int, Dict],
+                       output_file: str):
+    """写入分组摘要信息到单独的文件
 
-def group_sequences_by_similarity(sequences: List[Dict], similarity_threshold: float = 0.7) -> Dict[int, Set[int]]:
+    Args:
+        final_groups: 两级分组结果
+        output_file: 输出文件路径
     """
-    将序列按相似度分组，使用传递关系
+    summary_file = output_file.replace('.csv', '_summary.csv')
+    with open(summary_file, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+
+        # 写入总体统计
+        writer.writerow(['Groups Summary'])
+        writer.writerow(['Number of Length Groups', len(final_groups)])
+        total_overlap_groups = sum(len(groups) for groups in final_groups.values())
+        writer.writerow(['Total Overlap Groups', total_overlap_groups])
+        writer.writerow([])
+
+        # 写入每个长度组的统计
+        writer.writerow(['Length Group', 'Overlap Groups', 'Total Intervals', 'Avg Length'])
+        for length_group_id in sorted(final_groups.keys()):
+            overlap_groups = final_groups[length_group_id]
+
+            # 统计信息
+            total_intervals = sum(len(group['merged'])
+                                  for group in overlap_groups.values())
+            all_lengths = []
+            for group in overlap_groups.values():
+                all_lengths.extend(interval.end - interval.start
+                                   for interval in group['merged'])
+            avg_length = sum(all_lengths) / len(all_lengths) if all_lengths else 0
+
+            writer.writerow([
+                length_group_id,
+                len(overlap_groups),
+                total_intervals,
+                f'{avg_length:.2f}'
+            ])
+
+
+# 使用示例：
+def save_results(final_groups: Dict[int, Dict],
+                 sequence_data: List[Dict],
+                 output_file: str):
+    """保存所有结果文件
+
+    Args:
+        final_groups: 两级分组结果
+        sequence_data: 序列数据
+        output_file: 基础输出文件路径
     """
-    n = len(sequences)
-    groups = {}
-    current_group_id = 0
-    processed = set()
+    # 写入详细结果
+    write_sequential_results(final_groups, sequence_data, output_file)
 
-    def log_debug(message):
-        with open('grouping_process.txt', 'a', encoding='utf-8') as f:
-            f.write(message + '\n')
-        print(message)
+    # 写入摘要信息
+    write_summary_file(final_groups, output_file)
 
-    # 添加相似度矩阵的日志
-    log_debug("\n=== 序列相似度比较详情 ===")
-    
-    for i in range(n):
-        if i in processed:
-            continue
-
-        current_group = {i}
-        seq1 = sequences[i]['sequence']
-        log_debug(f"\n处理序列 {i}:")
-        log_debug(f"序列内容: {seq1[:50]}...")  # 只显示前50个字符
-
-        # 考虑传递关系
-        to_check = {i}
-        while to_check:
-            current_idx = to_check.pop()
-            seq1 = sequences[current_idx]['sequence']
-
-            for j in range(n):
-                if j in processed or j in current_group:
-                    continue
-
-                seq2 = sequences[j]['sequence']
-                similarity = compare_sequence_pair(seq1, seq2)
-                
-                # 记录相似度比较结果
-                log_debug(f"\n比较序列 {current_idx} 和序列 {j}:")
-                log_debug(f"序列 {current_idx}: {seq1[:50]}...")
-                log_debug(f"序列 {j}: {seq2[:50]}...")
-                log_debug(f"相似度: {similarity} (阈值: {similarity_threshold})")
-
-                if similarity >= similarity_threshold:
-                    log_debug(f"=> 将序列 {j} 加入到组 {current_group_id}")
-                    current_group.add(j)
-                    to_check.add(j)
-                else:
-                    log_debug("=> 相似度低于阈值，不合并")
-
-        processed.update(current_group)
-        groups[current_group_id] = current_group
-        log_debug(f"\n形成新组 {current_group_id}，包含序列: {current_group}")
-        current_group_id += 1
-
-    return groups
-
-
-def process_two_level_grouping(
-        sequence_data: List[Dict],
-        merged_intervals: List[NamedTuple],
-        length_threshold: float = 0.2,
-        similarity_threshold: float = 0.7,
-        genome: Optional[str] = None,
-        output_file: Optional[str] = None
-) -> Dict[int, Dict[int, Dict]]:
-    """
-    两级分组：先按长度分组，再按序列相似度分组
-    """
-    genome_seq = load_genome_sequence(genome) if genome else None
-
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("=============== 序列分组过程 ===============\n")
-
-    def log_debug(message):
-        with open('grouping_process.txt', 'a', encoding='utf-8') as f:
-            f.write(message + '\n')
-        print(message)
-
-    # 第一级：按长度分组
-    log_debug("开始按长度分组...")
-    # 将所有区间按长度范围分组
-    intervals_by_length = defaultdict(list)
-    for interval in merged_intervals:
-        length = interval.end - interval.start
-        intervals_by_length[length].append(interval)
-
-    # 按长度排序并找出长度相似的组
-    lengths = sorted(intervals_by_length.keys())
-    length_groups = defaultdict(list)
-    current_group = []
-    base_length = None
-    group_id = 0
-
-    for length in lengths:
-        if base_length is None:
-            base_length = length
-            current_group.extend(intervals_by_length[length])
-        else:
-            diff_ratio = abs(length - base_length) / base_length
-            if diff_ratio <= length_threshold:
-                current_group.extend(intervals_by_length[length])
-            else:
-                if current_group:
-                    length_groups[group_id] = current_group
-                    group_id += 1
-                current_group = intervals_by_length[length]
-                base_length = length
-
-    if current_group:
-        length_groups[group_id] = current_group
-
-    log_debug(f"形成了 {len(length_groups)} 个长度组")
-    for gid, intervals in length_groups.items():
-        lengths = [interval.end - interval.start for interval in intervals]
-        log_debug(f"长度组 {gid}: 区间数量 {len(intervals)}, 长度范围 {min(lengths)}-{max(lengths)}")
-
-    final_groups = {}
-
-    # 在每个长度组内进行序列相似度分组
-    for length_group_id, intervals in length_groups.items():
-        log_debug(f"\n处理长度组 {length_group_id}")
-        final_groups[length_group_id] = {}
-
-        # 添加调试信息，输出具体的长度和相似度信息
-        log_debug(f"当前长度组的区间长度:")
-        for interval in intervals:
-            length = interval.end - interval.start
-            log_debug(f"区间 [{interval.start}, {interval.end}] 长度: {length}")
-
-        # 找出与当前长度组相关的序列及其对应的区间
-        relevant_sequences = []
-        relevant_sequence_indices = []
-        sequence_to_interval = {}  # 记录每个序列对应的区间
-
-        for seq_idx, seq in enumerate(sequence_data):
-            matched = False
-            for interval in intervals:
-                for pos in seq['positions']:
-                    if not (interval.end <= pos[0] or pos[1] <= interval.start):
-                        if not matched:  # 只添加一次序列
-                            if genome_seq:
-                                actual_sequence = extract_sequence(genome_seq, pos[0], pos[1])
-                                seq_copy = seq.copy()
-                                seq_copy['sequence'] = actual_sequence
-                                relevant_sequences.append(seq_copy)
-                            else:
-                                relevant_sequences.append(seq)
-                            relevant_sequence_indices.append(seq_idx)
-                            sequence_to_interval[len(relevant_sequences) - 1] = interval
-                            matched = True
-                        break
-
-        log_debug(f"- 找到 {len(relevant_sequences)} 个相关序列")
-
-        if not relevant_sequences:
-            continue
-
-        # 对相关序列进行相似度分组
-        similarity_groups = group_sequences_by_similarity(
-            relevant_sequences,
-            similarity_threshold
-        )
-
-        log_debug(f"- 形成 {len(similarity_groups)} 个相似度组")
-
-        # 保存分组结果
-        for sim_group_id, seq_indices in similarity_groups.items():
-            # 收集这个相似度组中所有序列对应的区间
-            group_intervals = [sequence_to_interval[i] for i in seq_indices]
-            original_indices = {relevant_sequence_indices[i] for i in seq_indices}
-
-            final_groups[length_group_id][sim_group_id] = {
-                'sequences': original_indices,
-                'merged': group_intervals
-            }
-
-            # log_debug(f"  - 相似度组 {sim_group_id}: {len(original_indices)} 个序列")
-            # if genome_seq:
-            #     log_debug("  序列和对应区间:")
-            #     for i in seq_indices:
-            #         seq = relevant_sequences[i]
-            #         interval = sequence_to_interval[i]
-            #         log_debug(f"    序列 {relevant_sequence_indices[i]}: {seq['sequence']}")
-            #         log_debug(f"    区间: [{interval.start}, {interval.end}]")
-
-    return final_groups
+    print(f"\n详细结果已保存到: {output_file}")
+    print(f"摘要信息已保存到: {output_file.replace('.csv', '_summary.csv')}")
 
 
 def parse_arguments():
@@ -448,13 +507,6 @@ def parse_arguments():
                         type=str,
                         default='sequential_grouping_results.csv',
                         help='输出结果的CSV文件路径 (默认: sequential_grouping_results.csv)')
-
-    parser.add_argument('--genome', '-g', required=True,type=str,
-                        help='Input FASTA file path containing genome sequence')
-
-    parser.add_argument('--processing-file', '-p', required=True,type=str,
-                        help='Recording processing')
-
     # 添加长度阈值参数
     parser.add_argument(
         '--length-threshold',
@@ -486,6 +538,7 @@ def parse_arguments():
 
 
 def main():
+    # 解析命令行参数
     args = parse_arguments()
 
     # 初始化区间操作类
@@ -510,17 +563,21 @@ def main():
     sequence_data = parse_sequences(args.sequence_file)
     print(f"读取到 {len(sequence_data)} 个核心序列")
 
-    # 使用新的两级分组处理
-    final_groups = process_two_level_grouping(
+    # 顺序处理merged区间
+    groups = process_merged_intervals_sequentially(
         sequence_data,
         merged,
-        length_threshold=args.length_threshold,
-        similarity_threshold=0.6,
-        genome=args.genome,
-        output_file=args.processing_file
+        ops
+    )
+    # 使用命令行参数中的阈值
+    final_groups = process_merged_intervals_with_length_groups(
+        sequence_data,
+        merged,
+        ops,
+        length_threshold=args.length_threshold
     )
     # 保存结果
-    write_grouping_results(final_groups, args.output_file)
+    write_sequential_results(final_groups, sequence_data, args.output_file)
     print(f"\n结果已保存到: {args.output_file}")
 
 
