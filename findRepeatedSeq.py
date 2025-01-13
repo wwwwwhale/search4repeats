@@ -78,7 +78,7 @@ def get_merged_subsequence(sequence, merged_positions):
     return sequence[start:end + 1]
 
 
-def compare_and_group_subsequences(repeated_subsequences):
+def compare_and_group_subsequences(repeated_subsequences, length):
     """
     Compare and group subsequences based on repeat patterns
 
@@ -103,8 +103,18 @@ def compare_and_group_subsequences(repeated_subsequences):
 
         if count == last_count:
             can_merge = True
+            distance = None  # 初始化 distance
             for pos1, pos2 in zip(positions, last_positions):
-                if abs(pos1 - pos2) != 1:
+                if abs(pos1 - pos2) <= length:  # 检查区间是否有重叠
+                    if distance is None:
+                        # 第一次遍历时计算 distance
+                        distance = pos2 - pos1
+                elif pos2 - pos1 != distance:
+                    # 后续遍历发现左端点差值不等于 distance
+                    can_merge = False
+                    break
+                else:
+                    # 如果区间不重叠，无法合并
                     can_merge = False
                     break
 
@@ -137,7 +147,7 @@ def main():
     repeated_subsequences = find_repeated_subsequences(genome_sequence, args.length)
 
     # Group subsequences
-    grouped_subsequences = compare_and_group_subsequences(repeated_subsequences)
+    grouped_subsequences = compare_and_group_subsequences(repeated_subsequences, args.length)
 
     # Process and write results
     with open(args.output, 'w', encoding='utf-8') as output_file:

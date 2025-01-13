@@ -109,9 +109,9 @@ Number of sequences in group: 3
 
 Comparing sequences in Group6_Seq1_vs_Seq2:
 Sequence 1 position: 2701934-2710952 (length: 9018)
-Sequence 2 position: 2711008-2719819 (length: 8811)
+Sequence 2 position: 2711060-2719819 (length: 8759)
 
-Similarity: 82.41%
+Similarity: 82.18%
 
 Comparing sequences in Group6_Seq1_vs_Seq3:
 Sequence 1 position: 2701934-2710952 (length: 9018)
@@ -120,14 +120,14 @@ Sequence 2 position: 3144188-3153090 (length: 8902)
 Similarity: 84.25%
 
 Comparing sequences in Group6_Seq2_vs_Seq3:
-Sequence 1 position: 2711008-2719819 (length: 8811)
+Sequence 1 position: 2711060-2719819 (length: 8759)
 Sequence 2 position: 3144188-3153090 (length: 8902)
 
-Similarity: 82.90%
+Similarity: 82.62%
 
 Group 6 Similarity Scores Summary:
-Group6_Seq1_vs_Seq2: Score = 14865.3000, Similarity = 82.41%
+Group6_Seq1_vs_Seq2: Score = 14822.9000, Similarity = 82.18%
 Group6_Seq1_vs_Seq3: Score = 15197.6000, Similarity = 84.25%
-Group6_Seq2_vs_Seq3: Score = 14760.3000, Similarity = 82.90%
+Group6_Seq2_vs_Seq3: Score = 14710.9000, Similarity = 82.62%
 
 Group 6 analysis complete

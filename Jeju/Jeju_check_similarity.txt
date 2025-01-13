@@ -100,9 +100,9 @@ Similarity: 82.13%
 
 Comparing sequences in Group5_Seq1_vs_Seq3:
 Sequence 1 position: 1402174-1410417 (length: 8243)
-Sequence 2 position: 1538538-1545790 (length: 7252)
+Sequence 2 position: 1538557-1545790 (length: 7233)
 
-Similarity: 77.51%
+Similarity: 77.40%
 
 Comparing sequences in Group5_Seq1_vs_Seq4:
 Sequence 1 position: 1402174-1410417 (length: 8243)
@@ -112,9 +112,9 @@ Similarity: 82.15%
 
 Comparing sequences in Group5_Seq2_vs_Seq3:
 Sequence 1 position: 1495607-1503404 (length: 7797)
-Sequence 2 position: 1538538-1545790 (length: 7252)
+Sequence 2 position: 1538557-1545790 (length: 7233)
 
-Similarity: 81.08%
+Similarity: 80.92%
 
 Comparing sequences in Group5_Seq2_vs_Seq4:
 Sequence 1 position: 1495607-1503404 (length: 7797)
@@ -123,17 +123,17 @@ Sequence 2 position: 2227101-2234980 (length: 7879)
 Similarity: 82.76%
 
 Comparing sequences in Group5_Seq3_vs_Seq4:
-Sequence 1 position: 1538538-1545790 (length: 7252)
+Sequence 1 position: 1538557-1545790 (length: 7233)
 Sequence 2 position: 2227101-2234980 (length: 7879)
 
-Similarity: 80.20%
+Similarity: 80.08%
 
 Group 5 Similarity Scores Summary:
 Group5_Seq1_vs_Seq2: Score = 13542.0000, Similarity = 82.13%
-Group5_Seq1_vs_Seq3: Score = 12780.3000, Similarity = 77.51%
+Group5_Seq1_vs_Seq3: Score = 12761.4000, Similarity = 77.40%
 Group5_Seq1_vs_Seq4: Score = 13545.6000, Similarity = 82.15%
-Group5_Seq2_vs_Seq3: Score = 12645.1000, Similarity = 81.08%
+Group5_Seq2_vs_Seq3: Score = 12620.8000, Similarity = 80.92%
 Group5_Seq2_vs_Seq4: Score = 13043.2000, Similarity = 82.76%
-Group5_Seq3_vs_Seq4: Score = 12640.3000, Similarity = 80.20%
+Group5_Seq3_vs_Seq4: Score = 12620.8000, Similarity = 80.08%
 
 Group 5 analysis complete
