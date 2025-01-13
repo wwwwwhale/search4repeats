@@ -38,7 +38,6 @@ def main():
     repeated_seq_file = os.path.join(output_dir, f"{base_name}_repeated_seq.txt")
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
-    similarity_file = os.path.join(output_dir, f"{base_name}_check_similarity.txt")
     annotation_file = os.path.join(output_dir, f"{base_name}_annotation_results.csv")
     repeated_len = 500
     length_threshold = 0.3
@@ -59,29 +58,21 @@ def main():
     run_command(max_similar_boundary_cmd, "Error: maxSimilarBoundary.py failed.")
     print(f"Output saved to {extended_file}")
 
-    # Step 3: 运行 mergeSeq.py
-    print("Running mergeSeq.py...")
+    # Step 3: 运行 groupSeq.py
+    print("Running groupSeq.py...")
     merge_seq_cmd = (
-        f"python mergeSeq.py --interval-file {extended_file} "
-        f"--sequence-file {repeated_seq_file} --output-file {group_file} --length-threshold {length_threshold}"
+        f"python mergeSeq.py --csv-file {extended_file} "
+        f"--genome {genome_file} --output-file {group_file}"
     )
-    run_command(merge_seq_cmd, "Error: mergeSeq.py failed.")
+    run_command(merge_seq_cmd, "Error: groupSeq.py failed.")
     print(f"Output saved to {group_file}")
 
-    # Step 4: 运行 checkSimilarity.py
-    print("Running checkSimilarity.py...")
-    check_similarity_cmd = (
-        f"python checkSimilarity.py -g {genome_file} -i {group_file} -o {similarity_file}"
-    )
-    run_command(check_similarity_cmd, "Error: checkSimilarity.py failed.")
-    print(f"Output saved to {similarity_file}")
-
-    # Step 5: 运行序列注释（如果有GFF文件）
+    # Step 4: 运行序列注释（如果有GFF文件）
     if gff_file and os.path.isfile(gff_file):
         print("Running sequence annotation...")
         annotation_cmd = (
             f"python seqAnnotation.py -i {group_file} -g {gff_file} "
-            f"-f {genome_file} -o {annotation_file}"
+            f"-f {genome_file}"
         )
         run_command(annotation_cmd, "Error: annotateSequences.py failed.")
         print(f"Annotation results saved to {annotation_file}")
