@@ -40,6 +40,7 @@ def main():
     group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
     similarity_file = os.path.join(output_dir, f"{base_name}_check_similarity.txt")
     annotation_file = os.path.join(output_dir, f"{base_name}_annotation_results.csv")
+    processing_file=os.path.join(output_dir, f"{base_name}_processing.txt")
     repeated_len = 500
     length_threshold = 0.3
 
@@ -63,7 +64,7 @@ def main():
     print("Running mergeSeq.py...")
     merge_seq_cmd = (
         f"python mergeSeq.py --interval-file {extended_file} "
-        f"--sequence-file {repeated_seq_file} --output-file {group_file} --length-threshold {length_threshold} --genome {genome_file}"
+        f"--sequence-file {repeated_seq_file} --output-file {group_file} --length-threshold {length_threshold} --genome {genome_file} --processing-file {processing_file}"
     )
     run_command(merge_seq_cmd, "Error: mergeSeq.py failed.")
     print(f"Output saved to {group_file}")
