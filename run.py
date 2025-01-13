@@ -63,7 +63,7 @@ def main():
     print("Running mergeSeq.py...")
     merge_seq_cmd = (
         f"python mergeSeq.py --interval-file {extended_file} "
-        f"--sequence-file {repeated_seq_file} --output-file {group_file} --length-threshold {length_threshold}"
+        f"--sequence-file {repeated_seq_file} --output-file {group_file} --length-threshold {length_threshold} --genome {genome_file}"
     )
     run_command(merge_seq_cmd, "Error: mergeSeq.py failed.")
     print(f"Output saved to {group_file}")
