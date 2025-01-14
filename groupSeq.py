@@ -45,42 +45,78 @@ def calculate_overlap(interval_a, interval_b):
     overlap_start = max(start_a, start_b)
     overlap_end = min(end_a, end_b)
     overlap_length = max(0, overlap_end - overlap_start)  # 重叠长度
-    # total_length = min(end_a - start_a, end_b - start_b)  # 两区间的最小长度
-    total_length = max(end_a, end_b) - min(start_a, start_b)  # 合并区间长度
+    total_length = min(end_a - start_a, end_b - start_b)  # 两区间的最小长度
+    # total_length = max(end_a, end_b) - min(start_a, start_b)  # 合并区间长度
     return overlap_length / total_length if total_length > 0 else 0
 
 
 
-def group_intervals_by_overlap(seqpairs):
+def group_intervals_by_overlap(seqpairs, log_file=None):
     """
-    将区间对按重叠关系分组。
+    将区间对按重叠关系分组，并记录分组过程日志。
 
-    Returns:
-        list: 分组后的序列对列表
+    :param seqpairs: 序列对列表，每个序列对为 (interval1, interval2, length) 的形式
+    :param log_file: 可选，日志文件路径。如果为 None，则打印日志到控制台
+    :return: 分组后的序列对列表
     """
     grouped_results = []
+    log_messages = []  # 用于保存日志信息
+
+    def log(message):
+        if log_file:
+            log_messages.append(message)  # 将日志保存到列表中，稍后写入文件
+        else:
+            print(message)  # 打印日志到控制台
+
+    log("Starting to group intervals...")
+    log(f"Total sequence pairs to process: {len(seqpairs)}")
 
     for seqpair in seqpairs:
         interval1, interval2, length = seqpair
+        log(f"Processing sequence pair: {seqpair}")
         added_to_group = False
 
-        for group in grouped_results:
-            # 检查当前序列对是否与组内任何序列对有重叠
-            if any(
-                calculate_overlap(interval1, g[0]) >= 0.85 or
-                calculate_overlap(interval1, g[1]) >= 0.85 or
-                calculate_overlap(interval2, g[0]) >= 0.85 or
-                calculate_overlap(interval2, g[1]) >= 0.85
-                for g in group
-            ):
-                group.append(seqpair)
-                added_to_group = True
+        for i, group in enumerate(grouped_results):
+            log(f"Checking against group {i} with {len(group)} members.")
+            for g in group:
+                overlap1 = calculate_overlap(interval1, g[0])
+                overlap2 = calculate_overlap(interval1, g[1])
+                overlap3 = calculate_overlap(interval2, g[0])
+                overlap4 = calculate_overlap(interval2, g[1])
+
+                log(
+                    f"Overlaps with group element {g}: "
+                    f"[interval1-g[0]: {overlap1:.2f}, interval1-g[1]: {overlap2:.2f}, "
+                    f"interval2-g[0]: {overlap3:.2f}, interval2-g[1]: {overlap4:.2f}]"
+                )
+
+                if (
+                    overlap1 >= 0.85 or
+                    overlap2 >= 0.85 or
+                    overlap3 >= 0.85 or
+                    overlap4 >= 0.85
+                ):
+                    group.append(seqpair)
+                    log(f"Added {seqpair} to group {i}.")
+                    added_to_group = True
+                    break
+            if added_to_group:
+                log(f"Sequence pair {seqpair} successfully added to group {i}.")
                 break
 
         if not added_to_group:
             grouped_results.append([seqpair])
+            log(f"Created new group with {seqpair} as the first member.")
+
+    log(f"Grouping complete. Total groups formed: {len(grouped_results)}")
+
+    # 如果指定了日志文件，将日志写入文件
+    if log_file:
+        with open(log_file, "w") as file:
+            file.write("\n".join(log_messages))
 
     return grouped_results
+
 
 def merge_intervals_in_group(intervals):
     """
@@ -279,6 +315,7 @@ def main():
     parser.add_argument('--csv-file', type=str, help='输入CSV文件路径')
     parser.add_argument('--genome', type=str, help='基因组FASTA文件路径')
     parser.add_argument('--output-file', type=str, help='输出结果CSV文件路径')
+    parser.add_argument('--log-file', type=str, help='可选日志文件路径')
 
     args = parser.parse_args()
 
@@ -287,7 +324,7 @@ def main():
     print(f"读取到 {len(seqpairs)} 个序列对")
 
     # 2. 分组
-    grouped_results = group_intervals_by_overlap(seqpairs)
+    grouped_results = group_intervals_by_overlap(seqpairs, args.log_file)
     print(f"分成 {len(grouped_results)} 组")
 
     # 3. 合并每组内的序列
