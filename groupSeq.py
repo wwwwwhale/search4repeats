@@ -4,6 +4,39 @@ from Bio import SeqIO
 from Bio.Align import PairwiseAligner
 import multiprocessing
 
+def calculate_group_avg_length(group):
+    """
+    计算分组中序列的平均长度。
+
+    Args:
+        group: 序列组 [(interval1, interval2, length), ...]
+
+    Returns:
+        float: 平均长度
+    """
+    if not group:
+        return 0
+    lengths = [seq[2] for seq in group]
+    return sum(lengths) / len(lengths)
+
+def is_length_compatible(seq_length, group_avg_length, threshold=0.9):
+    """
+    判断序列长度是否与组平均长度相近。
+
+    Args:
+        seq_length: 当前序列长度
+        group_avg_length: 组平均长度
+        threshold: 允许的长度差异比例
+
+    Returns:
+        bool: 长度是否相近
+    """
+    if group_avg_length == 0:
+        return True
+
+    length_diff_ratio = abs(seq_length - group_avg_length) / group_avg_length
+    return length_diff_ratio <= 1 - threshold
+
 def read_intervals_from_csv(csv_file_path):
     """
     读取CSV文件，返回区间对和length。
@@ -53,36 +86,51 @@ def calculate_overlap(interval_a, interval_b):
 
 def group_intervals_by_overlap(seqpairs, log_file=None):
     """
-    将区间对按重叠关系分组，并记录分组过程日志。
+    将区间对按长度和重叠关系分组，并记录分组过程日志。
+    先比较长度，再分析重叠度。
 
-    :param seqpairs: 序列对列表，每个序列对为 (interval1, interval2, length) 的形式
-    :param log_file: 可选，日志文件路径。如果为 None，则打印日志到控制台
-    :return: 分组后的序列对列表
+    Args:
+        seqpairs: 序列对列表，每个序列对为 (seq_idx, interval1, interval2, length) 的形式
+        log_file: 可选，日志文件路径
+
+    Returns:
+        list: 分组后的序列对列表
     """
     grouped_results = []
-    log_messages = []  # 用于保存日志信息
+    log_messages = []
 
     def log(message):
         if log_file:
-            log_messages.append(message)  # 将日志保存到列表中，稍后写入文件
+            log_messages.append(message)
         else:
-            print(message)  # 打印日志到控制台
+            print(message)
 
     log("Starting to group intervals...")
     log(f"Total sequence pairs to process: {len(seqpairs)}")
 
     for seqpair in seqpairs:
         interval1, interval2, length = seqpair
-        log(f"Processing sequence pair: {seqpair}")
+        log(f"\nProcessing sequence pair: {seqpair}")
         added_to_group = False
 
         for i, group in enumerate(grouped_results):
-            log(f"Checking against group {i} with {len(group)} members.")
+            group_avg_length = calculate_group_avg_length(group)
+            log(f"Group {i} average length: {group_avg_length}")
+
+            # 首先检查长度是否相近
+            if not is_length_compatible(length, group_avg_length):
+                log(f"Length {length} not compatible with group average {group_avg_length}")
+                continue
+
+            log(f"Length compatible, checking overlaps in group {i} with {len(group)} members.")
+
+            # 如果长度相近，再检查重叠度
             for g in group:
-                overlap1 = calculate_overlap(interval1, g[0])
-                overlap2 = calculate_overlap(interval1, g[1])
-                overlap3 = calculate_overlap(interval2, g[0])
-                overlap4 = calculate_overlap(interval2, g[1])
+                g_interval1, g_interval2, _ = g
+                overlap1 = calculate_overlap(interval1, g_interval1)
+                overlap2 = calculate_overlap(interval1, g_interval2)
+                overlap3 = calculate_overlap(interval2, g_interval1)
+                overlap4 = calculate_overlap(interval2, g_interval2)
 
                 log(
                     f"Overlaps with group element {g}: "
@@ -91,15 +139,16 @@ def group_intervals_by_overlap(seqpairs, log_file=None):
                 )
 
                 if (
-                    overlap1 >= 0.85 or
-                    overlap2 >= 0.85 or
-                    overlap3 >= 0.85 or
-                    overlap4 >= 0.85
+                        overlap1 >= 0.9 or
+                        overlap2 >= 0.9 or
+                        overlap3 >= 0.9 or
+                        overlap4 >= 0.9
                 ):
                     group.append(seqpair)
                     log(f"Added {seqpair} to group {i}.")
                     added_to_group = True
                     break
+
             if added_to_group:
                 log(f"Sequence pair {seqpair} successfully added to group {i}.")
                 break
@@ -108,9 +157,19 @@ def group_intervals_by_overlap(seqpairs, log_file=None):
             grouped_results.append([seqpair])
             log(f"Created new group with {seqpair} as the first member.")
 
-    log(f"Grouping complete. Total groups formed: {len(grouped_results)}")
+    # 打印每个组的长度统计信息
+    for i, group in enumerate(grouped_results):
+        avg_length = calculate_group_avg_length(group)
+        lengths = [seq[2] for seq in group]
+        min_length = min(lengths)
+        max_length = max(lengths)
+        log(f"\nGroup {i} statistics:")
+        log(f"Average length: {avg_length:.2f}")
+        log(f"Length range: {min_length} - {max_length}")
+        log(f"Number of sequences: {len(group)}")
 
-    # 如果指定了日志文件，将日志写入文件
+    log(f"\nGrouping complete. Total groups formed: {len(grouped_results)}")
+
     if log_file:
         with open(log_file, "w") as file:
             file.write("\n".join(log_messages))
@@ -151,7 +210,7 @@ def merge_intervals_in_group(intervals):
                 if j in used:
                     continue
 
-                if calculate_overlap((current_start, current_end), interval2) >= 0.85:
+                if calculate_overlap((current_start, current_end), interval2) >= 0.9:
                     current_start = min(current_start, interval2[0])
                     current_end = max(current_end, interval2[1])
                     used.add(j)

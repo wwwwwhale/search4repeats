@@ -39,6 +39,7 @@ def main():
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
     annotation_file = os.path.join(output_dir, f"{base_name}_annotation_results.csv")
+    log_file = os.path.join(output_dir, f"{base_name}_processing.txt")
     repeated_len = 500
 
     # Step 1: 运行 findRepeatedSeq.py
@@ -61,7 +62,7 @@ def main():
     print("Running groupSeq.py...")
     group_seq_cmd = (
         f"python groupSeq.py --csv-file {extended_file} "
-        f"--genome {genome_file} --output-file {group_file}"
+        f"--genome {genome_file} --output-file {group_file} --log-file {log_file}"
     )
     run_command(group_seq_cmd, "Error: groupSeq.py failed.")
     print(f"Output saved to {group_file}")
