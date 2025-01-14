@@ -1,0 +1,2978 @@
+Starting to group intervals...
+Total sequence pairs to process: 77
+
+Processing sequence pair: ((685821, 687440), (5073108, 5074727), 1620)
+Created new group with ((685821, 687440), (5073108, 5074727), 1620) as the first member.
+
+Processing sequence pair: ((1541354, 1543008), (2230009, 2231663), 1655)
+Group 0 average length: 1620.0
+Length compatible, checking overlaps in group 0 with 1 members.
+Overlaps with group element ((685821, 687440), (5073108, 5074727), 1620): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1541354, 1543008), (2230009, 2231663), 1655) as the first member.
+
+Processing sequence pair: ((1541518, 1543181), (2230174, 2231837), 1664)
+Group 0 average length: 1620.0
+Length compatible, checking overlaps in group 0 with 1 members.
+Overlaps with group element ((685821, 687440), (5073108, 5074727), 1620): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 1 average length: 1655.0
+Length compatible, checking overlaps in group 1 with 1 members.
+Overlaps with group element ((1541354, 1543008), (2230009, 2231663), 1655): [interval1-g[0]: 0.90, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.90]
+Added ((1541518, 1543181), (2230174, 2231837), 1664) to group 1.
+Sequence pair ((1541518, 1543181), (2230174, 2231837), 1664) successfully added to group 1.
+
+Processing sequence pair: ((2476549, 2478319), (2479451, 2481221), 1771)
+Group 0 average length: 1620.0
+Length compatible, checking overlaps in group 0 with 1 members.
+Overlaps with group element ((685821, 687440), (5073108, 5074727), 1620): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 1 average length: 1659.5
+Length compatible, checking overlaps in group 1 with 2 members.
+Overlaps with group element ((1541354, 1543008), (2230009, 2231663), 1655): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1541518, 1543181), (2230174, 2231837), 1664): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((2476549, 2478319), (2479451, 2481221), 1771) as the first member.
+
+Processing sequence pair: ((1290349, 1292122), (1292391, 1294164), 1774)
+Group 0 average length: 1620.0
+Length compatible, checking overlaps in group 0 with 1 members.
+Overlaps with group element ((685821, 687440), (5073108, 5074727), 1620): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 1 average length: 1659.5
+Length compatible, checking overlaps in group 1 with 2 members.
+Overlaps with group element ((1541354, 1543008), (2230009, 2231663), 1655): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1541518, 1543181), (2230174, 2231837), 1664): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 2 average length: 1771.0
+Length compatible, checking overlaps in group 2 with 1 members.
+Overlaps with group element ((2476549, 2478319), (2479451, 2481221), 1771): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1290349, 1292122), (1292391, 1294164), 1774) as the first member.
+
+Processing sequence pair: ((687320, 689598), (1175629, 1177907), 2279)
+Group 0 average length: 1620.0
+Length 2279 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2279 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2279 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2279 not compatible with group average 1774.0
+Created new group with ((687320, 689598), (1175629, 1177907), 2279) as the first member.
+
+Processing sequence pair: ((687120, 689398), (5074552, 5076830), 2279)
+Group 0 average length: 1620.0
+Length 2279 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2279 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2279 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2279 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 1 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.91, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((687120, 689398), (5074552, 5076830), 2279) to group 4.
+Sequence pair ((687120, 689398), (5074552, 5076830), 2279) successfully added to group 4.
+
+Processing sequence pair: ((1403574, 1405890), (1539247, 1541563), 2317)
+Group 0 average length: 1620.0
+Length 2317 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2317 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2317 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2317 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1403574, 1405890), (1539247, 1541563), 2317) as the first member.
+
+Processing sequence pair: ((1497007, 1499323), (1539247, 1541563), 2317)
+Group 0 average length: 1620.0
+Length 2317 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2317 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2317 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2317 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2317.0
+Length compatible, checking overlaps in group 5 with 1 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1497007, 1499323), (1539247, 1541563), 2317) to group 5.
+Sequence pair ((1497007, 1499323), (1539247, 1541563), 2317) successfully added to group 5.
+
+Processing sequence pair: ((1403712, 1406036), (1539385, 1541709), 2325)
+Group 0 average length: 1620.0
+Length 2325 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2325 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2325 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2325 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2317.0
+Length compatible, checking overlaps in group 5 with 2 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.94, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.94]
+Added ((1403712, 1406036), (1539385, 1541709), 2325) to group 5.
+Sequence pair ((1403712, 1406036), (1539385, 1541709), 2325) successfully added to group 5.
+
+Processing sequence pair: ((1497045, 1499369), (1539285, 1541609), 2325)
+Group 0 average length: 1620.0
+Length 2325 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2325 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2325 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2325 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2319.6666666666665
+Length compatible, checking overlaps in group 5 with 3 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((1497045, 1499369), (1539285, 1541609), 2325) to group 5.
+Sequence pair ((1497045, 1499369), (1539285, 1541609), 2325) successfully added to group 5.
+
+Processing sequence pair: ((1403338, 1405672), (1539011, 1541345), 2335)
+Group 0 average length: 1620.0
+Length 2335 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2335 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2335 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2335 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2321.0
+Length compatible, checking overlaps in group 5 with 4 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.91, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.91]
+Added ((1403338, 1405672), (1539011, 1541345), 2335) to group 5.
+Sequence pair ((1403338, 1405672), (1539011, 1541345), 2335) successfully added to group 5.
+
+Processing sequence pair: ((1497071, 1499405), (1539311, 1541645), 2335)
+Group 0 average length: 1620.0
+Length 2335 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2335 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2335 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2335 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2323.8
+Length compatible, checking overlaps in group 5 with 5 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.97]
+Added ((1497071, 1499405), (1539311, 1541645), 2335) to group 5.
+Sequence pair ((1497071, 1499405), (1539311, 1541645), 2335) successfully added to group 5.
+
+Processing sequence pair: ((687300, 689676), (1175609, 1177985), 2377)
+Group 0 average length: 1620.0
+Length 2377 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2377 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2377 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2377 not compatible with group average 1774.0
+Group 4 average length: 2279.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((687300, 689676), (1175609, 1177985), 2377) to group 4.
+Sequence pair ((687300, 689676), (1175609, 1177985), 2377) successfully added to group 4.
+
+Processing sequence pair: ((1539147, 1541563), (2227949, 2230365), 2417)
+Group 0 average length: 1620.0
+Length 2417 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2417 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2417 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2417 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length compatible, checking overlaps in group 4 with 3 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687300, 689676), (1175609, 1177985), 2377): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2325.6666666666665
+Length compatible, checking overlaps in group 5 with 6 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 1.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1539147, 1541563), (2227949, 2230365), 2417) to group 5.
+Sequence pair ((1539147, 1541563), (2227949, 2230365), 2417) successfully added to group 5.
+
+Processing sequence pair: ((1539085, 1541509), (2227887, 2230311), 2425)
+Group 0 average length: 1620.0
+Length 2425 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2425 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2425 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2425 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length compatible, checking overlaps in group 4 with 3 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687300, 689676), (1175609, 1177985), 2377): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2338.714285714286
+Length compatible, checking overlaps in group 5 with 7 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.98, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1539085, 1541509), (2227887, 2230311), 2425) to group 5.
+Sequence pair ((1539085, 1541509), (2227887, 2230311), 2425) successfully added to group 5.
+
+Processing sequence pair: ((1539052, 1541483), (2227854, 2230285), 2432)
+Group 0 average length: 1620.0
+Length 2432 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2432 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2432 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2432 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length compatible, checking overlaps in group 4 with 3 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687300, 689676), (1175609, 1177985), 2377): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2349.5
+Length compatible, checking overlaps in group 5 with 8 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.97, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1539052, 1541483), (2227854, 2230285), 2432) to group 5.
+Sequence pair ((1539052, 1541483), (2227854, 2230285), 2432) successfully added to group 5.
+
+Processing sequence pair: ((1171823, 1174353), (5070858, 5073388), 2531)
+Group 0 average length: 1620.0
+Length 2531 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2531 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2531 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2531 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length compatible, checking overlaps in group 4 with 3 members.
+Overlaps with group element ((687320, 689598), (1175629, 1177907), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687120, 689398), (5074552, 5076830), 2279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((687300, 689676), (1175609, 1177985), 2377): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 5 average length: 2358.6666666666665
+Length compatible, checking overlaps in group 5 with 9 members.
+Overlaps with group element ((1403574, 1405890), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497007, 1499323), (1539247, 1541563), 2317): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1403712, 1406036), (1539385, 1541709), 2325): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497045, 1499369), (1539285, 1541609), 2325): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1403338, 1405672), (1539011, 1541345), 2335): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497071, 1499405), (1539311, 1541645), 2335): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539147, 1541563), (2227949, 2230365), 2417): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539085, 1541509), (2227887, 2230311), 2425): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539052, 1541483), (2227854, 2230285), 2432): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1171823, 1174353), (5070858, 5073388), 2531) as the first member.
+
+Processing sequence pair: ((3534807, 3537421), (3539331, 3541945), 2615)
+Group 0 average length: 1620.0
+Length 2615 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2615 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2615 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2615 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 2615 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 2615 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length compatible, checking overlaps in group 6 with 1 members.
+Overlaps with group element ((1171823, 1174353), (5070858, 5073388), 2531): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((3534807, 3537421), (3539331, 3541945), 2615) as the first member.
+
+Processing sequence pair: ((684948, 687711), (5072234, 5074997), 2764)
+Group 0 average length: 1620.0
+Length 2764 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 2764 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 2764 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 2764 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 2764 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 2764 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length compatible, checking overlaps in group 6 with 1 members.
+Overlaps with group element ((1171823, 1174353), (5070858, 5073388), 2531): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.46]
+Group 7 average length: 2615.0
+Length compatible, checking overlaps in group 7 with 1 members.
+Overlaps with group element ((3534807, 3537421), (3539331, 3541945), 2615): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((684948, 687711), (5072234, 5074997), 2764) as the first member.
+
+Processing sequence pair: ((1171802, 1174817), (5070837, 5073852), 3016)
+Group 0 average length: 1620.0
+Length 3016 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3016 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3016 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3016 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3016 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3016 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3016 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3016 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length compatible, checking overlaps in group 8 with 1 members.
+Overlaps with group element ((684948, 687711), (5072234, 5074997), 2764): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.59]
+Created new group with ((1171802, 1174817), (5070837, 5073852), 3016) as the first member.
+
+Processing sequence pair: ((1542270, 1545290), (2231014, 2234034), 3021)
+Group 0 average length: 1620.0
+Length 3021 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3021 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3021 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3021 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3021 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3021 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3021 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3021 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length compatible, checking overlaps in group 8 with 1 members.
+Overlaps with group element ((684948, 687711), (5072234, 5074997), 2764): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 9 average length: 3016.0
+Length compatible, checking overlaps in group 9 with 1 members.
+Overlaps with group element ((1171802, 1174817), (5070837, 5073852), 3016): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1542270, 1545290), (2231014, 2234034), 3021) as the first member.
+
+Processing sequence pair: ((1171755, 1174835), (5070790, 5073870), 3081)
+Group 0 average length: 1620.0
+Length 3081 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3081 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3081 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3081 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3081 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3081 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3081 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3081 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 3081 not compatible with group average 2764.0
+Group 9 average length: 3016.0
+Length compatible, checking overlaps in group 9 with 1 members.
+Overlaps with group element ((1171802, 1174817), (5070837, 5073852), 3016): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1171755, 1174835), (5070790, 5073870), 3081) to group 9.
+Sequence pair ((1171755, 1174835), (5070790, 5073870), 3081) successfully added to group 9.
+
+Processing sequence pair: ((1406551, 1409771), (2231114, 2234334), 3221)
+Group 0 average length: 1620.0
+Length 3221 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3221 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3221 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3221 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3221 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3221 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3221 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3221 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 3221 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length compatible, checking overlaps in group 9 with 2 members.
+Overlaps with group element ((1171802, 1174817), (5070837, 5073852), 3016): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171755, 1174835), (5070790, 5073870), 3081): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 10 average length: 3021.0
+Length compatible, checking overlaps in group 10 with 1 members.
+Overlaps with group element ((1542270, 1545290), (2231014, 2234034), 3021): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.97]
+Added ((1406551, 1409771), (2231114, 2234334), 3221) to group 10.
+Sequence pair ((1406551, 1409771), (2231114, 2234334), 3221) successfully added to group 10.
+
+Processing sequence pair: ((2508049, 2511409), (2517944, 2521304), 3361)
+Group 0 average length: 1620.0
+Length 3361 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3361 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3361 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3361 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3361 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3361 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3361 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3361 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 3361 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 3361 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length compatible, checking overlaps in group 10 with 2 members.
+Overlaps with group element ((1542270, 1545290), (2231014, 2234034), 3021): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1406551, 1409771), (2231114, 2234334), 3221): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((2508049, 2511409), (2517944, 2521304), 3361) as the first member.
+
+Processing sequence pair: ((3534773, 3538726), (3538253, 3542206), 3954)
+Group 0 average length: 1620.0
+Length 3954 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3954 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3954 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3954 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3954 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3954 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3954 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3954 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 3954 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 3954 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 3954 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 3954 not compatible with group average 3361.0
+Created new group with ((3534773, 3538726), (3538253, 3542206), 3954) as the first member.
+
+Processing sequence pair: ((683875, 687836), (5071072, 5075033), 3962)
+Group 0 average length: 1620.0
+Length 3962 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3962 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3962 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3962 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3962 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3962 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3962 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3962 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 3962 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 3962 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 3962 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 3962 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length compatible, checking overlaps in group 12 with 1 members.
+Overlaps with group element ((3534773, 3538726), (3538253, 3542206), 3954): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((683875, 687836), (5071072, 5075033), 3962) as the first member.
+
+Processing sequence pair: ((683893, 687873), (5071090, 5075070), 3981)
+Group 0 average length: 1620.0
+Length 3981 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 3981 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 3981 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 3981 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 3981 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 3981 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 3981 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 3981 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 3981 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 3981 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 3981 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 3981 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length compatible, checking overlaps in group 12 with 1 members.
+Overlaps with group element ((3534773, 3538726), (3538253, 3542206), 3954): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 13 average length: 3962.0
+Length compatible, checking overlaps in group 13 with 1 members.
+Overlaps with group element ((683875, 687836), (5071072, 5075033), 3962): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((683893, 687873), (5071090, 5075070), 3981) to group 13.
+Sequence pair ((683893, 687873), (5071090, 5075070), 3981) successfully added to group 13.
+
+Processing sequence pair: ((683940, 687955), (5071137, 5075152), 4016)
+Group 0 average length: 1620.0
+Length 4016 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 4016 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 4016 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 4016 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 4016 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 4016 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 4016 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 4016 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 4016 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 4016 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 4016 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 4016 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length compatible, checking overlaps in group 12 with 1 members.
+Overlaps with group element ((3534773, 3538726), (3538253, 3542206), 3954): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 13 average length: 3971.5
+Length compatible, checking overlaps in group 13 with 2 members.
+Overlaps with group element ((683875, 687836), (5071072, 5075033), 3962): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((683940, 687955), (5071137, 5075152), 4016) to group 13.
+Sequence pair ((683940, 687955), (5071137, 5075152), 4016) successfully added to group 13.
+
+Processing sequence pair: ((1403035, 1407189), (2227509, 2231663), 4155)
+Group 0 average length: 1620.0
+Length 4155 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 4155 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 4155 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 4155 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 4155 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 4155 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 4155 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 4155 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 4155 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 4155 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 4155 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 4155 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length compatible, checking overlaps in group 12 with 1 members.
+Overlaps with group element ((3534773, 3538726), (3538253, 3542206), 3954): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 13 average length: 3986.3333333333335
+Length compatible, checking overlaps in group 13 with 3 members.
+Overlaps with group element ((683875, 687836), (5071072, 5075033), 3962): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683893, 687873), (5071090, 5075070), 3981): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683940, 687955), (5071137, 5075152), 4016): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1403035, 1407189), (2227509, 2231663), 4155) as the first member.
+
+Processing sequence pair: ((1496468, 1500622), (2227509, 2231663), 4155)
+Group 0 average length: 1620.0
+Length 4155 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 4155 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 4155 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 4155 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 4155 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 4155 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 4155 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 4155 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 4155 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 4155 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 4155 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 4155 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length compatible, checking overlaps in group 12 with 1 members.
+Overlaps with group element ((3534773, 3538726), (3538253, 3542206), 3954): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 13 average length: 3986.3333333333335
+Length compatible, checking overlaps in group 13 with 3 members.
+Overlaps with group element ((683875, 687836), (5071072, 5075033), 3962): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683893, 687873), (5071090, 5075070), 3981): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683940, 687955), (5071137, 5075152), 4016): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 14 average length: 4155.0
+Length compatible, checking overlaps in group 14 with 1 members.
+Overlaps with group element ((1403035, 1407189), (2227509, 2231663), 4155): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1496468, 1500622), (2227509, 2231663), 4155) to group 14.
+Sequence pair ((1496468, 1500622), (2227509, 2231663), 4155) successfully added to group 14.
+
+Processing sequence pair: ((1173584, 1178503), (5072708, 5077627), 4920)
+Group 0 average length: 1620.0
+Length 4920 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 4920 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 4920 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 4920 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 4920 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 4920 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 4920 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 4920 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 4920 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 4920 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 4920 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 4920 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 4920 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 4920 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 4920 not compatible with group average 4155.0
+Created new group with ((1173584, 1178503), (5072708, 5077627), 4920) as the first member.
+
+Processing sequence pair: ((1496345, 1501369), (2227387, 2232411), 5025)
+Group 0 average length: 1620.0
+Length 5025 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5025 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5025 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5025 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5025 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5025 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5025 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5025 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5025 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5025 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5025 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5025 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5025 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5025 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5025 not compatible with group average 4155.0
+Group 15 average length: 4920.0
+Length compatible, checking overlaps in group 15 with 1 members.
+Overlaps with group element ((1173584, 1178503), (5072708, 5077627), 4920): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1496345, 1501369), (2227387, 2232411), 5025) as the first member.
+
+Processing sequence pair: ((1496332, 1501395), (2227374, 2232437), 5064)
+Group 0 average length: 1620.0
+Length 5064 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5064 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5064 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5064 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5064 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5064 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5064 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5064 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5064 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5064 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5064 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5064 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5064 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5064 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5064 not compatible with group average 4155.0
+Group 15 average length: 4920.0
+Length compatible, checking overlaps in group 15 with 1 members.
+Overlaps with group element ((1173584, 1178503), (5072708, 5077627), 4920): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 16 average length: 5025.0
+Length compatible, checking overlaps in group 16 with 1 members.
+Overlaps with group element ((1496345, 1501369), (2227387, 2232411), 5025): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1496332, 1501395), (2227374, 2232437), 5064) to group 16.
+Sequence pair ((1496332, 1501395), (2227374, 2232437), 5064) successfully added to group 16.
+
+Processing sequence pair: ((1496325, 1501535), (2227367, 2232577), 5211)
+Group 0 average length: 1620.0
+Length 5211 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5211 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5211 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5211 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5211 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5211 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5211 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5211 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5211 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5211 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5211 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5211 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5211 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5211 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5211 not compatible with group average 4155.0
+Group 15 average length: 4920.0
+Length compatible, checking overlaps in group 15 with 1 members.
+Overlaps with group element ((1173584, 1178503), (5072708, 5077627), 4920): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 16 average length: 5044.5
+Length compatible, checking overlaps in group 16 with 2 members.
+Overlaps with group element ((1496345, 1501369), (2227387, 2232411), 5025): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1496325, 1501535), (2227367, 2232577), 5211) to group 16.
+Sequence pair ((1496325, 1501535), (2227367, 2232577), 5211) successfully added to group 16.
+
+Processing sequence pair: ((1173311, 1178574), (5072434, 5077697), 5264)
+Group 0 average length: 1620.0
+Length 5264 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5264 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5264 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5264 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5264 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5264 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5264 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5264 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5264 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5264 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5264 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5264 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5264 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5264 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5264 not compatible with group average 4155.0
+Group 15 average length: 4920.0
+Length compatible, checking overlaps in group 15 with 1 members.
+Overlaps with group element ((1173584, 1178503), (5072708, 5077627), 4920): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1173311, 1178574), (5072434, 5077697), 5264) to group 15.
+Sequence pair ((1173311, 1178574), (5072434, 5077697), 5264) successfully added to group 15.
+
+Processing sequence pair: ((1497848, 1503286), (1540234, 1545672), 5439)
+Group 0 average length: 1620.0
+Length 5439 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5439 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5439 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5439 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5439 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5439 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5439 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5439 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5439 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5439 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5439 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5439 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5439 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5439 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5439 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length compatible, checking overlaps in group 15 with 2 members.
+Overlaps with group element ((1173584, 1178503), (5072708, 5077627), 4920): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1173311, 1178574), (5072434, 5077697), 5264): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 16 average length: 5100.0
+Length compatible, checking overlaps in group 16 with 3 members.
+Overlaps with group element ((1496345, 1501369), (2227387, 2232411), 5025): [interval1-g[0]: 0.70, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1496332, 1501395), (2227374, 2232437), 5064): [interval1-g[0]: 0.70, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1496325, 1501535), (2227367, 2232577), 5211): [interval1-g[0]: 0.71, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1497848, 1503286), (1540234, 1545672), 5439) as the first member.
+
+Processing sequence pair: ((683321, 689040), (1171484, 1177203), 5720)
+Group 0 average length: 1620.0
+Length 5720 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5720 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5720 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5720 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5720 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5720 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5720 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5720 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5720 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5720 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5720 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5720 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5720 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5720 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5720 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 5720 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 5720 not compatible with group average 5100.0
+Group 17 average length: 5439.0
+Length compatible, checking overlaps in group 17 with 1 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((683321, 689040), (1171484, 1177203), 5720) as the first member.
+
+Processing sequence pair: ((1497568, 1503322), (1539954, 1545708), 5755)
+Group 0 average length: 1620.0
+Length 5755 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5755 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5755 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5755 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5755 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5755 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5755 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5755 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5755 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5755 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5755 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5755 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5755 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5755 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5755 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 5755 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 5755 not compatible with group average 5100.0
+Group 17 average length: 5439.0
+Length compatible, checking overlaps in group 17 with 1 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1497568, 1503322), (1539954, 1545708), 5755) to group 17.
+Sequence pair ((1497568, 1503322), (1539954, 1545708), 5755) successfully added to group 17.
+
+Processing sequence pair: ((683240, 689055), (1171402, 1177217), 5816)
+Group 0 average length: 1620.0
+Length 5816 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5816 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5816 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5816 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5816 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5816 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5816 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5816 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5816 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5816 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5816 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5816 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5816 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5816 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5816 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 5816 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 5816 not compatible with group average 5100.0
+Group 17 average length: 5597.0
+Length compatible, checking overlaps in group 17 with 2 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5720.0
+Length compatible, checking overlaps in group 18 with 1 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((683240, 689055), (1171402, 1177217), 5816) to group 18.
+Sequence pair ((683240, 689055), (1171402, 1177217), 5816) successfully added to group 18.
+
+Processing sequence pair: ((1404051, 1409871), (1539870, 1545690), 5821)
+Group 0 average length: 1620.0
+Length 5821 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5821 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5821 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5821 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5821 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5821 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5821 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5821 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5821 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5821 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5821 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5821 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5821 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5821 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5821 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 5821 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 5821 not compatible with group average 5100.0
+Group 17 average length: 5597.0
+Length compatible, checking overlaps in group 17 with 2 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1404051, 1409871), (1539870, 1545690), 5821) to group 17.
+Sequence pair ((1404051, 1409871), (1539870, 1545690), 5821) successfully added to group 17.
+
+Processing sequence pair: ((1497471, 1503350), (1539857, 1545736), 5880)
+Group 0 average length: 1620.0
+Length 5880 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5880 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5880 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5880 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5880 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5880 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5880 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5880 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5880 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5880 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5880 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5880 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5880 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5880 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5880 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 5880 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 5880 not compatible with group average 5100.0
+Group 17 average length: 5671.666666666667
+Length compatible, checking overlaps in group 17 with 3 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1497471, 1503350), (1539857, 1545736), 5880) to group 17.
+Sequence pair ((1497471, 1503350), (1539857, 1545736), 5880) successfully added to group 17.
+
+Processing sequence pair: ((1497484, 1503404), (1539870, 1545790), 5921)
+Group 0 average length: 1620.0
+Length 5921 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 5921 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 5921 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 5921 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 5921 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 5921 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 5921 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 5921 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 5921 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 5921 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 5921 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 5921 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 5921 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 5921 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 5921 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 5921 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 5921 not compatible with group average 5100.0
+Group 17 average length: 5723.75
+Length compatible, checking overlaps in group 17 with 4 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1497484, 1503404), (1539870, 1545790), 5921) to group 17.
+Sequence pair ((1497484, 1503404), (1539870, 1545790), 5921) successfully added to group 17.
+
+Processing sequence pair: ((684013, 690095), (5071299, 5077381), 6083)
+Group 0 average length: 1620.0
+Length 6083 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6083 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6083 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6083 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6083 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6083 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6083 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6083 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6083 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6083 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6083 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6083 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6083 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6083 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6083 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6083 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6083 not compatible with group average 5100.0
+Group 17 average length: 5763.2
+Length compatible, checking overlaps in group 17 with 5 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.87, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((684013, 690095), (5071299, 5077381), 6083) as the first member.
+
+Processing sequence pair: ((1402774, 1408890), (2227249, 2233365), 6117)
+Group 0 average length: 1620.0
+Length 6117 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6117 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6117 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6117 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6117 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6117 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6117 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6117 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6117 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6117 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6117 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6117 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6117 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6117 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6117 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6117 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6117 not compatible with group average 5100.0
+Group 17 average length: 5763.2
+Length compatible, checking overlaps in group 17 with 5 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.83, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 19 average length: 6083.0
+Length compatible, checking overlaps in group 19 with 1 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1402774, 1408890), (2227249, 2233365), 6117) as the first member.
+
+Processing sequence pair: ((683957, 690086), (5071154, 5077283), 6130)
+Group 0 average length: 1620.0
+Length 6130 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6130 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6130 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6130 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6130 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6130 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6130 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6130 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6130 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6130 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6130 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6130 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6130 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6130 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6130 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6130 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6130 not compatible with group average 5100.0
+Group 17 average length: 5763.2
+Length compatible, checking overlaps in group 17 with 5 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.89, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 19 average length: 6083.0
+Length compatible, checking overlaps in group 19 with 1 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((683957, 690086), (5071154, 5077283), 6130) to group 19.
+Sequence pair ((683957, 690086), (5071154, 5077283), 6130) successfully added to group 19.
+
+Processing sequence pair: ((1539557, 1545736), (2228301, 2234480), 6180)
+Group 0 average length: 1620.0
+Length 6180 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6180 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6180 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6180 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6180 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6180 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6180 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6180 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6180 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6180 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6180 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6180 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6180 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6180 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6180 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6180 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6180 not compatible with group average 5100.0
+Group 17 average length: 5763.2
+Length compatible, checking overlaps in group 17 with 5 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 1.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1539557, 1545736), (2228301, 2234480), 6180) to group 17.
+Sequence pair ((1539557, 1545736), (2228301, 2234480), 6180) successfully added to group 17.
+
+Processing sequence pair: ((1402692, 1408902), (2227167, 2233377), 6211)
+Group 0 average length: 1620.0
+Length 6211 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6211 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6211 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6211 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6211 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6211 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6211 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6211 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6211 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6211 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6211 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6211 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6211 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6211 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6211 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6211 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6211 not compatible with group average 5100.0
+Group 17 average length: 5832.666666666667
+Length compatible, checking overlaps in group 17 with 6 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.83, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.82]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 19 average length: 6106.5
+Length compatible, checking overlaps in group 19 with 2 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6117.0
+Length compatible, checking overlaps in group 20 with 1 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1402692, 1408902), (2227167, 2233377), 6211) to group 20.
+Sequence pair ((1402692, 1408902), (2227167, 2233377), 6211) successfully added to group 20.
+
+Processing sequence pair: ((1496107, 1502323), (2227149, 2233365), 6217)
+Group 0 average length: 1620.0
+Length 6217 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6217 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6217 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6217 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6217 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6217 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6217 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6217 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6217 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6217 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6217 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6217 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6217 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6217 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6217 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6217 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6217 not compatible with group average 5100.0
+Group 17 average length: 5832.666666666667
+Length compatible, checking overlaps in group 17 with 6 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.82, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.83, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.83, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.82, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.82]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 19 average length: 6106.5
+Length compatible, checking overlaps in group 19 with 2 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6164.0
+Length compatible, checking overlaps in group 20 with 2 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1496107, 1502323), (2227149, 2233365), 6217) to group 20.
+Sequence pair ((1496107, 1502323), (2227149, 2233365), 6217) successfully added to group 20.
+
+Processing sequence pair: ((684016, 690346), (1172179, 1178509), 6331)
+Group 0 average length: 1620.0
+Length 6331 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6331 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6331 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6331 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6331 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6331 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6331 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6331 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6331 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6331 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6331 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6331 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6331 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6331 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6331 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6331 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6331 not compatible with group average 5100.0
+Group 17 average length: 5832.666666666667
+Length compatible, checking overlaps in group 17 with 6 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.88]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.87, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Group 19 average length: 6106.5
+Length compatible, checking overlaps in group 19 with 2 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((684016, 690346), (1172179, 1178509), 6331) to group 19.
+Sequence pair ((684016, 690346), (1172179, 1178509), 6331) successfully added to group 19.
+
+Processing sequence pair: ((1402815, 1409153), (1538634, 1544972), 6339)
+Group 0 average length: 1620.0
+Length 6339 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6339 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6339 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6339 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6339 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6339 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6339 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6339 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6339 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6339 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6339 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6339 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6339 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6339 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6339 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6339 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6339 not compatible with group average 5100.0
+Group 17 average length: 5832.666666666667
+Length compatible, checking overlaps in group 17 with 6 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.88]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.86]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.88, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length compatible, checking overlaps in group 18 with 2 members.
+Overlaps with group element ((683321, 689040), (1171484, 1177203), 5720): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683240, 689055), (1171402, 1177217), 5816): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 19 average length: 6181.333333333333
+Length compatible, checking overlaps in group 19 with 3 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6181.666666666667
+Length compatible, checking overlaps in group 20 with 3 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 0.99, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402815, 1409153), (1538634, 1544972), 6339) to group 20.
+Sequence pair ((1402815, 1409153), (1538634, 1544972), 6339) successfully added to group 20.
+
+Processing sequence pair: ((1402935, 1409289), (1538754, 1545108), 6355)
+Group 0 average length: 1620.0
+Length 6355 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6355 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6355 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6355 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6355 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6355 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6355 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6355 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6355 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6355 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6355 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6355 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6355 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6355 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6355 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6355 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6355 not compatible with group average 5100.0
+Group 17 average length: 5832.666666666667
+Length compatible, checking overlaps in group 17 with 6 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.90]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.90]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.90, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.90]
+Added ((1402935, 1409289), (1538754, 1545108), 6355) to group 17.
+Sequence pair ((1402935, 1409289), (1538754, 1545108), 6355) successfully added to group 17.
+
+Processing sequence pair: ((683981, 690338), (1172143, 1178500), 6358)
+Group 0 average length: 1620.0
+Length 6358 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6358 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6358 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6358 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6358 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6358 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6358 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6358 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6358 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6358 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6358 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6358 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6358 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6358 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6358 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6358 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6358 not compatible with group average 5100.0
+Group 17 average length: 5907.285714285715
+Length compatible, checking overlaps in group 17 with 7 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length 6358 not compatible with group average 5768.0
+Group 19 average length: 6181.333333333333
+Length compatible, checking overlaps in group 19 with 3 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((683981, 690338), (1172143, 1178500), 6358) to group 19.
+Sequence pair ((683981, 690338), (1172143, 1178500), 6358) successfully added to group 19.
+
+Processing sequence pair: ((1402799, 1409162), (1538618, 1544981), 6364)
+Group 0 average length: 1620.0
+Length 6364 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6364 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6364 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6364 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6364 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6364 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6364 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6364 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6364 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6364 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6364 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6364 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6364 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6364 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6364 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6364 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6364 not compatible with group average 5100.0
+Group 17 average length: 5907.285714285715
+Length compatible, checking overlaps in group 17 with 7 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.88]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.86]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.88, interval2-g[1]: 0.00]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((1402799, 1409162), (1538618, 1544981), 6364) to group 17.
+Sequence pair ((1402799, 1409162), (1538618, 1544981), 6364) successfully added to group 17.
+
+Processing sequence pair: ((1496832, 1503195), (1539218, 1545581), 6364)
+Group 0 average length: 1620.0
+Length 6364 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6364 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6364 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6364 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6364 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6364 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6364 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6364 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6364 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6364 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6364 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6364 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6364 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6364 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6364 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6364 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6364 not compatible with group average 5100.0
+Group 17 average length: 5964.375
+Length compatible, checking overlaps in group 17 with 8 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((1496832, 1503195), (1539218, 1545581), 6364) to group 17.
+Sequence pair ((1496832, 1503195), (1539218, 1545581), 6364) successfully added to group 17.
+
+Processing sequence pair: ((683848, 690211), (1172011, 1178374), 6364)
+Group 0 average length: 1620.0
+Length 6364 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6364 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6364 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6364 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6364 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6364 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6364 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6364 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6364 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6364 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6364 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6364 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6364 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6364 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6364 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6364 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6364 not compatible with group average 5100.0
+Group 17 average length: 6008.777777777777
+Length compatible, checking overlaps in group 17 with 9 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402799, 1409162), (1538618, 1544981), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1496832, 1503195), (1539218, 1545581), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length 6364 not compatible with group average 5768.0
+Group 19 average length: 6225.5
+Length compatible, checking overlaps in group 19 with 4 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((683848, 690211), (1172011, 1178374), 6364) to group 19.
+Sequence pair ((683848, 690211), (1172011, 1178374), 6364) successfully added to group 19.
+
+Processing sequence pair: ((1402738, 1409117), (1538557, 1544936), 6380)
+Group 0 average length: 1620.0
+Length 6380 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6380 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6380 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6380 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6380 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6380 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6380 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6380 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6380 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6380 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6380 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6380 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6380 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6380 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6380 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6380 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6380 not compatible with group average 5100.0
+Group 17 average length: 6008.777777777777
+Length compatible, checking overlaps in group 17 with 9 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.86]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.87, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.86]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.86]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.87, interval2-g[1]: 0.00]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.97, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.97]
+Added ((1402738, 1409117), (1538557, 1544936), 6380) to group 17.
+Sequence pair ((1402738, 1409117), (1538557, 1544936), 6380) successfully added to group 17.
+
+Processing sequence pair: ((683993, 690373), (1172155, 1178535), 6381)
+Group 0 average length: 1620.0
+Length 6381 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6381 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6381 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6381 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6381 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6381 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6381 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6381 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6381 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6381 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6381 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6381 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6381 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6381 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6381 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6381 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6381 not compatible with group average 5100.0
+Group 17 average length: 6045.9
+Length compatible, checking overlaps in group 17 with 10 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402799, 1409162), (1538618, 1544981), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1496832, 1503195), (1539218, 1545581), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402738, 1409117), (1538557, 1544936), 6380): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 18 average length: 5768.0
+Length 6381 not compatible with group average 5768.0
+Group 19 average length: 6253.2
+Length compatible, checking overlaps in group 19 with 5 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((683993, 690373), (1172155, 1178535), 6381) to group 19.
+Sequence pair ((683993, 690373), (1172155, 1178535), 6381) successfully added to group 19.
+
+Processing sequence pair: ((1402699, 1409162), (2227174, 2233637), 6464)
+Group 0 average length: 1620.0
+Length 6464 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6464 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6464 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6464 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6464 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6464 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6464 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6464 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6464 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6464 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6464 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6464 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6464 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6464 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6464 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6464 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6464 not compatible with group average 5100.0
+Group 17 average length: 6045.9
+Length compatible, checking overlaps in group 17 with 10 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.86]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402699, 1409162), (2227174, 2233637), 6464) to group 17.
+Sequence pair ((1402699, 1409162), (2227174, 2233637), 6464) successfully added to group 17.
+
+Processing sequence pair: ((1496084, 1502604), (2227214, 2233734), 6521)
+Group 0 average length: 1620.0
+Length 6521 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6521 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6521 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6521 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6521 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6521 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6521 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6521 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6521 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6521 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6521 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6521 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6521 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6521 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6521 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6521 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6521 not compatible with group average 5100.0
+Group 17 average length: 6083.909090909091
+Length compatible, checking overlaps in group 17 with 11 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.87, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.88, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.87, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.86, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.88]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402799, 1409162), (1538618, 1544981), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1496832, 1503195), (1539218, 1545581), 6364): [interval1-g[0]: 0.91, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1496084, 1502604), (2227214, 2233734), 6521) to group 17.
+Sequence pair ((1496084, 1502604), (2227214, 2233734), 6521) successfully added to group 17.
+
+Processing sequence pair: ((1495971, 1502550), (2227101, 2233680), 6580)
+Group 0 average length: 1620.0
+Length 6580 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6580 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6580 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6580 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6580 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6580 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6580 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6580 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6580 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6580 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6580 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6580 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6580 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6580 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6580 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6580 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6580 not compatible with group average 5100.0
+Group 17 average length: 6120.333333333333
+Length compatible, checking overlaps in group 17 with 12 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.86, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.87, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497471, 1503350), (1539857, 1545736), 5880): [interval1-g[0]: 0.86, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497484, 1503404), (1539870, 1545790), 5921): [interval1-g[0]: 0.86, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1539557, 1545736), (2228301, 2234480), 6180): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.87]
+Overlaps with group element ((1402935, 1409289), (1538754, 1545108), 6355): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402799, 1409162), (1538618, 1544981), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1496832, 1503195), (1539218, 1545581), 6364): [interval1-g[0]: 0.90, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402738, 1409117), (1538557, 1544936), 6380): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1402699, 1409162), (2227174, 2233637), 6464): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1495971, 1502550), (2227101, 2233680), 6580) to group 17.
+Sequence pair ((1495971, 1502550), (2227101, 2233680), 6580) successfully added to group 17.
+
+Processing sequence pair: ((1403738, 1410417), (2228301, 2234980), 6680)
+Group 0 average length: 1620.0
+Length 6680 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6680 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6680 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6680 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6680 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6680 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6680 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6680 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6680 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6680 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6680 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6680 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6680 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6680 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6680 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6680 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6680 not compatible with group average 5100.0
+Group 17 average length: 6155.692307692308
+Length compatible, checking overlaps in group 17 with 13 members.
+Overlaps with group element ((1497848, 1503286), (1540234, 1545672), 5439): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1497568, 1503322), (1539954, 1545708), 5755): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1404051, 1409871), (1539870, 1545690), 5821): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1403738, 1410417), (2228301, 2234980), 6680) to group 17.
+Sequence pair ((1403738, 1410417), (2228301, 2234980), 6680) successfully added to group 17.
+
+Processing sequence pair: ((1171909, 1178729), (5071032, 5077852), 6821)
+Group 0 average length: 1620.0
+Length 6821 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6821 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6821 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6821 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6821 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6821 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6821 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6821 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6821 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6821 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6821 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6821 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6821 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6821 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6821 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6821 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6821 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6821 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6821 not compatible with group average 5768.0
+Group 19 average length: 6274.5
+Length compatible, checking overlaps in group 19 with 6 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1171909, 1178729), (5071032, 5077852), 6821) to group 19.
+Sequence pair ((1171909, 1178729), (5071032, 5077852), 6821) successfully added to group 19.
+
+Processing sequence pair: ((1403212, 1410036), (2227687, 2234511), 6825)
+Group 0 average length: 1620.0
+Length 6825 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6825 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6825 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6825 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6825 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6825 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6825 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6825 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6825 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6825 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6825 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6825 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6825 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6825 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6825 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6825 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6825 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6825 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6825 not compatible with group average 5768.0
+Group 19 average length: 6352.571428571428
+Length compatible, checking overlaps in group 19 with 7 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6221.0
+Length compatible, checking overlaps in group 20 with 4 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 0.93, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.93]
+Added ((1403212, 1410036), (2227687, 2234511), 6825) to group 20.
+Sequence pair ((1403212, 1410036), (2227687, 2234511), 6825) successfully added to group 20.
+
+Processing sequence pair: ((1402338, 1409172), (1495771, 1502605), 6835)
+Group 0 average length: 1620.0
+Length 6835 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6835 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6835 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6835 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6835 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6835 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6835 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6835 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6835 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6835 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6835 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6835 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6835 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6835 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6835 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6835 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6835 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6835 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6835 not compatible with group average 5768.0
+Group 19 average length: 6352.571428571428
+Length compatible, checking overlaps in group 19 with 7 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6341.8
+Length compatible, checking overlaps in group 20 with 5 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402338, 1409172), (1495771, 1502605), 6835) to group 20.
+Sequence pair ((1402338, 1409172), (1495771, 1502605), 6835) successfully added to group 20.
+
+Processing sequence pair: ((1402315, 1409153), (1495748, 1502586), 6839)
+Group 0 average length: 1620.0
+Length 6839 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6839 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6839 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6839 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6839 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6839 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6839 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6839 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6839 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6839 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6839 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6839 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6839 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6839 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6839 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6839 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6839 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6839 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6839 not compatible with group average 5768.0
+Group 19 average length: 6352.571428571428
+Length compatible, checking overlaps in group 19 with 7 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6424.0
+Length compatible, checking overlaps in group 20 with 6 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402315, 1409153), (1495748, 1502586), 6839) to group 20.
+Sequence pair ((1402315, 1409153), (1495748, 1502586), 6839) successfully added to group 20.
+
+Processing sequence pair: ((1402335, 1409189), (1495768, 1502622), 6855)
+Group 0 average length: 1620.0
+Length 6855 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6855 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6855 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6855 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6855 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6855 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6855 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6855 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6855 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6855 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6855 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6855 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6855 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6855 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6855 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6855 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6855 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6855 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6855 not compatible with group average 5768.0
+Group 19 average length: 6352.571428571428
+Length compatible, checking overlaps in group 19 with 7 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6483.285714285715
+Length compatible, checking overlaps in group 20 with 7 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402335, 1409189), (1495768, 1502622), 6855) to group 20.
+Sequence pair ((1402335, 1409189), (1495768, 1502622), 6855) successfully added to group 20.
+
+Processing sequence pair: ((1402299, 1409162), (1495732, 1502595), 6864)
+Group 0 average length: 1620.0
+Length 6864 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6864 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6864 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6864 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6864 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6864 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6864 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6864 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6864 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6864 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6864 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6864 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6864 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6864 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6864 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6864 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6864 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6864 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6864 not compatible with group average 5768.0
+Group 19 average length: 6352.571428571428
+Length compatible, checking overlaps in group 19 with 7 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6529.75
+Length compatible, checking overlaps in group 20 with 8 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402299, 1409162), (1495732, 1502595), 6864) to group 20.
+Sequence pair ((1402299, 1409162), (1495732, 1502595), 6864) successfully added to group 20.
+
+Processing sequence pair: ((1171629, 1178507), (5070752, 5077630), 6879)
+Group 0 average length: 1620.0
+Length 6879 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6879 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6879 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6879 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6879 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6879 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6879 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6879 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6879 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6879 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6879 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6879 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6879 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6879 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6879 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6879 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6879 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6879 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6879 not compatible with group average 5768.0
+Group 19 average length: 6352.571428571428
+Length compatible, checking overlaps in group 19 with 7 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1171629, 1178507), (5070752, 5077630), 6879) to group 19.
+Sequence pair ((1171629, 1178507), (5070752, 5077630), 6879) successfully added to group 19.
+
+Processing sequence pair: ((1402238, 1409117), (1495671, 1502550), 6880)
+Group 0 average length: 1620.0
+Length 6880 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6880 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6880 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6880 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6880 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6880 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6880 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6880 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6880 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6880 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6880 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6880 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6880 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6880 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6880 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6880 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6880 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6880 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6880 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6566.888888888889
+Length compatible, checking overlaps in group 20 with 9 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402238, 1409117), (1495671, 1502550), 6880) to group 20.
+Sequence pair ((1402238, 1409117), (1495671, 1502550), 6880) successfully added to group 20.
+
+Processing sequence pair: ((1402231, 1409110), (1495664, 1502543), 6880)
+Group 0 average length: 1620.0
+Length 6880 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6880 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6880 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6880 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6880 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6880 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6880 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6880 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6880 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6880 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6880 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6880 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6880 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6880 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6880 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6880 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6880 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6880 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6880 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6598.2
+Length compatible, checking overlaps in group 20 with 10 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402231, 1409110), (1495664, 1502543), 6880) to group 20.
+Sequence pair ((1402231, 1409110), (1495664, 1502543), 6880) successfully added to group 20.
+
+Processing sequence pair: ((1402255, 1409156), (1495688, 1502589), 6902)
+Group 0 average length: 1620.0
+Length 6902 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6902 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6902 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6902 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6902 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6902 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6902 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6902 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6902 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6902 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6902 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6902 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6902 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6902 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6902 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6902 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6902 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6902 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6902 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6623.818181818182
+Length compatible, checking overlaps in group 20 with 11 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402255, 1409156), (1495688, 1502589), 6902) to group 20.
+Sequence pair ((1402255, 1409156), (1495688, 1502589), 6902) successfully added to group 20.
+
+Processing sequence pair: ((1402204, 1409113), (1495637, 1502546), 6910)
+Group 0 average length: 1620.0
+Length 6910 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6910 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6910 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6910 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6910 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6910 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6910 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6910 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6910 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6910 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6910 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6910 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6910 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6910 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6910 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6910 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6910 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6910 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6910 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6647.0
+Length compatible, checking overlaps in group 20 with 12 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402204, 1409113), (1495637, 1502546), 6910) to group 20.
+Sequence pair ((1402204, 1409113), (1495637, 1502546), 6910) successfully added to group 20.
+
+Processing sequence pair: ((1402192, 1409102), (1495625, 1502535), 6911)
+Group 0 average length: 1620.0
+Length 6911 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6911 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6911 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6911 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6911 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6911 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6911 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6911 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6911 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6911 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6911 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6911 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6911 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6911 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6911 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6911 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6911 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6911 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6911 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6667.2307692307695
+Length compatible, checking overlaps in group 20 with 13 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402192, 1409102), (1495625, 1502535), 6911) to group 20.
+Sequence pair ((1402192, 1409102), (1495625, 1502535), 6911) successfully added to group 20.
+
+Processing sequence pair: ((1402174, 1409090), (1495607, 1502523), 6917)
+Group 0 average length: 1620.0
+Length 6917 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6917 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6917 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6917 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6917 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6917 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6917 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6917 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6917 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6917 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6917 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6917 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6917 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6917 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6917 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6917 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6917 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6917 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6917 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6684.642857142857
+Length compatible, checking overlaps in group 20 with 14 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402174, 1409090), (1495607, 1502523), 6917) to group 20.
+Sequence pair ((1402174, 1409090), (1495607, 1502523), 6917) successfully added to group 20.
+
+Processing sequence pair: ((1402251, 1409171), (1495684, 1502604), 6921)
+Group 0 average length: 1620.0
+Length 6921 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6921 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6921 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6921 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6921 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6921 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6921 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6921 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6921 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6921 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6921 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6921 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6921 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6921 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6921 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6921 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6921 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6921 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6921 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6700.133333333333
+Length compatible, checking overlaps in group 20 with 15 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402251, 1409171), (1495684, 1502604), 6921) to group 20.
+Sequence pair ((1402251, 1409171), (1495684, 1502604), 6921) successfully added to group 20.
+
+Processing sequence pair: ((1402212, 1409136), (1495645, 1502569), 6925)
+Group 0 average length: 1620.0
+Length 6925 not compatible with group average 1620.0
+Group 1 average length: 1659.5
+Length 6925 not compatible with group average 1659.5
+Group 2 average length: 1771.0
+Length 6925 not compatible with group average 1771.0
+Group 3 average length: 1774.0
+Length 6925 not compatible with group average 1774.0
+Group 4 average length: 2311.6666666666665
+Length 6925 not compatible with group average 2311.6666666666665
+Group 5 average length: 2358.6666666666665
+Length 6925 not compatible with group average 2358.6666666666665
+Group 6 average length: 2531.0
+Length 6925 not compatible with group average 2531.0
+Group 7 average length: 2615.0
+Length 6925 not compatible with group average 2615.0
+Group 8 average length: 2764.0
+Length 6925 not compatible with group average 2764.0
+Group 9 average length: 3048.5
+Length 6925 not compatible with group average 3048.5
+Group 10 average length: 3121.0
+Length 6925 not compatible with group average 3121.0
+Group 11 average length: 3361.0
+Length 6925 not compatible with group average 3361.0
+Group 12 average length: 3954.0
+Length 6925 not compatible with group average 3954.0
+Group 13 average length: 3986.3333333333335
+Length 6925 not compatible with group average 3986.3333333333335
+Group 14 average length: 4155.0
+Length 6925 not compatible with group average 4155.0
+Group 15 average length: 5092.0
+Length 6925 not compatible with group average 5092.0
+Group 16 average length: 5100.0
+Length 6925 not compatible with group average 5100.0
+Group 17 average length: 6193.142857142857
+Length 6925 not compatible with group average 6193.142857142857
+Group 18 average length: 5768.0
+Length 6925 not compatible with group average 5768.0
+Group 19 average length: 6418.375
+Length compatible, checking overlaps in group 19 with 8 members.
+Overlaps with group element ((684013, 690095), (5071299, 5077381), 6083): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683957, 690086), (5071154, 5077283), 6130): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((684016, 690346), (1172179, 1178509), 6331): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683981, 690338), (1172143, 1178500), 6358): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683848, 690211), (1172011, 1178374), 6364): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((683993, 690373), (1172155, 1178535), 6381): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171909, 1178729), (5071032, 5077852), 6821): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((1171629, 1178507), (5070752, 5077630), 6879): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 20 average length: 6713.9375
+Length compatible, checking overlaps in group 20 with 16 members.
+Overlaps with group element ((1402774, 1408890), (2227249, 2233365), 6117): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((1402212, 1409136), (1495645, 1502569), 6925) to group 20.
+Sequence pair ((1402212, 1409136), (1495645, 1502569), 6925) successfully added to group 20.
+
+Group 0 statistics:
+Average length: 1620.00
+Length range: 1620 - 1620
+Number of sequences: 1
+
+Group 1 statistics:
+Average length: 1659.50
+Length range: 1655 - 1664
+Number of sequences: 2
+
+Group 2 statistics:
+Average length: 1771.00
+Length range: 1771 - 1771
+Number of sequences: 1
+
+Group 3 statistics:
+Average length: 1774.00
+Length range: 1774 - 1774
+Number of sequences: 1
+
+Group 4 statistics:
+Average length: 2311.67
+Length range: 2279 - 2377
+Number of sequences: 3
+
+Group 5 statistics:
+Average length: 2358.67
+Length range: 2317 - 2432
+Number of sequences: 9
+
+Group 6 statistics:
+Average length: 2531.00
+Length range: 2531 - 2531
+Number of sequences: 1
+
+Group 7 statistics:
+Average length: 2615.00
+Length range: 2615 - 2615
+Number of sequences: 1
+
+Group 8 statistics:
+Average length: 2764.00
+Length range: 2764 - 2764
+Number of sequences: 1
+
+Group 9 statistics:
+Average length: 3048.50
+Length range: 3016 - 3081
+Number of sequences: 2
+
+Group 10 statistics:
+Average length: 3121.00
+Length range: 3021 - 3221
+Number of sequences: 2
+
+Group 11 statistics:
+Average length: 3361.00
+Length range: 3361 - 3361
+Number of sequences: 1
+
+Group 12 statistics:
+Average length: 3954.00
+Length range: 3954 - 3954
+Number of sequences: 1
+
+Group 13 statistics:
+Average length: 3986.33
+Length range: 3962 - 4016
+Number of sequences: 3
+
+Group 14 statistics:
+Average length: 4155.00
+Length range: 4155 - 4155
+Number of sequences: 2
+
+Group 15 statistics:
+Average length: 5092.00
+Length range: 4920 - 5264
+Number of sequences: 2
+
+Group 16 statistics:
+Average length: 5100.00
+Length range: 5025 - 5211
+Number of sequences: 3
+
+Group 17 statistics:
+Average length: 6193.14
+Length range: 5439 - 6680
+Number of sequences: 14
+
+Group 18 statistics:
+Average length: 5768.00
+Length range: 5720 - 5816
+Number of sequences: 2
+
+Group 19 statistics:
+Average length: 6418.38
+Length range: 6083 - 6879
+Number of sequences: 8
+
+Group 20 statistics:
+Average length: 6726.35
+Length range: 6117 - 6925
+Number of sequences: 17
+
+Grouping complete. Total groups formed: 21
