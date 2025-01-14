@@ -38,15 +38,16 @@ def calculate_overlap(interval_a, interval_b):
     计算两个区间的重叠比例。
     :param interval_a: 第一个区间 (start, end)
     :param interval_b: 第二个区间 (start, end)
-    :return: 如果重叠比例 >= 80%，返回 True，否则返回 False
+    :return: 两个区间的重叠比例（0 到 1 之间的浮点数）
     """
     start_a, end_a = interval_a
     start_b, end_b = interval_b
     overlap_start = max(start_a, start_b)
     overlap_end = min(end_a, end_b)
     overlap_length = max(0, overlap_end - overlap_start)  # 重叠长度
-    total_length = max(end_a - start_a, end_b - start_b)  # 两区间的最大长度
-    return (overlap_length / total_length) >= 0.80
+    # total_length = min(end_a - start_a, end_b - start_b)  # 两区间的最小长度
+    total_length = max(end_a, end_b) - min(start_a, start_b)  # 合并区间长度
+    return overlap_length / total_length if total_length > 0 else 0
 
 
 

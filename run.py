@@ -40,7 +40,6 @@ def main():
     group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
     annotation_file = os.path.join(output_dir, f"{base_name}_annotation_results.csv")
     repeated_len = 500
-    length_threshold = 0.3
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")
@@ -60,11 +59,11 @@ def main():
 
     # Step 3: 运行 groupSeq.py
     print("Running groupSeq.py...")
-    merge_seq_cmd = (
-        f"python mergeSeq.py --csv-file {extended_file} "
+    group_seq_cmd = (
+        f"python groupSeq.py --csv-file {extended_file} "
         f"--genome {genome_file} --output-file {group_file}"
     )
-    run_command(merge_seq_cmd, "Error: groupSeq.py failed.")
+    run_command(group_seq_cmd, "Error: groupSeq.py failed.")
     print(f"Output saved to {group_file}")
 
     # Step 4: 运行序列注释（如果有GFF文件）

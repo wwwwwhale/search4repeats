@@ -1,0 +1,659 @@
+Group 1
+Start,End,Length
+9142,11485,2344,rrnO-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+9487,11764,2278,rrnO-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+9773,11873,2101,rrnO-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+29655,32208,2554,"bofA(+) | Product: inhibitor of the pro-sigma(K) processing machinery | Protein ID: CAB11799.2 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 15087499, 17557826, 30403663, 35471152; Product type r: regulator",rrnA-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+29943,32224,2282,rrnA-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+89912,92396,2485,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+90298,92465,2168,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+90520,92598,2079,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+95776,98166,2391,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+96054,98345,2292,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+96354,98421,2068,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+160468,162752,2285,rrnI-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+160868,162952,2085,rrnI-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+165931,168329,2399,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+166331,168529,2199,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+171046,173261,2216,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+171283,173528,2246,rrnG-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+946028,948371,2344,rrnD-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+946461,948642,2182,rrnD-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+9142,11485,9487,11764,0.839
+9142,11485,9773,11873,0.709
+9142,11485,29655,32208,0.868
+9142,11485,29943,32224,0.818
+9142,11485,89912,92396,0.868
+9142,11485,90298,92465,0.788
+9142,11485,90520,92598,0.696
+9142,11485,95776,98166,0.862
+9142,11485,96054,98345,0.815
+9142,11485,96354,98421,0.707
+9142,11485,160468,162752,0.833
+9142,11485,160868,162952,0.697
+9142,11485,165931,168329,0.855
+9142,11485,166331,168529,0.76
+9142,11485,171046,173261,0.838
+9142,11485,171283,173528,0.777
+9142,11485,946028,948371,0.887
+9142,11485,946461,948642,0.792
+9487,11764,9773,11873,0.866
+9487,11764,29655,32208,0.942
+9487,11764,29943,32224,0.941
+9487,11764,89912,92396,0.869
+9487,11764,90298,92465,0.864
+9487,11764,90520,92598,0.8
+9487,11764,95776,98166,0.863
+9487,11764,96054,98345,0.872
+9487,11764,96354,98421,0.807
+9487,11764,160468,162752,0.861
+9487,11764,160868,162952,0.801
+9487,11764,165931,168329,0.861
+9487,11764,166331,168529,0.858
+9487,11764,171046,173261,0.856
+9487,11764,171283,173528,0.866
+9487,11764,946028,948371,0.85
+9487,11764,946461,948642,0.88
+9773,11873,29655,32208,0.918
+9773,11873,29943,32224,0.932
+9773,11873,89912,92396,0.88
+9773,11873,90298,92465,0.899
+9773,11873,90520,92598,0.89
+9773,11873,95776,98166,0.838
+9773,11873,96054,98345,0.897
+9773,11873,96354,98421,0.895
+9773,11873,160468,162752,0.882
+9773,11873,160868,162952,0.888
+9773,11873,165931,168329,0.865
+9773,11873,166331,168529,0.896
+9773,11873,171046,173261,0.834
+9773,11873,171283,173528,0.895
+9773,11873,946028,948371,0.788
+9773,11873,946461,948642,0.902
+29655,32208,29943,32224,0.881
+29655,32208,89912,92396,0.838
+29655,32208,90298,92465,0.774
+29655,32208,90520,92598,0.703
+29655,32208,95776,98166,0.824
+29655,32208,96054,98345,0.805
+29655,32208,96354,98421,0.71
+29655,32208,160468,162752,0.81
+29655,32208,160868,162952,0.705
+29655,32208,165931,168329,0.821
+29655,32208,166331,168529,0.76
+29655,32208,171046,173261,0.803
+29655,32208,171283,173528,0.774
+29655,32208,946028,948371,0.797
+29655,32208,946461,948642,0.767
+29943,32224,89912,92396,0.886
+29943,32224,90298,92465,0.866
+29943,32224,90520,92598,0.795
+29943,32224,95776,98166,0.883
+29943,32224,96054,98345,0.885
+29943,32224,96354,98421,0.805
+29943,32224,160468,162752,0.88
+29943,32224,160868,162952,0.798
+29943,32224,165931,168329,0.877
+29943,32224,166331,168529,0.857
+29943,32224,171046,173261,0.872
+29943,32224,171283,173528,0.87
+29943,32224,946028,948371,0.842
+29943,32224,946461,948642,0.85
+89912,92396,90298,92465,0.835
+89912,92396,90520,92598,0.739
+89912,92396,95776,98166,0.862
+89912,92396,96054,98345,0.853
+89912,92396,96354,98421,0.747
+89912,92396,160468,162752,0.872
+89912,92396,160868,162952,0.739
+89912,92396,165931,168329,0.879
+89912,92396,166331,168529,0.799
+89912,92396,171046,173261,0.837
+89912,92396,171283,173528,0.815
+89912,92396,946028,948371,0.824
+89912,92396,946461,948642,0.814
+90298,92465,90520,92598,0.889
+90298,92465,95776,98166,0.905
+90298,92465,96054,98345,0.976
+90298,92465,96354,98421,0.899
+90298,92465,160468,162752,0.943
+90298,92465,160868,162952,0.89
+90298,92465,165931,168329,0.931
+90298,92465,166331,168529,0.951
+90298,92465,171046,173261,0.898
+90298,92465,171283,173528,0.96
+90298,92465,946028,948371,0.856
+90298,92465,946461,948642,0.955
+90520,92598,95776,98166,0.838
+90520,92598,96054,98345,0.935
+90520,92598,96354,98421,0.98
+90520,92598,160468,162752,0.884
+90520,92598,160868,162952,0.994
+90520,92598,165931,168329,0.864
+90520,92598,166331,168529,0.975
+90520,92598,171046,173261,0.834
+90520,92598,171283,173528,0.975
+90520,92598,946028,948371,0.785
+90520,92598,946461,948642,0.931
+95776,98166,96054,98345,0.874
+95776,98166,96354,98421,0.741
+95776,98166,160468,162752,0.866
+95776,98166,160868,162952,0.731
+95776,98166,165931,168329,0.958
+95776,98166,166331,168529,0.795
+95776,98166,171046,173261,0.88
+95776,98166,171283,173528,0.813
+95776,98166,946028,948371,0.849
+95776,98166,946461,948642,0.807
+96054,98345,96354,98421,0.861
+96054,98345,160468,162752,0.914
+96054,98345,160868,162952,0.851
+96054,98345,165931,168329,0.934
+96054,98345,166331,168529,0.917
+96054,98345,171046,173261,0.885
+96054,98345,171283,173528,0.934
+96054,98345,946028,948371,0.838
+96054,98345,946461,948642,0.91
+96354,98421,160468,162752,0.901
+96354,98421,160868,162952,0.988
+96354,98421,165931,168329,0.883
+96354,98421,166331,168529,0.994
+96354,98421,171046,173261,0.852
+96354,98421,171283,173528,0.992
+96354,98421,946028,948371,0.803
+96354,98421,946461,948642,0.95
+160468,162752,160868,162952,0.812
+160468,162752,165931,168329,0.929
+160468,162752,166331,168529,0.872
+160468,162752,171046,173261,0.888
+160468,162752,171283,173528,0.885
+160468,162752,946028,948371,0.863
+160468,162752,946461,948642,0.879
+160868,162952,165931,168329,0.867
+160868,162952,166331,168529,0.977
+160868,162952,171046,173261,0.836
+160868,162952,171283,173528,0.976
+160868,162952,946028,948371,0.787
+160868,162952,946461,948642,0.933
+165931,168329,166331,168529,0.821
+165931,168329,171046,173261,0.873
+165931,168329,171283,173528,0.836
+165931,168329,946028,948371,0.838
+165931,168329,946461,948642,0.827
+166331,168529,171046,173261,0.863
+166331,168529,171283,173528,0.994
+166331,168529,946028,948371,0.815
+166331,168529,946461,948642,0.94
+171046,173261,171283,173528,0.881
+171046,173261,946028,948371,0.893
+171046,173261,946461,948642,0.86
+171283,173528,946028,948371,0.816
+171283,173528,946461,948642,0.924
+946028,948371,946461,948642,0.8
+
+Group 2
+Start,End,Length
+9266,11671,2406,rrnO-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+90191,92389,2199,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+96047,98252,2206,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+166055,168174,2120,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+166276,168360,2085,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+634889,637108,2220,trnE-Arg(+) | Product: tRNA-Arg | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnE-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(UCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnE-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+9266,11671,90191,92389,0.829
+9266,11671,96047,98252,0.826
+9266,11671,166055,168174,0.808
+9266,11671,166276,168360,0.799
+9266,11671,634889,637108,0.831
+90191,92389,96047,98252,0.945
+90191,92389,166055,168174,0.869
+90191,92389,166276,168360,0.923
+90191,92389,634889,637108,0.866
+96047,98252,166055,168174,0.905
+96047,98252,166276,168360,0.938
+96047,98252,634889,637108,0.86
+166055,168174,166276,168360,0.886
+166055,168174,634889,637108,0.913
+166276,168360,634889,637108,0.882
+
+Group 3
+Start,End,Length
+29834,32139,2306,rrnA-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+634989,637194,2206,trnE-Arg(+) | Product: tRNA-Arg | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnE-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(UCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnE-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+946473,948557,2085,rrnD-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+29834,32139,634989,637194,0.843
+29834,32139,946473,948557,0.823
+634989,637194,946473,948557,0.884
+
+Group 4
+Start,End,Length
+11003,15665,4663,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnO-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnO-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+11627,15754,4128,rrnO-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnO-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+31417,36033,4617,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnA-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnA-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"csfB(+) | Product: forespore-specific anti-sigma factor | Protein ID: CAB11800.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 8759874, 15044948, 21935351, 26929302, 29526435; Product type cp: cell process"
+91620,96110,4491,rrnJ-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA
+97350,102002,4653,rrnW-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"ctsR(+) | Product: transcriptional regulator of class III stress genes | Protein ID: CAB11859.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 2120829, 9852015, 11069659, 12618461, 16163393, 20852588, 24465625, 27388279, 30962353, 30962626; Product type r: regulator"
+161989,166165,4177,rrnI-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Asn(+) | Product: tRNA-Asn | Note: transfer RNA-Asn(GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(GGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+167708,171730,4023,rrnH-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+172508,177170,4663,rrnG-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,BSU_01579[pseudo](-) | Note: Evidence 5: Unknown function; PubMedId: 30467398;hypothetical protein
+173132,177259,4128,rrnG-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,BSU_01579[pseudo](-) | Note: Evidence 5: Unknown function; PubMedId: 30467398;hypothetical protein
+636521,640747,4227,rrnE-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+636935,641011,4077,rrnE-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+947784,952174,4391,rrnD-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnD-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,asnTA(+) | Product: tRNA-Asn | Note: asparagine transfer RNA (GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Ser(+) | Product: tRNA-Ser | Note: transfer RNA-Ser(GGA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Glu(+) | Product: tRNA-Glu | Note: transfer RNA-Glu(UUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+11003,15665,11627,15754,0.858
+11003,15665,31417,36033,0.904
+11003,15665,91620,96110,0.861
+11003,15665,97350,102002,0.873
+11003,15665,161989,166165,0.838
+11003,15665,167708,171730,0.831
+11003,15665,172508,177170,0.877
+11003,15665,173132,177259,0.784
+11003,15665,636521,640747,0.845
+11003,15665,636935,641011,0.795
+11003,15665,947784,952174,0.847
+11627,15754,31417,36033,0.866
+11627,15754,91620,96110,0.866
+11627,15754,97350,102002,0.879
+11627,15754,161989,166165,0.838
+11627,15754,167708,171730,0.834
+11627,15754,172508,177170,0.885
+11627,15754,173132,177259,0.899
+11627,15754,636521,640747,0.844
+11627,15754,636935,641011,0.874
+11627,15754,947784,952174,0.848
+31417,36033,91620,96110,0.87
+31417,36033,97350,102002,0.878
+31417,36033,161989,166165,0.851
+31417,36033,167708,171730,0.831
+31417,36033,172508,177170,0.882
+31417,36033,173132,177259,0.775
+31417,36033,636521,640747,0.857
+31417,36033,636935,641011,0.793
+31417,36033,947784,952174,0.865
+91620,96110,97350,102002,0.917
+91620,96110,161989,166165,0.909
+91620,96110,167708,171730,0.862
+91620,96110,172508,177170,0.92
+91620,96110,173132,177259,0.795
+91620,96110,636521,640747,0.901
+91620,96110,636935,641011,0.822
+91620,96110,947784,952174,0.915
+97350,102002,161989,166165,0.86
+97350,102002,167708,171730,0.83
+97350,102002,172508,177170,0.913
+97350,102002,173132,177259,0.776
+97350,102002,636521,640747,0.865
+97350,102002,636935,641011,0.792
+97350,102002,947784,952174,0.869
+161989,166165,167708,171730,0.913
+161989,166165,172508,177170,0.961
+161989,166165,173132,177259,0.829
+161989,166165,636521,640747,0.949
+161989,166165,636935,641011,0.858
+161989,166165,947784,952174,0.959
+167708,171730,172508,177170,0.962
+167708,171730,173132,177259,0.856
+167708,171730,636521,640747,0.949
+167708,171730,636935,641011,0.886
+167708,171730,947784,952174,0.953
+172508,177170,173132,177259,0.858
+172508,177170,636521,640747,0.867
+172508,177170,636935,641011,0.797
+172508,177170,947784,952174,0.871
+173132,177259,636521,640747,0.843
+173132,177259,636935,641011,0.876
+173132,177259,947784,952174,0.849
+636521,640747,636935,641011,0.894
+636521,640747,947784,952174,0.949
+636935,641011,947784,952174,0.894
+
+Group 5
+Start,End,Length
+31743,35933,4191,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnA-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnA-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"csfB(+) | Product: forespore-specific anti-sigma factor | Protein ID: CAB11800.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 8759874, 15044948, 21935351, 26929302, 29526435; Product type cp: cell process"
+91820,95818,3999,rrnJ-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+162189,166165,3977,rrnI-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Asn(+) | Product: tRNA-Asn | Note: transfer RNA-Asn(GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(GGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+636935,640911,3977,rrnE-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+31743,35933,91820,95818,0.862
+31743,35933,162189,166165,0.86
+31743,35933,636935,640911,0.865
+91820,95818,162189,166165,0.942
+91820,95818,636935,640911,0.898
+162189,166165,636935,640911,0.902
+
+Group 6
+Start,End,Length
+8538,15587,7050,rrnO-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnO-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnO-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+9447,15970,6524,rrnO-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnO-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnO-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"yaaC(-) | Product: conserved protein of unknown function | Protein ID: CAB11784.1 | Note: Evidence 4: Unknown function but conserved in other organisms; PubMedId: 16267290, 22333191"
+9985,15525,5541,trnO-Ile(+) | Product: tRNA-Ile | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnO-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnO-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnO-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+29006,36032,7027,yaaL(+) | Product: conserved protein of unknown function | Protein ID: CAB11798.1 | Note: Evidence 4: Unknown function but conserved in other organisms,"bofA(+) | Product: inhibitor of the pro-sigma(K) processing machinery | Protein ID: CAB11799.2 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 15087499, 17557826, 30403663, 35471152; Product type r: regulator",rrnA-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnA-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnA-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"csfB(+) | Product: forespore-specific anti-sigma factor | Protein ID: CAB11800.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 8759874, 15044948, 21935351, 26929302, 29526435; Product type cp: cell process"
+29915,36438,6524,rrnA-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnA-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnA-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"csfB(+) | Product: forespore-specific anti-sigma factor | Protein ID: CAB11800.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 8759874, 15044948, 21935351, 26929302, 29526435; Product type cp: cell process"
+30415,35955,5541,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnA-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnA-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"csfB(+) | Product: forespore-specific anti-sigma factor | Protein ID: CAB11800.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 8759874, 15044948, 21935351, 26929302, 29526435; Product type cp: cell process"
+89048,96310,7263,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+89892,96592,6701,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+90472,96132,5661,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA
+94904,101988,7085,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"ctsR(+) | Product: transcriptional regulator of class III stress genes | Protein ID: CAB11859.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 2120829, 9852015, 11069659, 12618461, 16163393, 20852588, 24465625, 27388279, 30962353, 30962626; Product type r: regulator"
+95849,102526,6678,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"ctsR(+) | Product: transcriptional regulator of class III stress genes | Protein ID: CAB11859.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 2120829, 9852015, 11069659, 12618461, 16163393, 20852588, 24465625, 27388279, 30962353, 30962626; Product type r: regulator","mcsA(+) | Product: activator of protein kinase McsB | Protein ID: CAB11860.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 16163393, 19189946, 24947607, 33466511, 35350626; Product type f: factor"
+96376,102048,5673,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"ctsR(+) | Product: transcriptional regulator of class III stress genes | Protein ID: CAB11859.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 2120829, 9852015, 11069659, 12618461, 16163393, 20852588, 24465625, 27388279, 30962353, 30962626; Product type r: regulator"
+159547,166752,7206,"pdaB(-) | Product: polysaccharide deacetylase involved in sporulation | Protein ID: CAB11933.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 12662922, 15547282, 15598884, 24637747, 26735940, 28605069; Product type cp: cell process",rrnI-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Asn(+) | Product: tRNA-Asn | Note: transfer RNA-Asn(GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(GGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+160647,167024,6378,rrnI-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Asn(+) | Product: tRNA-Asn | Note: transfer RNA-Asn(GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(GGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+165064,172630,7567,rrnI-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Asn(+) | Product: tRNA-Asn | Note: transfer RNA-Asn(GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(GGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+166076,172630,6555,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+166490,172056,5567,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+170046,177278,7233,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,BSU_01579[pseudo](-) | Note: Evidence 5: Unknown function; PubMedId: 30467398;hypothetical protein
+171052,177530,6479,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,BSU_01579[pseudo](-) | Note: Evidence 5: Unknown function; PubMedId: 30467398;hypothetical protein
+634102,640633,6532,ydhUn[pseudo](-) | Note: Evidence 5: Unknown function; Product type e: enzyme;Mn catalase fragment; N-terminal part of YhdU,trnE-Arg(+) | Product: tRNA-Arg | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnE-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(UCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnE-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+634813,641493,6681,trnE-Arg(+) | Product: tRNA-Arg | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnE-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(UCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnE-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+945457,952756,7300,ygxA(+) | Product: conserved hypothetical protein | Protein ID: CAB12703.1 | Note: Evidence 4: Unknown function but conserved in other organisms,rrnD-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnD-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnD-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,asnTA(+) | Product: tRNA-Asn | Note: asparagine transfer RNA (GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Ser(+) | Product: tRNA-Ser | Note: transfer RNA-Ser(GGA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Glu(+) | Product: tRNA-Glu | Note: transfer RNA-Glu(UUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Phe(+) | Product: tRNA-Phe | Note: transfer RNA-Phe(GAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Tyr(+) | Product: tRNA-Tyr | Note: transfer RNA-Tyr(GUA); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Trp(+) | Product: tRNA-Trp | Note: transfer RNA-Trp(CCA); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-His(+) | Product: tRNA-His | Note: transfer RNA-His(GUG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Gln(+) | Product: tRNA-Gln | Note: transfer RNA-Gln(UUG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+946494,952696,6203,rrnD-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnD-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnD-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,asnTA(+) | Product: tRNA-Asn | Note: asparagine transfer RNA (GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Ser(+) | Product: tRNA-Ser | Note: transfer RNA-Ser(GGA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Glu(+) | Product: tRNA-Glu | Note: transfer RNA-Glu(UUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Phe(+) | Product: tRNA-Phe | Note: transfer RNA-Phe(GAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Tyr(+) | Product: tRNA-Tyr | Note: transfer RNA-Tyr(GUA); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Trp(+) | Product: tRNA-Trp | Note: transfer RNA-Trp(CCA); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-His(+) | Product: tRNA-His | Note: transfer RNA-His(GUG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Gln(+) | Product: tRNA-Gln | Note: transfer RNA-Gln(UUG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+946957,952082,5126,rrnD-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnD-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,asnTA(+) | Product: tRNA-Asn | Note: asparagine transfer RNA (GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Ser(+) | Product: tRNA-Ser | Note: transfer RNA-Ser(GGA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnD-Glu(+) | Product: tRNA-Glu | Note: transfer RNA-Glu(UUC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnD-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+8538,15587,9447,15970,0.862
+8538,15587,9985,15525,0.775
+8538,15587,29006,36032,0.866
+8538,15587,29915,36438,0.819
+8538,15587,30415,35955,0.732
+8538,15587,89048,96310,0.854
+8538,15587,89892,96592,0.819
+8538,15587,90472,96132,0.738
+8538,15587,94904,101988,0.849
+8538,15587,95849,102526,0.816
+8538,15587,96376,102048,0.738
+8538,15587,159547,166752,0.847
+8538,15587,160647,167024,0.777
+8538,15587,165064,172630,0.854
+8538,15587,166076,172630,0.797
+8538,15587,166490,172056,0.727
+8538,15587,170046,177278,0.856
+8538,15587,171052,177530,0.805
+8538,15587,634102,640633,0.825
+8538,15587,634813,641493,0.819
+8538,15587,945457,952756,0.855
+8538,15587,946494,952696,0.768
+8538,15587,946957,952082,0.675
+9447,15970,9985,15525,0.842
+9447,15970,29006,36032,0.879
+9447,15970,29915,36438,0.894
+9447,15970,30415,35955,0.806
+9447,15970,89048,96310,0.861
+9447,15970,89892,96592,0.869
+9447,15970,90472,96132,0.814
+9447,15970,94904,101988,0.857
+9447,15970,95849,102526,0.876
+9447,15970,96376,102048,0.818
+9447,15970,159547,166752,0.865
+9447,15970,160647,167024,0.86
+9447,15970,165064,172630,0.874
+9447,15970,166076,172630,0.866
+9447,15970,166490,172056,0.804
+9447,15970,170046,177278,0.867
+9447,15970,171052,177530,0.873
+9447,15970,634102,640633,0.824
+9447,15970,634813,641493,0.877
+9447,15970,945457,952756,0.874
+9447,15970,946494,952696,0.853
+9447,15970,946957,952082,0.742
+9985,15525,29006,36032,0.925
+9985,15525,29915,36438,0.95
+9985,15525,30415,35955,0.934
+9985,15525,89048,96310,0.896
+9985,15525,89892,96592,0.912
+9985,15525,90472,96132,0.901
+9985,15525,94904,101988,0.895
+9985,15525,95849,102526,0.921
+9985,15525,96376,102048,0.911
+9985,15525,159547,166752,0.898
+9985,15525,160647,167024,0.916
+9985,15525,165064,172630,0.904
+9985,15525,166076,172630,0.913
+9985,15525,166490,172056,0.899
+9985,15525,170046,177278,0.903
+9985,15525,171052,177530,0.918
+9985,15525,634102,640633,0.867
+9985,15525,634813,641493,0.914
+9985,15525,945457,952756,0.905
+9985,15525,946494,952696,0.912
+9985,15525,946957,952082,0.87
+29006,36032,29915,36438,0.861
+29006,36032,30415,35955,0.778
+29006,36032,89048,96310,0.853
+29006,36032,89892,96592,0.816
+29006,36032,90472,96132,0.734
+29006,36032,94904,101988,0.849
+29006,36032,95849,102526,0.811
+29006,36032,96376,102048,0.735
+29006,36032,159547,166752,0.848
+29006,36032,160647,167024,0.772
+29006,36032,165064,172630,0.855
+29006,36032,166076,172630,0.794
+29006,36032,166490,172056,0.725
+29006,36032,170046,177278,0.853
+29006,36032,171052,177530,0.8
+29006,36032,634102,640633,0.818
+29006,36032,634813,641493,0.811
+29006,36032,945457,952756,0.849
+29006,36032,946494,952696,0.767
+29006,36032,946957,952082,0.678
+29915,36438,30415,35955,0.842
+29915,36438,89048,96310,0.858
+29915,36438,89892,96592,0.87
+29915,36438,90472,96132,0.813
+29915,36438,94904,101988,0.855
+29915,36438,95849,102526,0.878
+29915,36438,96376,102048,0.816
+29915,36438,159547,166752,0.864
+29915,36438,160647,167024,0.859
+29915,36438,165064,172630,0.873
+29915,36438,166076,172630,0.868
+29915,36438,166490,172056,0.801
+29915,36438,170046,177278,0.863
+29915,36438,171052,177530,0.87
+29915,36438,634102,640633,0.821
+29915,36438,634813,641493,0.87
+29915,36438,945457,952756,0.872
+29915,36438,946494,952696,0.845
+29915,36438,946957,952082,0.748
+30415,35955,89048,96310,0.894
+30415,35955,89892,96592,0.908
+30415,35955,90472,96132,0.9
+30415,35955,94904,101988,0.895
+30415,35955,95849,102526,0.915
+30415,35955,96376,102048,0.909
+30415,35955,159547,166752,0.897
+30415,35955,160647,167024,0.91
+30415,35955,165064,172630,0.9
+30415,35955,166076,172630,0.91
+30415,35955,166490,172056,0.897
+30415,35955,170046,177278,0.9
+30415,35955,171052,177530,0.913
+30415,35955,634102,640633,0.87
+30415,35955,634813,641493,0.912
+30415,35955,945457,952756,0.906
+30415,35955,946494,952696,0.916
+30415,35955,946957,952082,0.869
+89048,96310,89892,96592,0.876
+89048,96310,90472,96132,0.768
+89048,96310,94904,101988,0.839
+89048,96310,95849,102526,0.801
+89048,96310,96376,102048,0.718
+89048,96310,159547,166752,0.856
+89048,96310,160647,167024,0.77
+89048,96310,165064,172630,0.855
+89048,96310,166076,172630,0.788
+89048,96310,166490,172056,0.713
+89048,96310,170046,177278,0.843
+89048,96310,171052,177530,0.786
+89048,96310,634102,640633,0.807
+89048,96310,634813,641493,0.803
+89048,96310,945457,952756,0.85
+89048,96310,946494,952696,0.76
+89048,96310,946957,952082,0.663
+89892,96592,90472,96132,0.837
+89892,96592,94904,101988,0.866
+89892,96592,95849,102526,0.87
+89892,96592,96376,102048,0.792
+89892,96592,159547,166752,0.926
+89892,96592,160647,167024,0.88
+89892,96592,165064,172630,0.891
+89892,96592,166076,172630,0.864
+89892,96592,166490,172056,0.786
+89892,96592,170046,177278,0.876
+89892,96592,171052,177530,0.859
+89892,96592,634102,640633,0.832
+89892,96592,634813,641493,0.866
+89892,96592,945457,952756,0.893
+89892,96592,946494,952696,0.839
+89892,96592,946957,952082,0.727
+90472,96132,94904,101988,0.919
+90472,96132,95849,102526,0.944
+90472,96132,96376,102048,0.924
+90472,96132,159547,166752,0.936
+90472,96132,160647,167024,0.952
+90472,96132,165064,172630,0.938
+90472,96132,166076,172630,0.947
+90472,96132,166490,172056,0.92
+90472,96132,170046,177278,0.925
+90472,96132,171052,177530,0.942
+90472,96132,634102,640633,0.896
+90472,96132,634813,641493,0.945
+90472,96132,945457,952756,0.942
+90472,96132,946494,952696,0.949
+90472,96132,946957,952082,0.861
+94904,101988,95849,102526,0.856
+94904,101988,96376,102048,0.781
+94904,101988,159547,166752,0.856
+94904,101988,160647,167024,0.774
+94904,101988,165064,172630,0.91
+94904,101988,166076,172630,0.8
+94904,101988,166490,172056,0.724
+94904,101988,170046,177278,0.868
+94904,101988,171052,177530,0.806
+94904,101988,634102,640633,0.822
+94904,101988,634813,641493,0.814
+94904,101988,945457,952756,0.851
+94904,101988,946494,952696,0.764
+94904,101988,946957,952082,0.671
+95849,102526,96376,102048,0.842
+95849,102526,159547,166752,0.874
+95849,102526,160647,167024,0.854
+95849,102526,165064,172630,0.894
+95849,102526,166076,172630,0.883
+95849,102526,166490,172056,0.789
+95849,102526,170046,177278,0.879
+95849,102526,171052,177530,0.872
+95849,102526,634102,640633,0.825
+95849,102526,634813,641493,0.869
+95849,102526,945457,952756,0.877
+95849,102526,946494,952696,0.833
+95849,102526,946957,952082,0.727
+96376,102048,159547,166752,0.923
+96376,102048,160647,167024,0.941
+96376,102048,165064,172630,0.93
+96376,102048,166076,172630,0.939
+96376,102048,166490,172056,0.919
+96376,102048,170046,177278,0.924
+96376,102048,171052,177530,0.941
+96376,102048,634102,640633,0.885
+96376,102048,634813,641493,0.94
+96376,102048,945457,952756,0.93
+96376,102048,946494,952696,0.936
+96376,102048,946957,952082,0.853
+159547,166752,160647,167024,0.838
+159547,166752,165064,172630,0.859
+159547,166752,166076,172630,0.799
+159547,166752,166490,172056,0.721
+159547,166752,170046,177278,0.847
+159547,166752,171052,177530,0.797
+159547,166752,634102,640633,0.808
+159547,166752,634813,641493,0.811
+159547,166752,945457,952756,0.854
+159547,166752,946494,952696,0.768
+159547,166752,946957,952082,0.671
+160647,167024,165064,172630,0.891
+160647,167024,166076,172630,0.895
+160647,167024,166490,172056,0.856
+160647,167024,170046,177278,0.87
+160647,167024,171052,177530,0.889
+160647,167024,634102,640633,0.826
+160647,167024,634813,641493,0.893
+160647,167024,945457,952756,0.892
+160647,167024,946494,952696,0.879
+160647,167024,946957,952082,0.769
+165064,172630,166076,172630,0.86
+165064,172630,166490,172056,0.722
+165064,172630,170046,177278,0.821
+165064,172630,171052,177530,0.772
+165064,172630,634102,640633,0.771
+165064,172630,634813,641493,0.783
+165064,172630,945457,952756,0.817
+165064,172630,946494,952696,0.735
+165064,172630,946957,952082,0.638
+166076,172630,166490,172056,0.842
+166076,172630,170046,177278,0.871
+166076,172630,171052,177530,0.879
+166076,172630,634102,640633,0.827
+166076,172630,634813,641493,0.878
+166076,172630,945457,952756,0.882
+166076,172630,946494,952696,0.849
+166076,172630,946957,952082,0.744
+166490,172056,170046,177278,0.928
+166490,172056,171052,177530,0.944
+166490,172056,634102,640633,0.897
+166490,172056,634813,641493,0.945
+166490,172056,945457,952756,0.937
+166490,172056,946494,952696,0.944
+166490,172056,946957,952082,0.868
+170046,177278,171052,177530,0.852
+170046,177278,634102,640633,0.804
+170046,177278,634813,641493,0.807
+170046,177278,945457,952756,0.839
+170046,177278,946494,952696,0.754
+170046,177278,946957,952082,0.661
+171052,177530,634102,640633,0.84
+171052,177530,634813,641493,0.889
+171052,177530,945457,952756,0.89
+171052,177530,946494,952696,0.855
+171052,177530,946957,952082,0.751
+634102,640633,634813,641493,0.879
+634102,640633,945457,952756,0.896
+634102,640633,946494,952696,0.804
+634102,640633,946957,952082,0.719
+634813,641493,945457,952756,0.889
+634813,641493,946494,952696,0.838
+634813,641493,946957,952082,0.729
+945457,952756,946494,952696,0.842
+945457,952756,946957,952082,0.687
+946494,952696,946957,952082,0.818
+
+Group 7
+Start,End,Length
+29515,35514,6000,"bofA(+) | Product: inhibitor of the pro-sigma(K) processing machinery | Protein ID: CAB11799.2 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 15087499, 17557826, 30403663, 35471152; Product type r: regulator",rrnA-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnA-Ile(+) | Product: tRNA-Ile | Note: transfer RNA-Ile(GAU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnA-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnA-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnA-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+634493,640492,6000,ydhUn[pseudo](-) | Note: Evidence 5: Unknown function; Product type e: enzyme;Mn catalase fragment; N-terminal part of YhdU,trnE-Arg(+) | Product: tRNA-Arg | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnE-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(UCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnE-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnE-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Met(+) | Product: tRNA-Met | Note: transfer RNA-Met(CAU); Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnE-Asp(+) | Product: tRNA-Asp | Note: transfer RNA-Asp(GUC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+29515,35514,634493,640492,0.891
+
+Group 8
+Start,End,Length
+88823,102770,13948,rrnJ-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnJ-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,trnJ-Val(+) | Product: tRNA-Val | Note: transfer RNA-Val(UAC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(UGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Lys(+) | Product: tRNA-Lys | Note: transfer RNA-Lys(UUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu1(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Leu2(+) | Product: tRNA-Leu | Note: transfer RNA-Leu(UAA); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Arg(+) | Product: tRNA-Arg | Note: arginine transfer RNA(ACG); Evidence 2a: Function from experimental evidences in other organisms; PubMedId: 27749819; Product type n: RNA,trnJ-Pro(+) | Product: tRNA-Pro | Note: transfer RNA-Pro(UGG); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnJ-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnW-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnW-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,"ctsR(+) | Product: transcriptional regulator of class III stress genes | Protein ID: CAB11859.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 2120829, 9852015, 11069659, 12618461, 16163393, 20852588, 24465625, 27388279, 30962353, 30962626; Product type r: regulator","mcsA(+) | Product: activator of protein kinase McsB | Protein ID: CAB11860.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 16163393, 19189946, 24947607, 33466511, 35350626; Product type f: factor"
+158931,173124,14194,"kbaA(+) | Product: inner membrane protein involved in activation of the KinB signaling pathway to sporulation | Protein ID: CAB11932.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 8576055, 15849754, 16850406, 29314743; Product type r: regulator","pdaB(-) | Product: polysaccharide deacetylase involved in sporulation | Protein ID: CAB11933.1 | Note: Evidence 1a: Function from experimental evidences in the studied strain; PubMedId: 12662922, 15547282, 15598884, 24637747, 26735940, 28605069; Product type cp: cell process",rrnI-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnI-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Asn(+) | Product: tRNA-Asn | Note: transfer RNA-Asn(GUU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Thr(+) | Product: tRNA-Thr | Note: transfer RNA-Thr(GGU); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Gly(+) | Product: tRNA-Gly | Note: transfer RNA-Gly(GCC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Arg(+) | Product: tRNA-Arg | Note: transfer RNA-Arg(AGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Pro(+) | Product: tRNA-Pro | Note: Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,trnI-Ala(+) | Product: tRNA-Ala | Note: transfer RNA-Ala(UGC); Evidence 2a: Function from experimental evidences in other organisms; Product type n: RNA,rrnH-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-23S(+) | Product: ribosomal RNA-23S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnH-5S(+) | Product: ribosomal RNA-5S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA,rrnG-16S(+) | Product: ribosomal RNA-16S | Note: Evidence 1a: Function from experimental evidences in the studied strain; Product type n: RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+88823,102770,158931,173124,0.875
+
