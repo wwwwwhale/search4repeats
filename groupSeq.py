@@ -233,7 +233,7 @@ def compare_sequence_pair(start1, end1, start2, end2, genome):
     seq2 = genome[start2:end2]
 
     score = aligner.score(seq1, seq2)
-    max_possible_score = len(seq1) * aligner.match_score
+    max_possible_score = max(len(seq1),len(seq2)) * aligner.match_score
     similarity = round(score / max_possible_score if max_possible_score > 0 else 0, 3)
 
     return (start1, end1, start2, end2, similarity)
