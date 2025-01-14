@@ -1,39 +1,222 @@
-Group 0
-Start,End,Length
-3907123,3907962,839
-3909932,3910771,839
-
-
 Group 1
 Start,End,Length
-1853879,1855578,1699
-2426012,2427810,1798
-2605463,2607247,1784
+3907123,3907962,840
+3909932,3910771,840
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+3907123,3907962,3909932,3910771,0.9
 
 Group 2
 Start,End,Length
-85310,87195,1885
-1107325,1109123,1798
-1418450,1420249,1799
-1646859,1648857,1998
-3204536,3206621,2085
+85310,87195,1886,SR852_00455(+),WQG62272.1(+) | Product: IS3 family transposase | Protein ID: WQG62272.1 | Note: programmed frameshift,WQG62272.1(+) | Product: IS3 family transposase | Protein ID: WQG62272.1 | Note: programmed frameshift
+1107325,1109123,1799,SR852_05445(+),WQG63162.1(+) | Product: IS3 family transposase | Protein ID: WQG63162.1 | Note: programmed frameshift,WQG63162.1(+) | Product: IS3 family transposase | Protein ID: WQG63162.1 | Note: programmed frameshift
+1418450,1420249,1800,SR852_07045(+),WQG63467.1(+) | Product: IS3 family transposase | Protein ID: WQG63467.1 | Note: programmed frameshift,WQG63467.1(+) | Product: IS3 family transposase | Protein ID: WQG63467.1 | Note: programmed frameshift
+1647058,1648857,1800,SR852_08230(+),WQG63684.1(+) | Product: IS3 family transposase | Protein ID: WQG63684.1 | Note: programmed frameshift,WQG63684.1(+) | Product: IS3 family transposase | Protein ID: WQG63684.1 | Note: programmed frameshift
+3204736,3206621,1886,SR852_16500(+),WQG61201.1(+) | Product: IS3 family transposase | Protein ID: WQG61201.1 | Note: programmed frameshift,WQG61201.1(+) | Product: IS3 family transposase | Protein ID: WQG61201.1 | Note: programmed frameshift
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+85310,87195,1107325,1109123,0.837
+85310,87195,1418450,1420249,0.83
+85310,87195,1647058,1648857,0.835
+85310,87195,3204736,3206621,0.849
+1107325,1109123,1418450,1420249,0.867
+1107325,1109123,1647058,1648857,0.864
+1107325,1109123,3204736,3206621,0.839
+1418450,1420249,1647058,1648857,0.863
+1418450,1420249,3204736,3206621,0.833
+1647058,1648857,3204736,3206621,0.838
 
 Group 3
 Start,End,Length
-217558,219796,2238
-228326,230564,2238
+1646859,1648543,1685,SR852_08230(+),WQG63684.1(+) | Product: IS3 family transposase | Protein ID: WQG63684.1 | Note: programmed frameshift,WQG63684.1(+) | Product: IS3 family transposase | Protein ID: WQG63684.1 | Note: programmed frameshift
+3204536,3206220,1685,WQG61200.1(+) | Product: hypothetical protein | Protein ID: WQG61200.1,SR852_16500(+),WQG61201.1(+) | Product: IS3 family transposase | Protein ID: WQG61201.1 | Note: programmed frameshift,WQG61201.1(+) | Product: IS3 family transposase | Protein ID: WQG61201.1 | Note: programmed frameshift
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1646859,1648543,3204536,3206220,0.894
 
 Group 4
 Start,End,Length
-0,6355,6355
-452384,460051,7667
-515340,522970,7630
-521249,528888,7639
-581830,589380,7550
-606528,614078,7550
-3917217,3924609,7392
+1853879,1855578,1700,SR852_09390(-),WQG63881.1(-) | Product: IS3 family transposase | Protein ID: WQG63881.1 | Note: programmed frameshift,WQG63881.1(-) | Product: IS3 family transposase | Protein ID: WQG63881.1 | Note: programmed frameshift
+2426012,2427810,1799,SR852_12470(-),WQG60447.1(-) | Product: IS3 family transposase | Protein ID: WQG60447.1 | Note: programmed frameshift,WQG60447.1(-) | Product: IS3 family transposase | Protein ID: WQG60447.1 | Note: programmed frameshift
+2605463,2607247,1785,SR852_13495(-),WQG60641.1(-) | Product: IS3 family transposase | Protein ID: WQG60641.1 | Note: programmed frameshift,WQG60641.1(-) | Product: IS3 family transposase | Protein ID: WQG60641.1 | Note: programmed frameshift
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1853879,1855578,2426012,2427810,0.837
+1853879,1855578,2605463,2607247,0.843
+2426012,2427810,2605463,2607247,0.865
+
+Group 5
+Start,End,Length
+2820,5118,2299,SR852_00015(-) | Product: 16S ribosomal RNA
+456871,458984,2114,SR852_02160(-) | Product: 16S ribosomal RNA
+519542,521768,2227,SR852_02550(-) | Product: 16S ribosomal RNA
+525562,528032,2471,SR852_02610(-) | Product: 16S ribosomal RNA
+586107,588675,2569,SR852_02930(-) | Product: tRNA-Ala,SR852_02935(-) | Product: tRNA-Ile,SR852_02940(-) | Product: 16S ribosomal RNA
+610805,613573,2769,SR852_03065(-) | Product: tRNA-Ala,SR852_03070(-) | Product: tRNA-Ile,SR852_03075(-) | Product: 16S ribosomal RNA
+3921246,3923589,2344,SR852_20440(-) | Product: 16S ribosomal RNA
+3921546,3923859,2314,SR852_20440(-) | Product: 16S ribosomal RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+2820,5118,456871,458984,0.802
+2820,5118,519542,521768,0.922
+2820,5118,525562,528032,0.819
+2820,5118,586107,588675,0.806
+2820,5118,610805,613573,0.746
+2820,5118,3921246,3923589,0.899
+2820,5118,3921546,3923859,0.771
+456871,458984,519542,521768,0.843
+456871,458984,525562,528032,0.81
+456871,458984,586107,588675,0.762
+456871,458984,610805,613573,0.716
+456871,458984,3921246,3923589,0.836
+456871,458984,3921546,3923859,0.827
+519542,521768,525562,528032,0.832
+519542,521768,586107,588675,0.802
+519542,521768,610805,613573,0.747
+519542,521768,3921246,3923589,0.888
+519542,521768,3921546,3923859,0.767
+525562,528032,586107,588675,0.836
+525562,528032,610805,613573,0.803
+525562,528032,3921246,3923589,0.865
+525562,528032,3921546,3923859,0.802
+586107,588675,610805,613573,0.887
+586107,588675,3921246,3923589,0.854
+586107,588675,3921546,3923859,0.764
+610805,613573,3921246,3923589,0.803
+610805,613573,3921546,3923859,0.735
+3921246,3923589,3921546,3923859,0.86
+
+Group 6
+Start,End,Length
+217558,219796,2239
+228326,230564,2239
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+217558,219796,228326,230564,0.892
+
+Group 7
+Start,End,Length
+452801,457251,4451,SR852_02140(-) | Product: tRNA-Thr,SR852_02145(-) | Product: tRNA-Asn,rrf(-) | Product: 5S ribosomal RNA,SR852_02155(-) | Product: 23S ribosomal RNA
+515957,520255,4299,WQG62650.1(-) | Product: CtsR family transcriptional regulator | Protein ID: WQG62650.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02545(-) | Product: 23S ribosomal RNA
+521849,526182,4334,SR852_02565(-) | Product: tRNA-Arg,SR852_02570(-) | Product: tRNA-Leu,SR852_02575(-) | Product: tRNA-Gly,SR852_02580(-) | Product: tRNA-Leu,SR852_02585(-) | Product: tRNA-Lys,SR852_02590(-) | Product: tRNA-Thr,SR852_02595(-) | Product: tRNA-Val,rrf(-) | Product: 5S ribosomal RNA,SR852_02605(-) | Product: 23S ribosomal RNA
+582424,586728,4305,WQG62705.1(-) | Product: sigma factor G inhibitor Gin | Protein ID: WQG62705.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02925(-) | Product: 23S ribosomal RNA,SR852_02930(-) | Product: tRNA-Ala,SR852_02935(-) | Product: tRNA-Ile
+606928,611461,4534,rrf(-) | Product: 5S ribosomal RNA,SR852_03060(-) | Product: 23S ribosomal RNA,SR852_03065(-) | Product: tRNA-Ala,SR852_03070(-) | Product: tRNA-Ile
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+452801,457251,515957,520255,0.893
+452801,457251,521849,526182,0.889
+452801,457251,582424,586728,0.86
+452801,457251,606928,611461,0.867
+515957,520255,521849,526182,0.911
+515957,520255,582424,586728,0.884
+515957,520255,606928,611461,0.854
+521849,526182,582424,586728,0.875
+521849,526182,606928,611461,0.848
+582424,586728,606928,611461,0.889
+
+Group 8
+Start,End,Length
+515948,521049,5102,WQG62650.1(-) | Product: CtsR family transcriptional regulator | Protein ID: WQG62650.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02545(-) | Product: 23S ribosomal RNA
+582421,587522,5102,WQG62705.1(-) | Product: sigma factor G inhibitor Gin | Protein ID: WQG62705.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02925(-) | Product: 23S ribosomal RNA,SR852_02930(-) | Product: tRNA-Ala,SR852_02935(-) | Product: tRNA-Ile
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+515948,521049,582421,587522,0.9
+
+Group 9
+Start,End,Length
+0,6355,6356,rrf(-) | Product: 5S ribosomal RNA,SR852_00010(-) | Product: 23S ribosomal RNA,SR852_00015(-) | Product: 16S ribosomal RNA,SR852_00020(-) | Product: tRNA-Gly,SR852_00025(-) | Product: tRNA-Arg
+452384,460051,7668,SR852_02140(-) | Product: tRNA-Thr,SR852_02145(-) | Product: tRNA-Asn,rrf(-) | Product: 5S ribosomal RNA,SR852_02155(-) | Product: 23S ribosomal RNA,SR852_02160(-) | Product: 16S ribosomal RNA,pdaB(+) | Product: polysaccharide deacetylase family sporulation protein PdaB | Protein ID: WQG62577.1
+515340,522038,6699,WQG62649.1(-) | Product: UvrB/UvrC motif-containing protein | Protein ID: WQG62649.1,WQG62650.1(-) | Product: CtsR family transcriptional regulator | Protein ID: WQG62650.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02545(-) | Product: 23S ribosomal RNA,SR852_02550(-) | Product: 16S ribosomal RNA,SR852_02555(-) | Product: tRNA-Ala,SR852_02560(-) | Product: tRNA-Pro,SR852_02565(-) | Product: tRNA-Arg
+516572,522970,6399,rrf(-) | Product: 5S ribosomal RNA,SR852_02545(-) | Product: 23S ribosomal RNA,SR852_02550(-) | Product: 16S ribosomal RNA,SR852_02555(-) | Product: tRNA-Ala,SR852_02560(-) | Product: tRNA-Pro,SR852_02565(-) | Product: tRNA-Arg,SR852_02570(-) | Product: tRNA-Leu,SR852_02575(-) | Product: tRNA-Gly,SR852_02580(-) | Product: tRNA-Leu,SR852_02585(-) | Product: tRNA-Lys,SR852_02590(-) | Product: tRNA-Thr,SR852_02595(-) | Product: tRNA-Val,rrf(-) | Product: 5S ribosomal RNA
+521249,528888,7640,SR852_02555(-) | Product: tRNA-Ala,SR852_02560(-) | Product: tRNA-Pro,SR852_02565(-) | Product: tRNA-Arg,SR852_02570(-) | Product: tRNA-Leu,SR852_02575(-) | Product: tRNA-Gly,SR852_02580(-) | Product: tRNA-Leu,SR852_02585(-) | Product: tRNA-Lys,SR852_02590(-) | Product: tRNA-Thr,SR852_02595(-) | Product: tRNA-Val,rrf(-) | Product: 5S ribosomal RNA,SR852_02605(-) | Product: 23S ribosomal RNA,SR852_02610(-) | Product: 16S ribosomal RNA
+581830,589380,7551,WQG62704.1(-) | Product: 5-bromo-4-chloroindolyl phosphate hydrolysis family protein | Protein ID: WQG62704.1,WQG62705.1(-) | Product: sigma factor G inhibitor Gin | Protein ID: WQG62705.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02925(-) | Product: 23S ribosomal RNA,SR852_02930(-) | Product: tRNA-Ala,SR852_02935(-) | Product: tRNA-Ile,SR852_02940(-) | Product: 16S ribosomal RNA,WQG62706.1(-) | Product: pro-sigmaK processing inhibitor BofA family protein | Protein ID: WQG62706.1,WQG62707.1(-) | Product: YaaL family protein | Protein ID: WQG62707.1
+606528,614078,7551,WQG62723.1(+) | Product: YaaC family protein | Protein ID: WQG62723.1,rrf(-) | Product: 5S ribosomal RNA,SR852_03060(-) | Product: 23S ribosomal RNA,SR852_03065(-) | Product: tRNA-Ala,SR852_03070(-) | Product: tRNA-Ile,SR852_03075(-) | Product: 16S ribosomal RNA
+3917217,3924609,7393,SR852_20380(-) | Product: tRNA-Trp,SR852_20385(-) | Product: tRNA-Tyr,SR852_20390(-) | Product: tRNA-Thr,SR852_20395(-) | Product: tRNA-Phe,SR852_20400(-) | Product: tRNA-Asp,SR852_20405(-) | Product: tRNA-Met,SR852_20410(-) | Product: tRNA-Val,SR852_20415(-) | Product: tRNA-Glu,SR852_20420(-) | Product: tRNA-Ser,SR852_20425(-) | Product: tRNA-Asn,rrf(-) | Product: 5S ribosomal RNA,SR852_20435(-) | Product: 23S ribosomal RNA,SR852_20440(-) | Product: 16S ribosomal RNA,WQG61925.1(-) | Product: nucleotidyltransferase-like protein | Protein ID: WQG61925.1
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+0,6355,452384,460051,0.734
+0,6355,515340,522038,0.777
+0,6355,516572,522970,0.886
+0,6355,521249,528888,0.736
+0,6355,581830,589380,0.738
+0,6355,606528,614078,0.736
+0,6355,3917217,3924609,0.768
+452384,460051,515340,522038,0.78
+452384,460051,516572,522970,0.742
+452384,460051,521249,528888,0.835
+452384,460051,581830,589380,0.819
+452384,460051,606528,614078,0.82
+452384,460051,3917217,3924609,0.815
+515340,522038,516572,522970,0.8
+515340,522038,521249,528888,0.78
+515340,522038,581830,589380,0.79
+515340,522038,606528,614078,0.789
+515340,522038,3917217,3924609,0.782
+516572,522970,521249,528888,0.748
+516572,522970,581830,589380,0.74
+516572,522970,606528,614078,0.74
+516572,522970,3917217,3924609,0.767
+521249,528888,581830,589380,0.821
+521249,528888,606528,614078,0.822
+521249,528888,3917217,3924609,0.823
+581830,589380,606528,614078,0.86
+581830,589380,3917217,3924609,0.816
+606528,614078,3917217,3924609,0.817
+
+Group 10
+Start,End,Length
+516542,522470,5929,rrf(-) | Product: 5S ribosomal RNA,SR852_02545(-) | Product: 23S ribosomal RNA,SR852_02550(-) | Product: 16S ribosomal RNA,SR852_02555(-) | Product: tRNA-Ala,SR852_02560(-) | Product: tRNA-Pro,SR852_02565(-) | Product: tRNA-Arg,SR852_02570(-) | Product: tRNA-Leu,SR852_02575(-) | Product: tRNA-Gly,SR852_02580(-) | Product: tRNA-Leu,SR852_02585(-) | Product: tRNA-Lys,SR852_02590(-) | Product: tRNA-Thr
+607875,613909,6035,SR852_03060(-) | Product: 23S ribosomal RNA,SR852_03065(-) | Product: tRNA-Ala,SR852_03070(-) | Product: tRNA-Ile,SR852_03075(-) | Product: 16S ribosomal RNA
+3918411,3924357,5947,SR852_20435(-) | Product: 23S ribosomal RNA,SR852_20440(-) | Product: 16S ribosomal RNA,WQG61925.1(-) | Product: nucleotidyltransferase-like protein | Protein ID: WQG61925.1
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+516542,522470,607875,613909,0.884
+516542,522470,3918411,3924357,0.889
+607875,613909,3918411,3924357,0.888
+
+Group 11
+Start,End,Length
+452842,458634,5793,SR852_02140(-) | Product: tRNA-Thr,SR852_02145(-) | Product: tRNA-Asn,rrf(-) | Product: 5S ribosomal RNA,SR852_02155(-) | Product: 23S ribosomal RNA,SR852_02160(-) | Product: 16S ribosomal RNA
+515740,521738,5999,WQG62650.1(-) | Product: CtsR family transcriptional regulator | Protein ID: WQG62650.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02545(-) | Product: 23S ribosomal RNA,SR852_02550(-) | Product: 16S ribosomal RNA
+521684,527547,5864,SR852_02555(-) | Product: tRNA-Ala,SR852_02560(-) | Product: tRNA-Pro,SR852_02565(-) | Product: tRNA-Arg,SR852_02570(-) | Product: tRNA-Leu,SR852_02575(-) | Product: tRNA-Gly,SR852_02580(-) | Product: tRNA-Leu,SR852_02585(-) | Product: tRNA-Lys,SR852_02590(-) | Product: tRNA-Thr,SR852_02595(-) | Product: tRNA-Val,rrf(-) | Product: 5S ribosomal RNA,SR852_02605(-) | Product: 23S ribosomal RNA,SR852_02610(-) | Product: 16S ribosomal RNA
+582213,588080,5868,WQG62705.1(-) | Product: sigma factor G inhibitor Gin | Protein ID: WQG62705.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02925(-) | Product: 23S ribosomal RNA,SR852_02930(-) | Product: tRNA-Ala,SR852_02935(-) | Product: tRNA-Ile
+606963,613061,6099,rrf(-) | Product: 5S ribosomal RNA,SR852_03060(-) | Product: 23S ribosomal RNA,SR852_03065(-) | Product: tRNA-Ala,SR852_03070(-) | Product: tRNA-Ile,SR852_03075(-) | Product: 16S ribosomal RNA
+3917359,3923509,6151,SR852_20390(-) | Product: tRNA-Thr,SR852_20395(-) | Product: tRNA-Phe,SR852_20400(-) | Product: tRNA-Asp,SR852_20405(-) | Product: tRNA-Met,SR852_20410(-) | Product: tRNA-Val,SR852_20415(-) | Product: tRNA-Glu,SR852_20420(-) | Product: tRNA-Ser,SR852_20425(-) | Product: tRNA-Asn,rrf(-) | Product: 5S ribosomal RNA,SR852_20435(-) | Product: 23S ribosomal RNA,SR852_20440(-) | Product: 16S ribosomal RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+452842,458634,515740,521738,0.899
+452842,458634,521684,527547,0.916
+452842,458634,582213,588080,0.892
+452842,458634,606963,613061,0.88
+452842,458634,3917359,3923509,0.867
+515740,521738,521684,527547,0.906
+515740,521738,582213,588080,0.876
+515740,521738,606963,613061,0.895
+515740,521738,3917359,3923509,0.881
+521684,527547,582213,588080,0.887
+521684,527547,606963,613061,0.886
+521684,527547,3917359,3923509,0.882
+582213,588080,606963,613061,0.89
+582213,588080,3917359,3923509,0.834
+606963,613061,3917359,3923509,0.882
+
+Group 12
+Start,End,Length
+452836,458582,5747,SR852_02140(-) | Product: tRNA-Thr,SR852_02145(-) | Product: tRNA-Asn,rrf(-) | Product: 5S ribosomal RNA,SR852_02155(-) | Product: 23S ribosomal RNA
+582265,588011,5747,WQG62705.1(-) | Product: sigma factor G inhibitor Gin | Protein ID: WQG62705.1,rrf(-) | Product: 5S ribosomal RNA,SR852_02925(-) | Product: 23S ribosomal RNA,SR852_02930(-) | Product: tRNA-Ala,SR852_02935(-) | Product: tRNA-Ile
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+452836,458582,582265,588011,0.895
 

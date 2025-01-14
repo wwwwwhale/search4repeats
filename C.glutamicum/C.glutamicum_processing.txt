@@ -1,0 +1,817 @@
+Starting to group intervals...
+Total sequence pairs to process: 37
+
+Processing sequence pair: ((953653, 955351), (959761, 961459), 1699)
+Created new group with ((953653, 955351), (959761, 961459), 1699) as the first member.
+
+Processing sequence pair: ((2509123, 2511012), (2623651, 2625540), 1890)
+Group 0 average length: 1699.0
+Length 1890 not compatible with group average 1699.0
+Created new group with ((2509123, 2511012), (2623651, 2625540), 1890) as the first member.
+
+Processing sequence pair: ((192638, 194773), (3032038, 3034173), 2136)
+Group 0 average length: 1699.0
+Length 2136 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 2136 not compatible with group average 1890.0
+Created new group with ((192638, 194773), (3032038, 3034173), 2136) as the first member.
+
+Processing sequence pair: ((1671200, 1673389), (2695290, 2697479), 2190)
+Group 0 average length: 1699.0
+Length 2190 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 2190 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length compatible, checking overlaps in group 2 with 1 members.
+Overlaps with group element ((192638, 194773), (3032038, 3034173), 2136): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((1671200, 1673389), (2695290, 2697479), 2190) as the first member.
+
+Processing sequence pair: ((1958222, 1963655), (1989646, 1995079), 5434)
+Group 0 average length: 1699.0
+Length 5434 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 5434 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 5434 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 5434 not compatible with group average 2190.0
+Created new group with ((1958222, 1963655), (1989646, 1995079), 5434) as the first member.
+
+Processing sequence pair: ((1958226, 1963663), (1989650, 1995087), 5438)
+Group 0 average length: 1699.0
+Length 5438 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 5438 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 5438 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 5438 not compatible with group average 2190.0
+Group 4 average length: 5434.0
+Length compatible, checking overlaps in group 4 with 1 members.
+Overlaps with group element ((1958222, 1963655), (1989646, 1995079), 5434): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((1958226, 1963663), (1989650, 1995087), 5438) to group 4.
+Sequence pair ((1958226, 1963663), (1989650, 1995087), 5438) successfully added to group 4.
+
+Processing sequence pair: ((1958267, 1963724), (1989691, 1995148), 5458)
+Group 0 average length: 1699.0
+Length 5458 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 5458 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 5458 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 5458 not compatible with group average 2190.0
+Group 4 average length: 5436.0
+Length compatible, checking overlaps in group 4 with 2 members.
+Overlaps with group element ((1958222, 1963655), (1989646, 1995079), 5434): [interval1-g[0]: 0.99, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.99]
+Added ((1958267, 1963724), (1989691, 1995148), 5458) to group 4.
+Sequence pair ((1958267, 1963724), (1989691, 1995148), 5458) successfully added to group 4.
+
+Processing sequence pair: ((75017, 82094), (1477738, 1484815), 7078)
+Group 0 average length: 1699.0
+Length 7078 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7078 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7078 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7078 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7078 not compatible with group average 5443.333333333333
+Created new group with ((75017, 82094), (1477738, 1484815), 7078) as the first member.
+
+Processing sequence pair: ((854334, 861452), (1477578, 1484696), 7119)
+Group 0 average length: 1699.0
+Length 7119 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7119 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7119 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7119 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7119 not compatible with group average 5443.333333333333
+Group 5 average length: 7078.0
+Length compatible, checking overlaps in group 5 with 1 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((854334, 861452), (1477578, 1484696), 7119) to group 5.
+Sequence pair ((854334, 861452), (1477578, 1484696), 7119) successfully added to group 5.
+
+Processing sequence pair: ((75676, 82812), (1478398, 1485534), 7137)
+Group 0 average length: 1699.0
+Length 7137 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7137 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7137 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7137 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7137 not compatible with group average 5443.333333333333
+Group 5 average length: 7098.5
+Length compatible, checking overlaps in group 5 with 2 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.91, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.91]
+Added ((75676, 82812), (1478398, 1485534), 7137) to group 5.
+Sequence pair ((75676, 82812), (1478398, 1485534), 7137) successfully added to group 5.
+
+Processing sequence pair: ((854254, 861390), (1477498, 1484634), 7137)
+Group 0 average length: 1699.0
+Length 7137 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7137 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7137 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7137 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7137 not compatible with group average 5443.333333333333
+Group 5 average length: 7111.333333333333
+Length compatible, checking overlaps in group 5 with 3 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.97]
+Added ((854254, 861390), (1477498, 1484634), 7137) to group 5.
+Sequence pair ((854254, 861390), (1477498, 1484634), 7137) successfully added to group 5.
+
+Processing sequence pair: ((2711160, 2718305), (3144547, 3151692), 7146)
+Group 0 average length: 1699.0
+Length 7146 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7146 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7146 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7146 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7146 not compatible with group average 5443.333333333333
+Group 5 average length: 7117.75
+Length compatible, checking overlaps in group 5 with 4 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((2711160, 2718305), (3144547, 3151692), 7146) as the first member.
+
+Processing sequence pair: ((74786, 81941), (1477508, 1484663), 7156)
+Group 0 average length: 1699.0
+Length 7156 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7156 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7156 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7156 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7156 not compatible with group average 5443.333333333333
+Group 5 average length: 7117.75
+Length compatible, checking overlaps in group 5 with 4 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((74786, 81941), (1477508, 1484663), 7156) to group 5.
+Sequence pair ((74786, 81941), (1477508, 1484663), 7156) successfully added to group 5.
+
+Processing sequence pair: ((854257, 861412), (1477508, 1484663), 7156)
+Group 0 average length: 1699.0
+Length 7156 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7156 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7156 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7156 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7156 not compatible with group average 5443.333333333333
+Group 5 average length: 7125.4
+Length compatible, checking overlaps in group 5 with 5 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((854257, 861412), (1477508, 1484663), 7156) to group 5.
+Sequence pair ((854257, 861412), (1477508, 1484663), 7156) successfully added to group 5.
+
+Processing sequence pair: ((74896, 82055), (1477617, 1484776), 7160)
+Group 0 average length: 1699.0
+Length 7160 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7160 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7160 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7160 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7160 not compatible with group average 5443.333333333333
+Group 5 average length: 7130.5
+Length compatible, checking overlaps in group 5 with 6 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.99, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.99]
+Added ((74896, 82055), (1477617, 1484776), 7160) to group 5.
+Sequence pair ((74896, 82055), (1477617, 1484776), 7160) successfully added to group 5.
+
+Processing sequence pair: ((854273, 861432), (1477517, 1484676), 7160)
+Group 0 average length: 1699.0
+Length 7160 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7160 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7160 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7160 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7160 not compatible with group average 5443.333333333333
+Group 5 average length: 7134.714285714285
+Length compatible, checking overlaps in group 5 with 7 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((854273, 861432), (1477517, 1484676), 7160) to group 5.
+Sequence pair ((854273, 861432), (1477517, 1484676), 7160) successfully added to group 5.
+
+Processing sequence pair: ((74814, 81984), (1477536, 1484706), 7171)
+Group 0 average length: 1699.0
+Length 7171 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7171 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7171 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7171 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7171 not compatible with group average 5443.333333333333
+Group 5 average length: 7137.875
+Length compatible, checking overlaps in group 5 with 8 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((74814, 81984), (1477536, 1484706), 7171) to group 5.
+Sequence pair ((74814, 81984), (1477536, 1484706), 7171) successfully added to group 5.
+
+Processing sequence pair: ((854268, 861452), (1477512, 1484696), 7185)
+Group 0 average length: 1699.0
+Length 7185 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7185 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7185 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7185 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7185 not compatible with group average 5443.333333333333
+Group 5 average length: 7141.555555555556
+Length compatible, checking overlaps in group 5 with 9 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.98]
+Added ((854268, 861452), (1477512, 1484696), 7185) to group 5.
+Sequence pair ((854268, 861452), (1477512, 1484696), 7185) successfully added to group 5.
+
+Processing sequence pair: ((2702234, 2709436), (2711101, 2718303), 7203)
+Group 0 average length: 1699.0
+Length 7203 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7203 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7203 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7203 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7203 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7146.0
+Length compatible, checking overlaps in group 6 with 1 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 1.00, interval2-g[1]: 0.00]
+Added ((2702234, 2709436), (2711101, 2718303), 7203) to group 6.
+Sequence pair ((2702234, 2709436), (2711101, 2718303), 7203) successfully added to group 6.
+
+Processing sequence pair: ((2712501, 2719703), (3145888, 3153090), 7203)
+Group 0 average length: 1699.0
+Length 7203 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7203 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7203 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7203 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7203 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7174.5
+Length compatible, checking overlaps in group 6 with 2 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.81, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.81]
+Overlaps with group element ((2702234, 2709436), (2711101, 2718303), 7203): [interval1-g[0]: 0.00, interval1-g[1]: 0.81, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Created new group with ((2712501, 2719703), (3145888, 3153090), 7203) as the first member.
+
+Processing sequence pair: ((2703601, 2710842), (2712468, 2719709), 7242)
+Group 0 average length: 1699.0
+Length 7242 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7242 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7242 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7242 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7242 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7174.5
+Length compatible, checking overlaps in group 6 with 2 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.82, interval2-g[1]: 0.00]
+Overlaps with group element ((2702234, 2709436), (2711101, 2718303), 7203): [interval1-g[0]: 0.81, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.81]
+Group 7 average length: 7203.0
+Length compatible, checking overlaps in group 7 with 1 members.
+Overlaps with group element ((2712501, 2719703), (3145888, 3153090), 7203): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 1.00, interval2-g[1]: 0.00]
+Added ((2703601, 2710842), (2712468, 2719709), 7242) to group 7.
+Sequence pair ((2703601, 2710842), (2712468, 2719709), 7242) successfully added to group 7.
+
+Processing sequence pair: ((2702193, 2709438), (2711060, 2718305), 7246)
+Group 0 average length: 1699.0
+Length 7246 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7246 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7246 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7246 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7246 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7174.5
+Length compatible, checking overlaps in group 6 with 2 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 1.00, interval2-g[1]: 0.00]
+Added ((2702193, 2709438), (2711060, 2718305), 7246) to group 6.
+Sequence pair ((2702193, 2709438), (2711060, 2718305), 7246) successfully added to group 6.
+
+Processing sequence pair: ((2702244, 2709491), (2711111, 2718358), 7248)
+Group 0 average length: 1699.0
+Length 7248 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7248 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7248 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7248 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7248 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7198.333333333333
+Length compatible, checking overlaps in group 6 with 3 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 1.00, interval2-g[1]: 0.00]
+Added ((2702244, 2709491), (2711111, 2718358), 7248) to group 6.
+Sequence pair ((2702244, 2709491), (2711111, 2718358), 7248) successfully added to group 6.
+
+Processing sequence pair: ((2711111, 2718358), (3144499, 3151746), 7248)
+Group 0 average length: 1699.0
+Length 7248 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7248 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7248 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7248 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7248 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7210.75
+Length compatible, checking overlaps in group 6 with 4 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 1.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((2711111, 2718358), (3144499, 3151746), 7248) to group 6.
+Sequence pair ((2711111, 2718358), (3144499, 3151746), 7248) successfully added to group 6.
+
+Processing sequence pair: ((75796, 83055), (855273, 862532), 7260)
+Group 0 average length: 1699.0
+Length 7260 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7260 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7260 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7260 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7260 not compatible with group average 5443.333333333333
+Group 5 average length: 7145.9
+Length compatible, checking overlaps in group 5 with 10 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.89, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.87, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.98, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((75796, 83055), (855273, 862532), 7260) to group 5.
+Sequence pair ((75796, 83055), (855273, 862532), 7260) successfully added to group 5.
+
+Processing sequence pair: ((75396, 82674), (854874, 862152), 7279)
+Group 0 average length: 1699.0
+Length 7279 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7279 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7279 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7279 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7279 not compatible with group average 5443.333333333333
+Group 5 average length: 7156.272727272727
+Length compatible, checking overlaps in group 5 with 11 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.95, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((75396, 82674), (854874, 862152), 7279) to group 5.
+Sequence pair ((75396, 82674), (854874, 862152), 7279) successfully added to group 5.
+
+Processing sequence pair: ((76014, 83294), (855493, 862773), 7281)
+Group 0 average length: 1699.0
+Length 7281 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7281 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7281 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7281 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7281 not compatible with group average 5443.333333333333
+Group 5 average length: 7166.5
+Length compatible, checking overlaps in group 5 with 12 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.86, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.84, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.95, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((76014, 83294), (855493, 862773), 7281) to group 5.
+Sequence pair ((76014, 83294), (855493, 862773), 7281) successfully added to group 5.
+
+Processing sequence pair: ((75757, 83053), (855234, 862530), 7297)
+Group 0 average length: 1699.0
+Length 7297 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7297 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7297 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7297 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7297 not compatible with group average 5443.333333333333
+Group 5 average length: 7175.307692307692
+Length compatible, checking overlaps in group 5 with 13 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.90, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.87, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.99, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((75757, 83053), (855234, 862530), 7297) to group 5.
+Sequence pair ((75757, 83053), (855234, 862530), 7297) successfully added to group 5.
+
+Processing sequence pair: ((2702193, 2709491), (2711060, 2718358), 7299)
+Group 0 average length: 1699.0
+Length 7299 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7299 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7299 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7299 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7299 not compatible with group average 5443.333333333333
+Group 5 average length: 7184.0
+Length compatible, checking overlaps in group 5 with 14 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75796, 83055), (855273, 862532), 7260): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75396, 82674), (854874, 862152), 7279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((76014, 83294), (855493, 862773), 7281): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75757, 83053), (855234, 862530), 7297): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7218.2
+Length compatible, checking overlaps in group 6 with 5 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 1.00, interval2-g[1]: 0.00]
+Added ((2702193, 2709491), (2711060, 2718358), 7299) to group 6.
+Sequence pair ((2702193, 2709491), (2711060, 2718358), 7299) successfully added to group 6.
+
+Processing sequence pair: ((75343, 82643), (854814, 862114), 7301)
+Group 0 average length: 1699.0
+Length 7301 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7301 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7301 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7301 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7301 not compatible with group average 5443.333333333333
+Group 5 average length: 7184.0
+Length compatible, checking overlaps in group 5 with 14 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.95, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((75343, 82643), (854814, 862114), 7301) to group 5.
+Sequence pair ((75343, 82643), (854814, 862114), 7301) successfully added to group 5.
+
+Processing sequence pair: ((2703641, 2710952), (2712508, 2719819), 7312)
+Group 0 average length: 1699.0
+Length 7312 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7312 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7312 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7312 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7312 not compatible with group average 5443.333333333333
+Group 5 average length: 7191.8
+Length compatible, checking overlaps in group 5 with 15 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75796, 83055), (855273, 862532), 7260): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75396, 82674), (854874, 862152), 7279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((76014, 83294), (855493, 862773), 7281): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75757, 83053), (855234, 862530), 7297): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75343, 82643), (854814, 862114), 7301): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7231.666666666667
+Length compatible, checking overlaps in group 6 with 6 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.81, interval2-g[1]: 0.00]
+Overlaps with group element ((2702234, 2709436), (2711101, 2718303), 7203): [interval1-g[0]: 0.80, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.80]
+Overlaps with group element ((2702193, 2709438), (2711060, 2718305), 7246): [interval1-g[0]: 0.80, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.80]
+Overlaps with group element ((2702244, 2709491), (2711111, 2718358), 7248): [interval1-g[0]: 0.81, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.81]
+Overlaps with group element ((2711111, 2718358), (3144499, 3151746), 7248): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.81, interval2-g[1]: 0.00]
+Overlaps with group element ((2702193, 2709491), (2711060, 2718358), 7299): [interval1-g[0]: 0.80, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.80]
+Group 7 average length: 7222.5
+Length compatible, checking overlaps in group 7 with 2 members.
+Overlaps with group element ((2712501, 2719703), (3145888, 3153090), 7203): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 1.00, interval2-g[1]: 0.00]
+Added ((2703641, 2710952), (2712508, 2719819), 7312) to group 7.
+Sequence pair ((2703641, 2710952), (2712508, 2719819), 7312) successfully added to group 7.
+
+Processing sequence pair: ((75276, 82612), (854754, 862090), 7337)
+Group 0 average length: 1699.0
+Length 7337 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7337 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7337 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7337 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7337 not compatible with group average 5443.333333333333
+Group 5 average length: 7191.8
+Length compatible, checking overlaps in group 5 with 15 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.96, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((75276, 82612), (854754, 862090), 7337) to group 5.
+Sequence pair ((75276, 82612), (854754, 862090), 7337) successfully added to group 5.
+
+Processing sequence pair: ((75286, 82641), (854757, 862112), 7356)
+Group 0 average length: 1699.0
+Length 7356 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7356 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7356 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7356 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7356 not compatible with group average 5443.333333333333
+Group 5 average length: 7200.875
+Length compatible, checking overlaps in group 5 with 16 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.96, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Added ((75286, 82641), (854757, 862112), 7356) to group 5.
+Sequence pair ((75286, 82641), (854757, 862112), 7356) successfully added to group 5.
+
+Processing sequence pair: ((2701993, 2709638), (3144247, 3151892), 7646)
+Group 0 average length: 1699.0
+Length 7646 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7646 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7646 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7646 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7646 not compatible with group average 5443.333333333333
+Group 5 average length: 7210.0
+Length compatible, checking overlaps in group 5 with 17 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75796, 83055), (855273, 862532), 7260): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75396, 82674), (854874, 862152), 7279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((76014, 83294), (855493, 862773), 7281): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75757, 83053), (855234, 862530), 7297): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75343, 82643), (854814, 862114), 7301): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75276, 82612), (854754, 862090), 7337): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75286, 82641), (854757, 862112), 7356): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7231.666666666667
+Length compatible, checking overlaps in group 6 with 6 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((2701993, 2709638), (3144247, 3151892), 7646) to group 6.
+Sequence pair ((2701993, 2709638), (3144247, 3151892), 7646) successfully added to group 6.
+
+Processing sequence pair: ((2702044, 2709691), (3144299, 3151946), 7648)
+Group 0 average length: 1699.0
+Length 7648 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7648 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7648 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7648 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7648 not compatible with group average 5443.333333333333
+Group 5 average length: 7210.0
+Length compatible, checking overlaps in group 5 with 17 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75796, 83055), (855273, 862532), 7260): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75396, 82674), (854874, 862152), 7279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((76014, 83294), (855493, 862773), 7281): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75757, 83053), (855234, 862530), 7297): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75343, 82643), (854814, 862114), 7301): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75276, 82612), (854754, 862090), 7337): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75286, 82641), (854757, 862112), 7356): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7290.857142857143
+Length compatible, checking overlaps in group 6 with 7 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((2702044, 2709691), (3144299, 3151946), 7648) to group 6.
+Sequence pair ((2702044, 2709691), (3144299, 3151946), 7648) successfully added to group 6.
+
+Processing sequence pair: ((2701940, 2709632), (3144194, 3151886), 7693)
+Group 0 average length: 1699.0
+Length 7693 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7693 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7693 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7693 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7693 not compatible with group average 5443.333333333333
+Group 5 average length: 7210.0
+Length compatible, checking overlaps in group 5 with 17 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75796, 83055), (855273, 862532), 7260): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75396, 82674), (854874, 862152), 7279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((76014, 83294), (855493, 862773), 7281): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75757, 83053), (855234, 862530), 7297): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75343, 82643), (854814, 862114), 7301): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75276, 82612), (854754, 862090), 7337): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75286, 82641), (854757, 862112), 7356): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7335.5
+Length compatible, checking overlaps in group 6 with 8 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((2701940, 2709632), (3144194, 3151886), 7693) to group 6.
+Sequence pair ((2701940, 2709632), (3144194, 3151886), 7693) successfully added to group 6.
+
+Processing sequence pair: ((2701934, 2709636), (3144188, 3151890), 7703)
+Group 0 average length: 1699.0
+Length 7703 not compatible with group average 1699.0
+Group 1 average length: 1890.0
+Length 7703 not compatible with group average 1890.0
+Group 2 average length: 2136.0
+Length 7703 not compatible with group average 2136.0
+Group 3 average length: 2190.0
+Length 7703 not compatible with group average 2190.0
+Group 4 average length: 5443.333333333333
+Length 7703 not compatible with group average 5443.333333333333
+Group 5 average length: 7210.0
+Length compatible, checking overlaps in group 5 with 17 members.
+Overlaps with group element ((75017, 82094), (1477738, 1484815), 7078): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854334, 861452), (1477578, 1484696), 7119): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75676, 82812), (1478398, 1485534), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854254, 861390), (1477498, 1484634), 7137): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74786, 81941), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854257, 861412), (1477508, 1484663), 7156): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74896, 82055), (1477617, 1484776), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854273, 861432), (1477517, 1484676), 7160): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((74814, 81984), (1477536, 1484706), 7171): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((854268, 861452), (1477512, 1484696), 7185): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75796, 83055), (855273, 862532), 7260): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75396, 82674), (854874, 862152), 7279): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((76014, 83294), (855493, 862773), 7281): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75757, 83053), (855234, 862530), 7297): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75343, 82643), (854814, 862114), 7301): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75276, 82612), (854754, 862090), 7337): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Overlaps with group element ((75286, 82641), (854757, 862112), 7356): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 0.00]
+Group 6 average length: 7375.222222222223
+Length compatible, checking overlaps in group 6 with 9 members.
+Overlaps with group element ((2711160, 2718305), (3144547, 3151692), 7146): [interval1-g[0]: 0.00, interval1-g[1]: 0.00, interval2-g[0]: 0.00, interval2-g[1]: 1.00]
+Added ((2701934, 2709636), (3144188, 3151890), 7703) to group 6.
+Sequence pair ((2701934, 2709636), (3144188, 3151890), 7703) successfully added to group 6.
+
+Group 0 statistics:
+Average length: 1699.00
+Length range: 1699 - 1699
+Number of sequences: 1
+
+Group 1 statistics:
+Average length: 1890.00
+Length range: 1890 - 1890
+Number of sequences: 1
+
+Group 2 statistics:
+Average length: 2136.00
+Length range: 2136 - 2136
+Number of sequences: 1
+
+Group 3 statistics:
+Average length: 2190.00
+Length range: 2190 - 2190
+Number of sequences: 1
+
+Group 4 statistics:
+Average length: 5443.33
+Length range: 5434 - 5458
+Number of sequences: 3
+
+Group 5 statistics:
+Average length: 7210.00
+Length range: 7078 - 7356
+Number of sequences: 17
+
+Group 6 statistics:
+Average length: 7408.00
+Length range: 7146 - 7703
+Number of sequences: 10
+
+Group 7 statistics:
+Average length: 7252.33
+Length range: 7203 - 7312
+Number of sequences: 3
+
+Grouping complete. Total groups formed: 8

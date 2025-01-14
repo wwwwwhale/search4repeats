@@ -1,44 +1,85 @@
-Group 0
-Start,End,Length
-953653,955351,1698
-959761,961459,1698
-
-
 Group 1
 Start,End,Length
-2509123,2511012,1889
-2623651,2625540,1889
+953653,955351,1699,Cgl0898(+) | Product: Putative transposase | Protein ID: BAB98291.1,Cgl0899(+) | Product: Putative transposase | Protein ID: BAB98292.1 | Note: PF00665:Integrase core domain
+959761,961459,1699,Cgl0904(+) | Product: Putative transposase | Protein ID: BAB98297.1,Cgl0905(+) | Product: Putative transposase | Protein ID: BAB98298.1 | Note: PF00665:Integrase core domain
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+953653,955351,959761,961459,0.896
 
 Group 2
 Start,End,Length
-192638,194773,2135
-3032038,3034173,2135
+2509123,2511012,1890,Cgl2367(-) | Product: Transposase | Protein ID: BAB99760.1 | Note: PF01610:Transposase
+2623651,2625540,1890,Cgl2478(+) | Product: Hypothetical protein | Protein ID: BAB99871.1,Cgl2479(-) | Product: Transposase | Protein ID: BAB99872.1 | Note: PF01610:Transposase
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+2509123,2511012,2623651,2625540,0.89
 
 Group 3
 Start,End,Length
-1671200,1673389,2189
-2695290,2697479,2189
+192638,194773,2136,Cgl0182(+) | Product: Transposase | Protein ID: BAB97575.1 | Note: PF00665:Integrase core domain
+3032038,3034173,2136,Cgl2845(+) | Product: Transposase | Protein ID: BAC00239.1 | Note: PF00665:Integrase core domain
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+192638,194773,3032038,3034173,0.892
 
 Group 4
 Start,End,Length
-1958222,1963724,5502
-1989646,1995148,5502
+1671200,1673389,2190,Cgl1579(-) | Product: Hypothetical protein | Protein ID: BAB98972.1,Cgl1580(+) | Product: Hypothetical protein | Protein ID: BAB98973.1
+2695290,2697479,2190,Cgl2548(-) | Product: Predicted transposase | Protein ID: BAB99941.1,Cgl2549(+) | Product: TnpC protein | Protein ID: BAB99942.1
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1671200,1673389,2695290,2697479,0.897
 
 Group 5
 Start,End,Length
-74786,83294,8508
-854254,862773,8519
-1477498,1485534,8036
+1958222,1963724,5503,Cgl1845(-) | Product: Uncharacterized low-complexity proteins | Protein ID: BAB99238.1 | Note: PF00805:Pentapeptide repeats (8 copies),Cgl1846(-) | Product: Hypothetical protein | Protein ID: BAB99239.1,Cgl1847(-) | Product: Hypothetical protein | Protein ID: BAB99240.1,Cgl1848(-) | Product: Hypothetical protein | Protein ID: BAB99241.1,Cgl1849(-) | Product: Hypothetical protein | Protein ID: BAB99242.1
+1989646,1995148,5503,Cgl1887(-) | Product: Uncharacterized low-complexity proteins | Protein ID: BAB99280.1 | Note: PF00805:Pentapeptide repeats (8 copies),Cgl1888(-) | Product: Hypothetical protein | Protein ID: BAB99281.1,Cgl1889(-) | Product: Hypothetical protein | Protein ID: BAB99282.1,Cgl1890(-) | Product: Hypothetical protein | Protein ID: BAB99283.1
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1958222,1963724,1989646,1995148,0.894
 
 Group 6
 Start,End,Length
-2701934,2710952,9018
-2711060,2719819,8759
-3144188,3153090,8902
+74786,83294,8509,Cgl0073(+) | Product: Hypothetical protein | Protein ID: BAB97466.1,Cgl0074(+) | Product: Hypothetical protein | Protein ID: BAB97467.1
+854254,862773,8520,Cgl0813(+) | Product: ABC-type transporter%2C ATPase component | Protein ID: BAB98206.1 | Note: PF00005:ABC transporter;~TIGR00960:3a0501s02: Type II (General) Secretory Pathway (IISP) Family protein;~TIGR00968:3a0106s01: sulfate transport system permease protein;~TIGR01166:cbiO: cobalt transport protein ATP-binding subunit;~TIGR01184:ntrCD: nitrate transport ATP-binding subunits C and D;~TIGR01186:proV: glycine betaine/L-proline transport ATP binding subunit;~TIGR01187:potA: spermidine/putrescine ABC transporter ATP-binding subunit;~TIGR01188:drrA: daunorubicin resistance ABC transporter ATP-binding subunit;~TIGR01189:ccmA: heme exporter protein CcmA,"Cgl0814(+) | Product: PLP-dependent aminotransferases | Protein ID: BAB98207.1 | Note: PF00155:Aminotransferase class I and II;~TIGR01140:CobD: L-threonine-O-3-phosphate decarboxylase, putative;~TIGR01141:hisC: histidinol-phosphate aminotransferase;~TIGR01264:tyr_amTase_E: tyrosine aminotransferase;~TIGR01265:tyr_nico_aTase: tyrosine/nicotianamine aminotransferases"
+1477498,1484815,7318,Cgl1407(-) | Product: Universal stress protein UspA and related nucleotide-binding proteins | Protein ID: BAB98800.1 | Note: PF00582:Universal stress protein family,Cgl1408(-) | Product: Hypothetical protein | Protein ID: BAB98801.1
+1478398,1485534,7137,Cgl1408(-) | Product: Hypothetical protein | Protein ID: BAB98801.1
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+74786,83294,854254,862773,0.847
+74786,83294,1477498,1484815,0.767
+74786,83294,1478398,1485534,0.779
+854254,862773,1477498,1484815,0.766
+854254,862773,1478398,1485534,0.776
+1477498,1484815,1478398,1485534,0.866
+
+Group 7
+Start,End,Length
+2701934,2709691,7758,Cgl2553(-) | Product: ABC-type transporter%2C ATPase component | Protein ID: BAB99946.1 | Note: PF00005:ABC transporter;~TIGR00960:3a0501s02: Type II (General) Secretory Pathway (IISP) Family protein;~TIGR00968:3a0106s01: sulfate transport system permease protein;~TIGR01166:cbiO: cobalt transport protein ATP-binding subunit;~TIGR01184:ntrCD: nitrate transport ATP-binding subunits C and D;~TIGR01186:proV: glycine betaine/L-proline transport ATP binding subunit;~TIGR01187:potA: spermidine/putrescine ABC transporter ATP-binding subunit;~TIGR01188:drrA: daunorubicin resistance ABC transporter ATP-binding subunit;~TIGR01189:ccmA: heme exporter protein CcmA
+2711060,2718358,7299,Cgl2556(+) | Product: Hypothetical protein | Protein ID: BAB99949.1,Cgl2557(-) | Product: Hypothetical membrane protein | Protein ID: BAB99950.1
+3144188,3151946,7759,"Cgl2945(+) | Product: Pseudouridylate synthases%2C 23S RNA-specific | Protein ID: BAC00339.1 | Note: PF00849:RNA pseudouridylate synthase;~TIGR00005:rluD_subfam: ribosomal large subunit pseudouridine synthases, RluD subfamily",Cgl2946(-) | Product: Hypothetical membrane protein | Protein ID: BAC00340.1
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+2701934,2709691,2711060,2718358,0.855
+2701934,2709691,3144188,3151946,0.895
+2711060,2718358,3144188,3151946,0.852
+
+Group 8
+Start,End,Length
+2703601,2710952,7352,Cgl2554(+) | Product: Hypothetical protein | Protein ID: BAB99947.1
+2712468,2719819,7352,Cgl2557(-) | Product: Hypothetical membrane protein | Protein ID: BAB99950.1,Cgl2558(-) | Product: UDP-N-acetylglucosamine enolpyruvyl transferase | Protein ID: BAB99951.1 | Note: PF00275:EPSP synthase (3-phosphoshikimate 1-carboxyvinyltransferase);~TIGR01072:murA: UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+3145888,3153090,7203,Cgl2946(-) | Product: Hypothetical membrane protein | Protein ID: BAC00340.1,"Cgl2947(-) | Product: Predicted transcriptional regulators | Protein ID: BAC00341.1 | Note: PF00392:Bacterial regulatory proteins, gntR family"
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+2703601,2710952,2712468,2719819,0.893
+2703601,2710952,3145888,3153090,0.901
+2712468,2719819,3145888,3153090,0.886
 
