@@ -37,9 +37,9 @@ def main():
     base_name = os.path.splitext(os.path.basename(genome_file))[0]
     repeated_seq_file = os.path.join(output_dir, f"{base_name}_repeated_seq.txt")
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
-    group_file = os.path.join(output_dir, f"{base_name}_grouping_results.csv")
-    annotation_file = os.path.join(output_dir, f"{base_name}_annotation_results.csv")
+    group_file = os.path.join(output_dir, f"{base_name}_grouped_results.csv")
     log_file = os.path.join(output_dir, f"{base_name}_processing.txt")
+    summary_file = os.path.join(output_dir, f"{base_name}_summary.csv")
     repeated_len = 500
 
     # Step 1: 运行 findRepeatedSeq.py
@@ -75,9 +75,18 @@ def main():
             f"-f {genome_file}"
         )
         run_command(annotation_cmd, "Error: annotateSequences.py failed.")
-        print(f"Annotation results saved to {annotation_file}")
+        print(f"Annotation results saved to {group_file}")
     else:
         print("Skipping annotation step: GFF file not found")
+
+    # Step 4: 运行序列注释（如果有GFF文件）
+    print("Running summary.py...")
+    group_seq_cmd = (
+        f"python summary.py --input {group_file} "
+        f"--output {summary_file}"
+    )
+    run_command(group_seq_cmd, "Error: summary.py failed.")
+    print(f"Output saved to {summary_file}")
 
     print("All steps completed successfully!")
 

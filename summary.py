@@ -1,6 +1,7 @@
 import csv
 from collections import defaultdict
-
+import argparse
+import sys
 
 def process_csv_and_group(input_file, output_file):
     """
@@ -9,8 +10,15 @@ def process_csv_and_group(input_file, output_file):
     :param input_file: 输入的CSV文件路径
     :param output_file: 输出的CSV文件路径
     """
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+    try:
+        with open(input_file, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        print(f"错误：找不到输入文件 {input_file}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"读取文件时发生错误：{str(e)}")
+        sys.exit(1)
 
     group_data = {}  # 保存组信息，键为组号，值为区间数量
     current_group = None
@@ -43,16 +51,31 @@ def process_csv_and_group(input_file, output_file):
         grouped_by_intervals[count].append(group)
 
     # 将结果写入输出文件
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow(["Interval Count", "Groups"])  # 写入表头
-        for count, groups in sorted(grouped_by_intervals.items()):
-            writer.writerow([count, "; ".join(groups)])  # 用分号分隔组号
+    try:
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            # 写入总组数
+            writer.writerow([f"Total number of groups: {len(group_data)}"])
+            writer.writerow([])  # 添加一个空行
+            writer.writerow(["Interval Count", "Groups"])  # 写入表头
+            for count, groups in sorted(grouped_by_intervals.items()):
+                writer.writerow([count, "; ".join(groups)])  # 用分号分隔组号
+        print(f"处理完成！结果已保存到 {output_file}")
+    except Exception as e:
+        print(f"写入文件时发生错误：{str(e)}")
+        sys.exit(1)
 
-    print(f"处理完成！结果已保存到 {output_file}")
+def main():
+    # 创建命令行参数解析器
+    parser = argparse.ArgumentParser(description='处理CSV文件并按区间数量分组')
+    parser.add_argument('-i', '--input', required=True, help='输入CSV文件的路径')
+    parser.add_argument('-o', '--output', required=True, help='输出CSV文件的路径')
 
+    # 解析命令行参数
+    args = parser.parse_args()
 
-# 调用函数
-input_csv = "./Jeju/Jeju_grouping_results.csv"  # 输入文件路径
-output_csv = "./Jeju/Jeju_summary.csv"  # 输出文件路径
-process_csv_and_group(input_csv, output_csv)
+    # 调用处理函数
+    process_csv_and_group(args.input, args.output)
+
+if __name__ == "__main__":
+    main()
