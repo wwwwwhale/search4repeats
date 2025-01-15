@@ -1,39 +1,232 @@
-Group 0
-Start,End,Length
-2476549,2478319,1770
-2479451,2481221,1770
-
-
 Group 1
 Start,End,Length
-1290349,1292122,1773
-1292391,1294164,1773
+685821,687440,1620
+5073108,5074727,1620,FEM41_23840(-) | Product: tRNA-Ala
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+685821,687440,5073108,5074727,0.899
 
 Group 2
 Start,End,Length
-2508049,2511409,3360
-2517944,2521304,3360
+1541354,1543181,1828,FEM41_07110(+) | Product: tRNA-Ala
+2230009,2231837,1829,FEM41_10250(+) | Product: tRNA-Glu
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1541354,1543181,2230009,2231837,0.869
 
 Group 3
 Start,End,Length
-3534773,3538726,3953
-3538253,3542206,3953
+2476549,2478319,1771,FEM41_11380[pseudo](+) | Product: M23 family metallopeptidase | Note: incomplete; partial on complete genome; missing C-terminus
+2479451,2481221,1771
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+2476549,2478319,2479451,2481221,0.897
 
 Group 4
 Start,End,Length
-683240,690373,7133
-1171402,1178729,7327
-5070752,5077852,7100
+1290349,1292122,1774
+1292391,1294164,1774
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1290349,1292122,1292391,1294164,0.881
 
 Group 5
 Start,End,Length
-1402174,1410417,8243
-1495607,1503404,7797
-1538557,1545790,7233
-2227101,2234980,7879
+687120,689676,2557,FEM41_03155(-) | Product: tRNA-Glu,FEM41_03160(-) | Product: 16S ribosomal RNA
+1175609,1177985,2377,FEM41_05440(-) | Product: tRNA-Ile,FEM41_05445(-) | Product: 16S ribosomal RNA
+5074552,5076830,2279,FEM41_23840(-) | Product: tRNA-Ala,FEM41_23845(-) | Product: tRNA-Ile,FEM41_23850(-) | Product: 16S ribosomal RNA
 
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+687120,689676,1175609,1177985,0.835
+687120,689676,5074552,5076830,0.804
+1175609,1177985,5074552,5076830,0.867
+
+Group 6
+Start,End,Length
+1403338,1406036,2699,FEM41_06455(+) | Product: 16S ribosomal RNA,FEM41_06460(+) | Product: tRNA-Glu
+1497007,1499405,2399,FEM41_06890(+) | Product: 16S ribosomal RNA,FEM41_06895(+) | Product: tRNA-Glu
+1539011,1541709,2699,QCT19432.1(+) | Product: hypothetical protein | Protein ID: QCT19432.1,FEM41_07100(+) | Product: 16S ribosomal RNA,FEM41_07105(+) | Product: tRNA-Ile,FEM41_07110(+) | Product: tRNA-Ala
+2227854,2230365,2512,FEM41_10245(+) | Product: 16S ribosomal RNA,FEM41_10250(+) | Product: tRNA-Glu
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1403338,1406036,1497007,1499405,0.873
+1403338,1406036,1539011,1541709,0.843
+1403338,1406036,2227854,2230365,0.85
+1497007,1499405,1539011,1541709,0.8
+1497007,1499405,2227854,2230365,0.879
+1539011,1541709,2227854,2230365,0.845
+
+Group 7
+Start,End,Length
+1171823,1174353,2531,rrf(-) | Product: 5S ribosomal RNA
+5070858,5073388,2531,rrf(-) | Product: 5S ribosomal RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1171823,1174353,5070858,5073388,0.891
+
+Group 8
+Start,End,Length
+3534807,3537421,2615
+3539331,3541945,2615
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+3534807,3537421,3539331,3541945,0.9
+
+Group 9
+Start,End,Length
+684948,687711,2764,FEM41_03155(-) | Product: tRNA-Glu
+5072234,5074997,2764,FEM41_23840(-) | Product: tRNA-Ala,FEM41_23845(-) | Product: tRNA-Ile
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+684948,687711,5072234,5074997,0.891
+
+Group 10
+Start,End,Length
+1171755,1174835,3081,rrf(-) | Product: 5S ribosomal RNA
+5070790,5073870,3081,rrf(-) | Product: 5S ribosomal RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1171755,1174835,5070790,5073870,0.893
+
+Group 11
+Start,End,Length
+1406551,1409771,3221,rrf(+) | Product: 5S ribosomal RNA,FEM41_06475(+) | Product: tRNA-Asp,FEM41_06480(+) | Product: tRNA-Trp
+1542270,1545290,3021,rrf(+) | Product: 5S ribosomal RNA
+2231014,2234334,3321,rrf(+) | Product: 5S ribosomal RNA,FEM41_10265(+) | Product: tRNA-Asp
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1406551,1409771,1542270,1545290,0.862
+1406551,1409771,2231014,2234334,0.892
+1542270,1545290,2231014,2234334,0.832
+
+Group 12
+Start,End,Length
+2508049,2511409,3361
+2517944,2521304,3361
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+2508049,2511409,2517944,2521304,0.9
+
+Group 13
+Start,End,Length
+3534773,3538726,3954
+3538253,3542206,3954
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+3534773,3538726,3538253,3542206,0.895
+
+Group 14
+Start,End,Length
+683875,687955,4081,FEM41_03140(-) | Product: tRNA-Thr,rrf(-) | Product: 5S ribosomal RNA,FEM41_03150(-) | Product: 23S ribosomal RNA,FEM41_03155(-) | Product: tRNA-Glu
+5071072,5075152,4081,rrf(-) | Product: 5S ribosomal RNA,FEM41_23835(-) | Product: 23S ribosomal RNA,FEM41_23840(-) | Product: tRNA-Ala,FEM41_23845(-) | Product: tRNA-Ile
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+683875,687955,5071072,5075152,0.892
+
+Group 15
+Start,End,Length
+1403035,1407189,4155,FEM41_06455(+) | Product: 16S ribosomal RNA,FEM41_06460(+) | Product: tRNA-Glu
+1496468,1500622,4155,hemG(+) | Product: menaquinone-dependent protoporphyrinogen IX dehydrogenase | Protein ID: QCT19400.1,FEM41_06890(+) | Product: 16S ribosomal RNA,FEM41_06895(+) | Product: tRNA-Glu
+2227509,2231663,4155,gmhB(+) | Product: D-glycero-beta-D-manno-heptose 1%2C7-bisphosphate 7-phosphatase | Protein ID: QCT20007.1,FEM41_10245(+) | Product: 16S ribosomal RNA,FEM41_10250(+) | Product: tRNA-Glu
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1403035,1407189,1496468,1500622,0.926
+1403035,1407189,2227509,2231663,0.898
+1496468,1500622,2227509,2231663,0.9
+
+Group 16
+Start,End,Length
+1173311,1178574,5264,FEM41_05435(-) | Product: tRNA-Ala,FEM41_05440(-) | Product: tRNA-Ile,FEM41_05445(-) | Product: 16S ribosomal RNA,QCT19136.1(+) | Product: FadR family transcriptional regulator | Protein ID: QCT19136.1
+5072434,5077697,5264,FEM41_23840(-) | Product: tRNA-Ala,FEM41_23845(-) | Product: tRNA-Ile,FEM41_23850(-) | Product: 16S ribosomal RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1173311,1178574,5072434,5077697,0.899
+
+Group 17
+Start,End,Length
+1496325,1501535,5211,hemG(+) | Product: menaquinone-dependent protoporphyrinogen IX dehydrogenase | Protein ID: QCT19400.1,FEM41_06890(+) | Product: 16S ribosomal RNA,FEM41_06895(+) | Product: tRNA-Glu
+2227367,2232577,5211,gmhB(+) | Product: D-glycero-beta-D-manno-heptose 1%2C7-bisphosphate 7-phosphatase | Protein ID: QCT20007.1,FEM41_10245(+) | Product: 16S ribosomal RNA,FEM41_10250(+) | Product: tRNA-Glu
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1496325,1501535,2227367,2232577,0.896
+
+Group 18
+Start,End,Length
+1402699,1410417,7719,murI(+) | Product: glutamate racemase | Protein ID: QCT19324.1,FEM41_06455(+) | Product: 16S ribosomal RNA,FEM41_06460(+) | Product: tRNA-Glu,FEM41_06465(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA,FEM41_06475(+) | Product: tRNA-Asp,FEM41_06480(+) | Product: tRNA-Trp,hdfR(-) | Product: HTH-type transcriptional regulator HdfR | Protein ID: QCT19325.1
+1495971,1503404,7434,hemG(+) | Product: menaquinone-dependent protoporphyrinogen IX dehydrogenase | Protein ID: QCT19400.1,FEM41_06890(+) | Product: 16S ribosomal RNA,FEM41_06895(+) | Product: tRNA-Glu,FEM41_06900(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA
+1538557,1545790,7234,QCT19432.1(+) | Product: hypothetical protein | Protein ID: QCT19432.1,FEM41_07100(+) | Product: 16S ribosomal RNA,FEM41_07105(+) | Product: tRNA-Ile,FEM41_07110(+) | Product: tRNA-Ala,FEM41_07115(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA,QCT19433.1(-) | Product: GNAT family N-acetyltransferase | Protein ID: QCT19433.1
+2227101,2233734,6634,gmhB(+) | Product: D-glycero-beta-D-manno-heptose 1%2C7-bisphosphate 7-phosphatase | Protein ID: QCT20007.1,FEM41_10245(+) | Product: 16S ribosomal RNA,FEM41_10250(+) | Product: tRNA-Glu,FEM41_10255(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA
+2228301,2234980,6680,FEM41_10245(+) | Product: 16S ribosomal RNA,FEM41_10250(+) | Product: tRNA-Glu,FEM41_10255(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA,FEM41_10265(+) | Product: tRNA-Asp,QCT20008.1(-) | Product: LysR family transcriptional regulator | Protein ID: QCT20008.1
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1402699,1410417,1495971,1503404,0.845
+1402699,1410417,1538557,1545790,0.816
+1402699,1410417,2227101,2233734,0.762
+1402699,1410417,2228301,2234980,0.772
+1495971,1503404,1538557,1545790,0.841
+1495971,1503404,2227101,2233734,0.799
+1495971,1503404,2228301,2234980,0.767
+1538557,1545790,2227101,2233734,0.802
+1538557,1545790,2228301,2234980,0.782
+2227101,2233734,2228301,2234980,0.795
+
+Group 19
+Start,End,Length
+683240,689055,5816,rrf(-) | Product: 5S ribosomal RNA,FEM41_03140(-) | Product: tRNA-Thr,rrf(-) | Product: 5S ribosomal RNA,FEM41_03150(-) | Product: 23S ribosomal RNA,FEM41_03155(-) | Product: tRNA-Glu
+1171402,1177217,5816,rrf(-) | Product: 5S ribosomal RNA,FEM41_05430(-) | Product: 23S ribosomal RNA,FEM41_05435(-) | Product: tRNA-Ala,FEM41_05440(-) | Product: tRNA-Ile
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+683240,689055,1171402,1177217,0.895
+
+Group 20
+Start,End,Length
+683848,690373,6526,FEM41_03140(-) | Product: tRNA-Thr,rrf(-) | Product: 5S ribosomal RNA,FEM41_03150(-) | Product: 23S ribosomal RNA,FEM41_03155(-) | Product: tRNA-Glu,FEM41_03160(-) | Product: 16S ribosomal RNA,QCT18712.1(+) | Product: gamma carbonic anhydrase family protein | Protein ID: QCT18712.1,QCT18713.1(-) | Product: DUF1488 domain-containing protein | Protein ID: QCT18713.1
+1171629,1178729,7101,rrf(-) | Product: 5S ribosomal RNA,FEM41_05430(-) | Product: 23S ribosomal RNA,FEM41_05435(-) | Product: tRNA-Ala,FEM41_05440(-) | Product: tRNA-Ile,FEM41_05445(-) | Product: 16S ribosomal RNA,QCT19136.1(+) | Product: FadR family transcriptional regulator | Protein ID: QCT19136.1
+5070752,5077852,7101,rrf(-) | Product: 5S ribosomal RNA,FEM41_23835(-) | Product: 23S ribosomal RNA,FEM41_23840(-) | Product: tRNA-Ala,FEM41_23845(-) | Product: tRNA-Ile,FEM41_23850(-) | Product: 16S ribosomal RNA
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+683848,690373,1171629,1178729,0.832
+683848,690373,5070752,5077852,0.826
+1171629,1178729,5070752,5077852,0.888
+
+Group 21
+Start,End,Length
+1402174,1409189,7016,murI(+) | Product: glutamate racemase | Protein ID: QCT19324.1,FEM41_06455(+) | Product: 16S ribosomal RNA,FEM41_06460(+) | Product: tRNA-Glu,FEM41_06465(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA
+1403212,1410036,6825,FEM41_06455(+) | Product: 16S ribosomal RNA,FEM41_06460(+) | Product: tRNA-Glu,FEM41_06465(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA,FEM41_06475(+) | Product: tRNA-Asp,FEM41_06480(+) | Product: tRNA-Trp
+1495607,1502622,7016,hemG(+) | Product: menaquinone-dependent protoporphyrinogen IX dehydrogenase | Protein ID: QCT19400.1,FEM41_06890(+) | Product: 16S ribosomal RNA,FEM41_06895(+) | Product: tRNA-Glu,FEM41_06900(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA
+1538634,1544972,6339,QCT19432.1(+) | Product: hypothetical protein | Protein ID: QCT19432.1,FEM41_07100(+) | Product: 16S ribosomal RNA,FEM41_07105(+) | Product: tRNA-Ile,FEM41_07110(+) | Product: tRNA-Ala,FEM41_07115(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA
+2227149,2234511,7363,gmhB(+) | Product: D-glycero-beta-D-manno-heptose 1%2C7-bisphosphate 7-phosphatase | Protein ID: QCT20007.1,FEM41_10245(+) | Product: 16S ribosomal RNA,FEM41_10250(+) | Product: tRNA-Glu,FEM41_10255(+) | Product: 23S ribosomal RNA,rrf(+) | Product: 5S ribosomal RNA,FEM41_10265(+) | Product: tRNA-Asp
+
+Sequence Comparisons
+Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
+1402174,1409189,1403212,1410036,0.839
+1402174,1409189,1495607,1502622,0.891
+1402174,1409189,1538634,1544972,0.829
+1402174,1409189,2227149,2234511,0.817
+1403212,1410036,1495607,1502622,0.827
+1403212,1410036,1538634,1544972,0.819
+1403212,1410036,2227149,2234511,0.842
+1495607,1502622,1538634,1544972,0.832
+1495607,1502622,2227149,2234511,0.815
+1538634,1544972,2227149,2234511,0.78
 
