@@ -1,1788 +1,652 @@
+Group 0
+Start,End,Length
+754683,755411,728
+755213,755941,728
+
+
 Group 1
 Start,End,Length
-3788569,3789317,749
-5092651,5093449,799,ECOLIN_24570(-) | Product: tRNA-Glu
-5344546,5345344,799,ECOLIN_25940(-) | Product: tRNA-Ile
-5347414,5348212,799,ECOLIN_25955(-) | Product: tRNA-Ile
-5360701,5361499,799,ECOLIN_26020(-) | Product: tRNA-Ile
+4975515,4976249,734
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3788569,3789317,5092651,5093449,0.871
-3788569,3789317,5344546,5345344,0.828
-3788569,3789317,5347414,5348212,0.828
-3788569,3789317,5360701,5361499,0.828
-5092651,5093449,5344546,5345344,0.849
-5092651,5093449,5347414,5348212,0.849
-5092651,5093449,5360701,5361499,0.849
-5344546,5345344,5347414,5348212,1.0
-5344546,5345344,5360701,5361499,1.0
-5347414,5348212,5360701,5361499,1.0
 
 Group 2
 Start,End,Length
-4466915,4467745,831,ECOLIN_21500(+) | Product: 5S ribosomal RNA
-4609439,4610237,799,ECOLIN_22180(+) | Product: 5S ribosomal RNA
-4650896,4651726,831,ECOLIN_22375(+) | Product: 5S ribosomal RNA
-5100470,5101300,831,ECOLIN_24615(+) | Product: 5S ribosomal RNA
+547388,548128,740
+547929,548669,740
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4466915,4467745,4609439,4610237,0.829
-4466915,4467745,4650896,4651726,0.834
-4466915,4467745,5100470,5101300,0.834
-4609439,4610237,4650896,4651726,0.819
-4609439,4610237,5100470,5101300,0.819
-4650896,4651726,5100470,5101300,1.0
 
 Group 3
 Start,End,Length
-913895,914604,710,AID77869.1(-) | Product: hypothetical protein | Protein ID: AID77869.1
-914913,915622,710
+3785732,3786487,755
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-913895,914604,914913,915622,0.867
 
 Group 4
 Start,End,Length
-754683,755411,729
-755213,755941,729,ECOLIN_03590[pseudo](+) | Note: disrupted
+5306515,5307290,775
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-754683,755411,755213,755941,0.869
 
 Group 5
 Start,End,Length
-4975515,4976249,735
-5106482,5107216,735
+5179900,5180684,784
+5331076,5331860,784
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4975515,4976249,5106482,5107216,0.877
 
 Group 6
 Start,End,Length
-547388,548128,741
-547929,548669,741
+4609439,4610237,798
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-547388,548128,547929,548669,0.871
 
 Group 7
 Start,End,Length
-3785732,3786487,756
-3789018,3789773,756
+5325275,5326127,852
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3785732,3786487,3789018,3789773,0.873
 
 Group 8
 Start,End,Length
-5126049,5126824,776
-5306515,5307290,776
-5341508,5342283,776
+4458050,4458933,883
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5126049,5126824,5306515,5307290,0.886
-5126049,5126824,5341508,5342283,1.0
-5306515,5307290,5341508,5342283,0.886
 
 Group 9
 Start,End,Length
-1343818,1344601,784
-1350335,1351118,784
+3344214,3345098,884
+4209815,4210699,884
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1343818,1344601,1350335,1351118,0.88
 
 Group 10
 Start,End,Length
-1349836,1350635,800,ECOLIN_06670[pseudo](+) | Note: disrupted
-1350420,1351219,800
+3349099,3350281,1182
+5089958,5091240,1282
+5326860,5327858,998
+5327060,5328058,998
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1349836,1350635,1350420,1351219,0.874
 
 Group 11
 Start,End,Length
-5179900,5180684,785
-5331076,5331860,785
+5327650,5328747,1097
+5437773,5438870,1097
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5179900,5180684,5331076,5331860,0.877
 
 Group 12
 Start,End,Length
-4341194,4342011,818,ECOLIN_20880(+) | Product: tRNA-Glu
-5093864,5094661,798,ECOLIN_24585(+) | Product: tRNA-Glu
-5376940,5377757,818,ECOLIN_26090(+) | Product: tRNA-Glu
+5111147,5112258,1111
+5353774,5354885,1111
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4341194,4342011,5093864,5094661,0.972
-4341194,4342011,5376940,5377757,0.886
-5093864,5094661,5376940,5377757,0.877
 
 Group 13
 Start,End,Length
-2772190,2773042,853
-5323241,5324093,853
-5325275,5326127,853,AID81788.1(-) | Product: hypothetical protein | Protein ID: AID81788.1
+5440015,5441199,1184
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2772190,2773042,5323241,5324093,1.0
-2772190,2773042,5325275,5326127,0.893
-5323241,5324093,5325275,5326127,0.893
 
 Group 14
 Start,End,Length
-4455023,4455906,884
-4458050,4458933,884
+1349551,1350749,1198
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4455023,4455906,4458050,4458933,0.896
 
 Group 15
 Start,End,Length
-3344214,3345098,885
-4209815,4210699,885
+5215962,5217163,1201
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3344214,3345098,4209815,4210699,0.891
 
 Group 16
 Start,End,Length
-1343868,1344816,949
-1349801,1350749,949,ECOLIN_06670[pseudo](+) | Note: disrupted
+4828054,4829313,1259
+5422191,5423450,1259
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1343868,1344816,1349801,1350749,0.893
 
 Group 17
 Start,End,Length
-1348056,1349069,1014
-1349636,1350649,1014,ECOLIN_06670[pseudo](+) | Note: disrupted
+3080606,3081937,1331
+3081590,3082921,1331
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1348056,1349069,1349636,1350649,0.87
 
 Group 18
 Start,End,Length
-1204294,1205261,968,AID78112.1(+) | Product: hypothetical protein | Protein ID: AID78112.1
-1206895,1207862,968,AID78116.1(+) | Product: hypothetical protein | Protein ID: AID78116.1
+5202091,5203449,1358
+5205264,5206622,1358
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1204294,1205261,1206895,1207862,0.872
 
 Group 19
 Start,End,Length
-5127509,5128488,980
-5427643,5428622,980
+2301850,2303248,1398
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5127509,5128488,5427643,5428622,0.868
 
 Group 20
 Start,End,Length
-1343618,1344601,984
-1349551,1350534,984
+913895,915304,1409
+914413,915812,1399
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1343618,1344601,1349551,1350534,0.878
 
 Group 21
 Start,End,Length
-3349283,3350281,999,AID80010.1(-) | Product: transcriptional regulator | Protein ID: AID80010.1
-5090142,5091140,999,AID81585.1(-) | Product: transcriptional regulator | Protein ID: AID81585.1
+1016722,1018147,1425
+5436259,5437684,1425
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3349283,3350281,5090142,5091140,0.891
 
 Group 22
 Start,End,Length
-3349099,3350181,1083,AID80010.1(-) | Product: transcriptional regulator | Protein ID: AID80010.1
-5089958,5091016,1059,AID81585.1(-) | Product: transcriptional regulator | Protein ID: AID81585.1
-5326860,5327858,999,AID81790.1(-) | Product: transcriptional regulator | Protein ID: AID81790.1
+5084574,5086020,1446
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3349099,3350181,5089958,5091016,0.852
-3349099,3350181,5326860,5327858,0.823
-5089958,5091016,5326860,5327858,0.836
 
 Group 23
 Start,End,Length
-5090242,5091240,999,AID81585.1(-) | Product: transcriptional regulator | Protein ID: AID81585.1
-5327060,5328058,999,AID81790.1(-) | Product: transcriptional regulator | Protein ID: AID81790.1
+5427643,5429122,1479
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5090242,5091240,5327060,5328058,0.88
 
 Group 24
 Start,End,Length
-4341327,4342425,1099,ECOLIN_20880(+) | Product: tRNA-Glu
-4608625,4609708,1084,ECOLIN_22175(+) | Product: tRNA-Glu
-4648599,4649611,1013
-5093978,5095076,1099,ECOLIN_24585(+) | Product: tRNA-Glu
-5096839,5097961,1123,ECOLIN_24600(+) | Product: tRNA-Glu
-5098173,5099185,1013
+4207553,4209043,1490
+4208710,4210200,1490
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4341327,4342425,4608625,4609708,0.878
-4341327,4342425,4648599,4649611,0.893
-4341327,4342425,5093978,5095076,0.999
-4341327,4342425,5096839,5097961,0.847
-4341327,4342425,5098173,5099185,0.893
-4608625,4609708,4648599,4649611,0.81
-4608625,4609708,5093978,5095076,0.878
-4608625,4609708,5096839,5097961,0.855
-4608625,4609708,5098173,5099185,0.81
-4648599,4649611,5093978,5095076,0.893
-4648599,4649611,5096839,5097961,0.793
-4648599,4649611,5098173,5099185,1.0
-5093978,5095076,5096839,5097961,0.846
-5093978,5095076,5098173,5099185,0.893
-5096839,5097961,5098173,5099185,0.793
 
 Group 25
 Start,End,Length
-2964647,2965689,1043
-5346341,5347383,1043
+1280208,1281759,1551
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2964647,2965689,5346341,5347383,0.866
 
 Group 26
 Start,End,Length
-2770304,2771361,1058,ECOLIN_13290(-) | Product: tRNA-Ala,ECOLIN_13295(-) | Product: tRNA-Ala
-5321240,5322297,1058,ECOLIN_25820(-) | Product: tRNA-Ala,ECOLIN_25825(-) | Product: tRNA-Ala
+5041988,5043571,1583
+5425426,5427009,1583
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2770304,2771361,5321240,5322297,0.89
 
 Group 27
 Start,End,Length
-5327650,5328747,1098,AID81791.1(-) | Product: transposase | Protein ID: AID81791.1
-5437773,5438870,1098,AID81875.1(-) | Product: transposase | Protein ID: AID81875.1
+4608135,4609733,1598
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5327650,5328747,5437773,5438870,0.871
 
 Group 28
 Start,End,Length
-2301850,2303149,1300
-2302649,2303748,1100
-5217990,5219189,1200
+5122888,5124496,1608
+5380385,5381993,1608
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2301850,2303149,2302649,2303748,0.731
-2301850,2303149,5217990,5219189,0.824
-2302649,2303748,5217990,5219189,0.764
 
 Group 29
 Start,End,Length
-5111147,5112258,1112,AID81596.1(-) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81596.1
-5353774,5354885,1112,AID81802.1(-) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81802.1
+1328772,1330407,1635
+5180835,5182470,1635
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5111147,5112258,5353774,5354885,0.876
 
 Group 30
 Start,End,Length
-4464042,4465211,1170
-4648786,4650009,1224
-5098360,5099583,1224
-5376116,5377339,1224,ECOLIN_26090(+) | Product: tRNA-Glu
+1204194,1205864,1670
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4464042,4465211,4648786,4650009,0.95
-4464042,4465211,5098360,5099583,0.95
-4464042,4465211,5376116,5377339,0.848
-4648786,4650009,5098360,5099583,1.0
-4648786,4650009,5376116,5377339,0.863
-5098360,5099583,5376116,5377339,0.863
 
 Group 31
 Start,End,Length
-5336728,5337912,1185
-5340015,5341199,1185
-5440015,5441199,1185,AID81878.1(+) | Product: hypothetical protein | Protein ID: AID81878.1
+4851038,4852721,1683
+4852322,4854005,1683
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5336728,5337912,5340015,5341199,1.0
-5336728,5337912,5440015,5441199,0.876
-5340015,5341199,5440015,5441199,0.876
 
 Group 32
 Start,End,Length
-5351382,5352578,1197,ECOLIN_25980[pseudo](+) | Note: disrupted
-5381794,5382990,1197
+2253744,2255461,1717
+2259397,2261114,1717
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5351382,5352578,5381794,5382990,0.883
 
 Group 33
 Start,End,Length
-2302050,2303248,1199
-5218090,5219288,1199
+952484,954208,1724
+5433522,5435246,1724
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2302050,2303248,5218090,5219288,0.889
 
 Group 34
 Start,End,Length
-269313,270514,1202
-5215962,5217163,1202
+4409985,4411720,1735
+4411321,4413056,1735
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-269313,270514,5215962,5217163,0.892
 
 Group 35
 Start,End,Length
-4828054,4829313,1260,AID81337.1(-) | Product: hypothetical protein | Protein ID: AID81337.1,AID81338.1(-) | Product: toxin | Protein ID: AID81338.1,AID81339.1(-) | Product: antitoxin | Protein ID: AID81339.1
-5422191,5423450,1260,AID81859.1(-) | Product: toxin | Protein ID: AID81859.1,AID81860.1(-) | Product: antitoxin | Protein ID: AID81860.1
+235908,237703,1795
+4342875,4344773,1898
+4466024,4467825,1801
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4828054,4829313,5422191,5423450,0.883
 
 Group 36
 Start,End,Length
-1203345,1204612,1268,AID78111.1(+) | Product: hypothetical protein | Protein ID: AID78111.1,ECOLIN_05730[pseudo](+) | Note: disrupted
-1204294,1205561,1268,AID78112.1(+) | Product: hypothetical protein | Protein ID: AID78112.1,ECOLIN_05740[pseudo](+) | Note: disrupted
+3632793,3634591,1798
+3634192,3635990,1798
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1203345,1204612,1204294,1205561,0.874
 
 Group 37
 Start,End,Length
-5350982,5352280,1299,AID81800.1(+) | Product: hypothetical protein | Protein ID: AID81800.1
-5351952,5353250,1299
+1650249,1652058,1809
+5428704,5430513,1809
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5350982,5352280,5351952,5353250,0.883
 
 Group 38
 Start,End,Length
-913903,915304,1402,AID77869.1(-) | Product: hypothetical protein | Protein ID: AID77869.1,AID77870.1(-) | Product: hypothetical protein | Protein ID: AID77870.1
-914413,915812,1400,AID77870.1(-) | Product: hypothetical protein | Protein ID: AID77870.1
+2325025,2326834,1809
+5293819,5295628,1809
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-913903,915304,914413,915812,0.87
 
 Group 39
 Start,End,Length
-4341020,4342425,1406,ECOLIN_20880(+) | Product: tRNA-Glu
-4608135,4609733,1599,ECOLIN_22175(+) | Product: tRNA-Glu
-4647999,4649411,1413,ECOLIN_22365(+) | Product: tRNA-Glu
-5093671,5095076,1406,ECOLIN_24585(+) | Product: tRNA-Glu
-5097573,5098985,1413,ECOLIN_24605(+) | Product: tRNA-Glu
+427446,429267,1821
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4341020,4342425,4608135,4609733,0.786
-4341020,4342425,4647999,4649411,0.845
-4341020,4342425,5093671,5095076,0.999
-4341020,4342425,5097573,5098985,0.845
-4608135,4609733,4647999,4649411,0.792
-4608135,4609733,5093671,5095076,0.786
-4608135,4609733,5097573,5098985,0.794
-4647999,4649411,5093671,5095076,0.846
-4647999,4649411,5097573,5098985,0.948
-5093671,5095076,5097573,5098985,0.846
 
 Group 40
 Start,End,Length
-3080606,3081937,1332
-3081590,3082921,1332,AID79782.1(+) | Product: hypothetical protein | Protein ID: AID79782.1
+3316699,3318540,1841
+5438573,5440414,1841
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3080606,3081937,3081590,3082921,0.88
 
 Group 41
 Start,End,Length
-1279375,1280707,1333
-1280408,1281740,1333
+5375870,5377757,1887
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1279375,1280707,1280408,1281740,0.895
 
 Group 42
 Start,End,Length
-5202091,5203449,1359
-5205264,5206622,1359,AID81676.1(+) | Product: nikA protein | Protein ID: AID81676.1
+3134221,3136297,2076
+4335634,4337532,1898
+5384434,5386532,2098
+5410673,5412571,1898
+5412010,5414030,2020
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5202091,5203449,5205264,5206622,0.892
 
 Group 43
 Start,End,Length
-4648611,4650010,1400
-5095740,5097139,1400,ECOLIN_24600(+) | Product: tRNA-Glu
-5098185,5099584,1400
+5350809,5352707,1898
+5351850,5353950,2100
+5381392,5383613,2221
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4648611,4650010,5095740,5097139,0.886
-4648611,4650010,5098185,5099584,1.0
-5095740,5097139,5098185,5099584,0.886
 
 Group 44
 Start,End,Length
-2964242,2965621,1380
-5343068,5344447,1380
-5427743,5429122,1380
+166899,168851,1952
+168350,170302,1952
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2964242,2965621,5343068,5344447,0.987
-2964242,2965621,5427743,5429122,0.882
-5343068,5344447,5427743,5429122,0.881
 
 Group 45
 Start,End,Length
-1016722,1018147,1426,"ssuB(-) | Product: aliphatic sulfonates transport ATP-binding subunit | Protein ID: AID77950.1 | Note: part of the ABC type transport system SsuABC for aliphatic sulfonates; with SsuA being the periplasmic substrate-binding subunit, SsuB the ATP-binding subunit and SsuC the permease"
-5436259,5437684,1426,"ssuB(-) | Product: aliphatic sulfonates transport ATP-binding subunit | Protein ID: AID81873.1 | Note: part of the ABC type transport system SsuABC for aliphatic sulfonates; with SsuA being the periplasmic substrate-binding subunit, SsuB the ATP-binding subunit and SsuC the permease",AID81874.1(-) | Product: hypothetical protein | Protein ID: AID81874.1
+4461296,4463491,2195
+4644679,4646637,1958
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1016722,1018147,5436259,5437684,0.898
 
 Group 46
 Start,End,Length
-4461641,4463194,1554
-4644839,4646377,1539
-5079348,5080998,1651,AID81573.1(-) | Product: Rha family transcriptional regulator | Protein ID: AID81573.1
+1348056,1350054,1998
+1350220,1352218,1998
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4461641,4463194,4644839,4646377,0.9
-4461641,4463194,5079348,5080998,0.846
-4644839,4646377,5079348,5080998,0.819
 
 Group 47
 Start,End,Length
-1211133,1212579,1447,AID78123.1(+) | Product: hypothetical protein | Protein ID: AID78123.1,AID78124.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID78124.1
-3406694,3408140,1447,AID80060.1(+) | Product: hypothetical protein | Protein ID: AID80060.1,AID80061.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID80061.1
-5084574,5086020,1447,AID81576.1(+) | Product: hypothetical protein | Protein ID: AID81576.1,AID81577.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID81577.1
+234908,236957,2049
+5077081,5079130,2049
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1211133,1212579,3406694,3408140,0.994
-1211133,1212579,5084574,5086020,0.9
-3406694,3408140,5084574,5086020,0.898
 
 Group 48
 Start,End,Length
-1204194,1205864,1671,ECOLIN_05730[pseudo](+) | Note: disrupted,AID78112.1(+) | Product: hypothetical protein | Protein ID: AID78112.1,ECOLIN_05740[pseudo](+) | Note: disrupted,AID78113.1(+) | Product: protein 32 protein of plasmid | Protein ID: AID78113.1
-1207969,1209536,1568,AID78117.1(+) | Product: malate transporter | Protein ID: AID78117.1,AID78118.1(+) | Product: hypothetical protein | Protein ID: AID78118.1,AID78119.1(-) | Product: hypothetical protein | Protein ID: AID78119.1
-3403679,3405280,1602,AID80055.1(+) | Product: hypothetical protein | Protein ID: AID80055.1,AID80056.1(+) | Product: hypothetical protein | Protein ID: AID80056.1
-5284186,5285653,1468,AID81748.1(+) | Product: hypothetical protein | Protein ID: AID81748.1,AID81749.1(-) | Product: hypothetical protein | Protein ID: AID81749.1
+428517,430620,2103
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1204194,1205864,1207969,1209536,0.832
-1204194,1205864,3403679,3405280,0.854
-1204194,1205864,5284186,5285653,0.807
-1207969,1209536,3403679,3405280,0.915
-1207969,1209536,5284186,5285653,0.927
-3403679,3405280,5284186,5285653,0.9
 
 Group 49
 Start,End,Length
-1206288,1208062,1775,AID78115.1(+) | Product: hypothetical protein | Protein ID: AID78115.1,AID78116.1(+) | Product: hypothetical protein | Protein ID: AID78116.1
-1207462,1209236,1775,AID78117.1(+) | Product: malate transporter | Protein ID: AID78117.1,AID78118.1(+) | Product: hypothetical protein | Protein ID: AID78118.1,AID78119.1(-) | Product: hypothetical protein | Protein ID: AID78119.1
+2418694,2420797,2103
+5214496,5216599,2103
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1206288,1208062,1207462,1209236,0.839
 
 Group 50
 Start,End,Length
-4207553,4209043,1491,ECOLIN_20190(+) | Product: tRNA-Sec
-4208710,4210200,1491
+4211763,4213961,2198
+5280406,5282604,2198
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4207553,4209043,4208710,4210200,0.889
 
 Group 51
 Start,End,Length
-236005,237603,1599,ECOLIN_01090(+) | Product: 5S ribosomal RNA
-4343175,4344773,1599,ECOLIN_20890(+) | Product: 5S ribosomal RNA,ECOLIN_20895(+) | Product: tRNA-Asp,ECOLIN_20900(+) | Product: tRNA-Trp
-4466024,4467825,1802,ECOLIN_21500(+) | Product: 5S ribosomal RNA
+5360301,5362499,2198
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-236005,237603,4343175,4344773,0.851
-236005,237603,4466024,4467825,0.786
-4343175,4344773,4466024,4467825,0.792
 
 Group 52
 Start,End,Length
-1280208,1281759,1552
-5231312,5232863,1552
+853211,855433,2222
+5269587,5271809,2222
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1280208,1281759,5231312,5232863,0.877
 
 Group 53
 Start,End,Length
-1328772,1330407,1636,AID78248.1(-) | Product: transposase | Protein ID: AID78248.1,AID78249.1(-) | Product: transposase | Protein ID: AID78249.1
-5180835,5182470,1636,AID81651.1(-) | Product: transposase | Protein ID: AID81651.1,AID81652.1(-) | Product: transposase | Protein ID: AID81652.1
+3040368,3042600,2232
+5244563,5246795,2232
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1328772,1330407,5180835,5182470,0.883
 
 Group 54
 Start,End,Length
-3134221,3136297,2077,AID79827.1(+) | Product: transposase | Protein ID: AID79827.1,AID79828.1(+) | Product: transposase | Protein ID: AID79828.1
-4335634,4337532,1899,AID80916.1(+) | Product: transposase | Protein ID: AID80916.1,AID80917.1(+) | Product: transposase | Protein ID: AID80917.1
-5384434,5386232,1799,AID81822.1(+) | Product: transposase | Protein ID: AID81822.1,AID81823.1(+) | Product: transposase | Protein ID: AID81823.1
-5384734,5386532,1799,AID81822.1(+) | Product: transposase | Protein ID: AID81822.1,AID81823.1(+) | Product: transposase | Protein ID: AID81823.1
-5412010,5413881,1872,AID81849.1(+) | Product: hypothetical protein | Protein ID: AID81849.1,AID81850.1(+) | Product: transposase | Protein ID: AID81850.1,AID81851.1(+) | Product: transposase | Protein ID: AID81851.1
+5407225,5409460,2235
+5408961,5411196,2235
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3134221,3136297,4335634,4337532,0.783
-3134221,3136297,5384434,5386232,0.758
-3134221,3136297,5384734,5386532,0.755
-3134221,3136297,5412010,5413881,0.773
-4335634,4337532,5384434,5386232,0.804
-4335634,4337532,5384734,5386532,0.814
-4335634,4337532,5412010,5413881,0.828
-5384434,5386232,5384734,5386532,0.816
-5384434,5386232,5412010,5413881,0.833
-5384734,5386532,5412010,5413881,0.793
 
 Group 55
 Start,End,Length
-3134272,3135997,1726,AID79827.1(+) | Product: transposase | Protein ID: AID79827.1,AID79828.1(+) | Product: transposase | Protein ID: AID79828.1
-4335734,4337310,1577,AID80916.1(+) | Product: transposase | Protein ID: AID80916.1,AID80917.1(+) | Product: transposase | Protein ID: AID80917.1
-5384656,5386232,1577,AID81822.1(+) | Product: transposase | Protein ID: AID81822.1,AID81823.1(+) | Product: transposase | Protein ID: AID81823.1
-5410773,5412349,1577,AID81847.1(+) | Product: transposase | Protein ID: AID81847.1,AID81848.1(+) | Product: transposase | Protein ID: AID81848.1
-5412083,5413682,1600,AID81849.1(+) | Product: hypothetical protein | Protein ID: AID81849.1,AID81850.1(+) | Product: transposase | Protein ID: AID81850.1,AID81851.1(+) | Product: transposase | Protein ID: AID81851.1
+5194626,5196876,2250
+5200140,5202390,2250
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3134272,3135997,4335734,4337310,0.839
-3134272,3135997,5384656,5386232,0.841
-3134272,3135997,5410773,5412349,0.824
-3134272,3135997,5412083,5413682,0.829
-4335734,4337310,5384656,5386232,0.9
-4335734,4337310,5410773,5412349,0.886
-4335734,4337310,5412083,5413682,0.863
-5384656,5386232,5410773,5412349,0.887
-5384656,5386232,5412083,5413682,0.865
-5410773,5412349,5412083,5413682,0.891
 
 Group 56
 Start,End,Length
-4335734,4337310,1577,AID80916.1(+) | Product: transposase | Protein ID: AID80916.1,AID80917.1(+) | Product: transposase | Protein ID: AID80917.1
-5384656,5386232,1577,AID81822.1(+) | Product: transposase | Protein ID: AID81822.1,AID81823.1(+) | Product: transposase | Protein ID: AID81823.1
+3040883,3043166,2283
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4335734,4337310,5384656,5386232,0.9
 
 Group 57
 Start,End,Length
-5041988,5043571,1584,AID81539.1(+) | Product: membrane protein | Protein ID: AID81539.1,ECOLIN_24285(-) | Product: tRNA-Leu,ECOLIN_24290(-) | Product: tRNA-Leu,ECOLIN_24295(-) | Product: tRNA-Leu
-5425426,5427009,1584,AID81866.1(+) | Product: membrane protein | Protein ID: AID81866.1,ECOLIN_26365(-) | Product: tRNA-Leu,ECOLIN_26370(-) | Product: tRNA-Leu,ECOLIN_26375(-) | Product: tRNA-Leu
+4340641,4343091,2450
+5093412,5095742,2330
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5041988,5043571,5425426,5427009,0.882
 
 Group 58
 Start,End,Length
-5122888,5124496,1609
-5380385,5381993,1609,AID81819.1(-) | Product: homoserine O-succinyltransferase | Protein ID: AID81819.1 | Note: catalyzes the formation of O-succinyl-L-homoserine from succinyl-CoA and L-homoserine in methionine biosynthesis
+4502681,4505073,2392
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5122888,5124496,5380385,5381993,0.884
 
 Group 59
 Start,End,Length
-4851038,4852721,1684,AID81367.1(-) | Product: fumarate reductase | Protein ID: AID81367.1 | Note: in conjunction with FrdC acts to anchor the catalytic components of the fumarate reductase to the cytoplasmic membrane,"AID81368.1(-) | Product: fumarate reductase | Protein ID: AID81368.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB",AID81369.1(-) | Product: hypothetical protein | Protein ID: AID81369.1,AID81370.1(-) | Product: hypothetical protein | Protein ID: AID81370.1
-4852322,4854005,1684,AID81371.1(-) | Product: fumarate reductase | Protein ID: AID81371.1 | Note: in conjunction with FrdC acts to anchor the catalytic components of the fumarate reductase to the cytoplasmic membrane,"AID81372.1(-) | Product: fumarate reductase | Protein ID: AID81372.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB"
+455770,458170,2400
+5108719,5111119,2400
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4851038,4852721,4852322,4854005,0.89
 
 Group 60
 Start,End,Length
-2253744,2255461,1718
-2259397,2261114,1718
+4547361,4549779,2418
+5429846,5432264,2418
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2253744,2255461,2259397,2261114,0.9
 
 Group 61
 Start,End,Length
-952484,954208,1725,ECOLIN_04585(-) | Product: tRNA-Ser,AID77906.1(-) | Product: translation initiation factor IF-1 | Protein ID: AID77906.1
-5433522,5435246,1725,ECOLIN_26415(-) | Product: tRNA-Ser,AID81871.1(-) | Product: translation initiation factor IF-1 | Protein ID: AID81871.1,"aat(-) | Product: leucyl/phenylalanyl-tRNA--protein transferase | Protein ID: AID81872.1 | Note: leucyltransferase; phenylalanyltransferse; functions in the N-end rule pathway; transfers Leu, Phe, Met, from aminoacyl-tRNAs to N-terminal of proteins with Arg or Lys"
+3388013,3390471,2458
+5137106,5139564,2458
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-952484,954208,5433522,5435246,0.891
 
 Group 62
 Start,End,Length
-4409985,4411720,1736,AID80975.1(+) | Product: lysophospholipase L2 | Protein ID: AID80975.1 | Note: lecithinase B; catalyzes the conversion of 1-lysophosphatidylcholine to glycerophosphocholine; can also hydrolyze 2-acyl glycerophosphoethanolamine and other substrates,AID80976.1(+) | Product: hypothetical protein | Protein ID: AID80976.1
-4411321,4413056,1736,AID80977.1(+) | Product: lysophospholipase L2 | Protein ID: AID80977.1 | Note: lecithinase B; catalyzes the conversion of 1-lysophosphatidylcholine to glycerophosphocholine; can also hydrolyze 2-acyl glycerophosphoethanolamine and other substrates
+2965770,2968229,2459
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4409985,4411720,4411321,4413056,0.892
 
 Group 63
 Start,End,Length
-232351,234249,1899
-4339304,4341411,2108,ECOLIN_20875(+) | Product: 16S ribosomal RNA
-4461296,4463491,2196
-4606210,4608308,2099
-4606498,4608608,2111,ECOLIN_22170(+) | Product: 16S ribosomal RNA
-4644679,4646637,1959
-5079388,5081498,2111,ECOLIN_24480(+) | Product: 16S ribosomal RNA,ECOLIN_24485(+) | Product: tRNA-Glu,ECOLIN_24490(+) | Product: tRNA-Ala
+5248065,5250601,2536
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-232351,234249,4339304,4341411,0.837
-232351,234249,4461296,4463491,0.78
-232351,234249,4606210,4608308,0.854
-232351,234249,4606498,4608608,0.796
-232351,234249,4644679,4646637,0.868
-232351,234249,5079388,5081498,0.778
-4339304,4341411,4461296,4463491,0.846
-4339304,4341411,4606210,4608308,0.911
-4339304,4341411,4606498,4608608,0.885
-4339304,4341411,4644679,4646637,0.818
-4339304,4341411,5079388,5081498,0.833
-4461296,4463491,4606210,4608308,0.855
-4461296,4463491,4606498,4608608,0.81
-4461296,4463491,4644679,4646637,0.787
-4461296,4463491,5079388,5081498,0.753
-4606210,4608308,4606498,4608608,0.844
-4606210,4608308,4644679,4646637,0.82
-4606210,4608308,5079388,5081498,0.792
-4606498,4608608,4644679,4646637,0.776
-4606498,4608608,5079388,5081498,0.878
-4644679,4646637,5079388,5081498,0.741
 
 Group 64
 Start,End,Length
-232348,234101,1754
-4461441,4463194,1754
+4453204,4455906,2702
+4455907,4458525,2618
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-232348,234101,4461441,4463194,0.884
 
 Group 65
 Start,End,Length
-1202845,1204743,1899,AID78111.1(+) | Product: hypothetical protein | Protein ID: AID78111.1,ECOLIN_05730[pseudo](+) | Note: disrupted
-1207569,1209467,1899,AID78117.1(+) | Product: malate transporter | Protein ID: AID78117.1,AID78118.1(+) | Product: hypothetical protein | Protein ID: AID78118.1,AID78119.1(-) | Product: hypothetical protein | Protein ID: AID78119.1
+3982468,3985096,2628
+5374140,5376768,2628
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1202845,1204743,1207569,1209467,0.872
 
 Group 66
 Start,End,Length
-4502681,4504852,2172,AID81055.1(+) | Product: hypothetical protein | Protein ID: AID81055.1,AID81056.1(+) | Product: transposase | Protein ID: AID81056.1
-5350809,5352707,1899,AID81800.1(+) | Product: hypothetical protein | Protein ID: AID81800.1,ECOLIN_25980[pseudo](+) | Note: disrupted
-5351850,5353950,2101,AID81801.1(+) | Product: transposase | Protein ID: AID81801.1
+4606038,4608796,2758
+5079348,5082243,2895
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4502681,4504852,5350809,5352707,0.784
-4502681,4504852,5351850,5353950,0.843
-5350809,5352707,5351850,5353950,0.711
 
 Group 67
 Start,End,Length
-235908,237703,1796,ECOLIN_01090(+) | Product: 5S ribosomal RNA,ECOLIN_01095(+) | Product: tRNA-Asp
-4342875,4344670,1796,ECOLIN_20890(+) | Product: 5S ribosomal RNA,ECOLIN_20895(+) | Product: tRNA-Asp
+5094769,5097538,2769
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-235908,237703,4342875,4344670,0.885
 
 Group 68
 Start,End,Length
-4503252,4505073,1822,AID81056.1(+) | Product: transposase | Protein ID: AID81056.1
-5381792,5383613,1822,AID81820.1(+) | Product: transposase | Protein ID: AID81820.1
+4852939,4855732,2793
+5267664,5270466,2802
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4503252,4505073,5381792,5383613,0.892
 
 Group 69
 Start,End,Length
-5351950,5353848,1899,AID81801.1(+) | Product: transposase | Protein ID: AID81801.1
-5381392,5383290,1899,AID81820.1(+) | Product: transposase | Protein ID: AID81820.1
+1573757,1576566,2809
+5318770,5321579,2809
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5351950,5353848,5381392,5383290,0.878
 
 Group 70
 Start,End,Length
-3632793,3634591,1799,AID80268.1(-) | Product: transcriptional regulator | Protein ID: AID80268.1 | Note: transcriptional repressor for the agaZVWA and agaSYBCDI operons,AID80269.1(+) | Product: hypothetical protein | Protein ID: AID80269.1
-3634192,3635990,1799,AID80270.1(-) | Product: transcriptional regulator | Protein ID: AID80270.1 | Note: transcriptional repressor for the agaZVWA and agaSYBCDI operons
+1277815,1280707,2892
+5229952,5232863,2911
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3632793,3634591,3634192,3635990,0.896
 
 Group 71
 Start,End,Length
-1650249,1652058,1810
-5428704,5430513,1810,AID81869.1(+) | Product: type IV secretion protein Rhs | Protein ID: AID81869.1
+3786969,3789867,2898
+5091101,5093999,2898
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1650249,1652058,5428704,5430513,0.894
 
 Group 72
 Start,End,Length
-2325025,2326834,1810,AID79144.1(-) | Product: hypothetical protein | Protein ID: AID79144.1
-5293819,5295628,1810,AID81759.1(-) | Product: hypothetical protein | Protein ID: AID81759.1,AID81760.1(-) | Product: hypothetical protein | Protein ID: AID81760.1
+2960439,2963411,2972
+5125333,5128924,3591
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2325025,2326834,5293819,5295628,0.887
 
 Group 73
 Start,End,Length
-427446,429267,1822,AID77431.1(+) | Product: hypothetical protein | Protein ID: AID77431.1
-5248065,5249886,1822,AID81713.1(+) | Product: hypothetical protein | Protein ID: AID81713.1,AID81714.1(+) | Product: hypothetical protein | Protein ID: AID81714.1
+1213880,1216879,2999
+1216170,1219168,2998
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-427446,429267,5248065,5249886,0.883
 
 Group 74
 Start,End,Length
-3041168,3043000,1833
-3042601,3044433,1833
+232291,235346,3055
+4339044,4342042,2998
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3041168,3043000,3042601,3044433,0.899
 
 Group 75
 Start,End,Length
-3316699,3318540,1842,AID79977.1(-) | Product: membrane protein | Protein ID: AID79977.1
-5438573,5440414,1842,AID81876.1(-) | Product: hypothetical protein | Protein ID: AID81876.1,AID81877.1(-) | Product: membrane protein | Protein ID: AID81877.1,AID81878.1(+) | Product: hypothetical protein | Protein ID: AID81878.1
+1201631,1204743,3112
+1205090,1208290,3200
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3316699,3318540,5438573,5440414,0.894
 
 Group 76
 Start,End,Length
-1348056,1350054,1999,AID78278.1(+) | Product: terminase | Protein ID: AID78278.1,AID78279.1(+) | Product: hypothetical protein | Protein ID: AID78279.1
-1350220,1352218,1999,ECOLIN_06670[pseudo](+) | Note: disrupted,AID78280.1(+) | Product: terminase | Protein ID: AID78280.1
+5120201,5123363,3162
+5378022,5381184,3162
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1348056,1350054,1350220,1352218,0.867
 
 Group 77
 Start,End,Length
-5410673,5412571,1899,AID81847.1(+) | Product: transposase | Protein ID: AID81847.1,AID81848.1(+) | Product: transposase | Protein ID: AID81848.1,AID81849.1(+) | Product: hypothetical protein | Protein ID: AID81849.1
-5412132,5414030,1899,AID81849.1(+) | Product: hypothetical protein | Protein ID: AID81849.1,AID81850.1(+) | Product: transposase | Protein ID: AID81850.1,AID81851.1(+) | Product: transposase | Protein ID: AID81851.1
+3915127,3918745,3618
+5225635,5229242,3607
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5410673,5412571,5412132,5414030,0.891
 
 Group 78
 Start,End,Length
-5095669,5097538,1870,ECOLIN_24595(+) | Product: tRNA-Ala,ECOLIN_24600(+) | Product: tRNA-Glu
-5375870,5377739,1870,ECOLIN_26090(+) | Product: tRNA-Glu
+3408831,3412446,3615
+3411732,3415347,3615
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5095669,5097538,5375870,5377739,0.883
 
 Group 79
 Start,End,Length
-4340641,4342639,1999,ECOLIN_20880(+) | Product: tRNA-Glu
-4647813,4649963,2151,ECOLIN_22365(+) | Product: tRNA-Glu
-5093492,5095542,2051,ECOLIN_24580[pseudo](+) | Note: disrupted,ECOLIN_24585(+) | Product: tRNA-Glu
-5097387,5099385,1999,ECOLIN_24605(+) | Product: tRNA-Glu
-5097687,5099637,1951,ECOLIN_24605(+) | Product: tRNA-Glu
+4214686,4218320,3634
+4234723,4238357,3634
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4340641,4342639,4647813,4649963,0.833
-4340641,4342639,5093492,5095542,0.861
-4340641,4342639,5097387,5099385,0.881
-4340641,4342639,5097687,5099637,0.811
-4647813,4649963,5093492,5095542,0.836
-4647813,4649963,5097387,5099385,0.85
-4647813,4649963,5097687,5099637,0.85
-5093492,5095542,5097387,5099385,0.827
-5093492,5095542,5097687,5099637,0.849
-5097387,5099385,5097687,5099637,0.836
 
 Group 80
 Start,End,Length
-4648199,4650111,1913,ECOLIN_22365(+) | Product: tRNA-Glu
-5093678,5095590,1913,ECOLIN_24585(+) | Product: tRNA-Glu
-5097773,5099685,1913,ECOLIN_24605(+) | Product: tRNA-Glu
+3042535,3046333,3798
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4648199,4650111,5093678,5095590,0.884
-4648199,4650111,5097773,5099685,1.0
-5093678,5095590,5097773,5099685,0.884
 
 Group 81
 Start,End,Length
-166899,168851,1953,dksA(-) | Product: RNA polymerase-binding transcription factor | Protein ID: AID77207.1,AID77208.1(-) | Product: transcriptional regulator | Protein ID: AID77208.1
-168350,170302,1953,AID77209.1(-) | Product: hypothetical protein | Protein ID: AID77209.1,dksA(-) | Product: RNA polymerase-binding transcription factor | Protein ID: AID77210.1
+4462813,4466711,3898
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-166899,168851,168350,170302,0.882
 
 Group 82
 Start,End,Length
-2961074,2963411,2338
-2962600,2964798,2199
-5341426,5343764,2339
+1663179,1667086,3907
+5222050,5225957,3907
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2961074,2963411,2962600,2964798,0.823
-2961074,2963411,5341426,5343764,0.876
-2962600,2964798,5341426,5343764,0.883
 
 Group 83
 Start,End,Length
-4211763,4213961,2199,AID80804.1(-) | Product: integrase | Protein ID: AID80804.1,ECOLIN_20225[pseudo](+) | Note: disrupted
-5280406,5282604,2199,AID81746.1(-) | Product: integrase | Protein ID: AID81746.1
+5282286,5286194,3908
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4211763,4213961,5280406,5282604,0.862
 
 Group 84
 Start,End,Length
-506453,508478,2026,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77501.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex
-5262141,5264166,2026,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID81728.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID81729.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
+4619098,4623081,3983
+5313405,5317406,4001
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-506453,508478,5262141,5264166,0.887
 
 Group 85
 Start,End,Length
-234908,236957,2050
-5077081,5079130,2050,AID81572.1(+) | Product: hypothetical protein | Protein ID: AID81572.1
+169427,173423,3996
+5209604,5213588,3984
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-234908,236957,5077081,5079130,0.888
 
 Group 86
 Start,End,Length
-2965770,2968229,2460,ECOLIN_14160(-) | Product: 16S ribosomal RNA
-5344146,5346591,2446,ECOLIN_25935(-) | Product: tRNA-Ala,ECOLIN_25940(-) | Product: tRNA-Ile,ECOLIN_25945(-) | Product: 16S ribosomal RNA
-5347014,5349212,2199,ECOLIN_25950(-) | Product: tRNA-Ala,ECOLIN_25955(-) | Product: tRNA-Ile,ECOLIN_25960(-) | Product: 16S ribosomal RNA
-5347421,5349659,2239,ECOLIN_25955(-) | Product: tRNA-Ile,ECOLIN_25960(-) | Product: 16S ribosomal RNA
-5360301,5362499,2199,ECOLIN_26015(-) | Product: tRNA-Ala,ECOLIN_26020(-) | Product: tRNA-Ile
+5245078,5249095,4017
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2965770,2968229,5344146,5346591,0.845
-2965770,2968229,5347014,5349212,0.752
-2965770,2968229,5347421,5349659,0.832
-2965770,2968229,5360301,5362499,0.726
-5344146,5346591,5347014,5349212,0.892
-5344146,5346591,5347421,5349659,0.814
-5344146,5346591,5360301,5362499,0.809
-5347014,5349212,5347421,5349659,0.781
-5347014,5349212,5360301,5362499,0.879
-5347421,5349659,5360301,5362499,0.75
 
 Group 87
 Start,End,Length
-503788,505986,2199,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77499.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex
-5261741,5263939,2199,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID81728.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID81729.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
+2962342,2966521,4179
+5341066,5345347,4281
+5342858,5347144,4286
+5345726,5350012,4286
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-503788,505986,5261741,5263939,0.883
 
 Group 88
 Start,End,Length
-428517,430620,2104,AID77431.1(+) | Product: hypothetical protein | Protein ID: AID77431.1,AID77432.1(+) | Product: hypothetical protein | Protein ID: AID77432.1,AID77433.1(+) | Product: hypothetical protein | Protein ID: AID77433.1
-5248397,5250601,2205,AID81714.1(+) | Product: hypothetical protein | Protein ID: AID81714.1
+499713,504748,5035
+502815,507452,4637
+505080,509717,4637
+5260031,5264366,4335
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-428517,430620,5248397,5250601,0.855
 
 Group 89
 Start,End,Length
-2418694,2420797,2104
-5214496,5216599,2104,"AID81683.1(+) | Product: multidrug transporter | Protein ID: AID81683.1 | Note: Part of a tripartite efflux system composed of MdtA, MdtB and MdtC which confers resistance against novobiocin and deoxycholate"
+5289888,5294245,4357
+5370248,5374605,4357
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2418694,2420797,5214496,5216599,0.889
 
 Group 90
 Start,End,Length
-5143852,5145960,2109,AID81620.1(-) | Product: kfiB protein | Protein ID: AID81620.1
-5337464,5339572,2109,AID81797.1(-) | Product: kfiB protein | Protein ID: AID81797.1
+5141351,5146060,4709
+5331594,5336385,4791
+5333928,5338285,4357
+5337215,5341572,4357
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5143852,5145960,5337464,5339572,0.882
 
 Group 91
 Start,End,Length
-4340761,4343091,2331,ECOLIN_20880(+) | Product: tRNA-Glu
-5093412,5095742,2331,ECOLIN_24580[pseudo](+) | Note: disrupted,ECOLIN_24585(+) | Product: tRNA-Glu,ECOLIN_24590(+) | Product: tRNA-Ile
+2124083,2128464,4381
+2125777,2130152,4375
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4340761,4343091,5093412,5095742,0.872
 
 Group 92
 Start,End,Length
-2124372,2126581,2210,AID79002.1(-) | Product: cystine transporter subunit | Protein ID: AID79002.1,"AID79003.1(-) | Product: flagella biosynthesis protein FliZ | Protein ID: AID79003.1 | Note: expression activator of the class 2 type of flagellar operons, essential to achieve maximal cell motility; activator of type 1 fimbrial gene expression; cell density-responsive regulator; FliZ in Salmonella typhimurium induces HilA, an activator of invasion genes necessary to achieve full virulence",AID79004.1(-) | Product: RNA polymerase sigma factor WhiG | Protein ID: AID79004.1
-2127754,2129963,2210,AID79008.1(-) | Product: cystine transporter subunit | Protein ID: AID79008.1,"AID79009.1(-) | Product: flagella biosynthesis protein FliZ | Protein ID: AID79009.1 | Note: expression activator of the class 2 type of flagellar operons, essential to achieve maximal cell motility; activator of type 1 fimbrial gene expression; cell density-responsive regulator; FliZ in Salmonella typhimurium induces HilA, an activator of invasion genes necessary to achieve full virulence"
+2770048,2774742,4694
+5321099,5325793,4694
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2124372,2126581,2127754,2129963,0.888
 
 Group 93
 Start,End,Length
-232291,234729,2439,ECOLIN_01070(+) | Product: 16S ribosomal RNA,ECOLIN_01075(+) | Product: tRNA-Glu,ECOLIN_01080(+) | Product: tRNA-Ala
-4339044,4342042,2999,ECOLIN_20875(+) | Product: 16S ribosomal RNA,ECOLIN_20880(+) | Product: tRNA-Glu
-4606038,4608796,2759,ECOLIN_22170(+) | Product: 16S ribosomal RNA
-5079488,5081926,2439,ECOLIN_24480(+) | Product: 16S ribosomal RNA,ECOLIN_24485(+) | Product: tRNA-Glu,ECOLIN_24490(+) | Product: tRNA-Ala
+5152361,5157076,4715
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-232291,234729,4339044,4342042,0.738
-232291,234729,4606038,4608796,0.782
-232291,234729,5079488,5081926,0.853
-4339044,4342042,4606038,4608796,0.795
-4339044,4342042,5079488,5081926,0.739
-4606038,4608796,5079488,5081926,0.717
 
 Group 94
 Start,End,Length
-853211,855433,2223,AID77817.1(-) | Product: membrane protein | Protein ID: AID77817.1
-5269587,5271809,2223,AID81735.1(-) | Product: hypothetical protein | Protein ID: AID81735.1,AID81736.1(-) | Product: membrane protein | Protein ID: AID81736.1,AID81737.1(-) | Product: hypothetical protein | Protein ID: AID81737.1
+5085437,5090291,4854
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-853211,855433,5269587,5271809,0.897
 
 Group 95
 Start,End,Length
-3040368,3042600,2233,AID79743.1(-) | Product: transcriptional regulator | Protein ID: AID79743.1 | Note: Required for the expression of anaerobic nitric oxide (NO) reductase; acts as a transcriptional activator for the norVW operon
-5244563,5246795,2233,AID81712.1(-) | Product: transcriptional regulator | Protein ID: AID81712.1 | Note: Required for the expression of anaerobic nitric oxide (NO) reductase; acts as a transcriptional activator for the norVW operon
+3625832,3630731,4899
+3627719,3632618,4899
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3040368,3042600,5244563,5246795,0.894
 
 Group 96
 Start,End,Length
-5407225,5409460,2236,AID81845.1(+) | Product: restriction endonuclease | Protein ID: AID81845.1
-5408961,5411196,2236,AID81846.1(+) | Product: restriction endonuclease | Protein ID: AID81846.1
+3928152,3933051,4899
+3930199,3935098,4899
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5407225,5409460,5408961,5411196,0.894
 
 Group 97
 Start,End,Length
-5194626,5196876,2251,AID81663.1(+) | Product: hypothetical protein | Protein ID: AID81663.1
-5200140,5202390,2251,AID81670.1(+) | Product: replicase | Protein ID: AID81670.1,AID81671.1(+) | Product: hypothetical protein | Protein ID: AID81671.1
+3044363,3049415,5052
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5194626,5196876,5200140,5202390,0.895
 
 Group 98
 Start,End,Length
-4462842,4465140,2299,ECOLIN_21485(+) | Product: tRNA-Ile,ECOLIN_21490(+) | Product: tRNA-Ala
-5094769,5097067,2299,ECOLIN_24590(+) | Product: tRNA-Ile,ECOLIN_24595(+) | Product: tRNA-Ala,ECOLIN_24600(+) | Product: tRNA-Glu
+319530,324761,5231
+1133452,1138683,5231
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4462842,4465140,5094769,5097067,0.888
 
 Group 99
 Start,End,Length
-4646177,4648447,2271,aceK[pseudo](+) | Note: disrupted
-4656706,4658976,2271,aceK(+) | Product: isocitrate dehydrogenase | Protein ID: AID81188.1 | Note: catalyzes the phosphorylation/dephosphorylation of the enzyme isocitrate dehydrogenase on a specific serine which regulates activity; unphosphorylated IDH is fully active when cells are grown on glucose while the enzyme becomes phosphorylated and inactive in the presence of acetate or ethanol
+2479211,2484597,5386
+5132876,5138236,5360
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4646177,4648447,4656706,4658976,0.898
 
 Group 100
 Start,End,Length
-3040883,3043166,2284,AID79743.1(-) | Product: transcriptional regulator | Protein ID: AID79743.1 | Note: Required for the expression of anaerobic nitric oxide (NO) reductase; acts as a transcriptional activator for the norVW operon
-5245078,5247361,2284,AID81712.1(-) | Product: transcriptional regulator | Protein ID: AID81712.1 | Note: Required for the expression of anaerobic nitric oxide (NO) reductase; acts as a transcriptional activator for the norVW operon
+4989321,4994953,5632
+4993672,4999304,5632
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3040883,3043166,5245078,5247361,0.886
 
 Group 101
 Start,End,Length
-4463213,4465512,2300,ECOLIN_21485(+) | Product: tRNA-Ile,ECOLIN_21490(+) | Product: tRNA-Ala
-5095140,5097439,2300,ECOLIN_24590(+) | Product: tRNA-Ile,ECOLIN_24595(+) | Product: tRNA-Ala,ECOLIN_24600(+) | Product: tRNA-Glu
+1339318,1344966,5648
+1343671,1349319,5648
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4463213,4465512,5095140,5097439,0.887
 
 Group 102
 Start,End,Length
-3928556,3931354,2799,AID80563.1(-) | Product: maltodextrin phosphorylase | Protein ID: AID80563.1
-3930749,3933401,2653,ECOLIN_18970[pseudo](-) | Note: disrupted
-3932498,3935092,2595
+2302248,2308067,5819
+5217489,5223308,5819
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3928556,3931354,3930749,3933401,0.863
-3928556,3931354,3932498,3935092,0.819
-3930749,3933401,3932498,3935092,0.845
 
 Group 103
 Start,End,Length
-455770,458170,2401,AID77453.1(-) | Product: membrane protein | Protein ID: AID77453.1,AID77454.1(-) | Product: acetyltransferase | Protein ID: AID77454.1,AID77455.1(-) | Product: membrane protein | Protein ID: AID77455.1
-5108719,5111119,2401,AID81593.1(-) | Product: membrane protein | Protein ID: AID81593.1,AID81594.1(-) | Product: acetyltransferase | Protein ID: AID81594.1
+4548454,4554359,5905
+4550757,4556662,5905
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-455770,458170,5108719,5111119,0.89
 
 Group 104
 Start,End,Length
-4547361,4549779,2419,"AID81102.1(-) | Product: primosome assembly protein PriA | Protein ID: AID81102.1 | Note: binding of PriA to forked DNA starts the assembly of the primosome, also possesses 3'-5' helicase activity"
-5429846,5432264,2419,ECOLIN_26400[pseudo](-) | Note: disrupted
+3045621,3052073,6452
+3048178,3054230,6052
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4547361,4549779,5429846,5432264,0.885
 
 Group 105
 Start,End,Length
-3388013,3390471,2459,AID80042.1(+) | Product: transposase | Protein ID: AID80042.1,AID80043.1(+) | Product: transposase | Protein ID: AID80043.1
-5137106,5139564,2459,AID81617.1(+) | Product: transposase | Protein ID: AID81617.1
+1827690,1833844,6154
+1829842,1835947,6105
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3388013,3390471,5137106,5139564,0.893
 
 Group 106
 Start,End,Length
-3626158,3628644,2487,garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80261.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80262.1(+) | Product: regulator PrlF | Protein ID: AID80262.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation"
-3630031,3632517,2487,"AID80264.1(+) | Product: regulator PrlF | Protein ID: AID80264.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation",garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80265.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80266.1(+) | Product: regulator PrlF | Protein ID: AID80266.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation"
+767869,774720,6851
+5184548,5191399,6851
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3626158,3628644,3630031,3632517,0.89
 
 Group 107
 Start,End,Length
-4853221,4855732,2512,"AID81373.1(-) | Product: fumarate reductase | Protein ID: AID81373.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB"
-5267955,5270466,2512,"AID81733.1(-) | Product: fumarate reductase | Protein ID: AID81733.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB","AID81734.1(-) | Product: fumarate reductase | Protein ID: AID81734.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB",AID81735.1(-) | Product: hypothetical protein | Protein ID: AID81735.1
+1206853,1214531,7678
+3401810,3410092,8282
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4853221,4855732,5267955,5270466,0.896
 
 Group 108
 Start,End,Length
-1201631,1204712,3082,AID78111.1(+) | Product: hypothetical protein | Protein ID: AID78111.1,ECOLIN_05730[pseudo](+) | Note: disrupted
-1205090,1208290,3201,ECOLIN_05740[pseudo](+) | Note: disrupted,AID78113.1(+) | Product: protein 32 protein of plasmid | Protein ID: AID78113.1,AID78114.1(+) | Product: hypothetical protein | Protein ID: AID78114.1,AID78115.1(+) | Product: hypothetical protein | Protein ID: AID78115.1,AID78116.1(+) | Product: hypothetical protein | Protein ID: AID78116.1
-3402182,3405077,2896,AID80054.1(+) | Product: hypothetical protein | Protein ID: AID80054.1,AID80055.1(+) | Product: hypothetical protein | Protein ID: AID80055.1,AID80056.1(+) | Product: hypothetical protein | Protein ID: AID80056.1
-5282381,5285541,3161,ECOLIN_25580[pseudo](+) | Note: disrupted,AID81747.1(+) | Product: membrane protein | Protein ID: AID81747.1,AID81748.1(+) | Product: hypothetical protein | Protein ID: AID81748.1,AID81749.1(-) | Product: hypothetical protein | Protein ID: AID81749.1
+269093,277140,8047
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1201631,1204712,1205090,1208290,0.815
-1201631,1204712,3402182,3405077,0.846
-1201631,1204712,5282381,5285541,0.855
-1205090,1208290,3402182,3405077,0.789
-1205090,1208290,5282381,5285541,0.829
-3402182,3405077,5282381,5285541,0.866
 
 Group 109
 Start,End,Length
-4852939,4855461,2523,"AID81372.1(-) | Product: fumarate reductase | Protein ID: AID81372.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB","AID81373.1(-) | Product: fumarate reductase | Protein ID: AID81373.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB"
-5267664,5270186,2523,"AID81733.1(-) | Product: fumarate reductase | Protein ID: AID81733.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB","AID81734.1(-) | Product: fumarate reductase | Protein ID: AID81734.1 | Note: part of four member fumarate reductase enzyme complex FrdABCD which catalyzes the reduction of fumarate to succinate during anaerobic respiration; FrdAB are the catalytic subcomplex consisting of a flavoprotein subunit and an iron-sulfur subunit, respectively; FrdCD are the membrane components which interact with quinone and are involved in electron transfer; the catalytic subunits are similar to succinate dehydrogenase SdhAB"
+250384,262406,12022
+259273,271297,12024
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4852939,4855461,5267664,5270186,0.888
 
 Group 110
 Start,End,Length
-4453204,4455822,2619
-4455907,4458525,2619
+4646177,4659194,13017
+5095760,5108768,13008
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4453204,4455822,4455907,4458525,0.9
 
 Group 111
 Start,End,Length
-2960439,2963137,2699,ECOLIN_14145(-) | Product: 5S ribosomal RNA
-5125333,5128031,2699,ECOLIN_24740(-) | Product: 5S ribosomal RNA
+3666656,3685963,19307
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2960439,2963137,5125333,5128031,0.886
-
-Group 112
-Start,End,Length
-3982468,3985096,2629,AID80607.1(-) | Product: MFS transporter | Protein ID: AID80607.1,AID80608.1(+) | Product: permease | Protein ID: AID80608.1
-5374140,5376768,2629,AID81816.1(+) | Product: permease | Protein ID: AID81816.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3982468,3985096,5374140,5376768,0.89
-
-Group 113
-Start,End,Length
-1277815,1280510,2696,AID78195.1(-) | Product: ferric-rhodotorulic acid transporter | Protein ID: AID78195.1
-5229952,5232654,2703,AID81694.1(+) | Product: PTS glucose-specific subunit IIBC | Protein ID: AID81694.1 | Note: phosphoenolpyruvate-dependent sugar phosphotransferase system; catalyzes the phosphorylation of incoming sugar substrates concomitant with their translocation across the cell membrane; IIB is phosphorylated by IIA and then transfers the phosphoryl group to the sugar; IIC forms the translocation channel
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1277815,1280510,5229952,5232654,0.889
-
-Group 114
-Start,End,Length
-1207262,1210077,2816,AID78117.1(+) | Product: malate transporter | Protein ID: AID78117.1,AID78118.1(+) | Product: hypothetical protein | Protein ID: AID78118.1,AID78119.1(-) | Product: hypothetical protein | Protein ID: AID78119.1
-5283379,5286194,2816,AID81748.1(+) | Product: hypothetical protein | Protein ID: AID81748.1,AID81749.1(-) | Product: hypothetical protein | Protein ID: AID81749.1,AID81750.1(+) | Product: hypothetical protein | Protein ID: AID81750.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1207262,1210077,5283379,5286194,0.877
-
-Group 115
-Start,End,Length
-1828190,1830892,2703,AID78707.1(-) | Product: hypothetical protein | Protein ID: AID78707.1,ECOLIN_08965(+) | Product: tRNA-Val,ECOLIN_08970(+) | Product: tRNA-Val
-1832445,1835147,2703,ECOLIN_08985(+) | Product: tRNA-Val,ECOLIN_08990(+) | Product: tRNA-Val,AID78710.1(+) | Product: hypothetical protein | Protein ID: AID78710.1,AID78711.1(-) | Product: hypothetical protein | Protein ID: AID78711.1,ECOLIN_09005(+) | Product: tRNA-Val,ECOLIN_09010(+) | Product: tRNA-Val
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1828190,1830892,1832445,1835147,0.892
-
-Group 116
-Start,End,Length
-232491,235346,2856,ECOLIN_01070(+) | Product: 16S ribosomal RNA,ECOLIN_01075(+) | Product: tRNA-Glu,ECOLIN_01080(+) | Product: tRNA-Ala
-5079388,5082243,2856,ECOLIN_24480(+) | Product: 16S ribosomal RNA,ECOLIN_24485(+) | Product: tRNA-Glu,ECOLIN_24490(+) | Product: tRNA-Ala
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-232491,235346,5079388,5082243,0.884
-
-Group 117
-Start,End,Length
-3786969,3789867,2899,ECOLIN_18190(-) | Product: tRNA-Glu
-5091101,5093999,2899,ECOLIN_24570(-) | Product: tRNA-Glu,AID81586.1(-) | Product: hypothetical protein | Protein ID: AID81586.1,ECOLIN_24580[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3786969,3789867,5091101,5093999,0.873
-
-Group 118
-Start,End,Length
-2962342,2965198,2857
-5125607,5128924,3318,ECOLIN_24740(-) | Product: 5S ribosomal RNA
-5341066,5344383,3318,ECOLIN_25930(-) | Product: 23S ribosomal RNA
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2962342,2965198,5125607,5128924,0.779
-2962342,2965198,5341066,5344383,0.783
-5125607,5128924,5341066,5344383,0.854
-
-Group 119
-Start,End,Length
-1573757,1576566,2810,AID78493.1(-) | Product: tRNA 2-thiocytidine biosynthesis protein TtcA | Protein ID: AID78493.1 | Note: TtcA; YdaO; catalyzes the thiolation of cytosine 32 in specific tRNAs; forms 2-thiocytidine (s(2)C),AID78494.1(-) | Product: integrase | Protein ID: AID78494.1
-5318770,5321579,2810,"AID81783.1(+) | Product: ATP-dependent RNA helicase DbpA | Protein ID: AID81783.1 | Note: exhibits an RNA-dependent ATPase activity, specifically stimulated by bacterial 23S rRNA",ECOLIN_25810[pseudo](-) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1573757,1576566,5318770,5321579,0.893
-
-Group 120
-Start,End,Length
-4463814,4466711,2898
-4648612,4651509,2898,ECOLIN_22370(+) | Product: 23S ribosomal RNA
-5098186,5101083,2898,ECOLIN_24610(+) | Product: 23S ribosomal RNA
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4463814,4466711,4648612,4651509,0.891
-4463814,4466711,5098186,5101083,0.891
-4648612,4651509,5098186,5101083,1.0
-
-Group 121
-Start,End,Length
-1213880,1216879,3000,ECOLIN_05830[pseudo](+) | Note: disrupted,ECOLIN_05835(-) | Product: tRNA-Ser,"ghrA(+) | Product: bifunctional glyoxylate/hydroxypyruvate reductase A | Protein ID: AID78129.1 | Note: catalyzes the formation of glycolate and glycerate from glyoxylate and hydroxypyruvate, respectively",AID78130.1(+) | Product: hypothetical protein | Protein ID: AID78130.1
-1216170,1219168,2999,AID78130.1(+) | Product: hypothetical protein | Protein ID: AID78130.1,AID78131.1(+) | Product: hypothetical protein | Protein ID: AID78131.1,ECOLIN_05860(-) | Product: tRNA-Ser,"ghrA(+) | Product: bifunctional glyoxylate/hydroxypyruvate reductase A | Protein ID: AID78132.1 | Note: catalyzes the formation of glycolate and glycerate from glyoxylate and hydroxypyruvate, respectively"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1213880,1216879,1216170,1219168,0.888
-
-Group 122
-Start,End,Length
-501423,504748,3326,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77497.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77498.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-503788,507113,3326,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77499.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77500.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-506380,509378,2999,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77501.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77502.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-501423,504748,503788,507113,0.9
-501423,504748,506380,509378,0.816
-503788,507113,506380,509378,0.834
-
-Group 123
-Start,End,Length
-4548654,4551656,3003,"rpmE(+) | Product: 50S ribosomal protein L31 | Protein ID: AID81103.1 | Note: RpmE; there appears to be two types of ribosomal proteins L31 in bacterial genomes; some contain a CxxC motif while others do not; Bacillus subtilis has both types; the proteins in this cluster have the CXXC motif; RpmE is found in exponentially growing Bacilli while YtiA was found after exponential growth; expression of ytiA is controlled by a zinc-specific transcriptional repressor; RpmE contains one zinc ion and a CxxC motif is responsible for this binding; forms an RNP particle along with proteins L5, L18, and L25 and 5S rRNA; found crosslinked to L2 and L25 and EF-G; may be near the peptidyltransferase site of the 50S ribosome",AID81104.1(-) | Product: hypothetical protein | Protein ID: AID81104.1,AID81105.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81105.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis
-4553260,4556262,3003,AID81111.1(+) | Product: hypothetical protein | Protein ID: AID81111.1,AID81112.1(-) | Product: hypothetical protein | Protein ID: AID81112.1,"rpmE(+) | Product: 50S ribosomal protein L31 | Protein ID: AID81113.1 | Note: RpmE; there appears to be two types of ribosomal proteins L31 in bacterial genomes; some contain a CxxC motif while others do not; Bacillus subtilis has both types; the proteins in this cluster have the CXXC motif; RpmE is found in exponentially growing Bacilli while YtiA was found after exponential growth; expression of ytiA is controlled by a zinc-specific transcriptional repressor; RpmE contains one zinc ion and a CxxC motif is responsible for this binding; forms an RNP particle along with proteins L5, L18, and L25 and 5S rRNA; found crosslinked to L2 and L25 and EF-G; may be near the peptidyltransferase site of the 50S ribosome",AID81114.1(-) | Product: hypothetical protein | Protein ID: AID81114.1,AID81115.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81115.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4548654,4551656,4553260,4556262,0.893
-
-Group 124
-Start,End,Length
-501350,504387,3038,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77497.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77498.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-503715,506752,3038,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77499.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77500.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-501350,504387,503715,506752,0.9
-
-Group 125
-Start,End,Length
-5120201,5123363,3163,AID81603.1(-) | Product: isocitrate lyase | Protein ID: AID81603.1
-5378022,5381184,3163,AID81817.1(-) | Product: isocitrate lyase | Protein ID: AID81817.1,AID81818.1(-) | Product: malate synthase | Protein ID: AID81818.1 | Note: Catalyzes the aldol condensation of glyoxylate with acetyl-CoA to form malate as part of the second step of the glyoxylate bypass and an alternative to the tricarboxylic acid cycle
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5120201,5123363,5378022,5381184,0.892
-
-Group 126
-Start,End,Length
-4462813,4466212,3400,ECOLIN_21485(+) | Product: tRNA-Ile,ECOLIN_21490(+) | Product: tRNA-Ala
-4647611,4651010,3400,ECOLIN_22365(+) | Product: tRNA-Glu
-5097285,5100584,3300,ECOLIN_24605(+) | Product: tRNA-Glu
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4462813,4466212,4647611,4651010,0.89
-4462813,4466212,5097285,5100584,0.882
-4647611,4651010,5097285,5100584,0.916
-
-Group 127
-Start,End,Length
-3044664,3048415,3752,AID79746.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79746.1,AID79747.1(-) | Product: hypothetical protein | Protein ID: AID79747.1,AID79748.1(+) | Product: hypothetical protein | Protein ID: AID79748.1
-3047322,3050919,3598,AID79748.1(+) | Product: hypothetical protein | Protein ID: AID79748.1,AID79749.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79749.1,AID79750.1(-) | Product: hypothetical protein | Protein ID: AID79750.1
-3050278,3053630,3353,AID79751.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79751.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3044664,3048415,3047322,3050919,0.884
-3044664,3048415,3050278,3053630,0.816
-3047322,3050919,3050278,3053630,0.85
-
-Group 128
-Start,End,Length
-3915127,3918745,3619,"AID80549.1(-) | Product: transcriptional regulator | Protein ID: AID80549.1 | Note: represses the glpD, glpFK, glpTQ, and glpACB operons involved in glycerol-3-phosphate metabolism",AID80550.1(-) | Product: intramembrane serine protease GlpG | Protein ID: AID80550.1 | Note: protease responsible for the cleavage between Ser and Asp residues of proteins in regions of high local hydrophilicity,glpE(-) | Product: thiosulfate sulfurtransferase | Protein ID: AID80551.1 | Note: belongs to rhodanese family; thiosulfate thiotransferase; in Escherichia coli this enzyme catalyzes the formation of thiocyanate from thiosulfate and cyanide with low efficiency; contains an active site cysteine
-5225635,5229242,3608,AID81689.1(+) | Product: hypothetical protein | Protein ID: AID81689.1,ECOLIN_25255[pseudo](-) | Note: disrupted,AID81690.1(-) | Product: intramembrane serine protease GlpG | Protein ID: AID81690.1 | Note: protease responsible for the cleavage between Ser and Asp residues of proteins in regions of high local hydrophilicity,glpE(-) | Product: thiosulfate sulfurtransferase | Protein ID: AID81691.1 | Note: belongs to rhodanese family; thiosulfate thiotransferase; in Escherichia coli this enzyme catalyzes the formation of thiocyanate from thiosulfate and cyanide with low efficiency; contains an active site cysteine,AID81692.1(+) | Product: hypothetical protein | Protein ID: AID81692.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3915127,3918745,5225635,5229242,0.882
-
-Group 129
-Start,End,Length
-5342858,5347144,4287,ECOLIN_25935(-) | Product: tRNA-Ala,ECOLIN_25940(-) | Product: tRNA-Ile,ECOLIN_25945(-) | Product: 16S ribosomal RNA
-5345726,5350012,4287,ECOLIN_25950(-) | Product: tRNA-Ala,ECOLIN_25955(-) | Product: tRNA-Ile,ECOLIN_25960(-) | Product: 16S ribosomal RNA
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5342858,5347144,5345726,5350012,0.84
-
-Group 130
-Start,End,Length
-3408831,3412446,3616,ECOLIN_16310[pseudo](+) | Note: disrupted,AID80065.1(+) | Product: hypothetical protein | Protein ID: AID80065.1,AID80066.1(+) | Product: hypothetical protein | Protein ID: AID80066.1,AID80067.1(+) | Product: hypothetical protein | Protein ID: AID80067.1,AID80068.1(+) | Product: hypothetical protein | Protein ID: AID80068.1
-3411732,3415347,3616,AID81880.1(+) | Product: hypothetical protein | Protein ID: AID81880.1,AID80069.1(+) | Product: hypothetical protein | Protein ID: AID80069.1,AID80070.1(+) | Product: hypothetical protein | Protein ID: AID80070.1,AID80071.1(+) | Product: hypothetical protein | Protein ID: AID80071.1,AID80072.1(+) | Product: hypothetical protein | Protein ID: AID80072.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3408831,3412446,3411732,3415347,0.899
-
-Group 131
-Start,End,Length
-4214686,4218320,3635,AID80806.1(+) | Product: hypothetical protein | Protein ID: AID80806.1,AID80807.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID80807.1,ECOLIN_20250[pseudo](+) | Note: disrupted,AID80808.1(+) | Product: hypothetical protein | Protein ID: AID80808.1
-4234723,4238357,3635,AID80826.1(+) | Product: hypothetical protein | Protein ID: AID80826.1,AID80827.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID80827.1,ECOLIN_20375[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4214686,4218320,4234723,4238357,0.898
-
-Group 132
-Start,End,Length
-1827894,1831594,3701,AID78707.1(-) | Product: hypothetical protein | Protein ID: AID78707.1,ECOLIN_08965(+) | Product: tRNA-Val,ECOLIN_08970(+) | Product: tRNA-Val,AID78708.1(+) | Product: hypothetical protein | Protein ID: AID78708.1
-1830046,1833746,3701,ECOLIN_08965(+) | Product: tRNA-Val,ECOLIN_08970(+) | Product: tRNA-Val,AID78708.1(+) | Product: hypothetical protein | Protein ID: AID78708.1,AID78709.1(-) | Product: hypothetical protein | Protein ID: AID78709.1,ECOLIN_08985(+) | Product: tRNA-Val,ECOLIN_08990(+) | Product: tRNA-Val,AID78710.1(+) | Product: hypothetical protein | Protein ID: AID78710.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1827894,1831594,1830046,1833746,0.891
-
-Group 133
-Start,End,Length
-2962691,2966521,3831,ECOLIN_14155(-) | Product: tRNA-Glu
-5341517,5345347,3831,ECOLIN_25935(-) | Product: tRNA-Ala,ECOLIN_25940(-) | Product: tRNA-Ile
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2962691,2966521,5341517,5345347,0.887
-
-Group 134
-Start,End,Length
-3042535,3046333,3799,AID79744.1(-) | Product: transcriptional regulator | Protein ID: AID79744.1 | Note: Required for the expression of anaerobic nitric oxide (NO) reductase; acts as a transcriptional activator for the norVW operon,AID79745.1(+) | Product: nitric oxide reductase | Protein ID: AID79745.1 | Note: detoxifies nitric oxide using NADH
-5245297,5249095,3799,ECOLIN_25375[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3042535,3046333,5245297,5249095,0.892
-
-Group 135
-Start,End,Length
-169427,173423,3997,AID77211.1(-) | Product: transcriptional regulator | Protein ID: AID77211.1,AID77212.1(-) | Product: 2'-5' RNA ligase | Protein ID: AID77212.1 | Note: catalyzes the ligation and cleavage of of 2'-5' linkages in RNA,AID77213.1(+) | Product: ATP-dependent helicase HrpB | Protein ID: AID77213.1 | Note: similar in sequence to the ATP-dependent RNA helicase HrpA
-5209604,5213588,3985,AID81680.1(-) | Product: 2'-5' RNA ligase | Protein ID: AID81680.1 | Note: catalyzes the ligation and cleavage of of 2'-5' linkages in RNA,AID81681.1(+) | Product: ATP-dependent helicase HrpB | Protein ID: AID81681.1 | Note: similar in sequence to the ATP-dependent RNA helicase HrpA
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-169427,173423,5209604,5213588,0.869
-
-Group 136
-Start,End,Length
-3401810,3405708,3899,AID80054.1(+) | Product: hypothetical protein | Protein ID: AID80054.1,AID80055.1(+) | Product: hypothetical protein | Protein ID: AID80055.1,AID80056.1(+) | Product: hypothetical protein | Protein ID: AID80056.1
-5282286,5286184,3899,ECOLIN_25580[pseudo](+) | Note: disrupted,AID81747.1(+) | Product: membrane protein | Protein ID: AID81747.1,AID81748.1(+) | Product: hypothetical protein | Protein ID: AID81748.1,AID81749.1(-) | Product: hypothetical protein | Protein ID: AID81749.1,AID81750.1(+) | Product: hypothetical protein | Protein ID: AID81750.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3401810,3405708,5282286,5286184,0.884
-
-Group 137
-Start,End,Length
-4619098,4623081,3984
-5313405,5317406,4002,"AID81782.1(-) | Product: xylulose 5-phosphate 3-epimerase | Protein ID: AID81782.1 | Note: L-xylulose 5-phosphate 3-epimerase activity not yet demonstrated; may be involved in the utilization of 2,3-diketo-L-gulonate"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4619098,4623081,5313405,5317406,0.878
-
-Group 138
-Start,End,Length
-1663179,1667086,3908,AID78558.1(-) | Product: nitrate/nitrite transporter NarK | Protein ID: AID78558.1 | Note: involved in the transport of nitrate and nitrite
-5222050,5225957,3908,narZ[pseudo](-) | Note: disrupted,AID81688.1(-) | Product: nitrate/nitrite transporter NarK | Protein ID: AID81688.1 | Note: involved in the transport of nitrate and nitrite
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1663179,1667086,5222050,5225957,0.896
-
-Group 139
-Start,End,Length
-3625958,3629856,3899,garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80261.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80262.1(+) | Product: regulator PrlF | Protein ID: AID80262.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation"
-3627944,3631842,3899,"AID80262.1(+) | Product: regulator PrlF | Protein ID: AID80262.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation",garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80263.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80264.1(+) | Product: regulator PrlF | Protein ID: AID80264.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation",garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80265.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3625958,3629856,3627944,3631842,0.9
-
-Group 140
-Start,End,Length
-499713,504048,4336,queA(+) | Product: S-adenosylmethionine:tRNA ribosyltransferase-isomerase | Protein ID: AID77495.1 | Note: Synthesizes oQ from preQ1 in a single S-adenosylmethionine-requiring step,"tgt(+) | Product: queuine tRNA-ribosyltransferase | Protein ID: AID77496.1 | Note: Exchanges the guanine residue with 7-aminomethyl-7-deazaguanine in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, -His and -Tyr)",yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77497.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex
-5260031,5264366,4336,AID81726.1(+) | Product: hypothetical protein | Protein ID: AID81726.1,"tgt(+) | Product: queuine tRNA-ribosyltransferase | Protein ID: AID81727.1 | Note: Exchanges the guanine residue with 7-aminomethyl-7-deazaguanine in tRNAs with GU(N) anticodons (tRNA-Asp, -Asn, -His and -Tyr)",yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID81728.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID81729.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-499713,504048,5260031,5264366,0.861
-
-Group 141
-Start,End,Length
-5289888,5294245,4358,AID81755.1(+) | Product: hypothetical protein | Protein ID: AID81755.1,AID81756.1(+) | Product: Rha family transcriptional regulator | Protein ID: AID81756.1,AID81757.1(+) | Product: hypothetical protein | Protein ID: AID81757.1,AID81758.1(-) | Product: hypothetical protein | Protein ID: AID81758.1
-5370248,5374605,4358,AID81811.1(+) | Product: hypothetical protein | Protein ID: AID81811.1,AID81812.1(+) | Product: Rha family transcriptional regulator | Protein ID: AID81812.1,AID81813.1(+) | Product: hypothetical protein | Protein ID: AID81813.1,AID81814.1(-) | Product: hypothetical protein | Protein ID: AID81814.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5289888,5294245,5370248,5374605,0.882
-
-Group 142
-Start,End,Length
-5333928,5338285,4358,ECOLIN_25910[pseudo](-) | Note: disrupted,AID81796.1(-) | Product: hypothetical protein | Protein ID: AID81796.1
-5337215,5341572,4358,AID81797.1(-) | Product: kfiB protein | Protein ID: AID81797.1,AID81798.1(-) | Product: hypothetical protein | Protein ID: AID81798.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5333928,5338285,5337215,5341572,0.886
-
-Group 143
-Start,End,Length
-2303150,2307367,4218,AID79125.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID79125.1,AID79126.1(+) | Product: membrane protein | Protein ID: AID79126.1,AID79127.1(+) | Product: acetyltransferase | Protein ID: AID79127.1,AID79128.1(+) | Product: membrane protein | Protein ID: AID79128.1
-5085437,5089654,4218,AID81578.1(+) | Product: antitoxin | Protein ID: AID81578.1,AID81579.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81579.1,AID81580.1(+) | Product: membrane protein | Protein ID: AID81580.1,AID81581.1(+) | Product: acetyltransferase | Protein ID: AID81581.1,AID81582.1(+) | Product: membrane protein | Protein ID: AID81582.1,AID81583.1(+) | Product: hypothetical protein | Protein ID: AID81583.1
-5218391,5222608,4218,AID81684.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81684.1,AID81685.1(+) | Product: membrane protein | Protein ID: AID81685.1,AID81686.1(+) | Product: acetyltransferase | Protein ID: AID81686.1,AID81687.1(+) | Product: membrane protein | Protein ID: AID81687.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2303150,2307367,5085437,5089654,0.892
-2303150,2307367,5218391,5222608,0.998
-5085437,5089654,5218391,5222608,0.891
-
-Group 144
-Start,End,Length
-2303706,2308004,4299,AID79125.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID79125.1,AID79126.1(+) | Product: membrane protein | Protein ID: AID79126.1,AID79127.1(+) | Product: acetyltransferase | Protein ID: AID79127.1,AID79128.1(+) | Product: membrane protein | Protein ID: AID79128.1
-5085993,5090291,4299,AID81579.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81579.1,AID81580.1(+) | Product: membrane protein | Protein ID: AID81580.1,AID81581.1(+) | Product: acetyltransferase | Protein ID: AID81581.1,AID81582.1(+) | Product: membrane protein | Protein ID: AID81582.1,AID81583.1(+) | Product: hypothetical protein | Protein ID: AID81583.1,AID81584.1(-) | Product: transposase | Protein ID: AID81584.1
-5218989,5223245,4257,AID81684.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81684.1,AID81685.1(+) | Product: membrane protein | Protein ID: AID81685.1,AID81686.1(+) | Product: acetyltransferase | Protein ID: AID81686.1,AID81687.1(+) | Product: membrane protein | Protein ID: AID81687.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2303706,2308004,5085993,5090291,0.89
-2303706,2308004,5218989,5223245,0.923
-5085993,5090291,5218989,5223245,0.882
-
-Group 145
-Start,End,Length
-261643,266379,4737,AID77300.1(-) | Product: antitoxin | Protein ID: AID77300.1,AID77301.1(-) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID77301.1,AID77302.1(-) | Product: hypothetical protein | Protein ID: AID77302.1,AID77303.1(-) | Product: hypothetical protein | Protein ID: AID77303.1,AID77304.1(-) | Product: hypothetical protein | Protein ID: AID77304.1,AID77305.1(-) | Product: hypothetical protein | Protein ID: AID77305.1,AID77306.1(-) | Product: hypothetical protein | Protein ID: AID77306.1,AID77307.1(-) | Product: hypothetical protein | Protein ID: AID77307.1
-5152361,5157076,4716,AID81625.1(-) | Product: antitoxin | Protein ID: AID81625.1,AID81626.1(-) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID81626.1,ECOLIN_24870[pseudo](-) | Note: disrupted,AID81627.1(-) | Product: hypothetical protein | Protein ID: AID81627.1,AID81628.1(-) | Product: hypothetical protein | Protein ID: AID81628.1,AID81629.1(-) | Product: hypothetical protein | Protein ID: AID81629.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-261643,266379,5152361,5157076,0.863
-
-Group 146
-Start,End,Length
-2124083,2128464,4382,AID79002.1(-) | Product: cystine transporter subunit | Protein ID: AID79002.1,"AID79003.1(-) | Product: flagella biosynthesis protein FliZ | Protein ID: AID79003.1 | Note: expression activator of the class 2 type of flagellar operons, essential to achieve maximal cell motility; activator of type 1 fimbrial gene expression; cell density-responsive regulator; FliZ in Salmonella typhimurium induces HilA, an activator of invasion genes necessary to achieve full virulence",AID79004.1(-) | Product: RNA polymerase sigma factor WhiG | Protein ID: AID79004.1,AID79005.1(-) | Product: cystine transporter subunit | Protein ID: AID79005.1,"AID79006.1(-) | Product: flagella biosynthesis protein FliZ | Protein ID: AID79006.1 | Note: expression activator of the class 2 type of flagellar operons, essential to achieve maximal cell motility; activator of type 1 fimbrial gene expression; cell density-responsive regulator; FliZ in Salmonella typhimurium induces HilA, an activator of invasion genes necessary to achieve full virulence",AID79007.1(-) | Product: RNA polymerase sigma factor WhiG | Protein ID: AID79007.1
-2125777,2130152,4376,AID79004.1(-) | Product: RNA polymerase sigma factor WhiG | Protein ID: AID79004.1,AID79005.1(-) | Product: cystine transporter subunit | Protein ID: AID79005.1,"AID79006.1(-) | Product: flagella biosynthesis protein FliZ | Protein ID: AID79006.1 | Note: expression activator of the class 2 type of flagellar operons, essential to achieve maximal cell motility; activator of type 1 fimbrial gene expression; cell density-responsive regulator; FliZ in Salmonella typhimurium induces HilA, an activator of invasion genes necessary to achieve full virulence",AID79007.1(-) | Product: RNA polymerase sigma factor WhiG | Protein ID: AID79007.1,AID79008.1(-) | Product: cystine transporter subunit | Protein ID: AID79008.1,"AID79009.1(-) | Product: flagella biosynthesis protein FliZ | Protein ID: AID79009.1 | Note: expression activator of the class 2 type of flagellar operons, essential to achieve maximal cell motility; activator of type 1 fimbrial gene expression; cell density-responsive regulator; FliZ in Salmonella typhimurium induces HilA, an activator of invasion genes necessary to achieve full virulence",fliA(-) | Product: flagellar biosynthesis sigma factor | Protein ID: AID79010.1 | Note: sigma factors are initiation factors that promote the attachment of RNA polymerase to specific initiation sites and are then released; this sigma factor directs late flagellar biosynthesis genes
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2124083,2128464,2125777,2130152,0.891
-
-Group 147
-Start,End,Length
-1829542,1833844,4303,ECOLIN_08965(+) | Product: tRNA-Val,ECOLIN_08970(+) | Product: tRNA-Val,AID78708.1(+) | Product: hypothetical protein | Protein ID: AID78708.1,AID78709.1(-) | Product: hypothetical protein | Protein ID: AID78709.1,ECOLIN_08985(+) | Product: tRNA-Val,ECOLIN_08990(+) | Product: tRNA-Val,AID78710.1(+) | Product: hypothetical protein | Protein ID: AID78710.1
-1831645,1835947,4303,ECOLIN_08985(+) | Product: tRNA-Val,ECOLIN_08990(+) | Product: tRNA-Val,AID78710.1(+) | Product: hypothetical protein | Protein ID: AID78710.1,AID78711.1(-) | Product: hypothetical protein | Protein ID: AID78711.1,ECOLIN_09005(+) | Product: tRNA-Val,ECOLIN_09010(+) | Product: tRNA-Val,AID78712.1(+) | Product: monooxygenase | Protein ID: AID78712.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1829542,1833844,1831645,1835947,0.892
-
-Group 148
-Start,End,Length
-3046975,3051278,4304,AID79748.1(+) | Product: hypothetical protein | Protein ID: AID79748.1,AID79749.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79749.1,AID79750.1(-) | Product: hypothetical protein | Protein ID: AID79750.1
-3049532,3053835,4304,AID79751.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79751.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3046975,3051278,3049532,3053835,0.9
-
-Group 149
-Start,End,Length
-5141351,5146060,4710,ECOLIN_24825[pseudo](+) | Note: disrupted,AID81620.1(-) | Product: kfiB protein | Protein ID: AID81620.1
-5331594,5336385,4792,ECOLIN_25905[pseudo](+) | Note: disrupted,ECOLIN_25910[pseudo](-) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-5141351,5146060,5331594,5336385,0.881
-
-Group 150
-Start,End,Length
-502815,507452,4638,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77499.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77500.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane",yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77501.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex
-505080,509717,4638,yajC(+) | Product: preprotein translocase subunit YajC | Protein ID: AID77501.1 | Note: member of preprotein translocase; forms a heterotrimer with SecD and SecF; links the SecD/SecF/YajC/YidC complex with the SecY/SecE/SecG complex,"secD(+) | Product: preprotein translocase subunit SecD | Protein ID: AID77502.1 | Note: part of the preprotein secretory system; when complexed with proteins SecF and YajC, SecDFyajC stimulates the proton motive force-driven protein translocation, and appears to be required for the release of mature proteins from the extracytoplasmic side of the membrane"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-502815,507452,505080,509717,0.899
-
-Group 151
-Start,End,Length
-2770048,2774742,4695,ECOLIN_13290(-) | Product: tRNA-Ala,ECOLIN_13295(-) | Product: tRNA-Ala,AID79509.1(+) | Product: hypothetical protein | Protein ID: AID79509.1,AID79510.1(+) | Product: hypothetical protein | Protein ID: AID79510.1,"gltX(-) | Product: glutamyl-tRNA ligase | Protein ID: AID79511.1 | Note: catalyzes a two-step reaction, first charging an glutamate molecule by linking its carboxyl group to the alpha-phosphate of ATP, followed by transfer of the aminoacyl-adenylate to its tRNA; contains discriminating and non-discriminating subtypes",ECOLIN_13315(+) | Product: tRNA-Val,ECOLIN_13320(+) | Product: tRNA-Val,ECOLIN_13325(+) | Product: tRNA-Val,ECOLIN_13330(+) | Product: tRNA-Lys
-5321099,5325793,4695,AID81784.1(-) | Product: histidine kinase | Protein ID: AID81784.1,ECOLIN_25820(-) | Product: tRNA-Ala,ECOLIN_25825(-) | Product: tRNA-Ala,ECOLIN_25830(-) | Product: tRNA-Ala,AID81785.1(+) | Product: hypothetical protein | Protein ID: AID81785.1,AID81786.1(+) | Product: hypothetical protein | Protein ID: AID81786.1,"gltX(-) | Product: glutamyl-tRNA ligase | Protein ID: AID81787.1 | Note: catalyzes a two-step reaction, first charging an glutamate molecule by linking its carboxyl group to the alpha-phosphate of ATP, followed by transfer of the aminoacyl-adenylate to its tRNA; contains discriminating and non-discriminating subtypes",ECOLIN_25850(+) | Product: tRNA-Val,ECOLIN_25855(+) | Product: tRNA-Val
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2770048,2774742,5321099,5325793,0.893
-
-Group 152
-Start,End,Length
-3928152,3933051,4900,AID80562.1(-) | Product: Auf fimbriae major fimbrial subunit AufA | Protein ID: AID80562.1,AID80563.1(-) | Product: maltodextrin phosphorylase | Protein ID: AID80563.1,ECOLIN_18970[pseudo](-) | Note: disrupted
-3930199,3935098,4900,ECOLIN_18970[pseudo](-) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3928152,3933051,3930199,3935098,0.893
-
-Group 153
-Start,End,Length
-3668318,3673155,4838,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80305.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80306.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80306.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17585(-) | Product: tRNA-Met,AID80307.1(+) | Product: argininosuccinate synthase | Protein ID: AID80307.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis
-3679623,3684460,4838,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80313.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80314.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80314.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17645(-) | Product: tRNA-Met,AID80315.1(+) | Product: argininosuccinate synthase | Protein ID: AID80315.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3668318,3673155,3679623,3684460,0.896
-
-Group 154
-Start,End,Length
-1209611,1214531,4921,ECOLIN_05785[pseudo](+) | Note: disrupted,AID78121.1(+) | Product: hypothetical protein | Protein ID: AID78121.1,AID78122.1(+) | Product: hypothetical protein | Protein ID: AID78122.1,AID78123.1(+) | Product: hypothetical protein | Protein ID: AID78123.1,AID78124.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID78124.1,AID78125.1(+) | Product: antitoxin | Protein ID: AID78125.1,AID78126.1(+) | Product: toxin | Protein ID: AID78126.1,AID78127.1(+) | Product: hypothetical protein | Protein ID: AID78127.1,AID78128.1(+) | Product: hypothetical protein | Protein ID: AID78128.1
-3405179,3410092,4914,AID80058.1(+) | Product: hypothetical protein | Protein ID: AID80058.1,AID80059.1(+) | Product: hypothetical protein | Protein ID: AID80059.1,AID80060.1(+) | Product: hypothetical protein | Protein ID: AID80060.1,AID80061.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID80061.1,AID80062.1(+) | Product: antitoxin | Protein ID: AID80062.1,AID80063.1(+) | Product: toxin | Protein ID: AID80063.1,AID80064.1(+) | Product: hypothetical protein | Protein ID: AID80064.1,ECOLIN_16310[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1209611,1214531,3405179,3410092,0.893
-
-Group 155
-Start,End,Length
-3625832,3630731,4900,garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80261.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80262.1(+) | Product: regulator PrlF | Protein ID: AID80262.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation",garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80263.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80264.1(+) | Product: regulator PrlF | Protein ID: AID80264.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation"
-3627719,3632618,4900,"AID80262.1(+) | Product: regulator PrlF | Protein ID: AID80262.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation",garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80263.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80264.1(+) | Product: regulator PrlF | Protein ID: AID80264.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation",garD(+) | Product: galactarate dehydrogenase | Protein ID: AID80265.1 | Note: catalyzes the formation of 5-dehydro-4-deoxy-D-glucarate from D-galactarate,"AID80266.1(+) | Product: regulator PrlF | Protein ID: AID80266.1 | Note: SohA; PrlF; involved in protein secretion; when overproduced or mutated, it induces growth defect and increased export of a reporter protein; a PrlF mutation induces the activity of the Lon protease, and a Lon-deficient strain suppresses the phenotype conferred by the PrlF mutation"
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3625832,3630731,3627719,3632618,0.896
-
-Group 156
-Start,End,Length
-3044363,3049415,5053,AID79746.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79746.1,AID79747.1(-) | Product: hypothetical protein | Protein ID: AID79747.1,AID79748.1(+) | Product: hypothetical protein | Protein ID: AID79748.1,AID79749.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79749.1
-3047021,3052073,5053,AID79748.1(+) | Product: hypothetical protein | Protein ID: AID79748.1,AID79749.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79749.1,AID79750.1(-) | Product: hypothetical protein | Protein ID: AID79750.1,AID79751.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79751.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3044363,3049415,3047021,3052073,0.898
-
-Group 157
-Start,End,Length
-319530,324761,5232,AID77356.1(+) | Product: hypothetical protein | Protein ID: AID77356.1,ECOLIN_01615[pseudo](+) | Note: disrupted
-1133452,1138683,5232,ECOLIN_05385[pseudo](+) | Note: disrupted,AID78055.1(+) | Product: hypothetical protein | Protein ID: AID78055.1,ECOLIN_05395[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-319530,324761,1133452,1138683,0.897
-
-Group 158
-Start,End,Length
-2479211,2484597,5387,AID79270.1(-) | Product: osmoprotectant uptake system permease | Protein ID: AID79270.1,AID79271.1(-) | Product: ATP-binding protein | Protein ID: AID79271.1,AID79272.1(-) | Product: osmoprotectant uptake system permease | Protein ID: AID79272.1,AID79273.1(-) | Product: osmoprotectant uptake system substrate-binding protein | Protein ID: AID79273.1
-5132876,5138236,5361,AID81612.1(-) | Product: osmoprotectant uptake system permease | Protein ID: AID81612.1,AID81613.1(-) | Product: ATP-binding protein | Protein ID: AID81613.1,AID81614.1(-) | Product: osmoprotectant uptake system permease | Protein ID: AID81614.1,AID81615.1(-) | Product: osmoprotectant uptake system substrate-binding protein | Protein ID: AID81615.1,AID81616.1(-) | Product: hypothetical protein | Protein ID: AID81616.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2479211,2484597,5132876,5138236,0.891
-
-Group 159
-Start,End,Length
-1339318,1344966,5649,AID78265.1(-) | Product: porin | Protein ID: AID78265.1,AID78266.1(+) | Product: holin | Protein ID: AID78266.1,AID78267.1(+) | Product: lysozyme | Protein ID: AID78267.1,AID78268.1(+) | Product: endopeptidase | Protein ID: AID78268.1,AID78269.1(-) | Product: hypothetical protein | Protein ID: AID78269.1,AID78270.1(+) | Product: membrane protein | Protein ID: AID78270.1,AID78271.1(+) | Product: hypothetical protein | Protein ID: AID78271.1,ECOLIN_06625[pseudo](+) | Note: disrupted
-1343671,1349319,5649,ECOLIN_06625[pseudo](+) | Note: disrupted,AID78272.1(+) | Product: holin | Protein ID: AID78272.1,AID78273.1(+) | Product: lysozyme | Protein ID: AID78273.1,AID78274.1(+) | Product: endopeptidase | Protein ID: AID78274.1,AID78275.1(-) | Product: hypothetical protein | Protein ID: AID78275.1,AID78276.1(+) | Product: membrane protein | Protein ID: AID78276.1,AID78277.1(+) | Product: hypothetical protein | Protein ID: AID78277.1,AID78278.1(+) | Product: terminase | Protein ID: AID78278.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1339318,1344966,1343671,1349319,0.878
-
-Group 160
-Start,End,Length
-1827690,1833092,5403,AID78707.1(-) | Product: hypothetical protein | Protein ID: AID78707.1,ECOLIN_08965(+) | Product: tRNA-Val,ECOLIN_08970(+) | Product: tRNA-Val,AID78708.1(+) | Product: hypothetical protein | Protein ID: AID78708.1,AID78709.1(-) | Product: hypothetical protein | Protein ID: AID78709.1,ECOLIN_08985(+) | Product: tRNA-Val,ECOLIN_08990(+) | Product: tRNA-Val
-1829842,1835244,5403,ECOLIN_08965(+) | Product: tRNA-Val,ECOLIN_08970(+) | Product: tRNA-Val,AID78708.1(+) | Product: hypothetical protein | Protein ID: AID78708.1,AID78709.1(-) | Product: hypothetical protein | Protein ID: AID78709.1,ECOLIN_08985(+) | Product: tRNA-Val,ECOLIN_08990(+) | Product: tRNA-Val,AID78710.1(+) | Product: hypothetical protein | Protein ID: AID78710.1,AID78711.1(-) | Product: hypothetical protein | Protein ID: AID78711.1,ECOLIN_09005(+) | Product: tRNA-Val,ECOLIN_09010(+) | Product: tRNA-Val
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1827690,1833092,1829842,1835244,0.897
-
-Group 161
-Start,End,Length
-1206853,1212267,5415,AID78116.1(+) | Product: hypothetical protein | Protein ID: AID78116.1,AID78117.1(+) | Product: malate transporter | Protein ID: AID78117.1,AID78118.1(+) | Product: hypothetical protein | Protein ID: AID78118.1,AID78119.1(-) | Product: hypothetical protein | Protein ID: AID78119.1,AID78120.1(+) | Product: hypothetical protein | Protein ID: AID78120.1,ECOLIN_05785[pseudo](+) | Note: disrupted,AID78121.1(+) | Product: hypothetical protein | Protein ID: AID78121.1,AID78122.1(+) | Product: hypothetical protein | Protein ID: AID78122.1,AID78123.1(+) | Product: hypothetical protein | Protein ID: AID78123.1
-3402494,3407908,5415,AID80054.1(+) | Product: hypothetical protein | Protein ID: AID80054.1,AID80055.1(+) | Product: hypothetical protein | Protein ID: AID80055.1,AID80056.1(+) | Product: hypothetical protein | Protein ID: AID80056.1,AID80057.1(+) | Product: hypothetical protein | Protein ID: AID80057.1,AID80058.1(+) | Product: hypothetical protein | Protein ID: AID80058.1,AID80059.1(+) | Product: hypothetical protein | Protein ID: AID80059.1,AID80060.1(+) | Product: hypothetical protein | Protein ID: AID80060.1,AID80061.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID80061.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1206853,1212267,3402494,3407908,0.898
-
-Group 162
-Start,End,Length
-3675085,3680713,5629,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80311.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80311.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17625(-) | Product: tRNA-Met,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis
-3678823,3684451,5629,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80313.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80314.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80314.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17645(-) | Product: tRNA-Met,AID80315.1(+) | Product: argininosuccinate synthase | Protein ID: AID80315.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3675085,3680713,3678823,3684451,0.895
-
-Group 163
-Start,End,Length
-4989321,4994953,5633,ECOLIN_24030[pseudo](-) | Note: disrupted,AID81494.1(+) | Product: mannonate dehydratase | Protein ID: AID81494.1 | Note: catalyzes the formation of 2-dehydro-3-deoxy-D-gluconate from mannonate,AID81495.1(+) | Product: D-mannonate oxidoreductase | Protein ID: AID81495.1,AID81496.1(-) | Product: hypothetical protein | Protein ID: AID81496.1,AID81497.1(+) | Product: transcriptional regulator | Protein ID: AID81497.1 | Note: regulates the expression of uxuBA
-4993672,4999304,5633,AID81496.1(-) | Product: hypothetical protein | Protein ID: AID81496.1,AID81497.1(+) | Product: transcriptional regulator | Protein ID: AID81497.1 | Note: regulates the expression of uxuBA,AID81498.1(-) | Product: hypothetical protein | Protein ID: AID81498.1,AID81499.1(+) | Product: mannonate dehydratase | Protein ID: AID81499.1 | Note: catalyzes the formation of 2-dehydro-3-deoxy-D-gluconate from mannonate,AID81500.1(+) | Product: D-mannonate oxidoreductase | Protein ID: AID81500.1,AID81501.1(-) | Product: hypothetical protein | Protein ID: AID81501.1,ECOLIN_24075[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4989321,4994953,4993672,4999304,0.894
-
-Group 164
-Start,End,Length
-2302248,2308067,5820,AID79125.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID79125.1,AID79126.1(+) | Product: membrane protein | Protein ID: AID79126.1,AID79127.1(+) | Product: acetyltransferase | Protein ID: AID79127.1,AID79128.1(+) | Product: membrane protein | Protein ID: AID79128.1
-5217489,5223308,5820,AID81684.1(+) | Product: GlcNAc-PI de-N-acetylase | Protein ID: AID81684.1,AID81685.1(+) | Product: membrane protein | Protein ID: AID81685.1,AID81686.1(+) | Product: acetyltransferase | Protein ID: AID81686.1,AID81687.1(+) | Product: membrane protein | Protein ID: AID81687.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2302248,2308067,5217489,5223308,0.888
-
-Group 165
-Start,End,Length
-4548454,4554359,5906,"rpmE(+) | Product: 50S ribosomal protein L31 | Protein ID: AID81103.1 | Note: RpmE; there appears to be two types of ribosomal proteins L31 in bacterial genomes; some contain a CxxC motif while others do not; Bacillus subtilis has both types; the proteins in this cluster have the CXXC motif; RpmE is found in exponentially growing Bacilli while YtiA was found after exponential growth; expression of ytiA is controlled by a zinc-specific transcriptional repressor; RpmE contains one zinc ion and a CxxC motif is responsible for this binding; forms an RNP particle along with proteins L5, L18, and L25 and 5S rRNA; found crosslinked to L2 and L25 and EF-G; may be near the peptidyltransferase site of the 50S ribosome",AID81104.1(-) | Product: hypothetical protein | Protein ID: AID81104.1,AID81105.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81105.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis,AID81106.1(+) | Product: hypothetical protein | Protein ID: AID81106.1,AID81107.1(-) | Product: hypothetical protein | Protein ID: AID81107.1,"rpmE(+) | Product: 50S ribosomal protein L31 | Protein ID: AID81108.1 | Note: RpmE; there appears to be two types of ribosomal proteins L31 in bacterial genomes; some contain a CxxC motif while others do not; Bacillus subtilis has both types; the proteins in this cluster have the CXXC motif; RpmE is found in exponentially growing Bacilli while YtiA was found after exponential growth; expression of ytiA is controlled by a zinc-specific transcriptional repressor; RpmE contains one zinc ion and a CxxC motif is responsible for this binding; forms an RNP particle along with proteins L5, L18, and L25 and 5S rRNA; found crosslinked to L2 and L25 and EF-G; may be near the peptidyltransferase site of the 50S ribosome",AID81109.1(-) | Product: hypothetical protein | Protein ID: AID81109.1,AID81110.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81110.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis,AID81111.1(+) | Product: hypothetical protein | Protein ID: AID81111.1,AID81112.1(-) | Product: hypothetical protein | Protein ID: AID81112.1
-4550757,4556662,5906,AID81105.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81105.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis,AID81106.1(+) | Product: hypothetical protein | Protein ID: AID81106.1,AID81107.1(-) | Product: hypothetical protein | Protein ID: AID81107.1,"rpmE(+) | Product: 50S ribosomal protein L31 | Protein ID: AID81108.1 | Note: RpmE; there appears to be two types of ribosomal proteins L31 in bacterial genomes; some contain a CxxC motif while others do not; Bacillus subtilis has both types; the proteins in this cluster have the CXXC motif; RpmE is found in exponentially growing Bacilli while YtiA was found after exponential growth; expression of ytiA is controlled by a zinc-specific transcriptional repressor; RpmE contains one zinc ion and a CxxC motif is responsible for this binding; forms an RNP particle along with proteins L5, L18, and L25 and 5S rRNA; found crosslinked to L2 and L25 and EF-G; may be near the peptidyltransferase site of the 50S ribosome",AID81109.1(-) | Product: hypothetical protein | Protein ID: AID81109.1,AID81110.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81110.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis,AID81111.1(+) | Product: hypothetical protein | Protein ID: AID81111.1,AID81112.1(-) | Product: hypothetical protein | Protein ID: AID81112.1,"rpmE(+) | Product: 50S ribosomal protein L31 | Protein ID: AID81113.1 | Note: RpmE; there appears to be two types of ribosomal proteins L31 in bacterial genomes; some contain a CxxC motif while others do not; Bacillus subtilis has both types; the proteins in this cluster have the CXXC motif; RpmE is found in exponentially growing Bacilli while YtiA was found after exponential growth; expression of ytiA is controlled by a zinc-specific transcriptional repressor; RpmE contains one zinc ion and a CxxC motif is responsible for this binding; forms an RNP particle along with proteins L5, L18, and L25 and 5S rRNA; found crosslinked to L2 and L25 and EF-G; may be near the peptidyltransferase site of the 50S ribosome",AID81114.1(-) | Product: hypothetical protein | Protein ID: AID81114.1,AID81115.1(-) | Product: transcriptional repressor protein MetJ | Protein ID: AID81115.1 | Note: when combined with S-adenosylmethionine represses the expression of the methionine regulon and of proteins involved in S-adenosylmethionine synthesis
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4548454,4554359,4550757,4556662,0.898
-
-Group 166
-Start,End,Length
-3045621,3051673,6053,AID79747.1(-) | Product: hypothetical protein | Protein ID: AID79747.1,AID79748.1(+) | Product: hypothetical protein | Protein ID: AID79748.1,AID79749.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79749.1,AID79750.1(-) | Product: hypothetical protein | Protein ID: AID79750.1
-3048178,3054230,6053,AID79750.1(-) | Product: hypothetical protein | Protein ID: AID79750.1,AID79751.1(+) | Product: NADH:flavorubredoxin oxidoreductase | Protein ID: AID79751.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3045621,3051673,3048178,3054230,0.9
-
-Group 167
-Start,End,Length
-767869,774720,6852,"AID77738.1(-) | Product: potassium-transporting ATPase subunit C | Protein ID: AID77738.1 | Note: One of the components of the high-affinity ATP-driven potassium transport (or KDP)system, which catalyzes the hydrolysis of ATP coupled with the exchange of hydrogen and potassium ions. The C subunit may be involved in assembly of the KDP complex","AID77739.1(-) | Product: potassium-transporting ATPase subunit B | Protein ID: AID77739.1 | Note: One of the components of the high-affinity ATP-driven potassium transport (or KDP) system, which catalyzes the hydrolysis of ATP coupled with the exchange of hydrogen and potassium ions",AID77740.1(-) | Product: potassium-transporting ATPase subunit A | Protein ID: AID77740.1 | Note: catalyzes the hydrolysis of ATP coupled with the exchange of hydrogen and potassium ions
-5184548,5191399,6852,AID81657.1(-) | Product: sensor protein KdpD | Protein ID: AID81657.1 | Note: sensory histidine kinase in two-component regulatory system with KdpE; signal sensing protein,"AID81658.1(-) | Product: potassium-transporting ATPase subunit C | Protein ID: AID81658.1 | Note: One of the components of the high-affinity ATP-driven potassium transport (or KDP)system, which catalyzes the hydrolysis of ATP coupled with the exchange of hydrogen and potassium ions. The C subunit may be involved in assembly of the KDP complex","AID81659.1(-) | Product: potassium-transporting ATPase subunit B | Protein ID: AID81659.1 | Note: One of the components of the high-affinity ATP-driven potassium transport (or KDP) system, which catalyzes the hydrolysis of ATP coupled with the exchange of hydrogen and potassium ions",AID81660.1(-) | Product: potassium-transporting ATPase subunit A | Protein ID: AID81660.1 | Note: catalyzes the hydrolysis of ATP coupled with the exchange of hydrogen and potassium ions
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-767869,774720,5184548,5191399,0.897
-
-Group 168
-Start,End,Length
-1207169,1214421,7253,AID78116.1(+) | Product: hypothetical protein | Protein ID: AID78116.1,AID78117.1(+) | Product: malate transporter | Protein ID: AID78117.1,AID78118.1(+) | Product: hypothetical protein | Protein ID: AID78118.1,AID78119.1(-) | Product: hypothetical protein | Protein ID: AID78119.1,AID78120.1(+) | Product: hypothetical protein | Protein ID: AID78120.1,ECOLIN_05785[pseudo](+) | Note: disrupted,AID78121.1(+) | Product: hypothetical protein | Protein ID: AID78121.1,AID78122.1(+) | Product: hypothetical protein | Protein ID: AID78122.1,AID78123.1(+) | Product: hypothetical protein | Protein ID: AID78123.1,AID78124.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID78124.1,AID78125.1(+) | Product: antitoxin | Protein ID: AID78125.1,AID78126.1(+) | Product: toxin | Protein ID: AID78126.1,AID78127.1(+) | Product: hypothetical protein | Protein ID: AID78127.1,AID78128.1(+) | Product: hypothetical protein | Protein ID: AID78128.1
-3402742,3409982,7241,AID80054.1(+) | Product: hypothetical protein | Protein ID: AID80054.1,AID80055.1(+) | Product: hypothetical protein | Protein ID: AID80055.1,AID80056.1(+) | Product: hypothetical protein | Protein ID: AID80056.1,AID80057.1(+) | Product: hypothetical protein | Protein ID: AID80057.1,AID80058.1(+) | Product: hypothetical protein | Protein ID: AID80058.1,AID80059.1(+) | Product: hypothetical protein | Protein ID: AID80059.1,AID80060.1(+) | Product: hypothetical protein | Protein ID: AID80060.1,AID80061.1(+) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID80061.1,AID80062.1(+) | Product: antitoxin | Protein ID: AID80062.1,AID80063.1(+) | Product: toxin | Protein ID: AID80063.1,AID80064.1(+) | Product: hypothetical protein | Protein ID: AID80064.1,ECOLIN_16310[pseudo](+) | Note: disrupted
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1207169,1214421,3402742,3409982,0.896
-
-Group 169
-Start,End,Length
-254308,262355,8048,AID77287.1(-) | Product: hypothetical protein | Protein ID: AID77287.1,AID77288.1(-) | Product: hypothetical protein | Protein ID: AID77288.1,AID77289.1(-) | Product: hypothetical protein | Protein ID: AID77289.1,AID77290.1(-) | Product: hypothetical protein | Protein ID: AID77290.1,AID77291.1(-) | Product: hypothetical protein | Protein ID: AID77291.1,AID77292.1(-) | Product: hypothetical protein | Protein ID: AID77292.1,AID77293.1(-) | Product: hypothetical protein | Protein ID: AID77293.1,AID77294.1(-) | Product: hypothetical protein | Protein ID: AID77294.1,AID77295.1(-) | Product: hypothetical protein | Protein ID: AID77295.1,AID77296.1(-) | Product: phospholipase | Protein ID: AID77296.1,AID77297.1(-) | Product: chemotaxis protein | Protein ID: AID77297.1,AID77298.1(-) | Product: hypothetical protein | Protein ID: AID77298.1,AID77299.1(-) | Product: toxin | Protein ID: AID77299.1
-263348,270897,7550,AID77303.1(-) | Product: hypothetical protein | Protein ID: AID77303.1,AID77304.1(-) | Product: hypothetical protein | Protein ID: AID77304.1,AID77305.1(-) | Product: hypothetical protein | Protein ID: AID77305.1,AID77306.1(-) | Product: hypothetical protein | Protein ID: AID77306.1,AID77307.1(-) | Product: hypothetical protein | Protein ID: AID77307.1,AID77308.1(-) | Product: hypothetical protein | Protein ID: AID77308.1,AID77309.1(-) | Product: hypothetical protein | Protein ID: AID77309.1,AID77310.1(-) | Product: hypothetical protein | Protein ID: AID77310.1,AID77311.1(-) | Product: hypothetical protein | Protein ID: AID77311.1,AID77312.1(-) | Product: phospholipase | Protein ID: AID77312.1,AID77313.1(-) | Product: chemotaxis protein | Protein ID: AID77313.1
-269093,277140,8048,AID77313.1(-) | Product: chemotaxis protein | Protein ID: AID77313.1,AID77314.1(-) | Product: hypothetical protein | Protein ID: AID77314.1,AID77315.1(-) | Product: hypothetical protein | Protein ID: AID77315.1,AID77316.1(-) | Product: hypothetical protein | Protein ID: AID77316.1,AID77317.1(-) | Product: hypothetical protein | Protein ID: AID77317.1,AID77318.1(-) | Product: hypothetical protein | Protein ID: AID77318.1,AID77319.1(-) | Product: hypothetical protein | Protein ID: AID77319.1,AID77320.1(-) | Product: phospholipase | Protein ID: AID77320.1,AID77321.1(-) | Product: chemotaxis protein | Protein ID: AID77321.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-254308,262355,263348,270897,0.918
-254308,262355,269093,277140,0.877
-263348,270897,269093,277140,0.852
-
-Group 170
-Start,End,Length
-3666656,3677955,11300,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80305.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80306.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80306.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17585(-) | Product: tRNA-Met,AID80307.1(+) | Product: argininosuccinate synthase | Protein ID: AID80307.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80308.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80309.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80309.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17605(-) | Product: tRNA-Met,ECOLIN_17610[pseudo](+) | Note: disrupted,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination"
-3671256,3681363,10108,AID80307.1(+) | Product: argininosuccinate synthase | Protein ID: AID80307.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80308.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80309.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80309.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17605(-) | Product: tRNA-Met,ECOLIN_17610[pseudo](+) | Note: disrupted,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80311.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80311.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17625(-) | Product: tRNA-Met,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis
-3674253,3685522,11270,ECOLIN_17605(-) | Product: tRNA-Met,ECOLIN_17610[pseudo](+) | Note: disrupted,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80311.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80311.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17625(-) | Product: tRNA-Met,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80313.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80314.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80314.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17645(-) | Product: tRNA-Met,AID80315.1(+) | Product: argininosuccinate synthase | Protein ID: AID80315.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,AID80316.1(-) | Product: phosphate starvation-inducible protein PsiE | Protein ID: AID80316.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3666656,3677955,3671256,3681363,0.855
-3666656,3677955,3674253,3685522,0.844
-3671256,3681363,3674253,3685522,0.823
-
-Group 171
-Start,End,Length
-3667997,3677856,9860,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80305.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80306.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80306.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17585(-) | Product: tRNA-Met,AID80307.1(+) | Product: argininosuccinate synthase | Protein ID: AID80307.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80308.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80309.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80309.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17605(-) | Product: tRNA-Met,ECOLIN_17610[pseudo](+) | Note: disrupted,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination"
-3675564,3685423,9860,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80311.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80311.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17625(-) | Product: tRNA-Met,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80313.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80314.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80314.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17645(-) | Product: tRNA-Met,AID80315.1(+) | Product: argininosuccinate synthase | Protein ID: AID80315.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3667997,3677856,3675564,3685423,0.891
-
-Group 172
-Start,End,Length
-4646186,4659194,13009,aceK[pseudo](+) | Note: disrupted,ECOLIN_22365(+) | Product: tRNA-Glu,ECOLIN_22370(+) | Product: 23S ribosomal RNA,ECOLIN_22375(+) | Product: 5S ribosomal RNA,AID81183.1(+) | Product: hypothetical protein | Protein ID: AID81183.1,AID81184.1(-) | Product: acetyltransferase | Protein ID: AID81184.1,AID81185.1(+) | Product: homoserine O-succinyltransferase | Protein ID: AID81185.1 | Note: catalyzes the formation of O-succinyl-L-homoserine from succinyl-CoA and L-homoserine in methionine biosynthesis,AID81186.1(+) | Product: malate synthase | Protein ID: AID81186.1 | Note: Catalyzes the aldol condensation of glyoxylate with acetyl-CoA to form malate as part of the second step of the glyoxylate bypass and an alternative to the tricarboxylic acid cycle,AID81187.1(+) | Product: isocitrate lyase | Protein ID: AID81187.1,aceK(+) | Product: isocitrate dehydrogenase | Protein ID: AID81188.1 | Note: catalyzes the phosphorylation/dephosphorylation of the enzyme isocitrate dehydrogenase on a specific serine which regulates activity; unphosphorylated IDH is fully active when cells are grown on glucose while the enzyme becomes phosphorylated and inactive in the presence of acetate or ethanol
-5095760,5108768,13009,ECOLIN_24600(+) | Product: tRNA-Glu,ECOLIN_24605(+) | Product: tRNA-Glu,ECOLIN_24610(+) | Product: 23S ribosomal RNA,ECOLIN_24615(+) | Product: 5S ribosomal RNA,AID81587.1(+) | Product: hypothetical protein | Protein ID: AID81587.1,AID81588.1(-) | Product: acetyltransferase | Protein ID: AID81588.1,AID81589.1(+) | Product: homoserine O-succinyltransferase | Protein ID: AID81589.1 | Note: catalyzes the formation of O-succinyl-L-homoserine from succinyl-CoA and L-homoserine in methionine biosynthesis,AID81590.1(+) | Product: malate synthase | Protein ID: AID81590.1 | Note: Catalyzes the aldol condensation of glyoxylate with acetyl-CoA to form malate as part of the second step of the glyoxylate bypass and an alternative to the tricarboxylic acid cycle,AID81591.1(+) | Product: isocitrate lyase | Protein ID: AID81591.1,ECOLIN_24645[pseudo](-) | Note: disrupted,AID81592.1(+) | Product: transposase | Protein ID: AID81592.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-4646186,4659194,5095760,5108768,0.848
-
-Group 173
-Start,End,Length
-250384,262406,12023,AID77279.1(+) | Product: transposase | Protein ID: AID77279.1,AID77280.1(+) | Product: transposase | Protein ID: AID77280.1,ECOLIN_01185[pseudo](+) | Note: disrupted,AID77281.1(-) | Product: hypothetical protein | Protein ID: AID77281.1,AID77282.1(-) | Product: malate transporter | Protein ID: AID77282.1,AID77283.1(-) | Product: toxin | Protein ID: AID77283.1,AID77284.1(-) | Product: antitoxin | Protein ID: AID77284.1,AID77285.1(-) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID77285.1,AID77286.1(-) | Product: hypothetical protein | Protein ID: AID77286.1,AID77287.1(-) | Product: hypothetical protein | Protein ID: AID77287.1,AID77288.1(-) | Product: hypothetical protein | Protein ID: AID77288.1,AID77289.1(-) | Product: hypothetical protein | Protein ID: AID77289.1,AID77290.1(-) | Product: hypothetical protein | Protein ID: AID77290.1,AID77291.1(-) | Product: hypothetical protein | Protein ID: AID77291.1,AID77292.1(-) | Product: hypothetical protein | Protein ID: AID77292.1,AID77293.1(-) | Product: hypothetical protein | Protein ID: AID77293.1,AID77294.1(-) | Product: hypothetical protein | Protein ID: AID77294.1,AID77295.1(-) | Product: hypothetical protein | Protein ID: AID77295.1,AID77296.1(-) | Product: phospholipase | Protein ID: AID77296.1,AID77297.1(-) | Product: chemotaxis protein | Protein ID: AID77297.1,AID77298.1(-) | Product: hypothetical protein | Protein ID: AID77298.1,AID77299.1(-) | Product: toxin | Protein ID: AID77299.1
-259273,271297,12025,AID77297.1(-) | Product: chemotaxis protein | Protein ID: AID77297.1,AID77298.1(-) | Product: hypothetical protein | Protein ID: AID77298.1,AID77299.1(-) | Product: toxin | Protein ID: AID77299.1,AID77300.1(-) | Product: antitoxin | Protein ID: AID77300.1,AID77301.1(-) | Product: antitoxin of toxin-antitoxin stability system | Protein ID: AID77301.1,AID77302.1(-) | Product: hypothetical protein | Protein ID: AID77302.1,AID77303.1(-) | Product: hypothetical protein | Protein ID: AID77303.1,AID77304.1(-) | Product: hypothetical protein | Protein ID: AID77304.1,AID77305.1(-) | Product: hypothetical protein | Protein ID: AID77305.1,AID77306.1(-) | Product: hypothetical protein | Protein ID: AID77306.1,AID77307.1(-) | Product: hypothetical protein | Protein ID: AID77307.1,AID77308.1(-) | Product: hypothetical protein | Protein ID: AID77308.1,AID77309.1(-) | Product: hypothetical protein | Protein ID: AID77309.1,AID77310.1(-) | Product: hypothetical protein | Protein ID: AID77310.1,AID77311.1(-) | Product: hypothetical protein | Protein ID: AID77311.1,AID77312.1(-) | Product: phospholipase | Protein ID: AID77312.1,AID77313.1(-) | Product: chemotaxis protein | Protein ID: AID77313.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-250384,262406,259273,271297,0.876
-
-Group 174
-Start,End,Length
-3666915,3682255,15341,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80305.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80306.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80306.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17585(-) | Product: tRNA-Met,AID80307.1(+) | Product: argininosuccinate synthase | Protein ID: AID80307.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80308.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80309.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80309.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17605(-) | Product: tRNA-Met,ECOLIN_17610[pseudo](+) | Note: disrupted,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80311.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80311.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17625(-) | Product: tRNA-Met,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80313.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80314.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80314.1 | Note: required for the maturation of the 30S ribosomal subunits
-3670653,3685963,15311,ECOLIN_17585(-) | Product: tRNA-Met,AID80307.1(+) | Product: argininosuccinate synthase | Protein ID: AID80307.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80308.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80309.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80309.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17605(-) | Product: tRNA-Met,ECOLIN_17610[pseudo](+) | Note: disrupted,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80310.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80311.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80311.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17625(-) | Product: tRNA-Met,AID80312.1(+) | Product: argininosuccinate synthase | Protein ID: AID80312.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,"nusA(-) | Product: transcription elongation factor NusA | Protein ID: AID80313.1 | Note: modifies transcription through interactions with RNA polymerase affecting elongation, readthrough, termination, and antitermination",AID80314.1(-) | Product: ribosome maturation protein RimP | Protein ID: AID80314.1 | Note: required for the maturation of the 30S ribosomal subunits,ECOLIN_17645(-) | Product: tRNA-Met,AID80315.1(+) | Product: argininosuccinate synthase | Protein ID: AID80315.1 | Note: catalyzes the formation of arginosuccinate from citrulline and aspartate in arginine biosynthesis,AID80316.1(-) | Product: phosphate starvation-inducible protein PsiE | Protein ID: AID80316.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3666915,3682255,3670653,3685963,0.867
 

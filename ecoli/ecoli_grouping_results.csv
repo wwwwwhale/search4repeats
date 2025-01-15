@@ -1,324 +1,104 @@
+Group 0
+Start,End,Length
+279062,280031,969
+290533,291502,969
+
+
 Group 1
 Start,End,Length
-381784,382689,906
-1650742,1651648,907,insD7[pseudo](+)
-4498705,4499611,907
+1650742,1651747,1005
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-381784,382689,1650742,1651648,0.892
-381784,382689,4498705,4499611,0.947
-1650742,1651648,4498705,4499611,0.892
 
 Group 2
 Start,End,Length
-1650842,1651747,906,insD7[pseudo](+)
-3186720,3187625,906
+19664,20862,1198
+257776,258974,1198
+1978402,1979469,1067
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1650842,1651747,3186720,3187625,0.896
 
 Group 3
 Start,End,Length
-279062,280031,970,insB2(-) | Product: IS1 protein InsB | Protein ID: AAC73367.1,insA2(-) | Product: IS1 protein InsA | Protein ID: AAC73368.1
-290533,291502,970,insB3(-) | Product: IS1 protein InsB | Protein ID: AAC73377.1,insA3(-) | Product: IS1 protein InsA | Protein ID: AAC73378.1
+270440,271993,1553
+1469195,1470748,1553
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-279062,280031,290533,291502,0.897
 
 Group 4
 Start,End,Length
-19664,20762,1099,insB1(-) | Product: IS1 family protein InsB | Protein ID: AAC73132.1,insA1(-) | Product: IS1 family protein InsA | Protein ID: AAC73133.1
-257776,258874,1099,crl[pseudo](+) | Note: gene fragment 1 of crl,insB9(-) | Product: IS1 transposase B | Protein ID: AYC08167.1,insA9(-) | Product: IS1 repressor TnpA | Protein ID: AYC08168.1
-1978402,1979469,1068,insB5(-) | Product: IS1 protein InsB | Protein ID: AAC74963.1,insA5(-) | Product: IS1 protein InsA | Protein ID: AAC74964.1
+1299293,1300898,1605
+1395740,1397441,1701
+3129842,3131545,1703
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-19664,20762,257776,258874,0.856
-19664,20762,1978402,1979469,0.847
-257776,258874,1978402,1979469,0.849
 
 Group 5
 Start,End,Length
-19795,20862,1068,insB1(-) | Product: IS1 family protein InsB | Protein ID: AAC73132.1,insA1(-) | Product: IS1 family protein InsA | Protein ID: AAC73133.1
-257907,258974,1068,insB9(-) | Product: IS1 transposase B | Protein ID: AYC08167.1,insA9(-) | Product: IS1 repressor TnpA | Protein ID: AYC08168.1
+391707,393366,1659
+1094243,1095902,1659
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-19795,20862,257907,258974,0.867
 
 Group 6
 Start,End,Length
-273554,275394,1841,insH1(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC73362.2
-574289,576188,1900,nmpC[pseudo](-) | Note: gene fragment 2 of nmpC,insH2(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC73653.2
-687450,689448,1999,insH3(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC73757.2
-2065825,2067698,1874,yeeH[pseudo](-),insH6(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC75055.2
-2101348,2103345,1998,wbbL[pseudo](-) | Note: gene fragment 2 of wbbL,insH7(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC74413.2
-2288518,2290512,1995,yejO[pseudo](-) | Note: gene fragment 1 of yejO,insH8(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC75091.2
-3365151,3367153,2003,yhcE[pseudo](+),yhcE[pseudo](+) | Note: gene fragment 1 of yhcE,yhcE[pseudo](+) | Note: gene fragment 2 of yhcE,insH10(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC76018.2
-3651631,3653633,2003,insH11(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC76250.2
+314828,316782,1954
+566379,568077,1698
+2169773,2171727,1954
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-273554,275394,574289,576188,0.807
-273554,275394,687450,689448,0.788
-273554,275394,2065825,2067698,0.816
-273554,275394,2101348,2103345,0.777
-273554,275394,2288518,2290512,0.779
-273554,275394,3365151,3367153,0.787
-273554,275394,3651631,3653633,0.774
-574289,576188,687450,689448,0.799
-574289,576188,2065825,2067698,0.818
-574289,576188,2101348,2103345,0.799
-574289,576188,2288518,2290512,0.795
-574289,576188,3365151,3367153,0.8
-574289,576188,3651631,3653633,0.795
-687450,689448,2065825,2067698,0.782
-687450,689448,2101348,2103345,0.807
-687450,689448,2288518,2290512,0.807
-687450,689448,3365151,3367153,0.806
-687450,689448,3651631,3653633,0.808
-2065825,2067698,2101348,2103345,0.794
-2065825,2067698,2288518,2290512,0.792
-2065825,2067698,3365151,3367153,0.792
-2065825,2067698,3651631,3653633,0.788
-2101348,2103345,2288518,2290512,0.809
-2101348,2103345,3365151,3367153,0.815
-2101348,2103345,3651631,3653633,0.818
-2288518,2290512,3365151,3367153,0.815
-2288518,2290512,3651631,3653633,0.807
-3365151,3367153,3651631,3653633,0.813
 
 Group 7
 Start,End,Length
-687750,689244,1495,insH3(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC73757.2
-2288818,2290312,1495,yejO[pseudo](-) | Note: gene fragment 1 of yejO,insH8(-) | Product: IS5 transposase and trans-activator | Protein ID: AAC75091.2
+15186,17031,1845
+607806,609550,1744
+2514072,2515917,1845
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-687750,689244,2288818,2290312,0.898
 
 Group 8
 Start,End,Length
-1299293,1300898,1606,insH21(+) | Product: IS5 transposase and trans-activator | Protein ID: AAC76530.2
-1395740,1397441,1702,insH4(+) | Product: IS5 transposase and trans-activator | Protein ID: AYC08198.2
-3129842,3131545,1704,insH9(+) | Product: IS5 transposase and trans-activator | Protein ID: AAC75252.2
+1467609,1469607,1998
+2068840,2070638,1798
+2996060,2997990,1930
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1299293,1300898,1395740,1397441,0.846
-1299293,1300898,3129842,3131545,0.836
-1395740,1397441,3129842,3131545,0.853
 
 Group 9
 Start,End,Length
-270440,271993,1554,insI1(+) | Product: IS30 transposase | Protein ID: AAC73359.1
-1469195,1470748,1554,ydbA[pseudo](+) | Note: gene fragment 2 of ydbA,insI2(+) | Product: IS30 transposase | Protein ID: AAC74486.1
+381059,382982,1923
+3185920,3187818,1898
+4497980,4499803,1823
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-270440,271993,1469195,1470748,0.895
 
 Group 10
 Start,End,Length
-314828,316482,1655,insE1(+) | Product: IS3 element protein InsE | Protein ID: AAC73401.2,insF1(+) | Product: IS3 element protein InsF | Protein ID: AAC73402.1
-566379,568077,1699,renD[pseudo](+) | Note: gene fragment 1 of renD,insE3(+) | Product: IS3 element protein InsE | Protein ID: AAC73641.2,insF3(+) | Product: IS3 element protein InsF | Protein ID: AAC73642.1
-2169773,2171471,1699,insE5(+) | Product: IS3 element protein InsE | Protein ID: AAC75149.2,insF5(+) | Product: IS3 element protein InsF | Protein ID: AAC75150.1
+273554,275394,1840
+574289,576188,1899
+687450,689448,1998
+2065825,2067698,1873
+2101348,2103345,1997
+2288518,2290512,1994
+3365151,3367153,2002
+3651631,3653633,2002
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-314828,316482,566379,568077,0.862
-314828,316482,2169773,2171471,0.863
-566379,568077,2169773,2171471,0.881
 
 Group 11
 Start,End,Length
-315128,316782,1655,insE1(+) | Product: IS3 element protein InsE | Protein ID: AAC73401.2,insF1(+) | Product: IS3 element protein InsF | Protein ID: AAC73402.1
-2170073,2171727,1655,gatR[pseudo](-) | Note: gene fragment 1 of gatR,insE5(+) | Product: IS3 element protein InsE | Protein ID: AAC75149.2,insF5(+) | Product: IS3 element protein InsF | Protein ID: AAC75150.1
+525372,527219,1847
+1527826,1529673,1847
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-315128,316782,2170073,2171727,0.883
 
 Group 12
 Start,End,Length
-391707,393366,1660,insF2(-) | Product: IS3 element protein InsF | Protein ID: AAC73475.1,insE2(-) | Product: IS3 element protein InsE | Protein ID: AAC73476.2
-1094243,1095902,1660,insF4(-) | Product: IS3 element protein InsF | Protein ID: AAC74111.1,insE4(-) | Product: IS3 element protein InsE | Protein ID: AAC74112.2,ymdE[pseudo](+)
+3618584,3623682,5098
+3761575,3766673,5098
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-391707,393366,1094243,1095902,0.89
 
 Group 13
 Start,End,Length
-1467809,1469607,1799,ydbA[pseudo](+) | Note: gene fragment 2 of ydbA,insD2(-) | Product: IS2 insertion element protein InsB | Protein ID: AAC74484.1,insC2(-) | Product: IS2 insertion element repressor InsA | Protein ID: AAC74485.2
-2068840,2070638,1799,yoeA[pseudo](+) | Note: gene fragment 2 of yoeA,insD3(-) | Product: IS2 insertion element protein InsB | Protein ID: AAC75057.1,insC3(-) | Product: IS2 insertion element repressor InsA | Protein ID: AAT48140.2
-2996260,2997990,1731,insD4(-) | Product: IS2 insertion element protein InsB | Protein ID: AAC75899.1,insC4(-) | Product: IS2 insertion element repressor InsA | Protein ID: AAC75900.3,ygeP[pseudo](-)
+2725962,2732434,6472
+3423561,3430033,6472
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1467809,1469607,2068840,2070638,0.873
-1467809,1469607,2996260,2997990,0.865
-2068840,2070638,2996260,2997990,0.867
 
 Group 14
 Start,End,Length
-1467609,1469342,1734,ydbA[pseudo](+) | Note: gene fragment 2 of ydbA,insD2(-) | Product: IS2 insertion element protein InsB | Protein ID: AAC74484.1,insC2(-) | Product: IS2 insertion element repressor InsA | Protein ID: AAC74485.2
-2996060,2997793,1734,insD4(-) | Product: IS2 insertion element protein InsB | Protein ID: AAC75899.1,insC4(-) | Product: IS2 insertion element repressor InsA | Protein ID: AAC75900.3
+222230,229921,7691
+3940164,3948007,7843
+4033991,4041785,7794
+4165197,4172973,7776
+4206503,4214375,7872
 
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-1467609,1469342,2996060,2997793,0.89
-
-Group 15
-Start,End,Length
-381059,382982,1924,yaiX[pseudo](-) | Note: gene fragment 1 of yaiX,insC1(+) | Product: IS2 element protein InsA | Protein ID: AAC73463.2,insD1(+) | Product: IS2 element protein | Protein ID: AAC73464.1
-3185920,3187818,1899,yqiG[pseudo](+) | Note: gene fragment 1 of yqiG,insC5(+) | Product: IS2 insertion element repressor InsA | Protein ID: AAC76080.3,insD5(+) | Product: IS2 insertion element protein InsB | Protein ID: AAC76081.1
-4497980,4499803,1824,insC6(+) | Product: IS2 insertion element repressor InsA | Protein ID: AAC77228.2,insD6(+) | Product: IS2 insertion element protein InsB | Protein ID: AAC77229.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-381059,382982,3185920,3187818,0.852
-381059,382982,4497980,4499803,0.834
-3185920,3187818,4497980,4499803,0.846
-
-Group 16
-Start,End,Length
-15186,17031,1846,insL1(+) | Product: IS186/IS421 family transposase | Protein ID: AAC73127.1,mokC(-) | Product: regulatory protein MokC | Protein ID: AAC73129.1,hokC(-) | Product: small toxic polypeptide HokC | Protein ID: AAT48122.1,sokC(+) | Product: small regulatory RNA antitoxin SokC
-607806,609550,1745,hokE(+) | Product: small toxic polypeptide HokE | Protein ID: AAT48125.1,insL2(+) | Product: IS186/IS421 transposase | Protein ID: AAC73683.1
-2514072,2515917,1846,insL3(+) | Product: putative IS186/IS421 transposase | Protein ID: AAC75453.2
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-15186,17031,607806,609550,0.857
-15186,17031,2514072,2515917,0.875
-607806,609550,2514072,2515917,0.86
-
-Group 17
-Start,End,Length
-525372,527219,1848
-1527826,1529673,1848
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-525372,527219,1527826,1529673,0.885
-
-Group 18
-Start,End,Length
-223096,225694,2599,rrsH(+) | Product: 16S ribosomal RNA,ileV(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaV(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC)
-3941009,3943507,2499,rrsC(+) | Product: 16S ribosomal RNA
-4035132,4037491,2360,rrsA(+) | Product: 16S ribosomal RNA,ileT(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaT(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC)
-4165860,4168582,2723,rrsB(+) | Product: 16S ribosomal RNA,gltT(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC)
-4207448,4210107,2660,rrsE(+) | Product: 16S ribosomal RNA,gltV(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC)
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-223096,225694,3941009,3943507,0.818
-223096,225694,4035132,4037491,0.856
-223096,225694,4165860,4168582,0.831
-223096,225694,4207448,4210107,0.853
-3941009,3943507,4035132,4037491,0.813
-3941009,3943507,4165860,4168582,0.832
-3941009,3943507,4207448,4210107,0.819
-4035132,4037491,4165860,4168582,0.799
-4035132,4037491,4207448,4210107,0.797
-4165860,4168582,4207448,4210107,0.847
-
-Group 19
-Start,End,Length
-223396,225670,2275,rrsH(+) | Product: 16S ribosomal RNA,ileV(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaV(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC)
-3941433,3943707,2275,rrsC(+) | Product: 16S ribosomal RNA,gltU(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC)
-4166284,4168558,2275,rrsB(+) | Product: 16S ribosomal RNA,gltT(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC)
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-223396,225670,3941433,3943707,0.889
-223396,225670,4166284,4168558,0.9
-3941433,3943707,4166284,4168558,0.946
-
-Group 20
-Start,End,Length
-3941164,3943968,2805,rrsC(+) | Product: 16S ribosomal RNA,gltU(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC)
-4034887,4037691,2805,rrsA(+) | Product: 16S ribosomal RNA,ileT(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaT(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC)
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3941164,3943968,4034887,4037691,0.889
-
-Group 21
-Start,End,Length
-225252,229650,4399,ileV(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaV(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC),rrlH(+) | Product: 23S ribosomal RNA,rrfH(+) | Product: 5S ribosomal RNA,aspU(+) | Product: tRNA-Asp | Note: tRNA-Asp(GUC)
-4168151,4172461,4311,gltT(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlB(+) | Product: 23S ribosomal RNA,rrfB(+) | Product: 5S ribosomal RNA
-4209536,4213934,4399,gltV(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlE(+) | Product: 23S ribosomal RNA,rrfE(+) | Product: 5S ribosomal RNA,yjaA(+) | Product: stress response protein | Protein ID: AAC76981.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-225252,229650,4168151,4172461,0.877
-225252,229650,4209536,4213934,0.877
-4168151,4172461,4209536,4213934,0.886
-
-Group 22
-Start,End,Length
-3942860,3947612,4753,gltU(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlC(+) | Product: 23S ribosomal RNA,rrfC(+) | Product: 5S ribosomal RNA,aspT(+) | Product: tRNA-Asp | Note: tRNA-Asp(GUC),trpT(+) | Product: tRNA-Trp | Note: tRNA-Trp(CCA)
-4036675,4041287,4613,ileT(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaT(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC),rrlA(+) | Product: 23S ribosomal RNA,rrfA(+) | Product: 5S ribosomal RNA
-4167811,4172549,4739,gltT(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlB(+) | Product: 23S ribosomal RNA,rrfB(+) | Product: 5S ribosomal RNA
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3942860,3947612,4036675,4041287,0.876
-3942860,3947612,4167811,4172549,0.894
-4036675,4041287,4167811,4172549,0.904
-
-Group 23
-Start,End,Length
-3618584,3623682,5099,nikR(+) | Product: DNA-binding transcriptional repressor NikR | Protein ID: AAC76506.1,rhsB(+) | Product: rhs element protein RhsB | Protein ID: AAT48186.1
-3761575,3766673,5099,rhsA(+) | Product: rhs element protein RhsA | Protein ID: AAC76617.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3618584,3623682,3761575,3766673,0.869
-
-Group 24
-Start,End,Length
-222230,229921,7692,gmhB(+) | Product: D-glycero-beta-D-manno-heptose-1%2C7-bisphosphate 7-phosphatase | Protein ID: AAC73311.1,rrsH(+) | Product: 16S ribosomal RNA,ileV(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaV(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC),rrlH(+) | Product: 23S ribosomal RNA,rrfH(+) | Product: 5S ribosomal RNA,aspU(+) | Product: tRNA-Asp | Note: tRNA-Asp(GUC)
-3940164,3948007,7844,yieP(-) | Product: DNA-binding transcriptional dual regulator YieP | Protein ID: AAT48205.1,rrsC(+) | Product: 16S ribosomal RNA,gltU(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlC(+) | Product: 23S ribosomal RNA,rrfC(+) | Product: 5S ribosomal RNA,aspT(+) | Product: tRNA-Asp | Note: tRNA-Asp(GUC),trpT(+) | Product: tRNA-Trp | Note: tRNA-Trp(CCA),hdfR(-) | Product: DNA-binding transcriptional dual regulator HdfR | Protein ID: AAT48206.1
-4033991,4041785,7795,hemG(+) | Product: protoporphyrinogen oxidase | Protein ID: AAC76853.1,rrsA(+) | Product: 16S ribosomal RNA,ileT(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaT(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC),rrlA(+) | Product: 23S ribosomal RNA,rrfA(+) | Product: 5S ribosomal RNA,mobB(-) | Product: molybdopterin-guanine dinucleotide biosynthesis adaptor protein | Protein ID: AAC76854.2
-4165197,4172973,7777,murI(+) | Product: glutamate racemase | Protein ID: AAC76949.2,rrsB(+) | Product: 16S ribosomal RNA,gltT(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlB(+) | Product: 23S ribosomal RNA,rrfB(+) | Product: 5S ribosomal RNA
-4206503,4214375,7873,rrsE(+) | Product: 16S ribosomal RNA,gltV(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlE(+) | Product: 23S ribosomal RNA,rrfE(+) | Product: 5S ribosomal RNA,yjaA(+) | Product: stress response protein | Protein ID: AAC76981.1,yjaB(-) | Product: peptidyl-lysine N-acetyltransferase YjaB | Protein ID: AAC76982.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-222230,229921,3940164,3948007,0.831
-222230,229921,4033991,4041785,0.844
-222230,229921,4165197,4172973,0.83
-222230,229921,4206503,4214375,0.828
-3940164,3948007,4033991,4041785,0.837
-3940164,3948007,4165197,4172973,0.844
-3940164,3948007,4206503,4214375,0.842
-4033991,4041785,4165197,4172973,0.857
-4033991,4041785,4206503,4214375,0.828
-4165197,4172973,4206503,4214375,0.834
-
-Group 25
-Start,End,Length
-3941414,3947830,6417,rrsC(+) | Product: 16S ribosomal RNA,gltU(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlC(+) | Product: 23S ribosomal RNA,rrfC(+) | Product: 5S ribosomal RNA,aspT(+) | Product: tRNA-Asp | Note: tRNA-Asp(GUC),trpT(+) | Product: tRNA-Trp | Note: tRNA-Trp(CCA)
-4035228,4041644,6417,rrsA(+) | Product: 16S ribosomal RNA,ileT(+) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),alaT(+) | Product: tRNA-Ala | Note: tRNA-Ala(UGC),rrlA(+) | Product: 23S ribosomal RNA,rrfA(+) | Product: 5S ribosomal RNA,mobB(-) | Product: molybdopterin-guanine dinucleotide biosynthesis adaptor protein | Protein ID: AAC76854.2
-4207836,4214163,6328,rrsE(+) | Product: 16S ribosomal RNA,gltV(+) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrlE(+) | Product: 23S ribosomal RNA,rrfE(+) | Product: 5S ribosomal RNA,yjaA(+) | Product: stress response protein | Protein ID: AAC76981.1,yjaB(-) | Product: peptidyl-lysine N-acetyltransferase YjaB | Protein ID: AAC76982.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-3941414,3947830,4035228,4041644,0.898
-3941414,3947830,4207836,4214163,0.902
-4035228,4041644,4207836,4214163,0.89
-
-Group 26
-Start,End,Length
-2725962,2732434,6473,rrfG(-) | Product: 5S ribosomal RNA,rrlG(-) | Product: 23S ribosomal RNA,gltW(-) | Product: tRNA-Glu | Note: tRNA-Glu(UUC),rrsG(-) | Product: 16S ribosomal RNA
-3423561,3430033,6473,thrV(-) | Product: tRNA-Thr | Note: tRNA-Thr(GGU),rrfD(-) | Product: 5S ribosomal RNA,rrlD(-) | Product: 23S ribosomal RNA,alaU(-) | Product: tRNA-Ala | Note: tRNA-Ala(UGC),ileU(-) | Product: tRNA-Ile | Note: tRNA-Ile(GAU),rrsD(-) | Product: 16S ribosomal RNA,yrdA(+) | Product: hexapeptide repeat-containing protein YrdA | Protein ID: AAC76304.2,yrdB(-) | Product: DUF1488 domain-containing protein YrdB | Protein ID: AAC76305.1
-
-Sequence Comparisons
-Seq1 Start,Seq1 End,Seq2 Start,Seq2 End,Similarity
-2725962,2732434,3423561,3430033,0.895
 
