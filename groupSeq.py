@@ -4,6 +4,7 @@ from Bio import SeqIO
 from Bio.Align import PairwiseAligner
 import multiprocessing
 
+
 def calculate_group_avg_length(group):
     """
     计算分组中序列的平均长度。
@@ -18,6 +19,7 @@ def calculate_group_avg_length(group):
         return 0
     lengths = [seq[2] for seq in group]
     return sum(lengths) / len(lengths)
+
 
 def is_length_compatible(seq_length, group_avg_length, threshold=0.9):
     """
@@ -37,6 +39,7 @@ def is_length_compatible(seq_length, group_avg_length, threshold=0.9):
     length_diff_ratio = abs(seq_length - group_avg_length) / group_avg_length
     return length_diff_ratio <= 1 - threshold
 
+
 def read_intervals_from_csv(csv_file_path):
     """
     读取CSV文件，返回区间对和length。
@@ -52,7 +55,6 @@ def read_intervals_from_csv(csv_file_path):
         for row in reader:
             if not row:
                 continue
-            # 假设CSV的格式为：ID, start1, end1, start2, end2, length
             try:
                 current_start1, current_end1, current_start2, current_end2, length = map(int, row[1:])
                 seqpair.append(((current_start1, current_end1), (current_start2, current_end2), length))
@@ -60,7 +62,6 @@ def read_intervals_from_csv(csv_file_path):
                 print(f"跳过无效行: {row}")
                 continue
 
-        # 按照length值进行排序
         seqpair.sort(key=lambda x: x[2])
 
     return seqpair
@@ -69,62 +70,49 @@ def read_intervals_from_csv(csv_file_path):
 def calculate_overlap(interval_a, interval_b):
     """
     计算两个区间的重叠比例。
-    :param interval_a: 第一个区间 (start, end)
-    :param interval_b: 第二个区间 (start, end)
-    :return: 两个区间的重叠比例（0 到 1 之间的浮点数）
+
+    Args:
+        interval_a: 第一个区间 (start, end)
+        interval_b: 第二个区间 (start, end)
+
+    Returns:
+        float: 两个区间的重叠比例（0 到 1 之间的浮点数）
     """
     start_a, end_a = interval_a
     start_b, end_b = interval_b
     overlap_start = max(start_a, start_b)
     overlap_end = min(end_a, end_b)
-    overlap_length = max(0, overlap_end - overlap_start)  # 重叠长度
-    total_length = min(end_a - start_a, end_b - start_b)  # 两区间的最小长度
-    # total_length = max(end_a, end_b) - min(start_a, start_b)  # 合并区间长度
+    overlap_length = max(0, overlap_end - overlap_start)
+    total_length = min(end_a - start_a, end_b - start_b)
     return overlap_length / total_length if total_length > 0 else 0
 
 
-
-def group_intervals_by_overlap(seqpairs, log_file=None):
+def group_intervals_by_overlap(seqpairs):
     """
     将区间对按长度和重叠关系分组，并记录分组过程日志。
-    先比较长度，再分析重叠度。
 
     Args:
-        seqpairs: 序列对列表，每个序列对为 (seq_idx, interval1, interval2, length) 的形式
-        log_file: 可选，日志文件路径
+        seqpairs: 序列对列表
+        log_file: 日志文件路径
 
     Returns:
         list: 分组后的序列对列表
     """
     grouped_results = []
-    log_messages = []
 
-    def log(message):
-        if log_file:
-            log_messages.append(message)
-        else:
-            print(message)
 
-    log("Starting to group intervals...")
-    log(f"Total sequence pairs to process: {len(seqpairs)}")
 
     for seqpair in seqpairs:
         interval1, interval2, length = seqpair
-        log(f"\nProcessing sequence pair: {seqpair}")
         added_to_group = False
 
         for i, group in enumerate(grouped_results):
             group_avg_length = calculate_group_avg_length(group)
-            log(f"Group {i} average length: {group_avg_length}")
 
-            # 首先检查长度是否相近
             if not is_length_compatible(length, group_avg_length):
-                log(f"Length {length} not compatible with group average {group_avg_length}")
                 continue
 
-            log(f"Length compatible, checking overlaps in group {i} with {len(group)} members.")
 
-            # 如果长度相近，再检查重叠度
             for g in group:
                 g_interval1, g_interval2, _ = g
                 overlap1 = calculate_overlap(interval1, g_interval1)
@@ -132,11 +120,6 @@ def group_intervals_by_overlap(seqpairs, log_file=None):
                 overlap3 = calculate_overlap(interval2, g_interval1)
                 overlap4 = calculate_overlap(interval2, g_interval2)
 
-                log(
-                    f"Overlaps with group element {g}: "
-                    f"[interval1-g[0]: {overlap1:.2f}, interval1-g[1]: {overlap2:.2f}, "
-                    f"interval2-g[0]: {overlap3:.2f}, interval2-g[1]: {overlap4:.2f}]"
-                )
 
                 if (
                         overlap1 >= 0.9 or
@@ -145,34 +128,15 @@ def group_intervals_by_overlap(seqpairs, log_file=None):
                         overlap4 >= 0.9
                 ):
                     group.append(seqpair)
-                    log(f"Added {seqpair} to group {i}.")
                     added_to_group = True
                     break
 
             if added_to_group:
-                log(f"Sequence pair {seqpair} successfully added to group {i}.")
                 break
 
         if not added_to_group:
             grouped_results.append([seqpair])
-            log(f"Created new group with {seqpair} as the first member.")
 
-    # 打印每个组的长度统计信息
-    for i, group in enumerate(grouped_results):
-        avg_length = calculate_group_avg_length(group)
-        lengths = [seq[2] for seq in group]
-        min_length = min(lengths)
-        max_length = max(lengths)
-        log(f"\nGroup {i} statistics:")
-        log(f"Average length: {avg_length:.2f}")
-        log(f"Length range: {min_length} - {max_length}")
-        log(f"Number of sequences: {len(group)}")
-
-    log(f"\nGrouping complete. Total groups formed: {len(grouped_results)}")
-
-    if log_file:
-        with open(log_file, "w") as file:
-            file.write("\n".join(log_messages))
 
     return grouped_results
 
@@ -190,7 +154,6 @@ def merge_intervals_in_group(intervals):
     if not intervals:
         return []
 
-    # 按起始位置排序
     sorted_intervals = sorted(intervals)
     merged = []
     used = set()
@@ -202,7 +165,6 @@ def merge_intervals_in_group(intervals):
         current_start = interval1[0]
         current_end = interval1[1]
 
-        # 不断检查和合并重叠窗口
         change_made = True
         while change_made:
             change_made = False
@@ -220,71 +182,83 @@ def merge_intervals_in_group(intervals):
 
     return sorted(merged)
 
+
 def merge_groups(grouped_results):
     """
-    处理每个组内的所有序列，不区分第一序列和第二序列。
+    处理每个组内的所有序列。
 
     Args:
         grouped_results: 分组后的序列对列表
 
     Returns:
-        list: 处理后的分组列表，每组包含合并后的序列
+        list: 处理后的分组列表
     """
     merged_groups = []
 
     for group in grouped_results:
-        # 收集组内所有序列
         all_intervals = []
         for seq in group:
-            all_intervals.append(seq[0])  # 添加第一个序列
-            all_intervals.append(seq[1])  # 添加第二个序列
+            all_intervals.append(seq[0])
+            all_intervals.append(seq[1])
 
-        # 合并该组的所有序列
         merged = merge_intervals_in_group(all_intervals)
         merged_groups.append(merged)
 
     return merged_groups
 
-def load_genome_sequence(fasta_file):
-    """
-    加载基因组序列。
 
-    参数:
-    - fasta_file (str): FASTA文件路径
-
-    返回:
-    - str: 基因组序列
+def load_genome_sequence(gbff_file):
     """
-    for record in SeqIO.parse(fasta_file, "fasta"):
-        genome_seq = str(record.seq)
-        return genome_seq
+    从GBFF文件加载基因组序列。
+
+    Args:
+        gbff_file (str): GBFF文件路径
+
+    Returns:
+        str: 基因组序列，如果加载失败则返回None
+    """
+    try:
+        for record in SeqIO.parse(gbff_file, "genbank"):
+            print(f"Loading genome sequence: {record.id}")
+            print(f"Sequence length: {len(record.seq)} bp")
+
+            # 记录额外的序列信息
+            if hasattr(record, 'annotations'):
+                source = record.annotations.get('source', 'Unknown source')
+                print(f"Source: {source}")
+
+            return str(record.seq)
+
+        print("No sequence found in GBFF file")
+        return None
+
+    except Exception as e:
+        print(f"Error loading genome sequence: {str(e)}")
+        return None
+
 
 def initialize_aligner():
     """
-    初始化PairwiseAligner对象，每个进程独立拥有自己的对齐器实例。
+    初始化序列比对器。
 
-    返回:
-    - PairwiseAligner: 配置好的对齐器
+    Returns:
+        PairwiseAligner: 配置好的比对器实例
     """
     aligner = PairwiseAligner()
-    aligner.mode = 'global'  # 使用全局比对模式
-    aligner.match_score = 2  # 匹配的得分
-    aligner.mismatch_score = -1  # 错配的惩罚
-    aligner.open_gap_score = -0.5  # 打开间隙的惩罚
-    aligner.extend_gap_score = -0.1  # 延长间隙的惩罚
+    aligner.mode = 'global'
+    aligner.match_score = 2
+    aligner.mismatch_score = -1
+    aligner.open_gap_score = -0.5
+    aligner.extend_gap_score = -0.1
     return aligner
+
 
 def compare_sequence_pair(start1, end1, start2, end2, genome):
     """
     比对两个序列并计算相似度。
 
-    参数:
-    - start1, end1: 第一个序列的起始和结束位置
-    - start2, end2: 第二个序列的起始和结束位置
-    - genome (str): 基因组序列
-
-    返回:
-    - tuple: (Seq1 Start, Seq1 End, Seq2 Start, Seq2 End, Similarity)
+    Returns:
+        tuple: (Seq1 Start, Seq1 End, Seq2 Start, Seq2 End, Similarity)
     """
     aligner = initialize_aligner()
 
@@ -292,14 +266,15 @@ def compare_sequence_pair(start1, end1, start2, end2, genome):
     seq2 = genome[start2:end2]
 
     score = aligner.score(seq1, seq2)
-    max_possible_score = max(len(seq1),len(seq2)) * aligner.match_score
+    max_possible_score = max(len(seq1), len(seq2)) * aligner.match_score
     similarity = round(score / max_possible_score if max_possible_score > 0 else 0, 3)
 
     return (start1, end1, start2, end2, similarity)
 
+
 def compare_sequences_in_groups(merged_groups, genome_seq):
     """
-    对每个组内的序列进行比对，并返回比对结果。
+    对每个组内的序列进行比对。
 
     Args:
         merged_groups: 合并后的分组列表
@@ -311,18 +286,15 @@ def compare_sequences_in_groups(merged_groups, genome_seq):
     comparison_results = {}
 
     for group_id, merged_intervals in enumerate(merged_groups, start=1):
-        # 收集组内所有序列
         sequences = sorted(merged_intervals, key=lambda x: x[0])
-
-        # 生成所有可能的序列对进行比对
         comparison_args = []
+
         for i in range(len(sequences)):
             for j in range(i + 1, len(sequences)):
                 start1, end1 = sequences[i]
                 start2, end2 = sequences[j]
                 comparison_args.append((start1, end1, start2, end2, genome_seq))
 
-        # 使用多进程加速比对
         if comparison_args:
             with multiprocessing.Pool() as pool:
                 comparisons = pool.starmap(compare_sequence_pair, comparison_args)
@@ -333,76 +305,67 @@ def compare_sequences_in_groups(merged_groups, genome_seq):
     return comparison_results
 
 
-def write_results_to_csv(merged_groups, comparison_results, output_file: str):
+def write_results_to_csv(merged_groups, comparison_results, output_file):
     """
     将分组结果和比对结果写入CSV文件。
 
     Args:
         merged_groups: 合并后的分组列表
-        comparison_results: 比对结果字典 {组ID: 比对结果列表}
+        comparison_results: 比对结果字典
         output_file: 输出文件路径
     """
     with open(output_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
 
-        # 按组ID排序并写入，从1开始编号
         for group_id, merged_intervals in enumerate(merged_groups, start=1):
             writer.writerow([f'Group {group_id}'])
             writer.writerow(['Start', 'End', 'Length'])
 
-            # 写入该组的所有区间
             for start, end in sorted(merged_intervals, key=lambda x: x[0]):
                 length = end - start + 1
                 writer.writerow([start, end, length])
 
             writer.writerow([])
-
-            # 写入组内序列比对结果
             writer.writerow(['Sequence Comparisons'])
             writer.writerow(['Seq1 Start', 'Seq1 End', 'Seq2 Start', 'Seq2 End', 'Similarity'])
 
             comparisons = comparison_results.get(group_id, [])
             for comp in comparisons:
-                s1, e1, s2, e2, similarity = comp
-                writer.writerow([s1, e1, s2, e2, similarity])
+                writer.writerow(comp)
 
             writer.writerow([])
 
+
 def main():
     parser = argparse.ArgumentParser(description='处理基因组序列与区间比对')
-
     parser.add_argument('--csv-file', type=str, help='输入CSV文件路径')
     parser.add_argument('--genome', type=str, help='基因组FASTA文件路径')
     parser.add_argument('--output-file', type=str, help='输出结果CSV文件路径')
-    parser.add_argument('--log-file', type=str, help='可选日志文件路径')
 
     args = parser.parse_args()
 
-    # 1. 读取序列对
+    print("开始处理序列比对...")
+
     seqpairs = read_intervals_from_csv(args.csv_file)
     print(f"读取到 {len(seqpairs)} 个序列对")
 
-    # 2. 分组
-    grouped_results = group_intervals_by_overlap(seqpairs, args.log_file)
+    grouped_results = group_intervals_by_overlap(seqpairs)
     print(f"分成 {len(grouped_results)} 组")
 
-    # 3. 合并每组内的序列
     merged_groups = merge_groups(grouped_results)
 
-    # 4. 加载基因组序列
     genome_seq = load_genome_sequence(args.genome)
     if genome_seq is None:
-        print("未能加载基因组序列。请检查FASTA文件。")
+        print("未能加载基因组序列。请检查GBFF文件。")
         return
     print(f"基因组序列长度: {len(genome_seq)}")
 
-    # 5. 比对组内序列
     comparison_results = compare_sequences_in_groups(merged_groups, genome_seq)
     print("完成组内序列比对")
 
-    # 6. 输出结果到CSV文件，并包含比对结果
     write_results_to_csv(merged_groups, comparison_results, args.output_file)
     print(f"\n结果已写入文件: {args.output_file}")
+
 
 if __name__ == "__main__":
     main()

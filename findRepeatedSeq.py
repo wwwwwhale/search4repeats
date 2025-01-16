@@ -14,7 +14,7 @@ def parse_arguments():
 
     # Required arguments
     parser.add_argument('--input', '-i', required=True,
-                        help='Input FASTA file path containing genome sequence')
+                        help='Input GBFF file path containing genome sequence')
     parser.add_argument('--output', '-o', required=True,
                         help='Output file path for repeated subsequences')
     parser.add_argument('--length', '-l', type=int, required=True,
@@ -23,18 +23,24 @@ def parse_arguments():
     return parser.parse_args()
 
 
-def read_genome_sequence(fasta_file):
+def read_genome_sequence(gbff_file):
     """
-    Read genome sequence from FASTA file
+    Read genome sequence from GBFF file
 
     Args:
-        fasta_file (str): Path to FASTA file
+        gbff_file (str): Path to GBFF file
 
     Returns:
         str: Genome sequence
     """
-    for record in SeqIO.parse(fasta_file, "fasta"):
-        return str(record.seq).strip().upper()
+    try:
+        # Parse GBFF file using BioPython's GenBank parser
+        for record in SeqIO.parse(gbff_file, "genbank"):
+            # Return the first sequence found (assuming single sequence per file)
+            return str(record.seq).strip().upper()
+    except Exception as e:
+        print(f"Error reading GBFF file: {e}")
+        return None
     return None
 
 
@@ -63,6 +69,7 @@ def find_repeated_subsequences(sequence, sub_len):
 
     return repeated_subsequences
 
+
 def get_merged_subsequence(sequence, merged_positions):
     """
     Extract subsequence based on merged positions
@@ -84,6 +91,7 @@ def compare_and_group_subsequences(repeated_subsequences, length):
 
     Args:
         repeated_subsequences (list): List of subsequence tuples
+        length (int): Length of subsequences
 
     Returns:
         list: List of grouped subsequences
@@ -103,18 +111,15 @@ def compare_and_group_subsequences(repeated_subsequences, length):
 
         if count == last_count:
             can_merge = True
-            distance = None  # 初始化 distance
+            distance = None
             for pos1, pos2 in zip(positions, last_positions):
-                if abs(pos1 - pos2) <= length:  # 检查区间是否有重叠
+                if abs(pos1 - pos2) <= length:
                     if distance is None:
-                        # 第一次遍历时计算 distance
                         distance = pos2 - pos1
-                elif pos2 - pos1 != distance:
-                    # 后续遍历发现左端点差值不等于 distance
-                    can_merge = False
-                    break
+                    elif pos2 - pos1 != distance:
+                        can_merge = False
+                        break
                 else:
-                    # 如果区间不重叠，无法合并
                     can_merge = False
                     break
 
@@ -137,7 +142,7 @@ def main():
     # Parse command line arguments
     args = parse_arguments()
 
-    # Read genome sequence
+    # Read genome sequence from GBFF file
     genome_sequence = read_genome_sequence(args.input)
     if not genome_sequence:
         print(f"Error: Could not read genome sequence from {args.input}")
@@ -154,26 +159,21 @@ def main():
         merged_repeated_subsequences = []
 
         for group in grouped_subsequences:
-            # 获取每组的起点和终点
-            first_subseq, _, first_positions = group[0]  # 第一个元素
-            last_subseq, _, last_positions = group[-1]  # 最后一个元素
+            first_subseq, _, first_positions = group[0]
+            last_subseq, _, last_positions = group[-1]
 
-            # 按索引对应生成区间列表
             merged_positions = [
                 (start, end + len(last_subseq) - 1)
                 for start, end in zip(first_positions, last_positions)
             ]
 
-            # 拼接合并后的子序列
             merged_subseq = get_merged_subsequence(genome_sequence, merged_positions)
-
-            # 使用每组的 count 作为重复次数（每组的 count 是一致的）
             count = group[0][1]
             merged_repeated_subsequences.append((merged_subseq, count, merged_positions))
 
         for subseq, count, positions in merged_repeated_subsequences:
             positions_str = ", ".join([f"[{pos[0]},{pos[1]}]" for pos in positions])
-            output_file.write(f"重复出现次数：{count}\n重复序列：{subseq}\nPositions: {positions_str}\n")
+            output_file.write(f"重复出现次数：{count}\n重复序列：{subseq}\nPositions: {positions_str}\n\n")
 
 
 if __name__ == '__main__':

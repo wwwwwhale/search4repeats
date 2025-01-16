@@ -12,21 +12,20 @@ def run_command(command, error_message):
 
 
 def main():
-    if len(sys.argv) < 3:
-        print("Usage: python run.py <genome_file> <gff_file> [output_dir]", file=sys.stderr)
+    if len(sys.argv) < 2:
+        print("Usage: python run.py <genome_file(.gbff)> [output_dir]", file=sys.stderr)
         sys.exit(1)
 
     genome_file = sys.argv[1]
-    gff_file = sys.argv[2]
 
     # 检查文件是否存在
-    for file_path in [genome_file, gff_file]:
+    for file_path in [genome_file]:
         if not os.path.isfile(file_path):
             print(f"Error: File '{file_path}' does not exist.", file=sys.stderr)
             sys.exit(1)
 
     # 获取输出目录（可选参数），默认为当前目录
-    output_dir = sys.argv[3] if len(sys.argv) > 3 else "."
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else "."
 
     # 检查输出目录是否存在，不存在则创建
     if not os.path.exists(output_dir):
@@ -38,7 +37,6 @@ def main():
     repeated_seq_file = os.path.join(output_dir, f"{base_name}_repeated_seq.txt")
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouped_results.csv")
-    log_file = os.path.join(output_dir, f"{base_name}_processing.txt")
     summary_file = os.path.join(output_dir, f"{base_name}_summary.csv")
     repeated_len = 500
 
@@ -62,24 +60,23 @@ def main():
     print("Running groupSeq.py...")
     group_seq_cmd = (
         f"python groupSeq.py --csv-file {extended_file} "
-        f"--genome {genome_file} --output-file {group_file} --log-file {log_file}"
+        f"--genome {genome_file} --output-file {group_file}"
     )
     run_command(group_seq_cmd, "Error: groupSeq.py failed.")
     print(f"Output saved to {group_file}")
 
     # Step 4: 运行序列注释（如果有GFF文件）
-    if gff_file and os.path.isfile(gff_file):
+    if genome_file and os.path.isfile(genome_file):
         print("Running sequence annotation...")
         annotation_cmd = (
-            f"python seqAnnotation.py -i {group_file} -g {gff_file} "
-            f"-f {genome_file}"
+            f"python seqAnnotation.py -i {group_file} -g {genome_file} "
         )
         run_command(annotation_cmd, "Error: annotateSequences.py failed.")
         print(f"Annotation results saved to {group_file}")
     else:
         print("Skipping annotation step: GFF file not found")
 
-    # Step 4: 运行序列注释（如果有GFF文件）
+    # Step 5: 运行序列注释（如果有GFF文件）
     print("Running summary.py...")
     group_seq_cmd = (
         f"python summary.py --input {group_file} "

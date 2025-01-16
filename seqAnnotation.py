@@ -1,13 +1,17 @@
 import argparse
 import csv
 from collections import defaultdict
-import groupSeq
+from Bio import SeqIO
 
-
-def format_feature_info(attrs):
+def format_feature_info(feature):
     """
-    格式化特征的详细信息
-    返回一个包含所有重要信息的字典
+    从 GBFF 特征对象中提取并格式化特征信息
+
+    Args:
+        feature: SeqFeature对象
+
+    Returns:
+        dict: 包含所有重要信息的字典
     """
     info = {
         'name': None,
@@ -19,78 +23,133 @@ def format_feature_info(attrs):
         'ec_number': None
     }
 
+    qualifiers = feature.qualifiers
+
     # 获取基因名称（按优先级）
-    if 'gene' in attrs:
-        info['name'] = attrs['gene']
-    elif 'Name' in attrs:
-        info['name'] = attrs['Name']
-    elif 'locus_tag' in attrs:
-        info['name'] = attrs['locus_tag']
+    if 'gene' in qualifiers:
+        info['name'] = qualifiers['gene'][0]
+    elif 'locus_tag' in qualifiers:
+        info['name'] = qualifiers['locus_tag'][0]
 
     # 获取产物信息
-    if 'product' in attrs:
-        info['product'] = attrs['product']
+    if 'product' in qualifiers:
+        info['product'] = qualifiers['product'][0]
 
     # 获取注释信息
-    if 'Note' in attrs:
-        info['note'] = attrs['Note'].replace('%2C', ',').replace('%3B', ';')
+    if 'note' in qualifiers:
+        info['note'] = '; '.join(qualifiers['note'])
 
     # 检查是否是假基因
-    if 'pseudo' in attrs or 'pseudogene' in attrs:
+    if 'pseudo' in qualifiers or 'pseudogene' in qualifiers:
         info['pseudo'] = True
 
     # 检查是否是部分基因
-    if 'partial' in attrs:
+    if feature.location.partial:
         info['partial'] = True
 
     # 获取蛋白质ID
-    if 'protein_id' in attrs:
-        info['protein_id'] = attrs['protein_id']
+    if 'protein_id' in qualifiers:
+        info['protein_id'] = qualifiers['protein_id'][0]
 
     # 获取EC号
-    if 'EC_number' in attrs:
-        info['ec_number'] = attrs['EC_number']
+    if 'EC_number' in qualifiers:
+        info['ec_number'] = qualifiers['EC_number'][0]
 
     return info
-def read_gff(gff_file):
+
+def load_gbff_data(gbff_file):
     """
-    读取GFF文件并返回所有特征信息字典
+    从GBFF文件加载序列和特征信息
+
+    Args:
+        gbff_file: GBFF文件路径
+
+    Returns:
+        tuple: (参考序列, 特征字典)
     """
-    gff_dict = {}
+    gbff_dict = {}
+    reference_genome = None
 
-    with open(gff_file, 'r') as f:
-        for line in f:
-            if line.startswith('#'):
-                continue
-            parts = line.strip().split('\t')
-            if len(parts) < 9:
-                continue
+    try:
+        for record in SeqIO.parse(gbff_file, "genbank"):
+            # 保存第一个序列作为参考序列
+            if reference_genome is None:
+                reference_genome = str(record.seq)
+                print(f"成功加载参考序列，长度为 {len(reference_genome)} bp")
 
-            start = int(parts[3])
-            end = int(parts[4])
-            strand = parts[6]
-            attributes = parts[8]
+            # 处理特征
+            for feature in record.features:
+                if feature.type in ['CDS', 'gene', 'tRNA', 'rRNA']:
+                    start = int(feature.location.start) + 1  # 转换为1-based坐标
+                    end = int(feature.location.end)
+                    strand = '+' if feature.location.strand == 1 else '-'
 
-            # 解析属性字段
-            attr_dict = {}
-            for attr in attributes.split(';'):
-                if '=' in attr:
-                    key, value = attr.split('=')
-                    attr_dict[key.strip()] = value.strip()
+                    gbff_dict[(start, end)] = {
+                        'strand': strand,
+                        'feature_type': feature.type,
+                        'qualifiers': feature.qualifiers
+                    }
 
-            # 使用位置作为键
-            gff_dict[(start, end)] = {
-                'strand': strand,
-                'attributes': attr_dict
-            }
+        print(f"成功加载 {len(gbff_dict)} 个特征注释")
+        return reference_genome, gbff_dict
 
-    return gff_dict
+    except Exception as e:
+        print(f"加载GBFF文件时发生错误: {str(e)}")
+        return None, None
+
 def is_completely_contained(seq_start, seq_end, feat_start, feat_end):
     """
     判断特征是否完全包含在序列中
     """
     return seq_start <= feat_start and seq_end >= feat_end
 
+def get_feature_name_with_direction_and_info(feat_info):
+    """
+    从特征信息中提取并格式化完整的注释信息
+
+    Args:
+        feat_info: 特征信息字典
+
+    Returns:
+        str: 格式化的注释信息字符串
+    """
+    qualifiers = feat_info['qualifiers']
+    parts = []
+
+    # 获取基因名称
+    name = None
+    if 'gene' in qualifiers:
+        name = qualifiers['gene'][0]
+    elif 'locus_tag' in qualifiers:
+        name = qualifiers['locus_tag'][0]
+
+    if not name:
+        return None
+
+    # 基本信息
+    name_part = name
+    if 'pseudo' in qualifiers:
+        name_part += '[pseudo]'
+    direction = feat_info['strand']
+    parts.append(f"{name_part}({direction})")
+
+    # 产物信息
+    if 'product' in qualifiers:
+        parts.append(f"Product: {qualifiers['product'][0]}")
+
+    # 蛋白质ID
+    if 'protein_id' in qualifiers:
+        parts.append(f"Protein ID: {qualifiers['protein_id'][0]}")
+
+    # EC号
+    if 'EC_number' in qualifiers:
+        parts.append(f"EC: {qualifiers['EC_number'][0]}")
+
+    # 注释信息
+    if 'note' in qualifiers:
+        parts.append(f"Note: {'; '.join(qualifiers['note'])}")
+
+    return ' | '.join(parts)
 
 def load_intervals(csv_file, reference_genome):
     """
@@ -108,19 +167,16 @@ def load_intervals(csv_file, reference_genome):
             if not row:
                 continue
 
-            # 检测组标题
             if row[0].startswith("Group"):
                 in_group_section = True
                 group_id = int(row[0].split()[1])
                 continue
 
-            # 遇到"Sequence Comparisons"时重置标志，等待下一个Group
             if row[0].strip() == "Sequence Comparisons":
                 in_group_section = False
                 group_id = None
                 continue
 
-            # 只在Group部分读取数据
             if in_group_section and group_id is not None:
                 try:
                     start = int(row[0])
@@ -141,196 +197,99 @@ def load_intervals(csv_file, reference_genome):
                     continue
 
     return group_sequences
-def get_feature_name_with_direction_and_info(feat_info):
+
+def annotate_sequences(input_csv, reference_genome, gbff_dict):
     """
-    从特征信息中提取并格式化完整的注释信息
+    使用GBFF信息对序列进行注释
     """
-    attrs = feat_info['attributes']
-    info = format_feature_info(attrs)
-
-    if not info['name']:
-        return None
-
-    # 构建注释字符串
-    parts = []
-
-    # 基本信息
-    name_part = info['name']
-    if info['pseudo']:
-        name_part += '[pseudo]'
-    if info['partial']:
-        name_part += '[partial]'
-    direction = '+' if feat_info['strand'] == '+' else '-'
-    parts.append(f"{name_part}({direction})")
-
-    # 产物信息
-    if info['product']:
-        parts.append(f"Product: {info['product']}")
-
-    # 蛋白质ID
-    if info['protein_id']:
-        parts.append(f"Protein ID: {info['protein_id']}")
-
-    # EC号
-    if info['ec_number']:
-        parts.append(f"EC: {info['ec_number']}")
-
-    # 注释信息
-    if info['note']:
-        parts.append(f"Note: {info['note']}")
-
-    return ' | '.join(parts)
-
-
-def find_max_features(group_sequences, gff_dict):
-    """
-    找出所有序列中最大的特征数量
-    """
-    max_features = 0
-    for sequences in group_sequences.values():
-        for seq_data in sequences:
-            feature_count = 0
-            for (feat_start, feat_end), feat_info in gff_dict.items():
-                if is_completely_contained(seq_data['start'], seq_data['end'], feat_start, feat_end):
-                    if get_feature_name_with_direction_and_info(feat_info):
-                        feature_count += 1
-            max_features = max(max_features, feature_count)
-    return max_features
-
-
-def write_formatted_csv(results, fieldnames, output_csv):
-    """
-    将结果写入格式化的CSV文件
-    """
-    with open(output_csv, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-
-        for row in results:
-            # 如果是组标题行，添加分隔行
-            if 'Group' in str(row['Start']):
-                # 添加空行
-                empty_row = {field: '' for field in fieldnames}
-                writer.writerow(empty_row)
-                # 添加组标题行
-                writer.writerow(row)
-            else:
-                writer.writerow(row)
-
-
-def annotate_sequences(input_csv, gff_file, reference_genome):
-    """
-    逐个group处理序列注释
-    """
-    gff_dict = read_gff(gff_file)
-
-    # 读取原始CSV内容
     with open(input_csv, 'r', newline='', encoding='utf-8') as f:
         original_content = list(csv.reader(f))
 
-    # 创建新的输出内容
     output_content = []
     current_group_rows = []
     in_group = False
 
     for row in original_content:
-        if not row:  # 空行
-            # 如果当前在处理group，先处理完当前group
+        if not row:
             if in_group and current_group_rows:
-                processed_rows = process_group_rows(current_group_rows, gff_dict, reference_genome)
+                processed_rows = process_group_rows(current_group_rows, gbff_dict, reference_genome)
                 output_content.extend(processed_rows)
                 current_group_rows = []
                 in_group = False
             output_content.append(row)
             continue
 
-        if row[0].startswith("Group"):  # 新的Group开始
-            # 如果之前有未处理的group，先处理完
+        if row[0].startswith("Group"):
             if in_group and current_group_rows:
-                processed_rows = process_group_rows(current_group_rows, gff_dict, reference_genome)
+                processed_rows = process_group_rows(current_group_rows, gbff_dict, reference_genome)
                 output_content.extend(processed_rows)
 
-            # 开始新的group
             current_group_rows = [row]
             in_group = True
             continue
 
-        if row[0].strip() == "Sequence Comparisons":  # 遇到比较部分
-            # 处理最后一个group
+        if row[0].strip() == "Sequence Comparisons":
             if in_group and current_group_rows:
-                processed_rows = process_group_rows(current_group_rows, gff_dict, reference_genome)
+                processed_rows = process_group_rows(current_group_rows, gbff_dict, reference_genome)
                 output_content.extend(processed_rows)
-            # 添加比较部分及后续所有内容
             output_content.append(row)
             in_group = False
             continue
 
-        if in_group:  # 在Group处理过程中
+        if in_group:
             current_group_rows.append(row)
-        else:  # 不在Group处理过程中的其他行直接添加
+        else:
             output_content.append(row)
 
-    # 处理最后一个group（如果有的话）
     if in_group and current_group_rows:
-        processed_rows = process_group_rows(current_group_rows, gff_dict, reference_genome)
+        processed_rows = process_group_rows(current_group_rows, gbff_dict, reference_genome)
         output_content.extend(processed_rows)
 
-    # 写回原始文件
     with open(input_csv, 'w', newline='', encoding='utf-8') as f:
         writer = csv.writer(f)
         writer.writerows(output_content)
 
     print(f"注释完成，结果已更新至 {input_csv}")
 
-
-def process_group_rows(group_rows, gff_dict, reference_genome):
+def process_group_rows(group_rows, gbff_dict, reference_genome):
     """
-    处理单个group中的所有行
+    处理单个group中的所有行，添加GBFF注释信息
     """
-    processed_rows = [group_rows[0]]  # 添加group标题行
+    processed_rows = [group_rows[0]]
 
-    for row in group_rows[1:]:  # 跳过标题行
+    for row in group_rows[1:]:
         try:
             start = int(row[0])
             end = int(row[1])
 
-            # 查找此序列区间内的所有特征
             features = []
-            for (feat_start, feat_end), feat_info in gff_dict.items():
+            for (feat_start, feat_end), feat_info in gbff_dict.items():
                 if is_completely_contained(start, end, feat_start, feat_end):
                     feature_name = get_feature_name_with_direction_and_info(feat_info)
                     if feature_name:
                         features.append(feature_name)
 
-            # 在原始行后添加注释
             processed_rows.append(row + features)
-        except ValueError:  # 非数据行直接添加
+        except ValueError:
             processed_rows.append(row)
 
     return processed_rows
-
 
 def parse_arguments():
     """
     解析命令行参数
     """
-    parser = argparse.ArgumentParser(description='对序列进行GFF注释分析')
+    parser = argparse.ArgumentParser(description='对序列进行GBFF注释分析')
 
     parser.add_argument('-i', '--input',
                         required=True,
                         help='输入的CSV文件路径 (包含序列分组信息)')
 
-    parser.add_argument('-g', '--gff',
+    parser.add_argument('-g', '--gbff',
                         required=True,
-                        help='GFF注释文件路径')
-
-    parser.add_argument('-f', '--fasta',
-                        required=True,
-                        help='参考基因组FASTA文件路径')
-
+                        help='GBFF文件路径 (包含序列和注释信息)')
 
     return parser.parse_args()
-
 
 def main():
     """
@@ -339,19 +298,18 @@ def main():
     args = parse_arguments()
 
     try:
-        reference_genome = groupSeq.load_genome_sequence(args.fasta)
-    except Exception as e:
-        print(f"错误：无法加载参考基因组文件 {args.fasta}")
-        print(f"错误信息：{str(e)}")
-        return
+        # 从GBFF文件加载序列和特征信息
+        reference_genome, gbff_dict = load_gbff_data(args.gbff)
+        if reference_genome is None or gbff_dict is None:
+            print("错误：无法从GBFF文件加载数据")
+            return
 
-    try:
-        # 移除output参数，直接修改输入文件
-        annotate_sequences(args.input, args.gff, reference_genome)
-    except Exception as e:
-        print(f"错误：注释过程中出现异常")
-        print(f"错误信息：{str(e)}")
+        # 执行注释
+        annotate_sequences(args.input, reference_genome, gbff_dict)
 
+    except Exception as e:
+        print(f"错误：程序执行过程中出现异常")
+        print(f"错误信息：{str(e)}")
 
 if __name__ == "__main__":
     main()
