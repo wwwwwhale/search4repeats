@@ -57,9 +57,9 @@ def process_csv_and_group(input_file, output_file):
             # 写入总组数
             writer.writerow([f"Total number of groups: {len(group_data)}"])
             writer.writerow([])  # 添加一个空行
-            writer.writerow(["Interval Count", "Groups"])  # 写入表头
+            writer.writerow(["Interval Count", "Number of Groups", "Groups"])  # 写入表头
             for count, groups in sorted(grouped_by_intervals.items()):
-                writer.writerow([count, "; ".join(groups)])  # 用分号分隔组号
+                writer.writerow([count, len(groups), "; ".join(groups)])  # 添加组数
         print(f"处理完成！结果已保存到 {output_file}")
     except Exception as e:
         print(f"写入文件时发生错误：{str(e)}")
