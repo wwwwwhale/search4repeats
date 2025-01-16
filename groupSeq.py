@@ -256,20 +256,22 @@ def initialize_aligner():
 def compare_sequence_pair(start1, end1, start2, end2, genome):
     """
     比对两个序列并计算相似度。
-
-    Returns:
-        tuple: (Seq1 Start, Seq1 End, Seq2 Start, Seq2 End, Similarity)
+    优化：将aligner的初始化移到函数内部，避免多进程共享问题
     """
-    aligner = initialize_aligner()
+    try:
+        aligner = initialize_aligner()
+        
+        seq1 = genome[start1:end1]
+        seq2 = genome[start2:end2]
 
-    seq1 = genome[start1:end1]
-    seq2 = genome[start2:end2]
+        score = aligner.score(seq1, seq2)
+        max_possible_score = max(len(seq1), len(seq2)) * aligner.match_score
+        similarity = round(score / max_possible_score if max_possible_score > 0 else 0, 3)
 
-    score = aligner.score(seq1, seq2)
-    max_possible_score = max(len(seq1), len(seq2)) * aligner.match_score
-    similarity = round(score / max_possible_score if max_possible_score > 0 else 0, 3)
-
-    return (start1, end1, start2, end2, similarity)
+        return (start1, end1, start2, end2, similarity)
+    except Exception as e:
+        print(f"序列比对出错: {str(e)}")
+        return (start1, end1, start2, end2, 0.0)
 
 
 def compare_sequences_in_groups(merged_groups, genome_seq):
@@ -284,24 +286,38 @@ def compare_sequences_in_groups(merged_groups, genome_seq):
         dict: {组ID: 比对结果列表}
     """
     comparison_results = {}
+    
+    # 获取CPU核心数并设置进程数
+    cpu_count = multiprocessing.cpu_count()
+    print(f"系统CPU核心数: {cpu_count}")
 
-    for group_id, merged_intervals in enumerate(merged_groups, start=1):
-        sequences = sorted(merged_intervals, key=lambda x: x[0])
-        comparison_args = []
+    # 创建一个进程池在整个处理过程中重用
+    with multiprocessing.Pool() as pool:
+        # 收集所有组的比对任务
+        all_comparison_args = []
+        group_indices = []  # 记录每个任务属于哪个组
+        
+        for group_id, merged_intervals in enumerate(merged_groups, start=1):
+            sequences = sorted(merged_intervals, key=lambda x: x[0])
+            
+            for i in range(len(sequences)):
+                for j in range(i + 1, len(sequences)):
+                    start1, end1 = sequences[i]
+                    start2, end2 = sequences[j]
+                    all_comparison_args.append((start1, end1, start2, end2, genome_seq))
+                    group_indices.append(group_id)
 
-        for i in range(len(sequences)):
-            for j in range(i + 1, len(sequences)):
-                start1, end1 = sequences[i]
-                start2, end2 = sequences[j]
-                comparison_args.append((start1, end1, start2, end2, genome_seq))
-
-        if comparison_args:
-            with multiprocessing.Pool() as pool:
-                comparisons = pool.starmap(compare_sequence_pair, comparison_args)
-            comparison_results[group_id] = comparisons
-        else:
-            comparison_results[group_id] = []
-
+        # 批量处理所有比对任务
+        if all_comparison_args:
+            print(f"开始并行处理 {len(all_comparison_args)} 个序列比对任务...")
+            all_results = pool.starmap(compare_sequence_pair, all_comparison_args)
+            
+            # 将结果按组整理
+            for result, group_id in zip(all_results, group_indices):
+                if group_id not in comparison_results:
+                    comparison_results[group_id] = []
+                comparison_results[group_id].append(result)
+        
     return comparison_results
 
 

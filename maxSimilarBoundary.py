@@ -136,9 +136,9 @@ def compare_sequence_pair(args):
         print(f"比对序列时出错 (序列{seq_idx}): {e}")
         return (seq_idx, 0, None, None, pair_idx)
 
-def analyze_sequence_similarities(positions_2d, genome_seq, threshold=0.8):
+def analyze_sequence_similarities(positions_2d, genome_seq, pool, threshold=0.8):
     """
-    分析序列相似度，并验证窗口对完整性
+    使用外部传入的进程池进行并行计算
     """
     comparison_tasks = []
     sequences_need_extension = set()
@@ -149,8 +149,8 @@ def analyze_sequence_similarities(positions_2d, genome_seq, threshold=0.8):
             comparison_tasks.append((window_pair, genome_seq, seq_idx, pair_idx))
             input_pair_indices[seq_idx].add(pair_idx)
 
-    with mp.Pool() as pool:
-        results = pool.map(compare_sequence_pair, comparison_tasks)
+    # 使用传入的进程池
+    results = pool.map(compare_sequence_pair, comparison_tasks)
 
     high_similarity_pairs = defaultdict(list)
     low_similarity_pairs = defaultdict(list)
@@ -223,59 +223,68 @@ def extend_sequence_positions(window_pairs, extend_length, genome_length, genome
 
 def iterative_sequence_extension(positions_2d, genome_seq, extend_length, threshold=0.8, max_iterations=10, origin_array=None):
     """
-    迭代扩展序列
+    在外层创建进程池
     """
     genome_length = len(genome_seq)
     iteration = 0
     all_stopped_pairs = defaultdict(list)
 
-    while iteration < max_iterations:
-        print(f"\n===== 开始第 {iteration + 1} 次迭代 =====")
-        iteration_start_time = time.time()
+    # 获取CPU核心数并创建进程池
+    cpu_count = mp.cpu_count()
+    print(f"系统CPU核心数: {cpu_count}")
 
-        high_similarity_pairs, low_similarity_pairs, sequences_need_extension = analyze_sequence_similarities(
-            positions_2d,
-            genome_seq,
-            threshold
-        )
+    # 创建一个进程池在整个迭代过程中重用
+    with mp.Pool() as pool:
+        while iteration < max_iterations:
+            iteration_start_time = time.time()
+            
+            high_similarity_pairs, low_similarity_pairs, sequences_need_extension = analyze_sequence_similarities(
+                positions_2d,
+                genome_seq,
+                pool,  # 传入进程池
+                threshold
+            )
 
-        for seq_idx, pairs_info in low_similarity_pairs.items():
-            for pair_info in pairs_info:
-                pos1, pos2 = pair_info['positions']
-                pair_idx = pair_info['pair_idx']
-                original_pair = origin_array[seq_idx][pair_idx]
+            # 处理低相似度对
+            for seq_idx, pairs_info in low_similarity_pairs.items():
+                for pair_info in pairs_info:
+                    pos1, pos2 = pair_info['positions']
+                    pair_idx = pair_info['pair_idx']
+                    original_pair = origin_array[seq_idx][pair_idx]
 
-                all_stopped_pairs[seq_idx].append({
-                    'current_start1': pos1[0],
-                    'current_end1': pos1[1],
-                    'current_start2': pos2[0],
-                    'current_end2': pos2[1],
-                    'length': pos1[1] - pos1[0] + 1
-                })
+                    all_stopped_pairs[seq_idx].append({
+                        'current_start1': pos1[0],
+                        'current_end1': pos1[1],
+                        'current_start2': pos2[0],
+                        'current_end2': pos2[1],
+                        'length': pos1[1] - pos1[0] + 1
+                    })
 
-        if not high_similarity_pairs:
-            print(f"没有满足相似度阈值的窗口对，迭代结束。共进行了 {iteration + 1} 次扩展")
-            break
+            # 检查是否还有需要扩展的序列
+            if not high_similarity_pairs:
+                print(f"没有满足相似度阈值的窗口对，迭代结束。共进行了 {iteration + 1} 次扩展")
+                break
 
-        extension_count = 0
-        for seq_idx, window_pairs in high_similarity_pairs.items():
-            if seq_idx < len(positions_2d):
-                positions_2d[seq_idx] = extend_sequence_positions(
-                    window_pairs,
-                    extend_length,
-                    genome_length,
-                    genome_seq
-                )
-                extension_count += 1
+            # 扩展序列
+            extension_count = 0
+            for seq_idx, window_pairs in high_similarity_pairs.items():
+                if seq_idx < len(positions_2d):
+                    positions_2d[seq_idx] = extend_sequence_positions(
+                        window_pairs,
+                        extend_length,
+                        genome_length,
+                        genome_seq
+                    )
+                    extension_count += 1
 
-        iteration_time = time.time() - iteration_start_time
-        print(f"第 {iteration + 1} 次迭代完成，扩展了 {extension_count} 个序列")
-        print(f"耗时: {iteration_time:.2f} 秒")
+            iteration_time = time.time() - iteration_start_time
+            print(f"第 {iteration + 1} 次迭代完成，扩展了 {extension_count} 个序列")
+            print(f"耗时: {iteration_time:.2f} 秒")
 
-        iteration += 1
+            iteration += 1
 
-    if iteration >= max_iterations:
-        print(f"达到最大迭代次数 {max_iterations}，强制停止扩展")
+        if iteration >= max_iterations:
+            print(f"达到最大迭代次数 {max_iterations}，强制停止扩展")
 
     return all_stopped_pairs
 
