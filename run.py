@@ -38,7 +38,7 @@ def main():
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouped_results.csv")
     summary_file = os.path.join(output_dir, f"{base_name}_summary.csv")
-    repeated_len = 500
+    repeated_len = 100
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")
