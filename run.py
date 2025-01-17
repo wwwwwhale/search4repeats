@@ -3,12 +3,29 @@ import sys
 import subprocess
 
 
-def run_command(command, error_message):
+def run_command(command, error_message, output_file=None):
     try:
-        subprocess.run(command, check=True, shell=True)
-    except subprocess.CalledProcessError:
-        print(error_message, file=sys.stderr)
+        result = subprocess.run(command, check=True, shell=True, capture_output=True, text=True)
+        
+        # 检查输出文件是否存在且非空
+        if output_file:
+            if not os.path.exists(output_file):
+                raise subprocess.CalledProcessError(1, command, 
+                    f"Output file '{output_file}' was not created")
+            if os.path.getsize(output_file) == 0:
+                raise subprocess.CalledProcessError(1, command, 
+                    f"Output file '{output_file}' is empty")
+                
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"{error_message}", file=sys.stderr)
+        print(f"Command output:", file=sys.stderr)
+        if e.stdout:
+            print(e.stdout, file=sys.stderr)
+        if e.stderr:
+            print(e.stderr, file=sys.stderr)
         sys.exit(1)
+
 
 
 def main():
@@ -38,23 +55,31 @@ def main():
     extended_file = os.path.join(output_dir, f"{base_name}_similar_seq.csv")
     group_file = os.path.join(output_dir, f"{base_name}_grouped_results.csv")
     summary_file = os.path.join(output_dir, f"{base_name}_summary.csv")
-    repeated_len = 500
+    repeated_len = 100
 
     # Step 1: 运行 findRepeatedSeq.py
     print("Running findRepeatedSeq.py...")
     find_repeated_seq_cmd = (
         f"python findRepeatedSeq.py -i {genome_file} -o {repeated_seq_file} -l {repeated_len}"
     )
-    run_command(find_repeated_seq_cmd, "Error: findRepeatedSeq.py failed.")
-    print(f"Output saved to {repeated_seq_file}")
+    run_command(find_repeated_seq_cmd, "Error: findRepeatedSeq.py failed.", repeated_seq_file)
+
+    # 检查文件是否存在且非空
+    if not os.path.exists(repeated_seq_file) or os.path.getsize(repeated_seq_file) == 0:
+        print(f"Error: {repeated_seq_file} was not created or is empty", file=sys.stderr)
+        sys.exit(1)
 
     # Step 2: 运行 maxSimilarBoundary.py
     print("Running maxSimilarBoundary.py...")
     max_similar_boundary_cmd = (
         f"python maxSimilarBoundary.py -i {repeated_seq_file} -g {genome_file} -o {extended_file}"
     )
-    run_command(max_similar_boundary_cmd, "Error: maxSimilarBoundary.py failed.")
-    print(f"Output saved to {extended_file}")
+    run_command(max_similar_boundary_cmd, "Error: maxSimilarBoundary.py failed.", extended_file)
+
+    # 检查文件是否存在且非空
+    if not os.path.exists(extended_file) or os.path.getsize(extended_file) == 0:
+        print(f"Error: {extended_file} was not created or is empty", file=sys.stderr)
+        sys.exit(1)
 
     # Step 3: 运行 groupSeq.py
     print("Running groupSeq.py...")
@@ -62,8 +87,7 @@ def main():
         f"python groupSeq.py --csv-file {extended_file} "
         f"--genome {genome_file} --output-file {group_file}"
     )
-    run_command(group_seq_cmd, "Error: groupSeq.py failed.")
-    print(f"Output saved to {group_file}")
+    run_command(group_seq_cmd, "Error: groupSeq.py failed.", group_file)
 
     # Step 4: 运行序列注释（如果有GFF文件）
     if genome_file and os.path.isfile(genome_file):

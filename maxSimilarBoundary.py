@@ -26,7 +26,6 @@ def parse_sequences(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
-            print("文件内容读取成功")
 
         count_pattern = r"重复出现次数：(\d+)"
         sequence_pattern = r"重复序列：([ATGC]+)"
@@ -89,7 +88,6 @@ def load_genome_sequence(gbff_file):
     try:
         for record in SeqIO.parse(gbff_file, "genbank"):
             genome_seq = str(record.seq)
-            print(f"基因组序列 '{record.id}' 加载完成，长度为 {len(genome_seq)} 个碱基。")
             return genome_seq
 
         print("没有找到基因组序列。")
@@ -231,9 +229,8 @@ def iterative_sequence_extension(positions_2d, genome_seq, extend_length, thresh
 
     # 获取CPU核心数并创建进程池
     cpu_count = mp.cpu_count()
-    print(f"系统CPU核心数: {cpu_count}")
 
-    # 创建一个进程池在整个迭代过程中重用
+    # 创建进程池
     with mp.Pool() as pool:
         while iteration < max_iterations:
             iteration_start_time = time.time()
@@ -278,8 +275,7 @@ def iterative_sequence_extension(positions_2d, genome_seq, extend_length, thresh
                     extension_count += 1
 
             iteration_time = time.time() - iteration_start_time
-            print(f"第 {iteration + 1} 次迭代完成，扩展了 {extension_count} 个序列")
-            print(f"耗时: {iteration_time:.2f} 秒")
+
 
             iteration += 1
 

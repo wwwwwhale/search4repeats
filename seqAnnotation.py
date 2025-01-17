@@ -75,7 +75,7 @@ def load_gbff_data(gbff_file):
             # 保存第一个序列作为参考序列
             if reference_genome is None:
                 reference_genome = str(record.seq)
-                print(f"成功加载参考序列，长度为 {len(reference_genome)} bp")
+                
 
             # 处理特征
             for feature in record.features:
@@ -90,7 +90,6 @@ def load_gbff_data(gbff_file):
                         'qualifiers': feature.qualifiers
                     }
 
-        print(f"成功加载 {len(gbff_dict)} 个特征注释")
         return reference_genome, gbff_dict
 
     except Exception as e:

@@ -1,4 +1,15 @@
 #!/bin/bash
+
+# 创建脚本生成目录
+mkdir -p generated_scripts
+
+# 基础脚本模板
+generate_script() {
+    local part_num=$1
+    local output_file="generated_scripts/run_part${part_num}.sh"
+
+    cat > "$output_file" << 'EOF'
+#!/bin/bash
 #SBATCH -J repeat_seq
 #SBATCH -p cnall
 #SBATCH -N 1
@@ -18,7 +29,13 @@ mkdir -p logs
 MAX_PARALLEL=5
 
 # 从文件读取文件列表
-mapfile -t files < file_lists/part1.txt
+EOF
+
+    # 添加特定的part数字
+    echo "mapfile -t files < file_lists/part${part_num}.txt" >> "$output_file"
+
+    # 继续添加剩余的脚本内容
+    cat >> "$output_file" << 'EOF'
 total_files=${#files[@]}
 current=0
 failed_tasks=()
@@ -42,7 +59,7 @@ process_file() {
 wait_for_slot() {
     while [ $(jobs -r | wc -l) -ge $MAX_PARALLEL ]; do
         # 等待任意一个子进程结束
-        wait -n
+         sleep 1
         # 不检查返回状态，让新任务继续
     done
 }
@@ -71,3 +88,16 @@ else
     printf '%s\n' "${failed_tasks[@]}"
     echo "Total failed tasks: ${#failed_tasks[@]}"
 fi
+EOF
+
+    # 设置执行权限
+    chmod +x "$output_file"
+    echo "Generated script: $output_file"
+}
+
+# 生成10个脚本
+for i in {1..10}; do
+    generate_script $i
+done
+
+echo "All scripts have been generated in the 'generated_scripts' directory!"
