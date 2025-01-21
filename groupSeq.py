@@ -11,23 +11,6 @@ logging.basicConfig(level=logging.INFO,  # 设置日志级别为INFO
                     handlers=[logging.FileHandler('process.log', mode='w', encoding='utf-8')])  # 输出到文件
 
 
-def calculate_group_avg_length(group):
-    """
-    计算分组中序列的平均长度。
-
-    Args:
-        group: 序列组 [(interval1, interval2, length), ...]
-
-    Returns:
-        float: 平均长度
-    """
-    if not group:
-        return 0
-    lengths = [seq[2] for seq in group]
-    avg_length = sum(lengths) / len(lengths)
-    logging.debug(f"Calculated average length: {avg_length}")
-    return avg_length
-
 
 def is_length_compatible(seq_length, group_avg_length, threshold=0.9):
     """
@@ -102,26 +85,32 @@ def calculate_overlap(interval_a, interval_b):
 
 def group_intervals_by_overlap(seqpairs):
     """
-    将区间对按长度和重叠关系分组，并记录分组过程日志。
+    将区间对按长度和重叠关系分组，并维护每组的平均长度。
 
     Args:
         seqpairs: 序列对列表
 
     Returns:
-        list: 分组后的序列对列表
+        tuple: (分组后的序列对列表, 每组的平均长度列表)
     """
     grouped_results = []
+    group_avg_lengths = []  # 存储每组的平均长度
+    group_sizes = []  # 存储每组的序列数量
 
     for seqpair in seqpairs:
         interval1, interval2, length = seqpair
         added_to_group = False
 
+        # 遍历现有分组
         for i, group in enumerate(grouped_results):
-            group_avg_length = calculate_group_avg_length(group)
+            current_avg_length = group_avg_lengths[i]
 
-            if not is_length_compatible(length, group_avg_length):
+            # 检查长度兼容性
+            length_diff_ratio = abs(length - current_avg_length) / current_avg_length if current_avg_length > 0 else 0
+            if length_diff_ratio > 0.1:  # threshold = 0.9
                 continue
 
+            # 检查与组内序列的重叠情况
             for g in group:
                 g_interval1, g_interval2, _ = g
                 overlap1 = calculate_overlap(interval1, g_interval1)
@@ -129,23 +118,25 @@ def group_intervals_by_overlap(seqpairs):
                 overlap3 = calculate_overlap(interval2, g_interval1)
                 overlap4 = calculate_overlap(interval2, g_interval2)
 
-                if (
-                        overlap1 >= 0.9 or
-                        overlap2 >= 0.9 or
-                        overlap3 >= 0.9 or
-                        overlap4 >= 0.9
-                ):
+                if (overlap1 >= 0.9 or overlap2 >= 0.9 or
+                        overlap3 >= 0.9 or overlap4 >= 0.9):
+                    # 更新组的平均长度
+                    old_total = current_avg_length * group_sizes[i]
+                    group_sizes[i] += 1
+                    group_avg_lengths[i] = (old_total + length) / group_sizes[i]
+
                     group.append(seqpair)
                     added_to_group = True
-                    logging.info(f"Added sequence pair {seqpair} to group {i + 1}")
                     break
 
             if added_to_group:
                 break
 
+        # 如果没有添加到现有组，创建新组
         if not added_to_group:
             grouped_results.append([seqpair])
-            logging.info(f"Created new group for sequence pair {seqpair}")
+            group_avg_lengths.append(length)
+            group_sizes.append(1)
 
     return grouped_results
 
