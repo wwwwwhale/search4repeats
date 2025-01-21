@@ -3,6 +3,12 @@ import argparse
 from Bio import SeqIO
 from Bio.Align import PairwiseAligner
 import multiprocessing
+import logging  # 导入日志模块
+
+# 设置日志配置，将日志输出到文件
+logging.basicConfig(level=logging.INFO,  # 设置日志级别为INFO
+                    format='%(asctime)s - %(levelname)s - %(message)s',  # 设置日志格式
+                    handlers=[logging.FileHandler('process.log', mode='w', encoding='utf-8')])  # 输出到文件
 
 
 def calculate_group_avg_length(group):
@@ -18,7 +24,9 @@ def calculate_group_avg_length(group):
     if not group:
         return 0
     lengths = [seq[2] for seq in group]
-    return sum(lengths) / len(lengths)
+    avg_length = sum(lengths) / len(lengths)
+    logging.debug(f"Calculated average length: {avg_length}")
+    return avg_length
 
 
 def is_length_compatible(seq_length, group_avg_length, threshold=0.9):
@@ -37,7 +45,9 @@ def is_length_compatible(seq_length, group_avg_length, threshold=0.9):
         return True
 
     length_diff_ratio = abs(seq_length - group_avg_length) / group_avg_length
-    return length_diff_ratio <= 1 - threshold
+    compatible = length_diff_ratio <= 1 - threshold
+    logging.debug(f"Checking length compatibility: {seq_length} vs {group_avg_length}, compatible: {compatible}")
+    return compatible
 
 
 def read_intervals_from_csv(csv_file_path):
@@ -59,11 +69,12 @@ def read_intervals_from_csv(csv_file_path):
                 current_start1, current_end1, current_start2, current_end2, length = map(int, row[1:])
                 seqpair.append(((current_start1, current_end1), (current_start2, current_end2), length))
             except ValueError:
-                print(f"跳过无效行: {row}")
+                logging.warning(f"跳过无效行: {row}")
                 continue
 
         seqpair.sort(key=lambda x: x[2])
 
+    logging.info(f"Loaded {len(seqpair)} sequence pairs from CSV.")
     return seqpair
 
 
@@ -84,7 +95,9 @@ def calculate_overlap(interval_a, interval_b):
     overlap_end = min(end_a, end_b)
     overlap_length = max(0, overlap_end - overlap_start)
     total_length = min(end_a - start_a, end_b - start_b)
-    return overlap_length / total_length if total_length > 0 else 0
+    overlap_ratio = overlap_length / total_length if total_length > 0 else 0
+    logging.debug(f"Calculated overlap: {overlap_ratio} between intervals {interval_a} and {interval_b}")
+    return overlap_ratio
 
 
 def group_intervals_by_overlap(seqpairs):
@@ -93,14 +106,11 @@ def group_intervals_by_overlap(seqpairs):
 
     Args:
         seqpairs: 序列对列表
-        log_file: 日志文件路径
 
     Returns:
         list: 分组后的序列对列表
     """
     grouped_results = []
-
-
 
     for seqpair in seqpairs:
         interval1, interval2, length = seqpair
@@ -112,14 +122,12 @@ def group_intervals_by_overlap(seqpairs):
             if not is_length_compatible(length, group_avg_length):
                 continue
 
-
             for g in group:
                 g_interval1, g_interval2, _ = g
                 overlap1 = calculate_overlap(interval1, g_interval1)
                 overlap2 = calculate_overlap(interval1, g_interval2)
                 overlap3 = calculate_overlap(interval2, g_interval1)
                 overlap4 = calculate_overlap(interval2, g_interval2)
-
 
                 if (
                         overlap1 >= 0.9 or
@@ -129,6 +137,7 @@ def group_intervals_by_overlap(seqpairs):
                 ):
                     group.append(seqpair)
                     added_to_group = True
+                    logging.info(f"Added sequence pair {seqpair} to group {i + 1}")
                     break
 
             if added_to_group:
@@ -136,7 +145,7 @@ def group_intervals_by_overlap(seqpairs):
 
         if not added_to_group:
             grouped_results.append([seqpair])
-
+            logging.info(f"Created new group for sequence pair {seqpair}")
 
     return grouped_results
 
@@ -219,21 +228,21 @@ def load_genome_sequence(gbff_file):
     """
     try:
         for record in SeqIO.parse(gbff_file, "genbank"):
-            print(f"Loading genome sequence: {record.id}")
-            print(f"Sequence length: {len(record.seq)} bp")
+            logging.info(f"Loading genome sequence: {record.id}")
+            logging.info(f"Sequence length: {len(record.seq)} bp")
 
             # 记录额外的序列信息
             if hasattr(record, 'annotations'):
                 source = record.annotations.get('source', 'Unknown source')
-                print(f"Source: {source}")
+                logging.info(f"Source: {source}")
 
             return str(record.seq)
 
-        print("No sequence found in GBFF file")
+        logging.error("No sequence found in GBFF file")
         return None
 
     except Exception as e:
-        print(f"Error loading genome sequence: {str(e)}")
+        logging.error(f"Error loading genome sequence: {str(e)}")
         return None
 
 
@@ -250,6 +259,7 @@ def initialize_aligner():
     aligner.mismatch_score = -1
     aligner.open_gap_score = -0.5
     aligner.extend_gap_score = -0.1
+    logging.info("Aligner initialized")
     return aligner
 
 
@@ -260,7 +270,7 @@ def compare_sequence_pair(start1, end1, start2, end2, genome):
     """
     try:
         aligner = initialize_aligner()
-        
+
         seq1 = genome[start1:end1]
         seq2 = genome[start2:end2]
 
@@ -270,7 +280,7 @@ def compare_sequence_pair(start1, end1, start2, end2, genome):
 
         return (start1, end1, start2, end2, similarity)
     except Exception as e:
-        print(f"序列比对出错: {str(e)}")
+        logging.error(f"序列比对出错: {str(e)}")
         return (start1, end1, start2, end2, 0.0)
 
 
@@ -286,101 +296,69 @@ def compare_sequences_in_groups(merged_groups, genome_seq):
         dict: {组ID: 比对结果列表}
     """
     comparison_results = {}
-    
+
     # 获取CPU核心数并设置进程数
     cpu_count = multiprocessing.cpu_count()
-    print(f"系统CPU核心数: {cpu_count}")
+    pool = multiprocessing.Pool(cpu_count)
 
-    # 创建一个进程池在整个处理过程中重用
-    with multiprocessing.Pool() as pool:
-        # 收集所有组的比对任务
-        all_comparison_args = []
-        group_indices = []  # 记录每个任务属于哪个组
-        
-        for group_id, merged_intervals in enumerate(merged_groups, start=1):
-            sequences = sorted(merged_intervals, key=lambda x: x[0])
-            
-            for i in range(len(sequences)):
-                for j in range(i + 1, len(sequences)):
-                    start1, end1 = sequences[i]
-                    start2, end2 = sequences[j]
-                    all_comparison_args.append((start1, end1, start2, end2, genome_seq))
-                    group_indices.append(group_id)
+    all_comparison_args = []
+    group_indices = []
 
-        # 批量处理所有比对任务
-        if all_comparison_args:
-            print(f"开始并行处理 {len(all_comparison_args)} 个序列比对任务...")
-            all_results = pool.starmap(compare_sequence_pair, all_comparison_args)
-            
-            # 将结果按组整理
-            for result, group_id in zip(all_results, group_indices):
-                if group_id not in comparison_results:
-                    comparison_results[group_id] = []
-                comparison_results[group_id].append(result)
-        
+    for group_id, group in enumerate(merged_groups, start=1):
+        for i in range(len(group)):
+            for j in range(i + 1, len(group)):
+                interval1 = group[i]
+                interval2 = group[j]
+                all_comparison_args.append(
+                    (interval1[0], interval1[1], interval2[0], interval2[1], genome_seq)
+                )
+                group_indices.append(group_id)
+
+        # 使用pool.map进行并行比对
+        results = pool.starmap(compare_sequence_pair, all_comparison_args)
+
+        # 将比对结果按照组ID归类
+        for result, group_id in zip(results, group_indices):
+            if group_id not in comparison_results:
+                comparison_results[group_id] = []
+            comparison_results[group_id].append(result)
+
     return comparison_results
 
 
-def write_results_to_csv(merged_groups, comparison_results, output_file):
-    """
-    将分组结果和比对结果写入CSV文件。
-
-    Args:
-        merged_groups: 合并后的分组列表
-        comparison_results: 比对结果字典
-        output_file: 输出文件路径
-    """
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-
-        for group_id, merged_intervals in enumerate(merged_groups, start=1):
-            writer.writerow([f'Group {group_id}'])
-            writer.writerow(['Start', 'End', 'Length'])
-
-            for start, end in sorted(merged_intervals, key=lambda x: x[0]):
-                length = end - start + 1
-                writer.writerow([start, end, length])
-
-            writer.writerow([])
-            writer.writerow(['Sequence Comparisons'])
-            writer.writerow(['Seq1 Start', 'Seq1 End', 'Seq2 Start', 'Seq2 End', 'Similarity'])
-
-            comparisons = comparison_results.get(group_id, [])
-            for comp in comparisons:
-                writer.writerow(comp)
-
-            writer.writerow([])
-
-
 def main():
-    parser = argparse.ArgumentParser(description='处理基因组序列与区间比对')
-    parser.add_argument('--csv-file', type=str, help='输入CSV文件路径')
-    parser.add_argument('--genome', type=str, help='基因组FASTA文件路径')
-    parser.add_argument('--output-file', type=str, help='输出结果CSV文件路径')
-
+    parser = argparse.ArgumentParser(description="处理序列对")
+    parser.add_argument("-i", "--input", required=True, help="输入的CSV文件路径")
+    parser.add_argument("-g", "--genome", required=True, help="基因组GBFF文件路径")
+    parser.add_argument("-o", "--output", required=True, help="输出文件路径")
     args = parser.parse_args()
 
-    print("开始处理序列比对...")
+    # 读取CSV文件
+    seqpairs = read_intervals_from_csv(args.input)
 
-    seqpairs = read_intervals_from_csv(args.csv_file)
-    print(f"读取到 {len(seqpairs)} 个序列对")
+    # 加载基因组序列
+    genome_sequence = load_genome_sequence(args.genome)
+    if genome_sequence is None:
+        return
 
+    # 按照重叠关系分组
     grouped_results = group_intervals_by_overlap(seqpairs)
-    print(f"分成 {len(grouped_results)} 组")
 
+    # 合并组内的重叠序列区间
     merged_groups = merge_groups(grouped_results)
 
-    genome_seq = load_genome_sequence(args.genome)
-    if genome_seq is None:
-        print("未能加载基因组序列。请检查GBFF文件。")
-        return
-    print(f"基因组序列长度: {len(genome_seq)}")
+    # 对每个组进行序列比对
+    comparison_results = compare_sequences_in_groups(merged_groups, genome_sequence)
 
-    comparison_results = compare_sequences_in_groups(merged_groups, genome_seq)
-    print("完成组内序列比对")
+    # 将比对结果输出到文件
+    with open(args.output, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(["Group", "Start1", "End1", "Start2", "End2", "Similarity"])
+        for group_id, results in comparison_results.items():
+            for result in results:
+                writer.writerow([group_id, *result])
 
-    write_results_to_csv(merged_groups, comparison_results, args.output_file)
-    print(f"\n结果已写入文件: {args.output_file}")
+    logging.info(f"Results saved to {args.output}")
 
 
 if __name__ == "__main__":
