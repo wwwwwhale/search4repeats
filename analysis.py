@@ -12,7 +12,7 @@ class GroupAnalyzer:
         # 查找对应的文件
         self.grouped_results_file = list(folder_path.glob("*grouped*results.csv"))
         self.summary_file = list(folder_path.glob("*summary.csv"))
-        self.gbff_file = list(folder_path.glob("*.gbff"))  # 添加gbff文件查找
+        self.gbff_file = list(Path("./data").glob(f"{folder_path.name}*.gbff"))  # 添加gbff文件查找
 
         # 检查文件是否存在
         self.files_exist = (len(self.grouped_results_file) > 0 and
