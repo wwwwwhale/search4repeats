@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
-import glob
-import os
+from Bio import SeqIO
 
 
 class GroupAnalyzer:
@@ -13,12 +12,45 @@ class GroupAnalyzer:
         # 查找对应的文件
         self.grouped_results_file = list(folder_path.glob("*grouped*results.csv"))
         self.summary_file = list(folder_path.glob("*summary.csv"))
+        self.gbff_file = list(folder_path.glob("*.gbff"))  # 添加gbff文件查找
 
         # 检查文件是否存在
-        self.files_exist = len(self.grouped_results_file) > 0 and len(self.summary_file) > 0
+        self.files_exist = (len(self.grouped_results_file) > 0 and
+                            len(self.summary_file) > 0)
+
         if self.files_exist:
             self.grouped_results_file = self.grouped_results_file[0]
             self.summary_file = self.summary_file[0]
+
+        # 获取gbff文件路径
+        self.gbff_path = self.gbff_file[0] if self.gbff_file else None
+        self.genome_length = 0  # 初始化基因组长度
+
+    def load_genome_sequence(self):
+        """从GBFF文件加载基因组序列并获取长度"""
+        if not self.gbff_path:
+            print(f"警告: {self.folder_name} 中未找到GBFF文件")
+            return 0
+
+        try:
+            for record in SeqIO.parse(self.gbff_path, "genbank"):
+                print(f"读取基因组序列: {record.id}")
+                sequence_length = len(record.seq)
+                print(f"序列长度: {sequence_length} bp")
+
+                # 记录额外的序列信息
+                if hasattr(record, 'annotations'):
+                    source = record.annotations.get('source', 'Unknown source')
+                    print(f"来源: {source}")
+
+                return sequence_length
+
+            print(f"警告: {self.gbff_path} 中未找到序列")
+            return 0
+
+        except Exception as e:
+            print(f"读取基因组序列时出错 {self.gbff_path}: {str(e)}")
+            return 0
 
     def read_grouped_results(self):
         """读取分组结果文件，获取序列长度信息"""
@@ -35,7 +67,6 @@ class GroupAnalyzer:
                 if not line:
                     continue
 
-                # 检查是否是新组的开始
                 if line.startswith('Group'):
                     if current_group is not None and lengths:
                         groups[current_group] = np.mean(lengths)
@@ -43,22 +74,18 @@ class GroupAnalyzer:
                     lengths = []
                     continue
 
-                # 跳过标题行和Sequence Comparisons部分
                 if line.startswith('Start,') or line.startswith('Seq1'):
                     continue
 
-                # 处理数据行
                 parts = line.split(',')
                 if len(parts) >= 3:
                     try:
-                        # 确保我们只处理数字
                         length = int(parts[2])
-                        if 0 < length < 100000:  # 添加合理的长度范围检查
+                        if 0 < length < 100000:
                             lengths.append(length)
                     except ValueError:
                         continue
 
-            # 处理最后一组
             if current_group is not None and lengths:
                 groups[current_group] = np.mean(lengths)
 
@@ -105,6 +132,9 @@ class GroupAnalyzer:
             return pd.DataFrame()
 
         try:
+            # 获取基因组长度
+            self.genome_length = self.load_genome_sequence()
+
             group_lengths = self.read_grouped_results()
             group_counts = self.read_summary()
 
@@ -122,7 +152,8 @@ class GroupAnalyzer:
                     'folder_name': self.folder_name,
                     'group_number': group_num,
                     'sequence_count': group_counts.get(group_num, 0),
-                    'average_length': round(group_lengths.get(group_num, 0), 2)
+                    'average_length': round(group_lengths.get(group_num, 0), 2),
+                    'genome_length': self.genome_length  # 添加基因组长度
                 })
 
             return pd.DataFrame(results)
@@ -169,6 +200,7 @@ def main():
         print(f"总组数: {len(results)}")
         print(f"平均序列数量: {results['sequence_count'].mean():.2f}")
         print(f"平均序列长度: {results['average_length'].mean():.2f}")
+        print(f"平均基因组长度: {results['genome_length'].mean():.2f}")
     else:
         print("未能生成有效的分析结果")
 
